@@ -1,0 +1,179 @@
+
+.index-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 100px);
+    gap: 1em;
+    box-sizing: border-box;
+}
+
+.index-card {
+    position: relative;
+    display: flex;
+    width: 75%;
+    height: 30%;
+    overflow: hidden;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.index-card.hover-enabled,
+.index-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.scrolling-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 150%;
+    animation: scroll-bg 70s linear infinite;
+    z-index: -2;
+    filter: brightness(70%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.overlay h3 {
+    font-size: 1.5em;
+    color: #fff;
+    position: absolute;
+    transform: translateY(0);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    transition: transform 0.5s ease-in-out;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.staggered div.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(35px);
+    transition: none;
+}
+
+.staggered div {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(35px);
+    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0s linear 0.5s;
+}
+
+.staggered div.data-loaded {
+    visibility: visible;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.index-card:hover .staggered div.data-loaded {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0s;
+}
+
+.index-card:hover .staggered div.data-loaded:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.index-card:hover .staggered div.data-loaded:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.index-card:hover .staggered div.data-loaded:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.index-card:hover .staggered div.data-loaded:nth-child(4) {
+    transition-delay: 0.4s;
+}
+
+
+
+.index-card:hover .overlay, .index-card.hover-enabled .overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.index-card:hover .overlay h3 {
+    transform: translateY(-165%);
+}
+
+.scrolling-background.movies {
+    background: url('../assets/images/banners/movies_index.png') no-repeat center center/cover;
+}
+
+.scrolling-background.tvshows {
+    background: url('../assets/images/banners/shows_index.png') no-repeat center center/cover;
+}
+
+.scrolling-background.music {
+    background: url('../assets/images/banners/music_index.png') no-repeat center center/cover;
+}
+
+@keyframes scroll-bg {
+    0% {
+        transform: translate(0%, 0%) scale(1.1);
+    }
+    50% {
+        transform: translate(-20%, -20%) scale(1.1);
+    }
+    100% {
+        transform: translate(0%, 0%) scale(1.1);
+    }
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.info-icon {
+    position: absolute;
+    left: 5%;
+    transform: translateY(-0%);
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    z-index: 2;
+    transition: opacity 0.3s ease, transform 0.5s ease-in-out;
+}
+
+.info-icon.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.index-card.hover-enabled .overlay h3 {
+    transform: translateY(-165%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.index-card.hover-enabled .staggered div {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s ease;
+}
+
+.index-card.hover-enabled {
+    box-shadow: 0 0 6px 3px #9c9bb9;
+    transition: opacity 0.3s ease-in-out;
+}

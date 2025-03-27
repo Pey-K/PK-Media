@@ -1,0 +1,27 @@
+<div class="button-container">
+    <a href="#" onclick="location.reload();" class="home-button">
+        <span class="flipped-arrow">➔</span>
+    </a>
+</div>
+
+<div class="index-card" data-page="music.html"> 
+    <div class="scrolling-background music"></div>
+    <div class="overlay">
+        <div class="info-icon">
+            <span>ⓘ</span>
+        </div>
+        <h3>Music</h3>
+        <div class="staggered">
+            <div class="hidden"><span id="music-artists"></span> Artists</div>
+            <div class="hidden"><span id="music-albums"></span> Albums</div>
+            <div class="hidden"><span id="music-tracks"></span> Tracks</div>
+            <div class="hidden">(<span id="music-size"></span>)</div>
+        </div>
+    </div>
+</div>
+
+<div class="search-container">
+    <input type="text" id="music-search" placeholder="Search Music..." />
+</div>
+<div id="music-content"></div>
+<button id="scroll-to-top">^</button>

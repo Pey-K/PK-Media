@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background: #121212;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    padding-top: env(safe-area-inset-top);
+}
+
+main {
+    padding: .3em;
+    text-align: center;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header-logo img {
+    max-height: 75px;
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+}
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PK+ Collection</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#121212">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="assets/images/icons/PK+.png" alt="PK+" />
+        </div>
+    </header>    
+    <main id="main-content">
+        <div class="index-cards">
+            <div class="index-card movies-card" data-page="movies.html">
+                <div class="scrolling-background movies"></div>
+                <div class="overlay">
+                    <div class="info-icon">
+                        <span>ⓘ</span>
+                    </div>
+                    <h3>Movies</h3>
+                    <div class="staggered">
+                        <div class="hidden"><span id="movies-total"></span> Movies</div>
+                        <div class="hidden">(<span id="movies-size"></span>)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="index-card tvshows-card" data-page="tvshows.html">
+                <div class="scrolling-background tvshows"></div>
+                <div class="overlay">
+                    <div class="info-icon">
+                        <span>ⓘ</span>
+                    </div>
+                    <h3>TV Shows</h3>
+                    <div class="staggered">
+                        <div class="hidden"><span id="tvshows-total"></span> Shows</div>
+                        <div class="hidden"><span id="tvshows-seasons"></span> Seasons</div>
+                        <div class="hidden"><span id="tvshows-episodes"></span> Episodes</div>
+                        <div class="hidden">(<span id="tvshows-size"></span>)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="index-card music-card" data-page="music.html">
+                <div class="scrolling-background music"></div>
+                <div class="overlay">
+                    <div class="info-icon">
+                        <span>ⓘ</span>
+                    </div>
+                    <h3>Music</h3>
+                    <div class="staggered">
+                        <div class="hidden"><span id="music-artists"></span> Artists</div>
+                        <div class="hidden"><span id="music-albums"></span> Albums</div>
+                        <div class="hidden"><span id="music-tracks"></span> Tracks</div>
+                        <div class="hidden">(<span id="music-size"></span>)</div>
+                    </div>
+                </div>
+            </div>
+        </div>                        
+    </main>
+    <script src="js/populate.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/scripts.js" defer></script>
+</body>
+</html>
