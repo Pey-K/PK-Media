@@ -2,8 +2,8 @@ name: Update Media Daily
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs every day at 00:00 UTC
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-media:
@@ -26,7 +26,8 @@ jobs:
         env:
           TAUTULLI_URL: ${{ secrets.TAUTULLI_URL }}
           API_KEY: ${{ secrets.API_KEY }}
-        run: python tautulli_multi_library_export_with_images.py
+        working-directory: scripts/datagen
+        run: python export.py
 
       - name: Commit and push changes
         run: |

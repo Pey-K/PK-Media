@@ -7,27 +7,25 @@ import shutil
 import json
 from collections import defaultdict
 
-# Configuration
 TAUTULLI_URL = os.getenv("TAUTULLI_URL")
 API_KEY = os.getenv("API_KEY")
 SECTION_IDS = {
     1: "Movies",
     2: "TV Shows",
     5: "Music"
-}  # Map section IDs to library names
-OUTPUT_DIR = "../../data/gen"  # Directory for raw JSON exports
-REF_DIR = "../../data"  # Directory for reference files
+}
+OUTPUT_DIR = "../../data/gen"
+REF_DIR = "../../data"
 IMAGE_FOLDERS = {
-    1: "../../assets/images/movie_image",  # Custom path for Movies images
-    2: "../../assets/images/tv_image",  # Custom path for TV Shows images
-    5: "../../assets/images/music_image"  # Custom path for Music images
-}  # Map section IDs to custom image folder paths
+    1: "../../assets/images/movie_image", 
+    2: "../../assets/images/tv_image",
+    5: "../../assets/images/music_image"
+} 
 FILE_FORMAT = "json"
 METADATA_LEVEL = 1
 MEDIA_INFO_LEVEL = 2
-THUMB_LEVEL = 9  # Set to 9 for all images
+THUMB_LEVEL = 9 
 
-# Helper functions from your scripts
 def human_readable_size(total_bytes):
     if total_bytes >= 1_000_000_000_000:
         return f"{total_bytes / 1_000_000_000_000:.2f} TB"
@@ -71,7 +69,6 @@ def aggregate_unique(values):
     filtered_values = [v for v in values if v is not None]
     return ", ".join(sorted(set(filtered_values)))
 
-# Processing functions from your scripts
 def process_movie_data(input_path, output_path):
     with open(input_path, "r", encoding="utf-8") as file:
         movies = json.load(file)
@@ -326,7 +323,6 @@ def process_tvshow_data(input_path, output_path):
 
     print(f"Cleaned up TV-Show data and saved to {output_path}")
 
-# Main export and processing script
 def export_metadata(section_id):
     """Initiate metadata export for a specific section_id and return the export_id."""
     endpoint = f"{TAUTULLI_URL}/api/v2"
@@ -392,21 +388,16 @@ def download_export(export_id):
         return None
 
 def process_export_zip(zip_path, section_id, library_name):
-    """Extract zip, move JSON, and consolidate images into a custom folder."""
-    # Create a new folder name based on section_id
     extract_folder = f"export_section_{section_id}"
     os.makedirs(extract_folder, exist_ok=True)
     image_folder = IMAGE_FOLDERS.get(section_id, f"images_{library_name.lower().replace(' ', '_')}")
 
-    # Ensure the custom image folder exists
     os.makedirs(image_folder, exist_ok=True)
 
-    # Extract the zip file
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
         zip_ref.extractall(extract_folder)
         print(f"Extracted zip to {extract_folder}")
 
-    # Find the JSON file and rename it
     json_file = None
     for root, _, files in os.walk(extract_folder):
         for file in files:
@@ -420,7 +411,6 @@ def process_export_zip(zip_path, section_id, library_name):
         if json_file:
             break
 
-    # Process the renamed JSON based on library type
     if library_name == "Movies":
         process_movie_data(new_json_path, os.path.join(REF_DIR, "movies_ref.json"))
     elif library_name == "Music":
@@ -428,11 +418,9 @@ def process_export_zip(zip_path, section_id, library_name):
     elif library_name == "TV Shows":
         process_tvshow_data(new_json_path, os.path.join(REF_DIR, "tvshows_ref.json"))
 
-    # Create a single image folder and move all images there
     for root, _, files in os.walk(extract_folder):
         for file in files:
             if file.lower().endswith(('.jpg', '.jpeg', '.png')):
-                # Rename image based on ratingKey
                 try:
                     rating_key = file.split("[")[-1].split("]")[0]
                     new_filename = f"{rating_key}.thumb.jpg"
@@ -444,11 +432,9 @@ def process_export_zip(zip_path, section_id, library_name):
                 shutil.move(source_path, dest_path)
                 print(f"Moved and renamed image {file} to {new_filename} in {image_folder}")
 
-    # Remove the extract folder after processing
     shutil.rmtree(extract_folder, ignore_errors=True)
     print(f"Removed temporary folder {extract_folder}")
 
-    # Remove the zip file
     os.remove(zip_path)
     print(f"Removed zip file {zip_path}")
 
