@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 854,
-        "totalSizeHuman": "2.71 TB"
+        "totalMovies": 909,
+        "totalSizeHuman": "3.08 TB"
     },
     "movies": [
         {
@@ -15,6 +15,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "2160p",
             "sizeHuman": "2.84 GB"
+        },
+        {
+            "ratingKey": 125612,
+            "title": "12 Strong",
+            "year": 2018,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 10 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.37 GB"
+        },
+        {
+            "ratingKey": 120805,
+            "title": "13 Going on 30",
+            "year": 2004,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 38 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.01 GB"
         },
         {
             "ratingKey": 2,
@@ -75,6 +99,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "5.28 GB"
+        },
+        {
+            "ratingKey": 121147,
+            "title": "127 Hours",
+            "year": 2010,
+            "contentRating": "R",
+            "durationHuman": "1 hr 34 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.74 GB"
+        },
+        {
+            "ratingKey": 126086,
+            "title": "2012",
+            "year": 2009,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 38 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.66 GB"
         },
         {
             "ratingKey": 99,
@@ -183,18 +231,6 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.43 GB"
-        },
-        {
-            "ratingKey": 82599,
-            "title": "The Age of Spin: Dave Chappelle Live at the Hollywood Palladium",
-            "year": 2017,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 7 mins",
-            "audioCodec": "AC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.13 GB"
         },
         {
             "ratingKey": 150,
@@ -351,6 +387,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.49 GB"
+        },
+        {
+            "ratingKey": 120803,
+            "title": "American Psycho",
+            "year": 2000,
+            "contentRating": "R",
+            "durationHuman": "1 hr 42 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.00 GB"
         },
         {
             "ratingKey": 214,
@@ -605,6 +653,18 @@
             "sizeHuman": "1.64 GB"
         },
         {
+            "ratingKey": 120802,
+            "title": "Baby Driver",
+            "year": 2017,
+            "contentRating": "R",
+            "durationHuman": "1 hr 53 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.48 GB"
+        },
+        {
             "ratingKey": 3397,
             "title": "The Babysitter",
             "year": 2017,
@@ -833,54 +893,6 @@
             "sizeHuman": "1.33 GB"
         },
         {
-            "ratingKey": 694,
-            "title": "Bert Kreischer: Hey Big Boy",
-            "year": 2020,
-            "contentRating": null,
-            "durationHuman": "1 hr 2 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.25 GB"
-        },
-        {
-            "ratingKey": 695,
-            "title": "Bert Kreischer: Razzle Dazzle",
-            "year": 2023,
-            "contentRating": "R",
-            "durationHuman": "1 hr 2 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "981.59 MB"
-        },
-        {
-            "ratingKey": 703,
-            "title": "Bert Kreischer: Secret Time",
-            "year": 2018,
-            "contentRating": "TV-MA",
-            "durationHuman": "57 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.51 GB"
-        },
-        {
-            "ratingKey": 704,
-            "title": "Bert Kreischer: The Machine",
-            "year": 2016,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 10 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.34 GB"
-        },
-        {
             "ratingKey": 714,
             "title": "Between Two Ferns: The Movie",
             "year": 2019,
@@ -963,78 +975,6 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.61 GB"
-        },
-        {
-            "ratingKey": 82604,
-            "title": "Bill Burr Presents: Friends Who Kill",
-            "year": 2022,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 13 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.61 GB"
-        },
-        {
-            "ratingKey": 83096,
-            "title": "Bill Burr: I'm Sorry You Feel That Way",
-            "year": 2014,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 21 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.26 GB"
-        },
-        {
-            "ratingKey": 82628,
-            "title": "Bill Burr: Let It Go",
-            "year": 2010,
-            "contentRating": "Not Rated",
-            "durationHuman": "42 mins",
-            "audioCodec": "AC3",
-            "container": "mkv",
-            "videoCodec": "H264",
-            "videoResolution": "720p",
-            "sizeHuman": "1.09 GB"
-        },
-        {
-            "ratingKey": 82605,
-            "title": "Bill Burr: Live at Red Rocks",
-            "year": 2022,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 22 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.81 GB"
-        },
-        {
-            "ratingKey": 82601,
-            "title": "Bill Burr: Walk Your Way Out",
-            "year": 2017,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 18 mins",
-            "audioCodec": "AC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.54 GB"
-        },
-        {
-            "ratingKey": 82619,
-            "title": "Bill Burr: You People Are All the Same.",
-            "year": 2012,
-            "contentRating": "R",
-            "durationHuman": "1 hr 9 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1022.40 MB"
         },
         {
             "ratingKey": 722,
@@ -1155,54 +1095,6 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "7.20 GB"
-        },
-        {
-            "ratingKey": 82617,
-            "title": "Bo Burnham: Inside",
-            "year": 2021,
-            "contentRating": "R",
-            "durationHuman": "1 hr 28 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.85 GB"
-        },
-        {
-            "ratingKey": 82609,
-            "title": "Bo Burnham: Make Happy",
-            "year": 2016,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr",
-            "audioCodec": "AC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.70 GB"
-        },
-        {
-            "ratingKey": 82627,
-            "title": "Bo Burnham: what.",
-            "year": 2013,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "801.29 MB"
-        },
-        {
-            "ratingKey": 82600,
-            "title": "Bo Burnham: Words, Words, Words",
-            "year": 2010,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 3 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.12 GB"
         },
         {
             "ratingKey": 3421,
@@ -1613,42 +1505,6 @@
             "sizeHuman": "4.16 GB"
         },
         {
-            "ratingKey": 82593,
-            "title": "Chris Rock: Kill the Messenger - London, New York, Johannesburg",
-            "year": 2008,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 20 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.63 GB"
-        },
-        {
-            "ratingKey": 82608,
-            "title": "Chris Rock: Never Scared",
-            "year": 2004,
-            "contentRating": "Not Rated",
-            "durationHuman": "1 hr 19 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.23 GB"
-        },
-        {
-            "ratingKey": 82592,
-            "title": "Chris Rock: Selective Outrage",
-            "year": 2023,
-            "contentRating": "R",
-            "durationHuman": "1 hr 10 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.40 GB"
-        },
-        {
             "ratingKey": 3452,
             "title": "The Christmas Chronicles",
             "year": 2018,
@@ -1793,16 +1649,16 @@
             "sizeHuman": "3.63 GB"
         },
         {
-            "ratingKey": 82594,
-            "title": "Conan O'Brien Can't Stop",
-            "year": 2011,
+            "ratingKey": 125631,
+            "title": "Companion",
+            "year": 2025,
             "contentRating": "R",
-            "durationHuman": "1 hr 29 mins",
-            "audioCodec": "AC3",
+            "durationHuman": "1 hr 37 mins",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "4.64 GB"
+            "sizeHuman": "3.24 GB"
         },
         {
             "ratingKey": 3465,
@@ -2009,90 +1865,6 @@
             "sizeHuman": "2.56 GB"
         },
         {
-            "ratingKey": 82615,
-            "title": "Dave Chappelle: Equanimity",
-            "year": 2017,
-            "contentRating": "R",
-            "durationHuman": "1 hr 4 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.18 GB"
-        },
-        {
-            "ratingKey": 82614,
-            "title": "Dave Chappelle: Killin' Them Softly",
-            "year": 2000,
-            "contentRating": "Not Rated",
-            "durationHuman": "58 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.30 GB"
-        },
-        {
-            "ratingKey": 83095,
-            "title": "Dave Chappelle: Sticks & Stones",
-            "year": 2019,
-            "contentRating": "R",
-            "durationHuman": "1 hr 6 mins",
-            "audioCodec": "AAC",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.22 GB"
-        },
-        {
-            "ratingKey": 82621,
-            "title": "Dave Chappelle: The Bird Revelation",
-            "year": 2017,
-            "contentRating": "Not Rated",
-            "durationHuman": "49 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "925.19 MB"
-        },
-        {
-            "ratingKey": 83384,
-            "title": "Dave Chappelle: The Closer",
-            "year": 2021,
-            "contentRating": "Not Rated",
-            "durationHuman": "1 hr 12 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.48 GB"
-        },
-        {
-            "ratingKey": 82607,
-            "title": "Dave Chappelle: The Dreamer",
-            "year": 2023,
-            "contentRating": "R",
-            "durationHuman": "57 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.10 GB"
-        },
-        {
-            "ratingKey": 82626,
-            "title": "Dave Chappelle's Block Party",
-            "year": 2005,
-            "contentRating": "R",
-            "durationHuman": "1 hr 43 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "3.70 GB"
-        },
-        {
             "ratingKey": 1291,
             "title": "Dawn of the Planet of the Apes",
             "year": 2014,
@@ -2153,6 +1925,18 @@
             "sizeHuman": "2.31 GB"
         },
         {
+            "ratingKey": 125449,
+            "title": "Death Note",
+            "year": 2017,
+            "contentRating": "R",
+            "durationHuman": "1 hr 40 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "1.44 GB"
+        },
+        {
             "ratingKey": 1345,
             "title": "Deck the Halls",
             "year": 2006,
@@ -2165,16 +1949,16 @@
             "sizeHuman": "3.83 GB"
         },
         {
-            "ratingKey": 82616,
-            "title": "Deep in the Heart of Texas: Dave Chappelle Live at Austin City Limits",
-            "year": 2017,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 6 mins",
-            "audioCodec": "AC3",
+            "ratingKey": 120801,
+            "title": "The Departed",
+            "year": 2006,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 31 mins",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.17 GB"
+            "sizeHuman": "4.64 GB"
         },
         {
             "ratingKey": 1364,
@@ -2321,6 +2105,18 @@
             "sizeHuman": "2.62 GB"
         },
         {
+            "ratingKey": 120716,
+            "title": "District 9",
+            "year": 2009,
+            "contentRating": "R",
+            "durationHuman": "1 hr 52 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.53 GB"
+        },
+        {
             "ratingKey": 1524,
             "title": "Divergent",
             "year": 2014,
@@ -2393,6 +2189,18 @@
             "sizeHuman": "1.56 GB"
         },
         {
+            "ratingKey": 125388,
+            "title": "Dogtooth",
+            "year": 2009,
+            "contentRating": "Not Rated",
+            "durationHuman": "1 hr 37 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.38 GB"
+        },
+        {
             "ratingKey": 1562,
             "title": "Don't Be Afraid of the Dark",
             "year": 2010,
@@ -2427,6 +2235,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.53 GB"
+        },
+        {
+            "ratingKey": 125382,
+            "title": "Don't Worry Darling",
+            "year": 2022,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 3 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.84 GB"
         },
         {
             "ratingKey": 1587,
@@ -2499,6 +2319,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.07 GB"
+        },
+        {
+            "ratingKey": 120842,
+            "title": "Dune: Part One",
+            "year": 2021,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 35 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "8.64 GB"
+        },
+        {
+            "ratingKey": 121076,
+            "title": "Dune: Part Two",
+            "year": 2024,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 46 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "9.57 GB"
         },
         {
             "ratingKey": 1662,
@@ -2705,6 +2549,18 @@
             "sizeHuman": "4.72 GB"
         },
         {
+            "ratingKey": 120708,
+            "title": "Fight Club",
+            "year": 1999,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 19 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.05 GB"
+        },
+        {
             "ratingKey": 1789,
             "title": "Final Destination",
             "year": 2000,
@@ -2763,6 +2619,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.13 GB"
+        },
+        {
+            "ratingKey": 120707,
+            "title": "Finding Dory",
+            "year": 2016,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 37 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.51 GB"
         },
         {
             "ratingKey": 1826,
@@ -3113,6 +2981,18 @@
             "sizeHuman": "2.33 GB"
         },
         {
+            "ratingKey": 120800,
+            "title": "Full Metal Jacket",
+            "year": 1987,
+            "contentRating": "R",
+            "durationHuman": "1 hr 57 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.66 GB"
+        },
+        {
             "ratingKey": 1947,
             "title": "Fun Size",
             "year": 2012,
@@ -3123,42 +3003,6 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.35 GB"
-        },
-        {
-            "ratingKey": 82587,
-            "title": "Gabriel \"Fluffy\" Iglesias: One Show Fits All",
-            "year": 2019,
-            "contentRating": "PG-13",
-            "durationHuman": "1 hr 31 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.67 GB"
-        },
-        {
-            "ratingKey": 82596,
-            "title": "Gabriel Iglesias: I'm Sorry for What I Said When I Was Hungry",
-            "year": 2016,
-            "contentRating": "PG-13",
-            "durationHuman": "1 hr 28 mins",
-            "audioCodec": "AC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.76 GB"
-        },
-        {
-            "ratingKey": 82606,
-            "title": "Gabriel Iglesias: Stadium Fluffy",
-            "year": 2022,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 56 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.14 GB"
         },
         {
             "ratingKey": 1948,
@@ -3221,6 +3065,30 @@
             "sizeHuman": "4.18 GB"
         },
         {
+            "ratingKey": 121052,
+            "title": "Ghost Rider",
+            "year": 2007,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 3 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.17 GB"
+        },
+        {
+            "ratingKey": 121051,
+            "title": "Ghost Rider: Spirit of Vengeance",
+            "year": 2011,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 36 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.37 GB"
+        },
+        {
             "ratingKey": 1969,
             "title": "Ghostbusters",
             "year": 1984,
@@ -3281,16 +3149,16 @@
             "sizeHuman": "3.99 GB"
         },
         {
-            "ratingKey": 18397,
-            "title": "Gilly and Keeves: The Special",
-            "year": 2022,
-            "contentRating": null,
-            "durationHuman": "59 mins",
+            "ratingKey": 120799,
+            "title": "Gifted",
+            "year": 2017,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 41 mins",
             "audioCodec": "AAC",
             "container": "mkv",
-            "videoCodec": "H264",
+            "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.10 GB"
+            "sizeHuman": "3.38 GB"
         },
         {
             "ratingKey": 1985,
@@ -3389,6 +3257,18 @@
             "sizeHuman": "4.02 GB"
         },
         {
+            "ratingKey": 120798,
+            "title": "Godzilla: King of the Monsters",
+            "year": 2019,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 12 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.16 GB"
+        },
+        {
             "ratingKey": 2009,
             "title": "Good Boys",
             "year": 2019,
@@ -3423,6 +3303,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "6.87 GB"
+        },
+        {
+            "ratingKey": 121050,
+            "title": "The Good, the Bad and the Ugly",
+            "year": 1966,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 59 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.26 GB"
         },
         {
             "ratingKey": 2021,
@@ -3473,6 +3365,18 @@
             "sizeHuman": "1.97 GB"
         },
         {
+            "ratingKey": 125510,
+            "title": "The Gorge",
+            "year": 2025,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 8 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.19 GB"
+        },
+        {
             "ratingKey": 3538,
             "title": "The Green Mile",
             "year": 1999,
@@ -3483,6 +3387,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "9.08 GB"
+        },
+        {
+            "ratingKey": 121144,
+            "title": "Gremlins",
+            "year": 1984,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 46 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.60 GB"
         },
         {
             "ratingKey": 3543,
@@ -3821,6 +3737,42 @@
             "sizeHuman": "4.46 GB"
         },
         {
+            "ratingKey": 121049,
+            "title": "The Hangover Part II",
+            "year": 2011,
+            "contentRating": "R",
+            "durationHuman": "1 hr 42 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.62 GB"
+        },
+        {
+            "ratingKey": 121043,
+            "title": "The Hangover Part III",
+            "year": 2013,
+            "contentRating": "R",
+            "durationHuman": "1 hr 40 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.68 GB"
+        },
+        {
+            "ratingKey": 126085,
+            "title": "The Happening",
+            "year": 2008,
+            "contentRating": "R",
+            "durationHuman": "1 hr 30 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.57 GB"
+        },
+        {
             "ratingKey": 2117,
             "title": "Happy Death Day",
             "year": 2017,
@@ -4013,6 +3965,18 @@
             "sizeHuman": "1.61 GB"
         },
         {
+            "ratingKey": 125627,
+            "title": "Heart Eyes",
+            "year": 2025,
+            "contentRating": "R",
+            "durationHuman": "1 hr 37 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.73 GB"
+        },
+        {
             "ratingKey": 3570,
             "title": "The Heat",
             "year": 2013,
@@ -4073,6 +4037,18 @@
             "sizeHuman": "1.58 GB"
         },
         {
+            "ratingKey": 125381,
+            "title": "Hereditary",
+            "year": 2018,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 7 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.39 GB"
+        },
+        {
             "ratingKey": 2175,
             "title": "Heretic",
             "year": 2024,
@@ -4095,6 +4071,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "5.20 GB"
+        },
+        {
+            "ratingKey": 121142,
+            "title": "The Hitchhiker's Guide to the Galaxy",
+            "year": 2005,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 49 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.35 GB"
         },
         {
             "ratingKey": 3571,
@@ -4203,6 +4191,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.46 GB"
+        },
+        {
+            "ratingKey": 126967,
+            "title": "Hoodwinked Too! Hood vs. Evil",
+            "year": 2011,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 26 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "1.54 GB"
+        },
+        {
+            "ratingKey": 126968,
+            "title": "Hoodwinked!",
+            "year": 2005,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 21 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.78 GB"
         },
         {
             "ratingKey": 2198,
@@ -4385,6 +4397,18 @@
             "sizeHuman": "1.60 GB"
         },
         {
+            "ratingKey": 120841,
+            "title": "Hulk",
+            "year": 2003,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 18 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.51 GB"
+        },
+        {
             "ratingKey": 3577,
             "title": "The Hunger Games",
             "year": 2012,
@@ -4445,6 +4469,18 @@
             "sizeHuman": "3.31 GB"
         },
         {
+            "ratingKey": 120706,
+            "title": "The Hunt",
+            "year": 2020,
+            "contentRating": "R",
+            "durationHuman": "1 hr 30 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.79 GB"
+        },
+        {
             "ratingKey": 2244,
             "title": "Hustle",
             "year": 2022,
@@ -4467,6 +4503,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.13 GB"
+        },
+        {
+            "ratingKey": 125620,
+            "title": "I Saw the TV Glow",
+            "year": 2024,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 40 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.50 GB"
         },
         {
             "ratingKey": 2252,
@@ -4563,6 +4611,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.37 GB"
+        },
+        {
+            "ratingKey": 120840,
+            "title": "The Imitation Game",
+            "year": 2014,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 54 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.37 GB"
+        },
+        {
+            "ratingKey": 121137,
+            "title": "The Incredible Hulk",
+            "year": 2008,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 52 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.11 GB"
         },
         {
             "ratingKey": 3611,
@@ -4817,16 +4889,16 @@
             "sizeHuman": "1.57 GB"
         },
         {
-            "ratingKey": 82591,
-            "title": "It's Such a Beautiful Day",
-            "year": 2012,
-            "contentRating": "Not Rated",
-            "durationHuman": "1 hr 2 mins",
-            "audioCodec": "FLAC",
+            "ratingKey": 126042,
+            "title": "It's What's Inside",
+            "year": 2024,
+            "contentRating": "R",
+            "durationHuman": "1 hr 44 mins",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "4.53 GB"
+            "sizeHuman": "3.94 GB"
         },
         {
             "ratingKey": 2339,
@@ -4878,7 +4950,7 @@
         },
         {
             "ratingKey": 2360,
-            "title": "Jason Goes to Hell",
+            "title": "Jason Goes to Hell: The Final Friday",
             "year": 1993,
             "contentRating": "R",
             "durationHuman": "1 hr 31 mins",
@@ -4971,66 +5043,6 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.71 GB"
-        },
-        {
-            "ratingKey": 2382,
-            "title": "John Mulaney & the Sack Lunch Bunch",
-            "year": 2019,
-            "contentRating": "PG",
-            "durationHuman": "1 hr 10 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.05 GB"
-        },
-        {
-            "ratingKey": 2384,
-            "title": "John Mulaney: Baby J",
-            "year": 2023,
-            "contentRating": "R",
-            "durationHuman": "1 hr 20 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.48 GB"
-        },
-        {
-            "ratingKey": 2388,
-            "title": "John Mulaney: Kid Gorgeous at Radio City",
-            "year": 2018,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 5 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.69 GB"
-        },
-        {
-            "ratingKey": 2391,
-            "title": "John Mulaney: New in Town",
-            "year": 2012,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.79 GB"
-        },
-        {
-            "ratingKey": 2393,
-            "title": "John Mulaney: The Comeback Kid",
-            "year": 2015,
-            "contentRating": "PG",
-            "durationHuman": "1 hr 2 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "942.22 MB"
         },
         {
             "ratingKey": 2394,
@@ -5262,7 +5274,7 @@
         },
         {
             "ratingKey": 2465,
-            "title": "Jurassic World Dominion",
+            "title": "Jurassic World: Dominion",
             "year": 2022,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 41 mins",
@@ -5289,7 +5301,7 @@
             "title": "Just Go with It",
             "year": 2011,
             "contentRating": "PG-13",
-            "durationHuman": "1 hr 56 mins",
+            "durationHuman": "1 hr 57 mins",
             "audioCodec": "AC3",
             "container": "mkv",
             "videoCodec": "HEVC",
@@ -5345,90 +5357,6 @@
             "sizeHuman": "3.70 GB"
         },
         {
-            "ratingKey": 2471,
-            "title": "Kevin Hart: I'm a Grown Little Man",
-            "year": 2009,
-            "contentRating": "R",
-            "durationHuman": "1 hr 12 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.09 GB"
-        },
-        {
-            "ratingKey": 2476,
-            "title": "Kevin Hart: Irresponsible",
-            "year": 2019,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.44 GB"
-        },
-        {
-            "ratingKey": 2482,
-            "title": "Kevin Hart: Laugh at My Pain",
-            "year": 2011,
-            "contentRating": "R",
-            "durationHuman": "1 hr 29 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.63 GB"
-        },
-        {
-            "ratingKey": 2492,
-            "title": "Kevin Hart: Let Me Explain",
-            "year": 2013,
-            "contentRating": "R",
-            "durationHuman": "1 hr 15 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.17 GB"
-        },
-        {
-            "ratingKey": 2494,
-            "title": "Kevin Hart: Reality Check",
-            "year": 2023,
-            "contentRating": "R",
-            "durationHuman": "59 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.16 GB"
-        },
-        {
-            "ratingKey": 2495,
-            "title": "Kevin Hart: Seriously Funny",
-            "year": 2010,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 7 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.24 GB"
-        },
-        {
-            "ratingKey": 2498,
-            "title": "Kevin Hart: What Now All Access",
-            "year": 2016,
-            "contentRating": "R",
-            "durationHuman": "1 hr 36 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.46 GB"
-        },
-        {
             "ratingKey": 2499,
             "title": "Kick-Ass",
             "year": 2010,
@@ -5475,6 +5403,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.42 GB"
+        },
+        {
+            "ratingKey": 125401,
+            "title": "The Killing of a Sacred Deer",
+            "year": 2017,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 1 min",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.57 GB"
         },
         {
             "ratingKey": 3660,
@@ -5681,6 +5621,18 @@
             "sizeHuman": "5.74 GB"
         },
         {
+            "ratingKey": 121132,
+            "title": "Life of Pi",
+            "year": 2012,
+            "contentRating": "PG",
+            "durationHuman": "2 hrs 7 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.21 GB"
+        },
+        {
             "ratingKey": 2559,
             "title": "Lights Out",
             "year": 2016,
@@ -5729,6 +5681,18 @@
             "sizeHuman": "2.67 GB"
         },
         {
+            "ratingKey": 120437,
+            "title": "Lisa Frankenstein",
+            "year": 2024,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 41 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.99 GB"
+        },
+        {
             "ratingKey": 3677,
             "title": "The Little Mermaid",
             "year": 1989,
@@ -5763,6 +5727,42 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.17 GB"
+        },
+        {
+            "ratingKey": 125380,
+            "title": "Little Women",
+            "year": 2019,
+            "contentRating": "PG",
+            "durationHuman": "2 hrs 15 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.16 GB"
+        },
+        {
+            "ratingKey": 125395,
+            "title": "The Lobster",
+            "year": 2015,
+            "contentRating": "R",
+            "durationHuman": "1 hr 59 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.68 GB"
+        },
+        {
+            "ratingKey": 121131,
+            "title": "Logan",
+            "year": 2017,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 17 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.67 GB"
         },
         {
             "ratingKey": 3692,
@@ -6185,28 +6185,16 @@
             "sizeHuman": "4.12 GB"
         },
         {
-            "ratingKey": 82589,
-            "title": "Michael Che Matters",
-            "year": 2016,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 1 min",
-            "audioCodec": "EAC3",
+            "ratingKey": 120705,
+            "title": "Miami Vice",
+            "year": 2006,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 12 mins",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.84 GB"
-        },
-        {
-            "ratingKey": 82588,
-            "title": "Michael Che: Shame the Devil",
-            "year": 2021,
-            "contentRating": "TV-MA",
-            "durationHuman": "59 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "935.27 MB"
+            "sizeHuman": "5.53 GB"
         },
         {
             "ratingKey": 3733,
@@ -6293,18 +6281,6 @@
             "sizeHuman": "3.48 GB"
         },
         {
-            "ratingKey": 82611,
-            "title": "Mitch Hedberg: Mitch All Together",
-            "year": 2003,
-            "contentRating": null,
-            "durationHuman": "2 hrs 16 mins",
-            "audioCodec": "AC3",
-            "container": "mkv",
-            "videoCodec": "MPEG2VIDEO",
-            "videoResolution": "480p",
-            "sizeHuman": "1.29 GB"
-        },
-        {
             "ratingKey": 2660,
             "title": "Moana",
             "year": 2016,
@@ -6315,6 +6291,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.90 GB"
+        },
+        {
+            "ratingKey": 120124,
+            "title": "Moana 2",
+            "year": 2024,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 40 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.70 GB"
         },
         {
             "ratingKey": 2661,
@@ -6401,6 +6389,18 @@
             "sizeHuman": "1.51 GB"
         },
         {
+            "ratingKey": 120106,
+            "title": "Mr. Church",
+            "year": 2016,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 45 mins",
+            "audioCodec": "AAC",
+            "container": "mp4",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "1.64 GB"
+        },
+        {
             "ratingKey": 2699,
             "title": "Mr. Deeds",
             "year": 2002,
@@ -6435,6 +6435,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.47 GB"
+        },
+        {
+            "ratingKey": 121130,
+            "title": "Mrs. Doubtfire",
+            "year": 1993,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 5 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.56 GB"
         },
         {
             "ratingKey": 2705,
@@ -6497,6 +6509,18 @@
             "sizeHuman": "2.27 GB"
         },
         {
+            "ratingKey": 120448,
+            "title": "My Old Ass",
+            "year": 2024,
+            "contentRating": "R",
+            "durationHuman": "1 hr 29 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "2160p",
+            "sizeHuman": "3.96 GB"
+        },
+        {
             "ratingKey": 3747,
             "title": "The Naked Gun: From the Files of Police Squad!",
             "year": 1988,
@@ -6531,6 +6555,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.47 GB"
+        },
+        {
+            "ratingKey": 120797,
+            "title": "National Treasure",
+            "year": 2004,
+            "contentRating": "PG",
+            "durationHuman": "2 hrs 11 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.92 GB"
         },
         {
             "ratingKey": 3748,
@@ -6593,6 +6629,42 @@
             "sizeHuman": "3.52 GB"
         },
         {
+            "ratingKey": 126061,
+            "title": "Night at the Museum",
+            "year": 2006,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 49 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.94 GB"
+        },
+        {
+            "ratingKey": 126060,
+            "title": "Night at the Museum: Battle of the Smithsonian",
+            "year": 2009,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 45 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.80 GB"
+        },
+        {
+            "ratingKey": 126059,
+            "title": "Night at the Museum: Secret of the Tomb",
+            "year": 2014,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 38 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.29 GB"
+        },
+        {
             "ratingKey": 3750,
             "title": "The Nightmare Before Christmas",
             "year": 1993,
@@ -6639,42 +6711,6 @@
             "videoCodec": "H264",
             "videoResolution": "1080p",
             "sizeHuman": "3.99 GB"
-        },
-        {
-            "ratingKey": 82586,
-            "title": "Norm Macdonald: Hitler's Dog, Gossip & Trickery",
-            "year": 2017,
-            "contentRating": null,
-            "durationHuman": "1 hr 1 min",
-            "audioCodec": "AC3",
-            "container": "mkv",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.55 GB"
-        },
-        {
-            "ratingKey": 83094,
-            "title": "Norm Macdonald: Me Doing Standup",
-            "year": 2011,
-            "contentRating": "PG-13",
-            "durationHuman": "1 hr 1 min",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "5.98 GB"
-        },
-        {
-            "ratingKey": 82625,
-            "title": "Norm Macdonald: Nothing Special",
-            "year": 2022,
-            "contentRating": "R",
-            "durationHuman": "1 hr 27 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.35 GB"
         },
         {
             "ratingKey": 3760,
@@ -6725,6 +6761,54 @@
             "sizeHuman": "1.30 GB"
         },
         {
+            "ratingKey": 121124,
+            "title": "Ocean's Eight",
+            "year": 2018,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 50 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.70 GB"
+        },
+        {
+            "ratingKey": 121123,
+            "title": "Ocean's Eleven",
+            "year": 2001,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 57 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.45 GB"
+        },
+        {
+            "ratingKey": 121121,
+            "title": "Ocean's Thirteen",
+            "year": 2007,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 2 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.52 GB"
+        },
+        {
+            "ratingKey": 121120,
+            "title": "Ocean's Twelve",
+            "year": 2004,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 5 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.59 GB"
+        },
+        {
             "ratingKey": 2741,
             "title": "Office Space",
             "year": 1999,
@@ -6735,6 +6819,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "4.52 GB"
+        },
+        {
+            "ratingKey": 126966,
+            "title": "One of Them Days",
+            "year": 2025,
+            "contentRating": "R",
+            "durationHuman": "1 hr 37 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.12 GB"
         },
         {
             "ratingKey": 2742,
@@ -6821,6 +6917,18 @@
             "sizeHuman": "2.44 GB"
         },
         {
+            "ratingKey": 120788,
+            "title": "Pacific Rim",
+            "year": 2013,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 11 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.24 GB"
+        },
+        {
             "ratingKey": 3768,
             "title": "The Package",
             "year": 2018,
@@ -6903,6 +7011,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.69 GB"
+        },
+        {
+            "ratingKey": 120751,
+            "title": "The Pentagon Wars",
+            "year": 1998,
+            "contentRating": "R",
+            "durationHuman": "1 hr 44 mins",
+            "audioCodec": "AAC",
+            "container": "mp4",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "1.61 GB"
         },
         {
             "ratingKey": 2770,
@@ -7083,6 +7203,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "4.05 GB"
+        },
+        {
+            "ratingKey": 121119,
+            "title": "Pixels",
+            "year": 2015,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 46 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.74 GB"
+        },
+        {
+            "ratingKey": 126153,
+            "title": "The Place Beyond the Pines",
+            "year": 2013,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 21 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.65 GB"
         },
         {
             "ratingKey": 2811,
@@ -7661,6 +7805,78 @@
             "sizeHuman": "1.73 GB"
         },
         {
+            "ratingKey": 121037,
+            "title": "Resident Evil",
+            "year": 2002,
+            "contentRating": "R",
+            "durationHuman": "1 hr 41 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.59 GB"
+        },
+        {
+            "ratingKey": 121036,
+            "title": "Resident Evil: Afterlife",
+            "year": 2010,
+            "contentRating": "R",
+            "durationHuman": "1 hr 37 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.34 GB"
+        },
+        {
+            "ratingKey": 121035,
+            "title": "Resident Evil: Apocalypse",
+            "year": 2004,
+            "contentRating": "R",
+            "durationHuman": "1 hr 38 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.47 GB"
+        },
+        {
+            "ratingKey": 121034,
+            "title": "Resident Evil: Extinction",
+            "year": 2007,
+            "contentRating": "R",
+            "durationHuman": "1 hr 34 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.36 GB"
+        },
+        {
+            "ratingKey": 121033,
+            "title": "Resident Evil: Retribution",
+            "year": 2012,
+            "contentRating": "R",
+            "durationHuman": "1 hr 36 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.44 GB"
+        },
+        {
+            "ratingKey": 121032,
+            "title": "Resident Evil: The Final Chapter",
+            "year": 2016,
+            "contentRating": "R",
+            "durationHuman": "1 hr 47 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.80 GB"
+        },
+        {
             "ratingKey": 2936,
             "title": "Return to Halloweentown",
             "year": 2006,
@@ -7671,42 +7887,6 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "4.24 GB"
-        },
-        {
-            "ratingKey": 82613,
-            "title": "Ricky Gervais: Armageddon",
-            "year": 2023,
-            "contentRating": "R",
-            "durationHuman": "1 hr 3 mins",
-            "audioCodec": "AC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.72 GB"
-        },
-        {
-            "ratingKey": 82595,
-            "title": "Ricky Gervais: Humanity",
-            "year": 2018,
-            "contentRating": "R",
-            "durationHuman": "1 hr 19 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "720p",
-            "sizeHuman": "1.45 GB"
-        },
-        {
-            "ratingKey": 82622,
-            "title": "Ricky Gervais: SuperNature",
-            "year": 2022,
-            "contentRating": "R",
-            "durationHuman": "1 hr 5 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.90 GB"
         },
         {
             "ratingKey": 2937,
@@ -7791,6 +7971,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "2160p",
             "sizeHuman": "2.85 GB"
+        },
+        {
+            "ratingKey": 126058,
+            "title": "Rio",
+            "year": 2011,
+            "contentRating": "G",
+            "durationHuman": "1 hr 36 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.08 GB"
+        },
+        {
+            "ratingKey": 126057,
+            "title": "Rio 2",
+            "year": 2014,
+            "contentRating": "G",
+            "durationHuman": "1 hr 41 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.62 GB"
         },
         {
             "ratingKey": 2950,
@@ -7971,6 +8175,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "4.61 GB"
+        },
+        {
+            "ratingKey": 125402,
+            "title": "Room",
+            "year": 2015,
+            "contentRating": "R",
+            "durationHuman": "1 hr 58 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.11 GB"
+        },
+        {
+            "ratingKey": 125619,
+            "title": "Rounders",
+            "year": 1998,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 1 min",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.01 GB"
         },
         {
             "ratingKey": 2993,
@@ -8441,30 +8669,6 @@
             "sizeHuman": "2.35 GB"
         },
         {
-            "ratingKey": 18399,
-            "title": "Shane Gillis: Beautiful Dogs",
-            "year": 2023,
-            "contentRating": "TV-MA",
-            "durationHuman": "53 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
-            "videoCodec": "H264",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.07 GB"
-        },
-        {
-            "ratingKey": 18398,
-            "title": "Shane Gillis: Live in Austin",
-            "year": 2021,
-            "contentRating": "Not Rated",
-            "durationHuman": "48 mins",
-            "audioCodec": "OPUS",
-            "container": "mkv",
-            "videoCodec": "VP9",
-            "videoResolution": "1080p",
-            "sizeHuman": "339.01 MB"
-        },
-        {
             "ratingKey": 3086,
             "title": "Shark Tale",
             "year": 2004,
@@ -8499,6 +8703,42 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.51 GB"
+        },
+        {
+            "ratingKey": 120406,
+            "title": "A Shaun the Sheep Movie: Farmageddon",
+            "year": 2019,
+            "contentRating": "G",
+            "durationHuman": "1 hr 27 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.33 GB"
+        },
+        {
+            "ratingKey": 120401,
+            "title": "Shaun the Sheep: The Farmer's Llamas",
+            "year": 2015,
+            "contentRating": "TV-G",
+            "durationHuman": "29 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "570.88 MB"
+        },
+        {
+            "ratingKey": 120405,
+            "title": "Shaun the Sheep: The Flight Before Christmas",
+            "year": 2021,
+            "contentRating": "G",
+            "durationHuman": "30 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "1.22 GB"
         },
         {
             "ratingKey": 3832,
@@ -8621,6 +8861,18 @@
             "sizeHuman": "5.08 GB"
         },
         {
+            "ratingKey": 120756,
+            "title": "Shutter Island",
+            "year": 2010,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 18 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.17 GB"
+        },
+        {
             "ratingKey": 3836,
             "title": "The Silence of the Lambs",
             "year": 1991,
@@ -8631,6 +8883,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.80 GB"
+        },
+        {
+            "ratingKey": 125379,
+            "title": "Silver Linings Playbook",
+            "year": 2012,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 2 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.54 GB"
         },
         {
             "ratingKey": 3850,
@@ -8765,6 +9029,18 @@
             "sizeHuman": "2.01 GB"
         },
         {
+            "ratingKey": 126056,
+            "title": "Society",
+            "year": 1989,
+            "contentRating": "R",
+            "durationHuman": "1 hr 39 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "9.98 GB"
+        },
+        {
             "ratingKey": 3146,
             "title": "Sonic the Hedgehog",
             "year": 2020,
@@ -8789,6 +9065,18 @@
             "sizeHuman": "4.02 GB"
         },
         {
+            "ratingKey": 120105,
+            "title": "Sonic the Hedgehog 3",
+            "year": 2024,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 50 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.92 GB"
+        },
+        {
             "ratingKey": 3153,
             "title": "Soul",
             "year": 2020,
@@ -8799,6 +9087,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "4.56 GB"
+        },
+        {
+            "ratingKey": 121116,
+            "title": "Southpaw",
+            "year": 2015,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 4 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.03 GB"
         },
         {
             "ratingKey": 3161,
@@ -9113,6 +9413,18 @@
             "sizeHuman": "2.11 GB"
         },
         {
+            "ratingKey": 121115,
+            "title": "Stargate",
+            "year": 1994,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 10 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.65 GB"
+        },
+        {
             "ratingKey": 3268,
             "title": "Step Brothers",
             "year": 2008,
@@ -9128,7 +9440,7 @@
             "ratingKey": 3272,
             "title": "Stewie Griffin: The Untold Story",
             "year": 2005,
-            "contentRating": "R",
+            "contentRating": "Not Rated",
             "durationHuman": "1 hr 28 mins",
             "audioCodec": "AAC",
             "container": "mp4",
@@ -9173,6 +9485,18 @@
             "sizeHuman": "2.04 GB"
         },
         {
+            "ratingKey": 120838,
+            "title": "Stranger Than Fiction",
+            "year": 2006,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 53 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.01 GB"
+        },
+        {
             "ratingKey": 3288,
             "title": "Stripes",
             "year": 1981,
@@ -9209,6 +9533,18 @@
             "sizeHuman": "1.45 GB"
         },
         {
+            "ratingKey": 120439,
+            "title": "The Substance",
+            "year": 2024,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 21 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.25 GB"
+        },
+        {
             "ratingKey": 3304,
             "title": "Suicide Squad",
             "year": 2016,
@@ -9243,6 +9579,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "5.05 GB"
+        },
+        {
+            "ratingKey": 120837,
+            "title": "Sully",
+            "year": 2016,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 36 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.85 GB"
         },
         {
             "ratingKey": 3885,
@@ -9293,16 +9641,40 @@
             "sizeHuman": "4.08 GB"
         },
         {
-            "ratingKey": 83385,
-            "title": "Tamborine",
-            "year": 2018,
-            "contentRating": "TV-MA",
-            "durationHuman": "1 hr 5 mins",
-            "audioCodec": "AC3",
+            "ratingKey": 120755,
+            "title": "Taken",
+            "year": 2008,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 33 mins",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.99 GB"
+            "sizeHuman": "4.23 GB"
+        },
+        {
+            "ratingKey": 125611,
+            "title": "Talk to Me",
+            "year": 2022,
+            "contentRating": "R",
+            "durationHuman": "1 hr 35 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.52 GB"
+        },
+        {
+            "ratingKey": 121101,
+            "title": "Talladega Nights: The Ballad of Ricky Bobby",
+            "year": 2006,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 1 min",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.09 GB"
         },
         {
             "ratingKey": 3321,
@@ -9389,6 +9761,18 @@
             "sizeHuman": "1.37 GB"
         },
         {
+            "ratingKey": 120104,
+            "title": "The Terminal",
+            "year": 2004,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 9 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.84 GB"
+        },
+        {
             "ratingKey": 3887,
             "title": "The Terminator",
             "year": 1984,
@@ -9473,6 +9857,18 @@
             "sizeHuman": "2.26 GB"
         },
         {
+            "ratingKey": 120754,
+            "title": "The Texas Chain Saw Massacre: 50th Anniversary",
+            "year": 1974,
+            "contentRating": "R",
+            "durationHuman": "1 hr 23 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.95 GB"
+        },
+        {
             "ratingKey": 3362,
             "title": "Texas Chainsaw Massacre",
             "year": 2022,
@@ -9495,6 +9891,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "5.96 GB"
+        },
+        {
+            "ratingKey": 120753,
+            "title": "This Is the End",
+            "year": 2013,
+            "contentRating": "R",
+            "durationHuman": "1 hr 47 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.89 GB"
         },
         {
             "ratingKey": 3918,
@@ -9711,6 +10119,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.55 GB"
+        },
+        {
+            "ratingKey": 120752,
+            "title": "Tron",
+            "year": 1982,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 36 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.48 GB"
         },
         {
             "ratingKey": 3901,
@@ -9941,6 +10361,18 @@
             "sizeHuman": "4.45 GB"
         },
         {
+            "ratingKey": 120807,
+            "title": "Violent Night",
+            "year": 2022,
+            "contentRating": "R",
+            "durationHuman": "1 hr 52 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.76 GB"
+        },
+        {
             "ratingKey": 83386,
             "title": "Volunteers",
             "year": 1985,
@@ -9953,6 +10385,78 @@
             "sizeHuman": "1.66 GB"
         },
         {
+            "ratingKey": 120430,
+            "title": "Wallace & Gromit: A Close Shave",
+            "year": 1995,
+            "contentRating": "TV-G",
+            "durationHuman": "32 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "1.26 GB"
+        },
+        {
+            "ratingKey": 120429,
+            "title": "Wallace & Gromit: A Grand Day Out",
+            "year": 1990,
+            "contentRating": "Not Rated",
+            "durationHuman": "24 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "H264",
+            "videoResolution": "1080p",
+            "sizeHuman": "1.46 GB"
+        },
+        {
+            "ratingKey": 120411,
+            "title": "Wallace & Gromit: A Matter of Loaf and Death",
+            "year": 2008,
+            "contentRating": "G",
+            "durationHuman": "29 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "764.16 MB"
+        },
+        {
+            "ratingKey": 120404,
+            "title": "Wallace & Gromit: The Curse of the Were-Rabbit",
+            "year": 2005,
+            "contentRating": "G",
+            "durationHuman": "1 hr 25 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.17 GB"
+        },
+        {
+            "ratingKey": 120402,
+            "title": "Wallace & Gromit: The Wrong Trousers",
+            "year": 1993,
+            "contentRating": "TV-G",
+            "durationHuman": "31 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "800.76 MB"
+        },
+        {
+            "ratingKey": 120403,
+            "title": "Wallace & Gromit: Vengeance Most Fowl",
+            "year": 2024,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 16 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.35 GB"
+        },
+        {
             "ratingKey": 4040,
             "title": "WALL\u00b7E",
             "year": 2008,
@@ -9963,6 +10467,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.38 GB"
+        },
+        {
+            "ratingKey": 125509,
+            "title": "War Dogs",
+            "year": 2016,
+            "contentRating": "R",
+            "durationHuman": "1 hr 54 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.33 GB"
         },
         {
             "ratingKey": 4042,
@@ -10085,6 +10601,18 @@
             "sizeHuman": "1.68 GB"
         },
         {
+            "ratingKey": 120453,
+            "title": "Wine Country",
+            "year": 2019,
+            "contentRating": "R",
+            "durationHuman": "1 hr 44 mins",
+            "audioCodec": "AAC",
+            "container": "mp4",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "1.61 GB"
+        },
+        {
             "ratingKey": 4083,
             "title": "Winnie the Pooh",
             "year": 2011,
@@ -10107,6 +10635,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.40 GB"
+        },
+        {
+            "ratingKey": 125394,
+            "title": "The Witch",
+            "year": 2015,
+            "contentRating": "R",
+            "durationHuman": "1 hr 32 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.04 GB"
         },
         {
             "ratingKey": 81184,
@@ -10143,6 +10683,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "7.52 GB"
+        },
+        {
+            "ratingKey": 126168,
+            "title": "The Wolf of Wall Street",
+            "year": 2013,
+            "contentRating": "R",
+            "durationHuman": "3 hrs",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "7.39 GB"
+        },
+        {
+            "ratingKey": 121099,
+            "title": "The Wolverine",
+            "year": 2013,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 18 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.68 GB"
         },
         {
             "ratingKey": 4095,
@@ -10191,6 +10755,102 @@
             "videoCodec": "H264",
             "videoResolution": "1080p",
             "sizeHuman": "2.49 GB"
+        },
+        {
+            "ratingKey": 121096,
+            "title": "X-Men",
+            "year": 2000,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 44 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.37 GB"
+        },
+        {
+            "ratingKey": 121092,
+            "title": "X-Men Origins: Wolverine",
+            "year": 2009,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 47 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.64 GB"
+        },
+        {
+            "ratingKey": 121095,
+            "title": "X-Men: Apocalypse",
+            "year": 2016,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 24 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.90 GB"
+        },
+        {
+            "ratingKey": 121094,
+            "title": "X-Men: Days of Future Past",
+            "year": 2014,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 29 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.03 GB"
+        },
+        {
+            "ratingKey": 121093,
+            "title": "X-Men: First Class",
+            "year": 2011,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 12 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.48 GB"
+        },
+        {
+            "ratingKey": 121091,
+            "title": "X-Men: The Last Stand",
+            "year": 2006,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 44 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.37 GB"
+        },
+        {
+            "ratingKey": 121090,
+            "title": "X2: X-Men United",
+            "year": 2003,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 14 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.33 GB"
+        },
+        {
+            "ratingKey": 120438,
+            "title": "Y2K",
+            "year": 2024,
+            "contentRating": "R",
+            "durationHuman": "1 hr 32 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.20 GB"
         },
         {
             "ratingKey": 4101,

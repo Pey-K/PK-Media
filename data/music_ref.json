@@ -1,10 +1,10 @@
 {
     "metadata": {
         "totalArtists": 253,
-        "totalAlbums": 1916,
-        "totalTracks": 31618,
-        "totalSizeHuman": "751 GB",
-        "totalDurationHuman": "1887 hrs 10 mins"
+        "totalAlbums": 1953,
+        "totalTracks": 32229,
+        "totalSizeHuman": "757.49 GB",
+        "totalDurationHuman": "1920 hrs 45 mins"
     },
     "artists": [
         {
@@ -586,9 +586,9 @@
         {
             "artistName": "21 Savage",
             "ratingKey": 119673,
-            "totalAlbums": 10,
-            "totalTracks": 122,
-            "totalSizeHuman": "2.48 GB",
+            "totalAlbums": 11,
+            "totalTracks": 133,
+            "totalSizeHuman": "2.51 GB",
             "yearRange": "2016-2024",
             "albums": [
                 {
@@ -709,6 +709,18 @@
                     "albumDurationHuman": "33 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126319,
+                    "title": "Without Warning 2",
+                    "year": null,
+                    "tracks": 11,
+                    "albumSizeHuman": "32.33 MB",
+                    "totalAlbumSizeBytes": 32325698,
+                    "albumDurationHuman": "32 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 }
             ]
@@ -3070,9 +3082,9 @@
         {
             "artistName": "Ken Carson",
             "ratingKey": 105120,
-            "totalAlbums": 7,
-            "totalTracks": 97,
-            "totalSizeHuman": "1.65 GB",
+            "totalAlbums": 11,
+            "totalTracks": 130,
+            "totalSizeHuman": "1.75 GB",
             "yearRange": "2020-2023",
             "albums": [
                 {
@@ -3097,6 +3109,54 @@
                     "albumDurationHuman": "1 hrs 5 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126362,
+                    "title": "Lost Files",
+                    "year": 2020,
+                    "tracks": 6,
+                    "albumSizeHuman": "10.77 MB",
+                    "totalAlbumSizeBytes": 10772374,
+                    "albumDurationHuman": "10 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126352,
+                    "title": "Lost Files 2",
+                    "year": 2021,
+                    "tracks": 9,
+                    "albumSizeHuman": "17.61 MB",
+                    "totalAlbumSizeBytes": 17612886,
+                    "albumDurationHuman": "18 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126341,
+                    "title": "Lost Files 3",
+                    "year": 2022,
+                    "tracks": 10,
+                    "albumSizeHuman": "26.06 MB",
+                    "totalAlbumSizeBytes": 26058875,
+                    "albumDurationHuman": "26 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126331,
+                    "title": "Lost Files 4",
+                    "year": 2023,
+                    "tracks": 8,
+                    "albumSizeHuman": "45.29 MB",
+                    "totalAlbumSizeBytes": 45290162,
+                    "albumDurationHuman": "18 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -4452,7 +4512,7 @@
             ]
         },
         {
-            "artistName": "Cordae",
+            "artistName": "YBN Cordae",
             "ratingKey": 113828,
             "totalAlbums": 3,
             "totalTracks": 46,
@@ -5476,7 +5536,7 @@
                     "tracks": 80,
                     "albumSizeHuman": "680.13 MB",
                     "totalAlbumSizeBytes": 680129737,
-                    "albumDurationHuman": "3 hrs 2 mins",
+                    "albumDurationHuman": "3 hrs 1 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -5544,11 +5604,23 @@
         {
             "artistName": "Drake",
             "ratingKey": 112602,
-            "totalAlbums": 18,
-            "totalTracks": 278,
-            "totalSizeHuman": "6.57 GB",
-            "yearRange": "2009-2024",
+            "totalAlbums": 19,
+            "totalTracks": 299,
+            "totalSizeHuman": "7.46 GB",
+            "yearRange": "2009-2025",
             "albums": [
+                {
+                    "ratingKey": 126188,
+                    "title": "$ome $exy $ongs 4 U",
+                    "year": 2025,
+                    "tracks": 21,
+                    "albumSizeHuman": "893.28 MB",
+                    "totalAlbumSizeBytes": 893282548,
+                    "albumDurationHuman": "1 hrs 13 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
                 {
                     "ratingKey": 112603,
                     "title": "100 GIGS",
@@ -12962,9 +13034,9 @@
         {
             "artistName": "Kendrick Lamar",
             "ratingKey": 87849,
-            "totalAlbums": 9,
-            "totalTracks": 126,
-            "totalSizeHuman": "3.48 GB",
+            "totalAlbums": 13,
+            "totalTracks": 182,
+            "totalSizeHuman": "3.73 GB",
             "yearRange": "2010-2024",
             "albums": [
                 {
@@ -13016,6 +13088,18 @@
                     ]
                 },
                 {
+                    "ratingKey": 126259,
+                    "title": "The Heart Pt. (1-5)",
+                    "year": 2010,
+                    "tracks": 5,
+                    "albumSizeHuman": "24.02 MB",
+                    "totalAlbumSizeBytes": 24019396,
+                    "albumDurationHuman": "24 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
                     "ratingKey": 87948,
                     "title": "Mr. Morale & the Big Steppers",
                     "year": 2022,
@@ -13028,6 +13112,18 @@
                     ]
                 },
                 {
+                    "ratingKey": 126284,
+                    "title": "NATION.",
+                    "year": 2020,
+                    "tracks": 18,
+                    "albumSizeHuman": "60.94 MB",
+                    "totalAlbumSizeBytes": 60940601,
+                    "albumDurationHuman": "1 hrs 0 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
                     "ratingKey": 87907,
                     "title": "Overly Dedicated",
                     "year": 2010,
@@ -13037,6 +13133,18 @@
                     "albumDurationHuman": "53 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126303,
+                    "title": "pgLang",
+                    "year": 2024,
+                    "tracks": 15,
+                    "albumSizeHuman": "66.74 MB",
+                    "totalAlbumSizeBytes": 66744163,
+                    "albumDurationHuman": "47 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -13061,6 +13169,18 @@
                     "albumDurationHuman": "1 hrs 18 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126265,
+                    "title": "Unreleased Kendrick Lamar",
+                    "year": null,
+                    "tracks": 18,
+                    "albumSizeHuman": "96.51 MB",
+                    "totalAlbumSizeBytes": 96510342,
+                    "albumDurationHuman": "1 hrs 6 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -13576,10 +13696,10 @@
         {
             "artistName": "Lil Durk",
             "ratingKey": 100717,
-            "totalAlbums": 17,
-            "totalTracks": 287,
-            "totalSizeHuman": "6.03 GB",
-            "yearRange": "2012-2023",
+            "totalAlbums": 18,
+            "totalTracks": 304,
+            "totalSizeHuman": "6.86 GB",
+            "yearRange": "2012-2025",
             "albums": [
                 {
                     "ratingKey": 100988,
@@ -13625,6 +13745,18 @@
                     "albumSizeHuman": "401.01 MB",
                     "totalAlbumSizeBytes": 401012138,
                     "albumDurationHuman": "56 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126210,
+                    "title": "Deep Thoughts",
+                    "year": 2025,
+                    "tracks": 17,
+                    "albumSizeHuman": "826.33 MB",
+                    "totalAlbumSizeBytes": 826329325,
+                    "albumDurationHuman": "45 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -14248,11 +14380,48 @@
         {
             "artistName": "Lil Uzi Vert",
             "ratingKey": 102692,
-            "totalAlbums": 7,
-            "totalTracks": 125,
-            "totalSizeHuman": "2.74 GB",
+            "totalAlbums": 11,
+            "totalTracks": 174,
+            "totalSizeHuman": "2.95 GB",
             "yearRange": "2015-2024",
             "albums": [
+                {
+                    "ratingKey": 126591,
+                    "title": "2 Luv Is 2 Rage",
+                    "year": 2019,
+                    "tracks": 7,
+                    "albumSizeHuman": "23.46 MB",
+                    "totalAlbumSizeBytes": 23464218,
+                    "albumDurationHuman": "23 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126583,
+                    "title": "1017 vs. the World",
+                    "year": 2016,
+                    "tracks": 7,
+                    "albumSizeHuman": "20.51 MB",
+                    "totalAlbumSizeBytes": 20513812,
+                    "albumDurationHuman": "20 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126559,
+                    "title": "Barter 16",
+                    "year": 2023,
+                    "tracks": 23,
+                    "albumSizeHuman": "130.19 MB",
+                    "totalAlbumSizeBytes": 130194206,
+                    "albumDurationHuman": "1 hrs 8 mins",
+                    "albumContainers": [
+                        "mp4",
+                        "mp3"
+                    ]
+                },
                 {
                     "ratingKey": 102765,
                     "title": "Eternal Atake 2",
@@ -14323,6 +14492,18 @@
                     "albumDurationHuman": "32 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126546,
+                    "title": "Pink Lyf\u00eb",
+                    "year": 2022,
+                    "tracks": 12,
+                    "albumSizeHuman": "36.07 MB",
+                    "totalAlbumSizeBytes": 36070982,
+                    "albumDurationHuman": "35 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -14711,40 +14892,6 @@
                     "albumSizeHuman": "439.20 MB",
                     "totalAlbumSizeBytes": 439202741,
                     "albumDurationHuman": "1 hrs 9 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                }
-            ]
-        },
-        {
-            "artistName": "Lin\u2010Manuel Miranda, Opetaia Foa\u02bbi, Mark Mancina",
-            "ratingKey": 87985,
-            "totalAlbums": 2,
-            "totalTracks": 59,
-            "totalSizeHuman": "694.40 MB",
-            "yearRange": "2016-2016",
-            "albums": [
-                {
-                    "ratingKey": 88027,
-                    "title": "Oceania: Colonna sonora originale (Deluxe Edition)",
-                    "year": 2016,
-                    "tracks": 19,
-                    "albumSizeHuman": "252.31 MB",
-                    "totalAlbumSizeBytes": 252311074,
-                    "albumDurationHuman": "44 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                },
-                {
-                    "ratingKey": 87986,
-                    "title": "Vaiana: Original Motion Picture Soundtrack",
-                    "year": 2016,
-                    "tracks": 40,
-                    "albumSizeHuman": "442.09 MB",
-                    "totalAlbumSizeBytes": 442085882,
-                    "albumDurationHuman": "1 hrs 16 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -15309,76 +15456,6 @@
                     "albumSizeHuman": "243.16 MB",
                     "totalAlbumSizeBytes": 243156437,
                     "albumDurationHuman": "34 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                }
-            ]
-        },
-        {
-            "artistName": "Martin O\u2019Donnell and Michael Salvatori",
-            "ratingKey": 93480,
-            "totalAlbums": 5,
-            "totalTracks": 107,
-            "totalSizeHuman": "2.49 GB",
-            "yearRange": "2002-2010",
-            "albums": [
-                {
-                    "ratingKey": 93642,
-                    "title": "Halo 2: Original Soundtrack, Volume Two",
-                    "year": 2006,
-                    "tracks": 12,
-                    "albumSizeHuman": "389.09 MB",
-                    "totalAlbumSizeBytes": 389094846,
-                    "albumDurationHuman": "1 hrs 10 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                },
-                {
-                    "ratingKey": 93591,
-                    "title": "Halo 3: ODST: Original Soundtrack",
-                    "year": 2009,
-                    "tracks": 17,
-                    "albumSizeHuman": "533.62 MB",
-                    "totalAlbumSizeBytes": 533620752,
-                    "albumDurationHuman": "1 hrs 54 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                },
-                {
-                    "ratingKey": 93609,
-                    "title": "Halo 3: Original Soundtrack",
-                    "year": 2007,
-                    "tracks": 32,
-                    "albumSizeHuman": "616.15 MB",
-                    "totalAlbumSizeBytes": 616150986,
-                    "albumDurationHuman": "1 hrs 58 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                },
-                {
-                    "ratingKey": 93570,
-                    "title": "Halo Reach: Original Soundtrack",
-                    "year": 2010,
-                    "tracks": 20,
-                    "albumSizeHuman": "585.39 MB",
-                    "totalAlbumSizeBytes": 585393809,
-                    "albumDurationHuman": "1 hrs 47 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                },
-                {
-                    "ratingKey": 93481,
-                    "title": "Halo: Combat Evolved: Original Soundtrack",
-                    "year": 2002,
-                    "tracks": 26,
-                    "albumSizeHuman": "363.83 MB",
-                    "totalAlbumSizeBytes": 363834034,
-                    "albumDurationHuman": "1 hrs 6 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -16270,6 +16347,40 @@
             ]
         },
         {
+            "artistName": "Lin\u2010Manuel Miranda, Opetaia Foa\u02bbi, Mark Mancina",
+            "ratingKey": 87985,
+            "totalAlbums": 2,
+            "totalTracks": 59,
+            "totalSizeHuman": "694.40 MB",
+            "yearRange": "2016-2016",
+            "albums": [
+                {
+                    "ratingKey": 88027,
+                    "title": "Oceania: Colonna sonora originale (Deluxe Edition)",
+                    "year": 2016,
+                    "tracks": 19,
+                    "albumSizeHuman": "252.31 MB",
+                    "totalAlbumSizeBytes": 252311074,
+                    "albumDurationHuman": "44 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 87986,
+                    "title": "Vaiana: Original Motion Picture Soundtrack",
+                    "year": 2016,
+                    "tracks": 40,
+                    "albumSizeHuman": "442.09 MB",
+                    "totalAlbumSizeBytes": 442085882,
+                    "albumDurationHuman": "1 hrs 16 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                }
+            ]
+        },
+        {
             "artistName": "Moneybagg Yo",
             "ratingKey": 88764,
             "totalAlbums": 19,
@@ -17006,7 +17117,7 @@
                     "tracks": 21,
                     "albumSizeHuman": "481.13 MB",
                     "totalAlbumSizeBytes": 481127171,
-                    "albumDurationHuman": "1 hrs 14 mins",
+                    "albumDurationHuman": "1 hrs 13 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -17400,12 +17511,82 @@
             ]
         },
         {
+            "artistName": "Martin O\u2019Donnell and Michael Salvatori",
+            "ratingKey": 93480,
+            "totalAlbums": 5,
+            "totalTracks": 107,
+            "totalSizeHuman": "2.49 GB",
+            "yearRange": "2002-2010",
+            "albums": [
+                {
+                    "ratingKey": 93642,
+                    "title": "Halo 2: Original Soundtrack, Volume Two",
+                    "year": 2006,
+                    "tracks": 12,
+                    "albumSizeHuman": "389.09 MB",
+                    "totalAlbumSizeBytes": 389094846,
+                    "albumDurationHuman": "1 hrs 10 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 93591,
+                    "title": "Halo 3: ODST: Original Soundtrack",
+                    "year": 2009,
+                    "tracks": 17,
+                    "albumSizeHuman": "533.62 MB",
+                    "totalAlbumSizeBytes": 533620752,
+                    "albumDurationHuman": "1 hrs 54 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 93609,
+                    "title": "Halo 3: Original Soundtrack",
+                    "year": 2007,
+                    "tracks": 32,
+                    "albumSizeHuman": "616.15 MB",
+                    "totalAlbumSizeBytes": 616150986,
+                    "albumDurationHuman": "1 hrs 58 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 93570,
+                    "title": "Halo Reach: Original Soundtrack",
+                    "year": 2010,
+                    "tracks": 20,
+                    "albumSizeHuman": "585.39 MB",
+                    "totalAlbumSizeBytes": 585393809,
+                    "albumDurationHuman": "1 hrs 47 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 93481,
+                    "title": "Halo: Combat Evolved: Original Soundtrack",
+                    "year": 2002,
+                    "tracks": 26,
+                    "albumSizeHuman": "363.83 MB",
+                    "totalAlbumSizeBytes": 363834034,
+                    "albumDurationHuman": "1 hrs 6 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                }
+            ]
+        },
+        {
             "artistName": "Frank Ocean",
             "ratingKey": 111147,
-            "totalAlbums": 2,
-            "totalTracks": 34,
-            "totalSizeHuman": "662.01 MB",
-            "yearRange": "2012-2016",
+            "totalAlbums": 7,
+            "totalTracks": 207,
+            "totalSizeHuman": "1.42 GB",
+            "yearRange": "2010-2017",
             "albums": [
                 {
                     "ratingKey": 111166,
@@ -17423,12 +17604,73 @@
                     "ratingKey": 111148,
                     "title": "channel ORANGE",
                     "year": 2012,
-                    "tracks": 17,
-                    "albumSizeHuman": "326.34 MB",
-                    "totalAlbumSizeBytes": 326338095,
-                    "albumDurationHuman": "55 mins",
+                    "tracks": 18,
+                    "albumSizeHuman": "333.55 MB",
+                    "totalAlbumSizeBytes": 333545346,
+                    "albumDurationHuman": "1 hrs 0 mins",
                     "albumContainers": [
-                        "flac"
+                        "flac",
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126418,
+                    "title": "Endless",
+                    "year": 2016,
+                    "tracks": 20,
+                    "albumSizeHuman": "69.78 MB",
+                    "totalAlbumSizeBytes": 69781189,
+                    "albumDurationHuman": "45 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126483,
+                    "title": "The Lonny Breaux Collection",
+                    "year": 2010,
+                    "tracks": 62,
+                    "albumSizeHuman": "300.14 MB",
+                    "totalAlbumSizeBytes": 300140678,
+                    "albumDurationHuman": "3 hrs 33 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126403,
+                    "title": "nostalgia, ULTRA.",
+                    "year": 2011,
+                    "tracks": 14,
+                    "albumSizeHuman": "63.22 MB",
+                    "totalAlbumSizeBytes": 63218742,
+                    "albumDurationHuman": "42 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126439,
+                    "title": "undocumented, RARE.",
+                    "year": 2017,
+                    "tracks": 43,
+                    "albumSizeHuman": "209.22 MB",
+                    "totalAlbumSizeBytes": 209215720,
+                    "albumDurationHuman": "2 hrs 27 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126369,
+                    "title": "unreleased, MISC.",
+                    "year": 2013,
+                    "tracks": 33,
+                    "albumSizeHuman": "105.29 MB",
+                    "totalAlbumSizeBytes": 105287245,
+                    "albumDurationHuman": "1 hrs 48 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 }
             ]
@@ -18412,10 +18654,10 @@
         {
             "artistName": "Playboi Carti",
             "ratingKey": 94211,
-            "totalAlbums": 4,
-            "totalTracks": 59,
-            "totalSizeHuman": "1.15 GB",
-            "yearRange": "2017-2024",
+            "totalAlbums": 5,
+            "totalTracks": 89,
+            "totalSizeHuman": "2.16 GB",
+            "yearRange": "2017-2025",
             "albums": [
                 {
                     "ratingKey": 94273,
@@ -18437,6 +18679,18 @@
                     "albumSizeHuman": "388.33 MB",
                     "totalAlbumSizeBytes": 388331790,
                     "albumDurationHuman": "57 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126228,
+                    "title": "MUSIC",
+                    "year": 2025,
+                    "tracks": 30,
+                    "albumSizeHuman": "1.00 GB",
+                    "totalAlbumSizeBytes": 1001429845,
+                    "albumDurationHuman": "1 hrs 16 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -20998,7 +21252,7 @@
                     "tracks": 21,
                     "albumSizeHuman": "537.62 MB",
                     "totalAlbumSizeBytes": 537616348,
-                    "albumDurationHuman": "1 hrs 18 mins",
+                    "albumDurationHuman": "1 hrs 17 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -23792,10 +24046,10 @@
         {
             "artistName": "XXXTENTACION",
             "ratingKey": 89612,
-            "totalAlbums": 6,
-            "totalTracks": 131,
-            "totalSizeHuman": "1.56 GB",
-            "yearRange": "2017-2022",
+            "totalAlbums": 10,
+            "totalTracks": 172,
+            "totalSizeHuman": "1.78 GB",
+            "yearRange": "2014-2022",
             "albums": [
                 {
                     "ratingKey": 89734,
@@ -23834,6 +24088,18 @@
                     ]
                 },
                 {
+                    "ratingKey": 126599,
+                    "title": "ICE HOTEL",
+                    "year": 2014,
+                    "tracks": 7,
+                    "albumSizeHuman": "23.86 MB",
+                    "totalAlbumSizeBytes": 23863348,
+                    "albumDurationHuman": "19 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
                     "ratingKey": 89708,
                     "title": "LOOK AT ME: THE ALBUM",
                     "year": 2022,
@@ -23843,6 +24109,30 @@
                     "albumDurationHuman": "57 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126639,
+                    "title": "Members Only, Vol. 1",
+                    "year": 2015,
+                    "tracks": 6,
+                    "albumSizeHuman": "22.16 MB",
+                    "totalAlbumSizeBytes": 22164450,
+                    "albumDurationHuman": "12 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126616,
+                    "title": "Members Only, Vol. 2",
+                    "year": 2015,
+                    "tracks": 22,
+                    "albumSizeHuman": "54.91 MB",
+                    "totalAlbumSizeBytes": 54906351,
+                    "albumDurationHuman": "55 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -23867,6 +24157,19 @@
                     "albumDurationHuman": "19 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126983,
+                    "title": "XXX (UNMASTERED)",
+                    "year": 2014,
+                    "tracks": 6,
+                    "albumSizeHuman": "112.31 MB",
+                    "totalAlbumSizeBytes": 112314157,
+                    "albumDurationHuman": "21 mins",
+                    "albumContainers": [
+                        "wav",
+                        "mp3"
                     ]
                 }
             ]
@@ -23920,10 +24223,10 @@
         {
             "artistName": "Kanye West",
             "ratingKey": 89440,
-            "totalAlbums": 10,
-            "totalTracks": 161,
-            "totalSizeHuman": "3.92 GB",
-            "yearRange": "2003-2021",
+            "totalAlbums": 22,
+            "totalTracks": 341,
+            "totalSizeHuman": "5.59 GB",
+            "yearRange": "2003-2025",
             "albums": [
                 {
                     "ratingKey": 89552,
@@ -23935,6 +24238,18 @@
                     "albumDurationHuman": "52 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126971,
+                    "title": "BULLY",
+                    "year": 2025,
+                    "tracks": 10,
+                    "albumSizeHuman": "67.01 MB",
+                    "totalAlbumSizeBytes": 67007766,
+                    "albumDurationHuman": "27 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -23950,6 +24265,30 @@
                     ]
                 },
                 {
+                    "ratingKey": 126646,
+                    "title": "Cruel Summer",
+                    "year": 2012,
+                    "tracks": 12,
+                    "albumSizeHuman": "381.65 MB",
+                    "totalAlbumSizeBytes": 381648148,
+                    "albumDurationHuman": "54 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126683,
+                    "title": "Cruel Winter",
+                    "year": 2023,
+                    "tracks": 13,
+                    "albumSizeHuman": "126.69 MB",
+                    "totalAlbumSizeBytes": 126687166,
+                    "albumDurationHuman": "1 hrs 8 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
                     "ratingKey": 89519,
                     "title": "Donda",
                     "year": 2021,
@@ -23959,6 +24298,30 @@
                     "albumDurationHuman": "2 hrs 11 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126752,
+                    "title": "Donda 2",
+                    "year": 2022,
+                    "tracks": 16,
+                    "albumSizeHuman": "67.12 MB",
+                    "totalAlbumSizeBytes": 67116209,
+                    "albumDurationHuman": "47 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126714,
+                    "title": "Good Ass Job",
+                    "year": 2009,
+                    "tracks": 15,
+                    "albumSizeHuman": "122.75 MB",
+                    "totalAlbumSizeBytes": 122749525,
+                    "albumDurationHuman": "59 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -23986,6 +24349,18 @@
                     ]
                 },
                 {
+                    "ratingKey": 126670,
+                    "title": "Jesus is King II",
+                    "year": 2023,
+                    "tracks": 12,
+                    "albumSizeHuman": "40.42 MB",
+                    "totalAlbumSizeBytes": 40423219,
+                    "albumDurationHuman": "41 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
                     "ratingKey": 89470,
                     "title": "Late Registration",
                     "year": 2005,
@@ -24010,6 +24385,19 @@
                     ]
                 },
                 {
+                    "ratingKey": 126730,
+                    "title": "Love Everyone",
+                    "year": 2018,
+                    "tracks": 21,
+                    "albumSizeHuman": "164.41 MB",
+                    "totalAlbumSizeBytes": 164407384,
+                    "albumDurationHuman": "1 hrs 8 mins",
+                    "albumContainers": [
+                        "mp4",
+                        "mp3"
+                    ]
+                },
+                {
                     "ratingKey": 89598,
                     "title": "My Beautiful Dark Twisted Fantasy",
                     "year": 2010,
@@ -24019,6 +24407,54 @@
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126697,
+                    "title": "So Help Me God",
+                    "year": 2015,
+                    "tracks": 16,
+                    "albumSizeHuman": "163.57 MB",
+                    "totalAlbumSizeBytes": 163573308,
+                    "albumDurationHuman": "1 hrs 16 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126769,
+                    "title": "Thank God for Drugs",
+                    "year": 2022,
+                    "tracks": 20,
+                    "albumSizeHuman": "204.78 MB",
+                    "totalAlbumSizeBytes": 204777247,
+                    "albumDurationHuman": "1 hrs 24 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126790,
+                    "title": "TURBOGRAFX 16: INDIGO SOUND",
+                    "year": 2020,
+                    "tracks": 16,
+                    "albumSizeHuman": "108.69 MB",
+                    "totalAlbumSizeBytes": 108687420,
+                    "albumDurationHuman": "59 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 126807,
+                    "title": "Yandhi",
+                    "year": 2019,
+                    "tracks": 19,
+                    "albumSizeHuman": "169.51 MB",
+                    "totalAlbumSizeBytes": 169507175,
+                    "albumDurationHuman": "1 hrs 10 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -24043,6 +24479,18 @@
                     "albumDurationHuman": "40 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 126659,
+                    "title": "Yeezus II",
+                    "year": 2014,
+                    "tracks": 10,
+                    "albumSizeHuman": "54.83 MB",
+                    "totalAlbumSizeBytes": 54827529,
+                    "albumDurationHuman": "37 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 }
             ]

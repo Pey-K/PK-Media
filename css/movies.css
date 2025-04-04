@@ -75,24 +75,15 @@
     margin-top: 5px;
 }
 
-.movie-card:hover img,
-.movie-card.active img {
+.movie-card:hover img {
     filter: brightness(15%);
 }
 
-.movie-card:hover,
-.movie-card.active {
+.movie-card:hover {
     transform: scale(1.1);
 }
 
-.movie-card.active {
-    box-shadow: 0 0 4px 2px #9c9bb9;
-    transition: all 0.1s ease-in-out;
-    z-index: 100;
-}
-
-.movie-card:hover .movie-details,
-.movie-card.active .movie-details {
+.movie-card:hover .movie-details {
     opacity: 1;
     transform: translateY(0);
 }

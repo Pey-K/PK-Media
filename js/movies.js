@@ -38,35 +38,6 @@ document.addEventListener('refDataLoaded', (event) => {
     populateMoviesContent(event.detail);
 });
 
-setTimeout(() => {
-    const movieCards = document.querySelectorAll(".movie-card");
-    let activeCard = null;
-
-    movieCards.forEach((card) => {
-        card.addEventListener("click", (event) => {
-            event.stopPropagation();
-
-            if (card === activeCard) {
-                card.classList.remove("active");
-                activeCard = null;
-            } else {
-                if (activeCard) {
-                    activeCard.classList.remove("active");
-                }
-                card.classList.add("active");
-                activeCard = card;
-            }
-        });
-    });
-
-    document.body.addEventListener("click", () => {
-        if (activeCard) {
-            activeCard.classList.remove("active");
-            activeCard = null;
-        }
-    });
-}, 100);
-
 document.addEventListener("DOMContentLoaded", () => {
     const moviesCard = document.querySelector(".movies-card");
 

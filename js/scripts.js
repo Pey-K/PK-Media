@@ -33,9 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
             mainContent.innerHTML = content;
     
             resetScrollPosition();
-    
             loadStylesheet(stylesheet);
-    
             removeDynamicScripts();
     
             if (script) {
@@ -43,21 +41,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 newScript.src = script;
                 newScript.defer = true;
                 newScript.dataset.dynamic = "true";
+                newScript.onload = async () => { // Wait for script to load
+                    if (refFile) {
+                        const refResponse = await fetch(`data/${refFile}`);
+                        if (!refResponse.ok) throw new Error(`Failed to load ${refFile}`);
+                        const refData = await refResponse.json();
+                        await new Promise(resolve => setTimeout(resolve, 0)); // Ensure DOM update
+                        const event = new CustomEvent("refDataLoaded", { detail: refData });
+                        document.dispatchEvent(event);
+                    }
+                };
                 document.body.appendChild(newScript);
-            }
-    
-            if (refFile) {
-                const refResponse = await fetch(`data/${refFile}`);
-                if (!refResponse.ok) throw new Error(`Failed to load ${refFile}`);
-                const refData = await refResponse.json();
-                const event = new CustomEvent("refDataLoaded", { detail: refData });
-                document.dispatchEvent(event);
             }
         } catch (error) {
             console.error(error);
             mainContent.innerHTML = `<p>Error loading content. Please try again later.</p>`;
         }
-    };    
+    };
 
     if (isIndexPage) {
 
