@@ -9,6 +9,34 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="theme-color" content="#121212">
+    <style>
+        .index-cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: calc(100vh - 100px);
+            gap: 1em;
+            box-sizing: border-box;
+        }
+        .index-card {
+            position: relative;
+            display: flex;
+            width: 75%;
+            height: 30%;
+            overflow: hidden;
+            border-radius: 24px;
+            cursor: pointer;
+        }
+        .scrolling-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 150%;
+            height: 150%;
+            z-index: -2;
+            filter: brightness(70%);
+        }
+    </style>
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -67,6 +95,6 @@
     </main>
     <script src="js/populate.js"></script>
     <script src="js/index.js"></script>
-    <script src="js/scripts.js" defer></script>
+    <script defer src="js/scripts.js"></script>
 </body>
 </html>

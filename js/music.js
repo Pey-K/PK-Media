@@ -1,25 +1,54 @@
 function populateMusicContent(data, attempts = 0, maxAttempts = 50) {
     const container = document.getElementById('music-content');
+    if (!container) {
+        if (attempts < maxAttempts) {
+            setTimeout(() => populateMusicContent(data, attempts + 1, maxAttempts), 100);
+        }
+        return;
+    }
 
     const artists = data.artists;
-
     const grid = document.createElement('div');
     grid.classList.add('music-grid');
 
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const placeholder = entry.target;
+                const artist = JSON.parse(placeholder.dataset.artist);
+
+                const card = document.createElement('div');
+                card.classList.add('music-card');
+                card.innerHTML = `
+                    <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.jpg" alt="${artist.artistName}">
+                    <div class="music-year">(${artist.yearRange})</div>
+                    <div class="music-details">
+                        <h3>${artist.artistName}</h3>
+                        <p>Albums: ${artist.totalAlbums}</p>
+                        <p>${artist.totalTracks} Tracks</p>
+                        <p>(${artist.totalSizeHuman})</p>
+                    </div>
+                `;
+
+                placeholder.replaceWith(card);
+
+                observer.unobserve(placeholder);
+            }
+        });
+    }, {
+        root: null,
+        rootMargin: '200px',
+        threshold: 0
+    });
+
     artists.forEach(artist => {
-        const card = document.createElement('div');
-        card.classList.add('music-card');
-        card.innerHTML = `
-            <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.jpg" alt="${artist.artistName}">
-            <div class="music-year">(${artist.yearRange})</div>
-            <div class="music-details">
-                <h3>${artist.artistName}</h3>
-                <p>Albums: ${artist.totalAlbums}</p>
-                <p>Tracks: ${artist.totalTracks}</p>
-                <p>(${artist.totalSizeHuman})</p>
-            </div>
-        `;
-        grid.appendChild(card);
+        const placeholder = document.createElement('div');
+        placeholder.classList.add('music-card-placeholder');
+        placeholder.style.height = '174px';
+        placeholder.dataset.artist = JSON.stringify(artist);
+        grid.appendChild(placeholder);
+
+        observer.observe(placeholder);
     });
 
     container.appendChild(grid);
@@ -50,17 +79,21 @@ document.addEventListener("refDataLoaded", (event) => {
 document.addEventListener("refDataLoaded", () => {
     const searchInput = document.getElementById("music-search");
 
+    let debounceTimeout;
     searchInput.addEventListener("input", () => {
-        const query = searchInput.value.toLowerCase();
-        const musicCards = document.querySelectorAll(".music-card");
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => {
+            const query = searchInput.value.toLowerCase();
+            const musicCards = document.querySelectorAll(".music-card");
 
-        musicCards.forEach((card) => {
-            const titleElement = card.querySelector("h3");
-            if (!titleElement) return;
+            musicCards.forEach((card) => {
+                const titleElement = card.querySelector("h3");
+                if (!titleElement) return;
 
-            const title = titleElement.textContent.toLowerCase();
-            card.style.display = title.includes(query) ? "block" : "none";
-        });
+                const title = titleElement.textContent.toLowerCase();
+                card.style.display = title.includes(query) ? "block" : "none";
+            });
+        }, 300);
     });
 });
 

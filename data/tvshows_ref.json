@@ -2,7 +2,7 @@
     "metadata": {
         "totalShow": 177,
         "totalSeasonCount": 945,
-        "TotalEpisode": 16974,
+        "TotalEpisode": 16975,
         "totalSizeHuman": "10.35 TB"
     },
     "shows": [
@@ -1471,7 +1471,7 @@
         },
         {
             "ratingKey": 4886,
-            "title": "Bluey (2018)",
+            "title": "Bluey",
             "avgEpisodeDuration": "7 mins",
             "contentRating": "TV-Y",
             "seasonCount": 3,
@@ -2760,7 +2760,7 @@
         },
         {
             "ratingKey": 81640,
-            "title": "Doctor Who (2005)",
+            "title": "Doctor Who",
             "avgEpisodeDuration": "45 mins",
             "contentRating": "TV-PG",
             "seasonCount": 11,
@@ -3875,7 +3875,7 @@
         },
         {
             "ratingKey": 10529,
-            "title": "The Fosters (2013)",
+            "title": "The Fosters",
             "avgEpisodeDuration": "42 mins",
             "contentRating": "TV-14",
             "seasonCount": 5,
@@ -9010,7 +9010,7 @@
         },
         {
             "ratingKey": 8371,
-            "title": "School Spirits (2023)",
+            "title": "School Spirits",
             "avgEpisodeDuration": "49 mins",
             "contentRating": "TV-MA",
             "seasonCount": 2,
@@ -12906,8 +12906,8 @@
             "avgEpisodeDuration": "1 hr",
             "contentRating": "TV-MA",
             "seasonCount": 3,
-            "showTotalEpisode": 27,
-            "showSizeHuman": "43.82 GB",
+            "showTotalEpisode": 28,
+            "showSizeHuman": "44.51 GB",
             "avgVideoResolutions": "1080p",
             "avgAudioCodecs": "AC3, EAC3",
             "avgVideoCodecs": "HEVC",
@@ -12939,8 +12939,8 @@
                 {
                     "seasonRatingKey": 125445,
                     "seasonNumber": 3,
-                    "seasonTotalEpisode": 8,
-                    "seasonSizeHuman": "5.87 GB",
+                    "seasonTotalEpisode": 9,
+                    "seasonSizeHuman": "6.56 GB",
                     "avgSeasonVideoResolution": "1080p",
                     "avgSeasonAudioCodec": "AC3",
                     "avgSeasonVideoCodec": "HEVC",
@@ -12951,7 +12951,7 @@
         },
         {
             "ratingKey": 80703,
-            "title": "Yellowstone (2018)",
+            "title": "Yellowstone",
             "avgEpisodeDuration": "1 hr",
             "contentRating": "TV-MA",
             "seasonCount": 5,

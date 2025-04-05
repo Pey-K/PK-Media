@@ -1,3 +1,11 @@
+.music-card-placeholder {
+    max-width: 175px;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 5 / 6;
+    background-color: #212121;
+    border-radius: 8px;
+}
 .info-icon {
     position: absolute;
     left: 5%;
@@ -232,12 +240,12 @@
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     text-align: center;
-    transition: all 0.5s ease;
-    font-size: clamp(10px, 1vw, 12px);
+    transition: all 0.3s ease;
+    font-size: clamp(12px, 1vw, 12px);
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    max-width: 175px;
+    max-width: 145px;
     width: 100%;
     aspect-ratio: 5 / 6;
 }
@@ -248,7 +256,7 @@
     border-radius: 8px;
     display: block;
     object-fit: cover;
-    transition: filter 0.3s ease-in-out, all 0.5s ease;
+    transition: filter 0.3s ease-in-out, all 0.3s ease;
 }
 
 .music-year {
@@ -294,34 +302,25 @@
 }
 
 .music-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    display: flex;
     gap: 10px;
     padding: 10px;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
-.music-card:hover img,
-.music-card.active img {
+.music-card:hover img {
     filter: brightness(15%);
 }
 
-.music-card:hover,
-.music-card.active {
+.music-card:hover {
     transform: scale(1.1);
 }
 
-.music-card.active {
-    box-shadow: 0 0 4px 2px #9c9bb9;
-    transition: all 0.1s ease-in-out;
-    z-index: 100;
-}
 
-.music-card:hover .music-details,
-.music-card.active .music-details {
+.music-card:hover .music-details {
     opacity: 1;
     transform: translateY(0);
 }

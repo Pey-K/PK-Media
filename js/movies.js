@@ -11,24 +11,49 @@ function populateMoviesContent(data, attempts = 0, maxAttempts = 50) {
     const grid = document.createElement('div');
     grid.classList.add('movie-grid');
 
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const placeholder = entry.target;
+                const movie = JSON.parse(placeholder.dataset.movie);
+
+                const card = document.createElement('div');
+                card.classList.add('movie-card');
+                card.innerHTML = `
+                    <img loading="lazy" src="assets/images/movie_image/${movie.ratingKey}.thumb.jpg" alt="${movie.title}">
+                    <div class="movie-year">(${movie.year})</div>
+                    <div class="movie-details">
+                        <h3>${movie.title}</h3>
+                        <p>Rated: ${movie.contentRating}</p>
+                        <p>${movie.durationHuman}</p>
+                        <p>${movie.videoResolution}</p>
+                        <p>Codec: ${movie.videoCodec}</p>
+                        <p>Audio: ${movie.audioCodec}</p>
+                        <p>File Type: ${movie.container}</p>
+                        <p>(${movie.sizeHuman})</p>
+                    </div>
+                `;
+
+                placeholder.replaceWith(card);
+
+                observer.unobserve(placeholder);
+            }
+        });
+    }, {
+        root: null,
+        rootMargin: '200px',
+        threshold: 0
+    });
+
     movies.forEach(movie => {
-        const card = document.createElement('div');
-        card.classList.add('movie-card');
-        card.innerHTML = `
-            <img loading="lazy" src="assets/images/movie_image/${movie.ratingKey}.thumb.jpg" alt="${movie.title}">
-            <div class="movie-year">(${movie.year})</div>
-            <div class="movie-details">
-                <h3>${movie.title}</h3>
-                <p>Rated: ${movie.contentRating}</p>
-                <p>${movie.durationHuman}</p>
-                <p>${movie.videoResolution}</p>
-                <p>Codec: ${movie.videoCodec}</p>
-                <p>Audio: ${movie.audioCodec}</p>
-                <p>File Type: ${movie.container}</p>
-                <p>(${movie.sizeHuman})</p>
-            </div>
-        `;
-        grid.appendChild(card);
+        const placeholder = document.createElement('div');
+        placeholder.classList.add('movie-card-placeholder');
+        placeholder.style.height = '262.5px';
+        placeholder.dataset.movie = JSON.stringify(movie);
+        grid.appendChild(placeholder);
+
+
+        observer.observe(placeholder);
     });
 
     container.appendChild(grid);
@@ -171,23 +196,3 @@ function initializeInfoIcons() {
 }
 
 initializeInfoIcons();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

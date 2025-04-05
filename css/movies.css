@@ -1,14 +1,22 @@
+.movie-card-placeholder {
+    max-width: 175px;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    background-color: #212121;
+    border-radius: 8px;
+}
 .movie-card {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     text-align: center;
-    transition: all 0.5s ease;
-    font-size: clamp(10px, 1vw, 12px);
+    transition: all 0.3s ease;
+    font-size: clamp(10px, 1vw, 8px);
     cursor: pointer;
     display: flex;
-    max-width: 175px;
+    max-width: 145px;
     width: 100%;
     aspect-ratio: 2 / 3;
 }
@@ -19,7 +27,7 @@
     border-radius: 8px;
     display: block;
     transition: filter 0.3s ease-in-out;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .movie-year {
@@ -65,14 +73,13 @@
 }
 
 .movie-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    display: flex;
     gap: 10px;
-    padding: 10px;
+    padding: 0px;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .movie-card:hover img {
