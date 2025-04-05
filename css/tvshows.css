@@ -64,6 +64,7 @@
     aspect-ratio: 2 / 3;
     background: #121212;
     color: #fff;
+    -webkit-backface-visibility: hidden;
 }
 
 .season-card img {
@@ -73,6 +74,7 @@
     display: block;
     object-fit: cover;
     transition: filter 0.3s ease-in-out, all 0.3s ease;
+    -webkit-transform: translateZ(0);
 }
 
 .season-year {
