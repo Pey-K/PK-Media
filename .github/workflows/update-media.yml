@@ -19,15 +19,30 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          python3 -m pip install --upgrade pip
           pip install requests
+
+      - name: Debug environment variables
+        env:
+          TAUTULLI_URL: ${{ secrets.TAUTULLI_URL }}
+          API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          echo "TAUTULLI_URL is set to: $TAUTULLI_URL"
+          echo "API_KEY is set to: $API_KEY"
+
+      - name: Verify working directory
+        working-directory: scripts/datagen
+        run: |
+          pwd
+          ls -la
 
       - name: Run update script
         env:
           TAUTULLI_URL: ${{ secrets.TAUTULLI_URL }}
           API_KEY: ${{ secrets.API_KEY }}
         working-directory: scripts/datagen
-        run: python export.py
+        run: |
+          python3 export.py || { echo "Script failed with exit code $?"; cat export.py; exit 1; }
 
       - name: Commit and push changes
         run: |
