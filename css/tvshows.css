@@ -58,7 +58,7 @@
     transition: all 0.3s ease;
     font-size: clamp(10px, 1vw, 10px);
     cursor: pointer;
-    display: flex;
+    display: block;
     flex-direction: column;
     max-width: 145px;
     aspect-ratio: 2 / 3;
