@@ -151,11 +151,16 @@ function openSeasonView(show) {
             seasonCard.offsetHeight;
         });
 
-        // Force a repaint after a short delay to ensure rendering on iOS
+        // Force a stronger repaint after a longer delay
         setTimeout(() => {
+            // Toggle display to force a repaint
+            seasonsGrid.style.display = 'none';
             seasonsGrid.offsetHeight;
+            seasonsGrid.style.display = 'flex';
+            // Re-append the grid to force a re-render
+            overlayContent.appendChild(seasonsGrid);
             overlay.scrollTop = 0; // Ensure the overlay is scrolled to the top
-        }, 100);
+        }, 200);
     } else {
         // Use Intersection Observer for non-iOS devices
         const seasonObserver = new IntersectionObserver((entries, observer) => {
@@ -272,11 +277,10 @@ function openSeasonView(show) {
             }
             const touchDuration = Date.now() - touchStartTime;
             if (touchDuration < 300 && !event.target.closest('.tvshow-card') && !event.target.closest('.season-card')) {
-                event.stopPropagation(); // Prevent the tap from propagating to underlying elements
+                event.stopPropagation();
                 event.preventDefault();
                 isClosing = true;
                 closeSeasonView(overlay);
-                // Reset isClosing after a short delay to prevent immediate re-taps
                 setTimeout(() => {
                     isClosing = false;
                 }, 300);
