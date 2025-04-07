@@ -40,7 +40,6 @@ function populateTVShowsContent(data, attempts = 0, maxAttempts = 50) {
 
                 card.dataset.show = JSON.stringify(show);
                 card.addEventListener('click', () => openSeasonView(show));
-                card.addEventListener('touchstart', () => openSeasonView(show));
                 placeholder.replaceWith(card);
                 observer.unobserve(placeholder);
             }
