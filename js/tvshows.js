@@ -162,7 +162,6 @@ function openSeasonView(show) {
             seasonsGrid.offsetHeight;
             seasonsGrid.style.display = 'flex';
             overlayContent.appendChild(seasonsGrid);
-            overlay.scrollTop = 0;
 
             currentIndex = endIndex;
             if (currentIndex < show.seasons.length) {
@@ -181,7 +180,6 @@ function openSeasonView(show) {
                 seasonsGrid.offsetHeight;
                 seasonsGrid.style.display = 'flex';
                 overlayContent.appendChild(seasonsGrid);
-                overlay.scrollTop = 0;
             }, 200 * Math.ceil(show.seasons.length / batchSize));
         }
     } else {
