@@ -99,59 +99,81 @@ function openSeasonView(show) {
     const isMobile = window.innerWidth <= 768;
 
     if (isMobile) {
-        // Render season cards directly on mobile devices
-        show.seasons.forEach(season => {
-            const seasonCard = document.createElement('div');
-            seasonCard.classList.add('season-card');
+        // Render season cards in batches on mobile devices
+        const batchSize = 5;
+        let currentIndex = 0;
 
-            const img = document.createElement('img');
-            img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.jpg`;
-            img.alt = `Season ${season.seasonNumber}`;
-            img.onerror = function() {
-                this.src = 'assets/images/placeholder.jpg';
-            };
+        const renderBatch = () => {
+            const endIndex = Math.min(currentIndex + batchSize, show.seasons.length);
+            for (let i = currentIndex; i < endIndex; i++) {
+                const season = show.seasons[i];
+                const seasonCard = document.createElement('div');
+                seasonCard.classList.add('season-card');
 
-            const seasonYear = document.createElement('div');
-            seasonYear.classList.add('season-year');
-            seasonYear.textContent = `(${season.yearRange})`;
+                const img = document.createElement('img');
+                img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.jpg`;
+                img.alt = `Season ${season.seasonNumber}`;
+                img.onerror = function() {
+                    this.src = 'assets/images/placeholder.jpg';
+                };
 
-            const seasonDetails = document.createElement('div');
-            seasonDetails.classList.add('season-details');
+                const seasonYear = document.createElement('div');
+                seasonYear.classList.add('season-year');
+                seasonYear.textContent = `(${season.yearRange})`;
 
-            const seasonTitle = document.createElement('h4');
-            seasonTitle.textContent = `Season ${season.seasonNumber}`;
+                const seasonDetails = document.createElement('div');
+                seasonDetails.classList.add('season-details');
 
-            const episodes = document.createElement('p');
-            episodes.textContent = `Episodes: ${season.seasonTotalEpisode}`;
+                const seasonTitle = document.createElement('h4');
+                seasonTitle.textContent = `Season ${season.seasonNumber}`;
 
-            const size = document.createElement('p');
-            size.textContent = `(${season.seasonSizeHuman})`;
+                const episodes = document.createElement('p');
+                episodes.textContent = `Episodes: ${season.seasonTotalEpisode}`;
 
-            const resolution = document.createElement('p');
-            resolution.textContent = season.avgSeasonVideoResolution;
+                const size = document.createElement('p');
+                size.textContent = `(${season.seasonSizeHuman})`;
 
-            const codec = document.createElement('p');
-            codec.textContent = season.avgSeasonVideoCodec;
+                const resolution = document.createElement('p');
+                resolution.textContent = season.avgSeasonVideoResolution;
 
-            const container = document.createElement('p');
-            container.textContent = `.${season.avgSeasonContainer}`;
+                const codec = document.createElement('p');
+                codec.textContent = season.avgSeasonVideoCodec;
 
-            seasonDetails.appendChild(seasonTitle);
-            seasonDetails.appendChild(episodes);
-            seasonDetails.appendChild(size);
-            seasonDetails.appendChild(resolution);
-            seasonDetails.appendChild(codec);
-            seasonDetails.appendChild(container);
+                const container = document.createElement('p');
+                container.textContent = `.${season.avgSeasonContainer}`;
 
-            seasonCard.appendChild(img);
-            seasonCard.appendChild(seasonYear);
-            seasonCard.appendChild(seasonDetails);
+                seasonDetails.appendChild(seasonTitle);
+                seasonDetails.appendChild(episodes);
+                seasonDetails.appendChild(size);
+                seasonDetails.appendChild(resolution);
+                seasonDetails.appendChild(codec);
+                seasonDetails.appendChild(container);
 
-            seasonsGrid.appendChild(seasonCard);
-            seasonCard.offsetHeight;
-        });
+                seasonCard.appendChild(img);
+                seasonCard.appendChild(seasonYear);
+                seasonCard.appendChild(seasonDetails);
 
-        // Force a stronger repaint after a delay for iOS
+                seasonsGrid.appendChild(seasonCard);
+                seasonCard.offsetHeight;
+            }
+
+            // Force a repaint after each batch
+            seasonsGrid.style.display = 'none';
+            seasonsGrid.offsetHeight;
+            seasonsGrid.style.display = 'flex';
+            overlayContent.appendChild(seasonsGrid);
+            overlay.scrollTop = 0;
+
+            currentIndex = endIndex;
+            if (currentIndex < show.seasons.length) {
+                setTimeout(renderBatch, 100); // Delay between batches
+            }
+        };
+
+        // Start rendering the first batch
+        renderBatch();
+
+        // Additional repaint for iOS after all batches are done
         const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
         if (isIOS) {
             setTimeout(() => {
@@ -160,7 +182,7 @@ function openSeasonView(show) {
                 seasonsGrid.style.display = 'flex';
                 overlayContent.appendChild(seasonsGrid);
                 overlay.scrollTop = 0;
-            }, 200);
+            }, 200 * Math.ceil(show.seasons.length / batchSize));
         }
     } else {
         // Use Intersection Observer for desktop devices
