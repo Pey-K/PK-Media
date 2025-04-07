@@ -40,7 +40,7 @@ function populateTVShowsContent(data, attempts = 0, maxAttempts = 50) {
 
                 card.dataset.show = JSON.stringify(show);
                 card.addEventListener('click', (event) => {
-                    event.preventDefault(); // Prevent default behavior on mobile
+                    event.preventDefault();
                     openSeasonView(show);
                 });
                 placeholder.replaceWith(card);
@@ -88,6 +88,16 @@ function openSeasonView(show) {
     const seasonsGrid = document.createElement('div');
     seasonsGrid.classList.add('seasons-grid');
 
+    // Append the overlay to the DOM before setting up the observer
+    overlayContent.appendChild(showCard);
+    overlayContent.appendChild(seasonsGrid);
+    overlay.appendChild(overlayContent);
+    document.body.appendChild(overlay);
+
+    // Force a reflow to ensure the overlay is rendered
+    overlay.offsetHeight;
+
+    // Create placeholders for season cards
     const seasonObserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -147,11 +157,12 @@ function openSeasonView(show) {
             }
         });
     }, {
-        root: null,
+        root: seasonsGrid, // Use the seasonsGrid as the root for better visibility detection
         rootMargin: '200px',
         threshold: 0
     });
 
+    // Insert placeholders after the overlay is in the DOM
     show.seasons.forEach(season => {
         const placeholder = document.createElement('div');
         placeholder.classList.add('season-card-placeholder');
@@ -163,37 +174,40 @@ function openSeasonView(show) {
         seasonObserver.observe(placeholder);
     });
 
-    overlayContent.appendChild(showCard);
-    overlayContent.appendChild(seasonsGrid);
-    overlay.appendChild(overlayContent);
-    document.body.appendChild(overlay);
-
+    // Force another reflow to ensure the placeholders are rendered
     seasonsGrid.offsetHeight;
 
     // Detect if the device is touch-capable (mobile)
     const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
     if (isTouchDevice) {
-        // Use touchstart for closing on mobile
         let touchStartTime;
+        let isScrolling = false;
+
         overlay.addEventListener('touchstart', (event) => {
             touchStartTime = Date.now();
+            isScrolling = false;
+        });
+
+        overlay.addEventListener('touchmove', () => {
+            isScrolling = true;
         });
 
         overlay.addEventListener('touchend', (event) => {
+            if (isScrolling) {
+                isScrolling = false;
+                return;
+            }
             const touchDuration = Date.now() - touchStartTime;
-            // Only close if the touch was a quick tap (less than 300ms) and outside the cards
             if (touchDuration < 300 && !event.target.closest('.tvshow-card') && !event.target.closest('.season-card')) {
                 closeSeasonView(overlay);
             }
         });
 
-        // Prevent the synthetic click event from firing
         overlay.addEventListener('click', (event) => {
             event.preventDefault();
         });
     } else {
-        // Use click for closing on desktop
         overlay.addEventListener('click', (event) => {
             if (!event.target.closest('.tvshow-card') && !event.target.closest('.season-card')) {
                 closeSeasonView(overlay);
