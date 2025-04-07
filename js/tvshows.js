@@ -39,7 +39,10 @@ function populateTVShowsContent(data, attempts = 0, maxAttempts = 50) {
                 `;
 
                 card.dataset.show = JSON.stringify(show);
-                card.addEventListener('click', () => openSeasonView(show));
+                card.addEventListener('click', (event) => {
+                    event.preventDefault(); // Prevent default behavior on mobile
+                    openSeasonView(show);
+                });
                 placeholder.replaceWith(card);
                 observer.unobserve(placeholder);
             }
@@ -85,7 +88,6 @@ function openSeasonView(show) {
     const seasonsGrid = document.createElement('div');
     seasonsGrid.classList.add('seasons-grid');
 
-    // Create placeholders for season cards
     const seasonObserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -141,7 +143,6 @@ function openSeasonView(show) {
                 placeholder.replaceWith(seasonCard);
                 observer.unobserve(placeholder);
 
-                // Force a reflow to ensure rendering on iOS
                 seasonCard.offsetHeight;
             }
         });
@@ -167,14 +168,38 @@ function openSeasonView(show) {
     overlay.appendChild(overlayContent);
     document.body.appendChild(overlay);
 
-    // Force a reflow on the entire grid
     seasonsGrid.offsetHeight;
 
-    overlay.addEventListener('click', (event) => {
-        if (!event.target.closest('.tvshow-card') && !event.target.closest('.season-card')) {
-            closeSeasonView(overlay);
-        }
-    });
+    // Detect if the device is touch-capable (mobile)
+    const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+    if (isTouchDevice) {
+        // Use touchstart for closing on mobile
+        let touchStartTime;
+        overlay.addEventListener('touchstart', (event) => {
+            touchStartTime = Date.now();
+        });
+
+        overlay.addEventListener('touchend', (event) => {
+            const touchDuration = Date.now() - touchStartTime;
+            // Only close if the touch was a quick tap (less than 300ms) and outside the cards
+            if (touchDuration < 300 && !event.target.closest('.tvshow-card') && !event.target.closest('.season-card')) {
+                closeSeasonView(overlay);
+            }
+        });
+
+        // Prevent the synthetic click event from firing
+        overlay.addEventListener('click', (event) => {
+            event.preventDefault();
+        });
+    } else {
+        // Use click for closing on desktop
+        overlay.addEventListener('click', (event) => {
+            if (!event.target.closest('.tvshow-card') && !event.target.closest('.season-card')) {
+                closeSeasonView(overlay);
+            }
+        });
+    }
 
     document.body.style.overflow = 'hidden';
 }
