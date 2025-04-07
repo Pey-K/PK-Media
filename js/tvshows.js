@@ -88,93 +88,146 @@ function openSeasonView(show) {
     const seasonsGrid = document.createElement('div');
     seasonsGrid.classList.add('seasons-grid');
 
-    // Append the overlay to the DOM before setting up the observer
     overlayContent.appendChild(showCard);
     overlayContent.appendChild(seasonsGrid);
     overlay.appendChild(overlayContent);
     document.body.appendChild(overlay);
 
-    // Force a reflow to ensure the overlay is rendered
     overlay.offsetHeight;
 
-    // Create placeholders for season cards
-    const seasonObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const placeholder = entry.target;
-                const season = JSON.parse(placeholder.dataset.season);
+    // Detect if the device is iOS
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
-                const seasonCard = document.createElement('div');
-                seasonCard.classList.add('season-card');
+    if (isIOS) {
+        // Render season cards directly on iOS
+        show.seasons.forEach(season => {
+            const seasonCard = document.createElement('div');
+            seasonCard.classList.add('season-card');
 
-                const img = document.createElement('img');
-                img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.jpg`;
-                img.alt = `Season ${season.seasonNumber}`;
-                img.onerror = function() {
-                    this.src = 'assets/images/placeholder.jpg';
-                };
+            const img = document.createElement('img');
+            img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.jpg`;
+            img.alt = `Season ${season.seasonNumber}`;
+            img.onerror = function() {
+                this.src = 'assets/images/placeholder.jpg';
+            };
 
-                const seasonYear = document.createElement('div');
-                seasonYear.classList.add('season-year');
-                seasonYear.textContent = `(${season.yearRange})`;
+            const seasonYear = document.createElement('div');
+            seasonYear.classList.add('season-year');
+            seasonYear.textContent = `(${season.yearRange})`;
 
-                const seasonDetails = document.createElement('div');
-                seasonDetails.classList.add('season-details');
+            const seasonDetails = document.createElement('div');
+            seasonDetails.classList.add('season-details');
 
-                const seasonTitle = document.createElement('h4');
-                seasonTitle.textContent = `Season ${season.seasonNumber}`;
+            const seasonTitle = document.createElement('h4');
+            seasonTitle.textContent = `Season ${season.seasonNumber}`;
 
-                const episodes = document.createElement('p');
-                episodes.textContent = `Episodes: ${season.seasonTotalEpisode}`;
+            const episodes = document.createElement('p');
+            episodes.textContent = `Episodes: ${season.seasonTotalEpisode}`;
 
-                const size = document.createElement('p');
-                size.textContent = `(${season.seasonSizeHuman})`;
+            const size = document.createElement('p');
+            size.textContent = `(${season.seasonSizeHuman})`;
 
-                const resolution = document.createElement('p');
-                resolution.textContent = season.avgSeasonVideoResolution;
+            const resolution = document.createElement('p');
+            resolution.textContent = season.avgSeasonVideoResolution;
 
-                const codec = document.createElement('p');
-                codec.textContent = season.avgSeasonVideoCodec;
+            const codec = document.createElement('p');
+            codec.textContent = season.avgSeasonVideoCodec;
 
-                const container = document.createElement('p');
-                container.textContent = `.${season.avgSeasonContainer}`;
+            const container = document.createElement('p');
+            container.textContent = `.${season.avgSeasonContainer}`;
 
-                seasonDetails.appendChild(seasonTitle);
-                seasonDetails.appendChild(episodes);
-                seasonDetails.appendChild(size);
-                seasonDetails.appendChild(resolution);
-                seasonDetails.appendChild(codec);
-                seasonDetails.appendChild(container);
+            seasonDetails.appendChild(seasonTitle);
+            seasonDetails.appendChild(episodes);
+            seasonDetails.appendChild(size);
+            seasonDetails.appendChild(resolution);
+            seasonDetails.appendChild(codec);
+            seasonDetails.appendChild(container);
 
-                seasonCard.appendChild(img);
-                seasonCard.appendChild(seasonYear);
-                seasonCard.appendChild(seasonDetails);
+            seasonCard.appendChild(img);
+            seasonCard.appendChild(seasonYear);
+            seasonCard.appendChild(seasonDetails);
 
-                placeholder.replaceWith(seasonCard);
-                observer.unobserve(placeholder);
-
-                seasonCard.offsetHeight;
-            }
+            seasonsGrid.appendChild(seasonCard);
+            seasonCard.offsetHeight;
         });
-    }, {
-        root: seasonsGrid, // Use the seasonsGrid as the root for better visibility detection
-        rootMargin: '200px',
-        threshold: 0
-    });
+    } else {
+        // Use Intersection Observer for non-iOS devices
+        const seasonObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const placeholder = entry.target;
+                    const season = JSON.parse(placeholder.dataset.season);
 
-    // Insert placeholders after the overlay is in the DOM
-    show.seasons.forEach(season => {
-        const placeholder = document.createElement('div');
-        placeholder.classList.add('season-card-placeholder');
-        placeholder.style.width = '145px';
-        placeholder.style.height = '217.5px';
-        placeholder.style.background = '#333';
-        placeholder.dataset.season = JSON.stringify(season);
-        seasonsGrid.appendChild(placeholder);
-        seasonObserver.observe(placeholder);
-    });
+                    const seasonCard = document.createElement('div');
+                    seasonCard.classList.add('season-card');
 
-    // Force another reflow to ensure the placeholders are rendered
+                    const img = document.createElement('img');
+                    img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.jpg`;
+                    img.alt = `Season ${season.seasonNumber}`;
+                    img.onerror = function() {
+                        this.src = 'assets/images/placeholder.jpg';
+                    };
+
+                    const seasonYear = document.createElement('div');
+                    seasonYear.classList.add('season-year');
+                    seasonYear.textContent = `(${season.yearRange})`;
+
+                    const seasonDetails = document.createElement('div');
+                    seasonDetails.classList.add('season-details');
+
+                    const seasonTitle = document.createElement('h4');
+                    seasonTitle.textContent = `Season ${season.seasonNumber}`;
+
+                    const episodes = document.createElement('p');
+                    episodes.textContent = `Episodes: ${season.seasonTotalEpisode}`;
+
+                    const size = document.createElement('p');
+                    size.textContent = `(${season.seasonSizeHuman})`;
+
+                    const resolution = document.createElement('p');
+                    resolution.textContent = season.avgSeasonVideoResolution;
+
+                    const codec = document.createElement('p');
+                    codec.textContent = season.avgSeasonVideoCodec;
+
+                    const container = document.createElement('p');
+                    container.textContent = `.${season.avgSeasonContainer}`;
+
+                    seasonDetails.appendChild(seasonTitle);
+                    seasonDetails.appendChild(episodes);
+                    seasonDetails.appendChild(size);
+                    seasonDetails.appendChild(resolution);
+                    seasonDetails.appendChild(codec);
+                    seasonDetails.appendChild(container);
+
+                    seasonCard.appendChild(img);
+                    seasonCard.appendChild(seasonYear);
+                    seasonCard.appendChild(seasonDetails);
+
+                    placeholder.replaceWith(seasonCard);
+                    observer.unobserve(placeholder);
+
+                    seasonCard.offsetHeight;
+                }
+            });
+        }, {
+            root: seasonsGrid,
+            rootMargin: '200px',
+            threshold: 0
+        });
+
+        show.seasons.forEach(season => {
+            const placeholder = document.createElement('div');
+            placeholder.classList.add('season-card-placeholder');
+            placeholder.style.width = '145px';
+            placeholder.style.height = '217.5px';
+            placeholder.style.background = '#333';
+            placeholder.dataset.season = JSON.stringify(season);
+            seasonsGrid.appendChild(placeholder);
+            seasonObserver.observe(placeholder);
+        });
+    }
+
     seasonsGrid.offsetHeight;
 
     // Detect if the device is touch-capable (mobile)
@@ -182,18 +235,30 @@ function openSeasonView(show) {
 
     if (isTouchDevice) {
         let touchStartTime;
+        let touchStartY;
         let isScrolling = false;
+        let justOpened = true;
+
+        // Ignore touch events for the first 500ms after opening
+        setTimeout(() => {
+            justOpened = false;
+        }, 500);
 
         overlay.addEventListener('touchstart', (event) => {
             touchStartTime = Date.now();
+            touchStartY = event.touches[0].clientY;
             isScrolling = false;
         });
 
-        overlay.addEventListener('touchmove', () => {
-            isScrolling = true;
+        overlay.addEventListener('touchmove', (event) => {
+            const touchY = event.touches[0].clientY;
+            if (Math.abs(touchY - touchStartY) > 10) { // Minimum movement threshold
+                isScrolling = true;
+            }
         });
 
         overlay.addEventListener('touchend', (event) => {
+            if (justOpened) return; // Ignore the first touchend after opening
             if (isScrolling) {
                 isScrolling = false;
                 return;
