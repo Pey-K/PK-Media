@@ -1,68 +1,115 @@
-function populateTVShowsContent(data, attempts = 0, maxAttempts = 50) {
+let allShows = [];
+let currentObserver = null;
+
+function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempts = 50) {
     const container = document.getElementById('tvshows-content');
     if (!container) {
         if (attempts < maxAttempts) {
-            setTimeout(() => populateTVShowsContent(data, attempts + 1, maxAttempts), 100);
+            setTimeout(() => populateTVShowsContent(data, searchQuery, attempts + 1, maxAttempts), 100);
         }
         return;
     }
 
-    const shows = data.shows;
+    if (!allShows.length) {
+        allShows = data.shows;
+    }
+
+    const query = searchQuery.toLowerCase();
+    const filteredShows = query
+        ? allShows.filter(show => show.title.toLowerCase().includes(query))
+        : allShows;
+
+    container.innerHTML = '';
     const grid = document.createElement('div');
     grid.classList.add('tvshow-grid');
-
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const placeholder = entry.target;
-                const show = JSON.parse(placeholder.dataset.show);
-
-                const resolutions = show.avgVideoResolutions.split(',').map(r => r.trim());
-                const videoCodecs = show.avgVideoCodecs.split(',').map(c => c.trim());
-                const containers = show.avgContainers.split(',').map(c => '.' + c.trim());
-
-                const card = document.createElement('div');
-                card.classList.add('tvshow-card');
-                card.innerHTML = `
-                    <img loading="lazy" src="assets/images/tv_image/${show.ratingKey}.thumb.jpg" alt="${show.title}">
-                    <div class="tvshow-year">(${show.showYearRange})</div>
-                    <div class="tvshow-details">
-                        <h3>${show.title}</h3>
-                        <p>Seasons: ${show.seasonCount}</p>
-                        <p>(${show.showTotalEpisode} Episodes)</p>
-                        <p>Avg Runtime: ${show.avgEpisodeDuration}</p>
-                        <p>${resolutions.join(', ')}</p>
-                        <p>${videoCodecs.join(', ')}</p>
-                        <p>${containers.join(', ')}</p>
-                        <p>(${show.showSizeHuman})</p>
-                    </div>
-                `;
-
-                card.dataset.show = JSON.stringify(show);
-                card.addEventListener('click', (event) => {
-                    event.preventDefault();
-                    openSeasonView(show);
-                });
-                placeholder.replaceWith(card);
-                observer.unobserve(placeholder);
-            }
-        });
-    }, {
-        root: null,
-        rootMargin: '200px',
-        threshold: 0
-    });
-
-    shows.forEach(show => {
-        const placeholder = document.createElement('div');
-        placeholder.classList.add('tvshow-card-placeholder');
-        placeholder.style.height = '217.5px';
-        placeholder.dataset.show = JSON.stringify(show);
-        grid.appendChild(placeholder);
-        observer.observe(placeholder);
-    });
-
     container.appendChild(grid);
+
+    if (query) {
+        filteredShows.forEach(show => {
+            const resolutions = show.avgVideoResolutions.split(',').map(r => r.trim());
+            const videoCodecs = show.avgVideoCodecs.split(',').map(c => c.trim());
+            const containers = show.avgContainers.split(',').map(c => '.' + c.trim());
+
+            const card = document.createElement('div');
+            card.classList.add('tvshow-card');
+            card.innerHTML = `
+                <img loading="lazy" src="assets/images/tv_image/${show.ratingKey}.thumb.jpg" alt="${show.title}">
+                <div class="tvshow-year">(${show.showYearRange})</div>
+                <div class="tvshow-details">
+                    <h3>${show.title}</h3>
+                    <p>Seasons: ${show.seasonCount}</p>
+                    <p>(${show.showTotalEpisode} Episodes)</p>
+                    <p>Avg Runtime: ${show.avgEpisodeDuration}</p>
+                    <p>${resolutions.join(', ')}</p>
+                    <p>${videoCodecs.join(', ')}</p>
+                    <p>${containers.join(', ')}</p>
+                    <p>(${show.showSizeHuman})</p>
+                </div>
+            `;
+
+            card.dataset.show = JSON.stringify(show);
+            card.addEventListener('click', (event) => {
+                event.preventDefault();
+                openSeasonView(show);
+            });
+            grid.appendChild(card);
+        });
+    } else {
+        if (currentObserver) {
+            currentObserver.disconnect();
+        }
+
+        currentObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const placeholder = entry.target;
+                    const show = JSON.parse(placeholder.dataset.show);
+
+                    const resolutions = show.avgVideoResolutions.split(',').map(r => r.trim());
+                    const videoCodecs = show.avgVideoCodecs.split(',').map(c => c.trim());
+                    const containers = show.avgContainers.split(',').map(c => '.' + c.trim());
+
+                    const card = document.createElement('div');
+                    card.classList.add('tvshow-card');
+                    card.innerHTML = `
+                        <img loading="lazy" src="assets/images/tv_image/${show.ratingKey}.thumb.jpg" alt="${show.title}">
+                        <div class="tvshow-year">(${show.showYearRange})</div>
+                        <div class="tvshow-details">
+                            <h3>${show.title}</h3>
+                            <p>Seasons: ${show.seasonCount}</p>
+                            <p>(${show.showTotalEpisode} Episodes)</p>
+                            <p>Avg Runtime: ${show.avgEpisodeDuration}</p>
+                            <p>${resolutions.join(', ')}</p>
+                            <p>${videoCodecs.join(', ')}</p>
+                            <p>${containers.join(', ')}</p>
+                            <p>(${show.showSizeHuman})</p>
+                        </div>
+                    `;
+
+                    card.dataset.show = JSON.stringify(show);
+                    card.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        openSeasonView(show);
+                    });
+                    placeholder.replaceWith(card);
+                    observer.unobserve(placeholder);
+                }
+            });
+        }, {
+            root: null,
+            rootMargin: '200px',
+            threshold: 0
+        });
+
+        filteredShows.forEach(show => {
+            const placeholder = document.createElement('div');
+            placeholder.classList.add('tvshow-card-placeholder');
+            placeholder.style.height = '217.5px';
+            placeholder.dataset.show = JSON.stringify(show);
+            grid.appendChild(placeholder);
+            currentObserver.observe(placeholder);
+        });
+    }
 }
 
 function openSeasonView(show) {
@@ -95,11 +142,9 @@ function openSeasonView(show) {
 
     overlay.offsetHeight;
 
-    // Detect if the device is mobile (screen width <= 768px)
     const isMobile = window.innerWidth <= 768;
 
     if (isMobile) {
-        // Render season cards in batches on mobile devices
         const batchSize = 5;
         let currentIndex = 0;
 
@@ -144,10 +189,10 @@ function openSeasonView(show) {
 
                 seasonDetails.appendChild(seasonTitle);
                 seasonDetails.appendChild(episodes);
-                seasonDetails.appendChild(size);
                 seasonDetails.appendChild(resolution);
                 seasonDetails.appendChild(codec);
                 seasonDetails.appendChild(container);
+                seasonDetails.appendChild(size);
 
                 seasonCard.appendChild(img);
                 seasonCard.appendChild(seasonYear);
@@ -157,22 +202,20 @@ function openSeasonView(show) {
                 seasonCard.offsetHeight;
             }
 
-            // Force a repaint after each batch
             seasonsGrid.style.display = 'none';
             seasonsGrid.offsetHeight;
             seasonsGrid.style.display = 'flex';
             overlayContent.appendChild(seasonsGrid);
+            overlay.scrollTop = 0;
 
             currentIndex = endIndex;
             if (currentIndex < show.seasons.length) {
-                setTimeout(renderBatch, 100); // Delay between batches
+                setTimeout(renderBatch, 100);
             }
         };
 
-        // Start rendering the first batch
         renderBatch();
 
-        // Additional repaint for iOS after all batches are done
         const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
         if (isIOS) {
             setTimeout(() => {
@@ -180,10 +223,10 @@ function openSeasonView(show) {
                 seasonsGrid.offsetHeight;
                 seasonsGrid.style.display = 'flex';
                 overlayContent.appendChild(seasonsGrid);
+                overlay.scrollTop = 0;
             }, 200 * Math.ceil(show.seasons.length / batchSize));
         }
     } else {
-        // Use Intersection Observer for desktop devices
         const seasonObserver = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -227,10 +270,10 @@ function openSeasonView(show) {
 
                     seasonDetails.appendChild(seasonTitle);
                     seasonDetails.appendChild(episodes);
-                    seasonDetails.appendChild(size);
                     seasonDetails.appendChild(resolution);
                     seasonDetails.appendChild(codec);
                     seasonDetails.appendChild(container);
+                    seasonDetails.appendChild(size);
 
                     seasonCard.appendChild(img);
                     seasonCard.appendChild(seasonYear);
@@ -262,7 +305,6 @@ function openSeasonView(show) {
 
     seasonsGrid.offsetHeight;
 
-    // Detect if the device is touch-capable (mobile)
     const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
     if (isTouchDevice) {
@@ -272,7 +314,6 @@ function openSeasonView(show) {
         let justOpened = true;
         let isClosing = false;
 
-        // Ignore touch events for the first 500ms after opening
         setTimeout(() => {
             justOpened = false;
         }, 500);
@@ -350,7 +391,8 @@ document.addEventListener("refDataLoaded", (event) => {
     }
 });
 
-document.addEventListener("refDataLoaded", () => {
+document.addEventListener("refDataLoaded", (event) => {
+    const data = event.detail;
     const searchInput = document.getElementById("tvshow-search");
 
     let debounceTimeout;
@@ -358,15 +400,7 @@ document.addEventListener("refDataLoaded", () => {
         clearTimeout(debounceTimeout);
         debounceTimeout = setTimeout(() => {
             const query = searchInput.value.toLowerCase();
-            const tvshowCards = document.querySelectorAll(".tvshow-card");
-
-            tvshowCards.forEach((card) => {
-                const titleElement = card.querySelector("h3");
-                if (!titleElement) return;
-
-                const title = titleElement.textContent.toLowerCase();
-                card.style.display = title.includes(query) ? "block" : "none";
-            });
+            populateTVShowsContent(data, query);
         }, 300);
     });
 });

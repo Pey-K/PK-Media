@@ -1,17 +1,34 @@
-function populateMoviesContent(data, attempts = 0, maxAttempts = 50) {
+let allMovies = [];
+let currentObserver = null;
+
+function populateMoviesContent(data, searchQuery = '', attempts = 0, maxAttempts = 50) {
     const container = document.getElementById('movies-content');
     if (!container) {
         if (attempts < maxAttempts) {
-            setTimeout(() => populateMoviesContent(data, attempts + 1, maxAttempts), 100);
+            setTimeout(() => populateMoviesContent(data, searchQuery, attempts + 1, maxAttempts), 100);
         }
         return;
     }
 
-    const movies = data.movies;
+    if (!allMovies.length) {
+        allMovies = data.movies;
+    }
+
+    const query = searchQuery.toLowerCase();
+    const filteredMovies = query
+        ? allMovies.filter(movie => movie.title.toLowerCase().includes(query))
+        : allMovies;
+
+    container.innerHTML = '';
     const grid = document.createElement('div');
     grid.classList.add('movie-grid');
+    container.appendChild(grid);
 
-    const observer = new IntersectionObserver((entries, observer) => {
+    if (currentObserver) {
+        currentObserver.disconnect();
+    }
+
+    currentObserver = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 const placeholder = entry.target;
@@ -35,7 +52,6 @@ function populateMoviesContent(data, attempts = 0, maxAttempts = 50) {
                 `;
 
                 placeholder.replaceWith(card);
-
                 observer.unobserve(placeholder);
             }
         });
@@ -45,18 +61,14 @@ function populateMoviesContent(data, attempts = 0, maxAttempts = 50) {
         threshold: 0
     });
 
-    movies.forEach(movie => {
+    filteredMovies.forEach(movie => {
         const placeholder = document.createElement('div');
         placeholder.classList.add('movie-card-placeholder');
         placeholder.style.height = '262.5px';
         placeholder.dataset.movie = JSON.stringify(movie);
         grid.appendChild(placeholder);
-
-
-        observer.observe(placeholder);
+        currentObserver.observe(placeholder);
     });
-
-    container.appendChild(grid);
 }
 
 document.addEventListener('refDataLoaded', (event) => {
@@ -86,20 +98,17 @@ document.addEventListener("refDataLoaded", (event) => {
     }
 });
 
-document.addEventListener("refDataLoaded", () => {
+document.addEventListener("refDataLoaded", (event) => {
+    const data = event.detail;
     const searchInput = document.getElementById("movie-search");
 
+    let debounceTimeout;
     searchInput.addEventListener("input", () => {
-        const query = searchInput.value.toLowerCase();
-        const movieCards = document.querySelectorAll(".movie-card");
-
-        movieCards.forEach((card) => {
-            const titleElement = card.querySelector("h3");
-            if (!titleElement) return;
-
-            const title = titleElement.textContent.toLowerCase();
-            card.style.display = title.includes(query) ? "block" : "none";
-        });
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => {
+            const query = searchInput.value.toLowerCase();
+            populateMoviesContent(data, query);
+        }, 300);
     });
 });
 

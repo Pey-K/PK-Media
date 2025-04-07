@@ -1,57 +1,355 @@
-function populateMusicContent(data, attempts = 0, maxAttempts = 50) {
+let allArtists = [];
+let currentObserver = null;
+
+function populateMusicContent(data, searchQuery = '', attempts = 0, maxAttempts = 50) {
     const container = document.getElementById('music-content');
     if (!container) {
         if (attempts < maxAttempts) {
-            setTimeout(() => populateMusicContent(data, attempts + 1, maxAttempts), 100);
+            setTimeout(() => populateMusicContent(data, searchQuery, attempts + 1, maxAttempts), 100);
         }
         return;
     }
 
-    const artists = data.artists;
+    if (!allArtists.length) {
+        allArtists = data.artists;
+    }
+
+    const query = searchQuery.toLowerCase();
+    const filteredArtists = query
+        ? allArtists.filter(artist => artist.artistName.toLowerCase().includes(query))
+        : allArtists;
+
+    container.innerHTML = '';
     const grid = document.createElement('div');
     grid.classList.add('music-grid');
+    container.appendChild(grid);
 
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const placeholder = entry.target;
-                const artist = JSON.parse(placeholder.dataset.artist);
+    if (query) {
+        filteredArtists.forEach(artist => {
+            const card = document.createElement('div');
+            card.classList.add('music-card');
+            card.innerHTML = `
+                <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.jpg" alt="${artist.artistName}">
+                <div class="music-year">(${artist.yearRange})</div>
+                <div class="music-details">
+                    <h3>${artist.artistName}</h3>
+                    <p>Albums: ${artist.totalAlbums}</p>
+                    <p>${artist.totalTracks} Tracks</p>
+                    <p>(${artist.totalSizeHuman})</p>
+                </div>
+            `;
 
-                const card = document.createElement('div');
-                card.classList.add('music-card');
-                card.innerHTML = `
-                    <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.jpg" alt="${artist.artistName}">
-                    <div class="music-year">(${artist.yearRange})</div>
-                    <div class="music-details">
-                        <h3>${artist.artistName}</h3>
-                        <p>Albums: ${artist.totalAlbums}</p>
-                        <p>${artist.totalTracks} Tracks</p>
-                        <p>(${artist.totalSizeHuman})</p>
-                    </div>
-                `;
+            card.dataset.artist = JSON.stringify(artist);
+            card.addEventListener('click', (event) => {
+                event.preventDefault();
+                openAlbumView(artist);
+            });
+            grid.appendChild(card);
+        });
+    } else {
+        if (currentObserver) {
+            currentObserver.disconnect();
+        }
 
-                placeholder.replaceWith(card);
+        currentObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const placeholder = entry.target;
+                    const artist = JSON.parse(placeholder.dataset.artist);
 
-                observer.unobserve(placeholder);
+                    const card = document.createElement('div');
+                    card.classList.add('music-card');
+                    card.innerHTML = `
+                        <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.jpg" alt="${artist.artistName}">
+                        <div class="music-year">(${artist.yearRange})</div>
+                        <div class="music-details">
+                            <h3>${artist.artistName}</h3>
+                            <p>Albums: ${artist.totalAlbums}</p>
+                            <p>${artist.totalTracks} Tracks</p>
+                            <p>(${artist.totalSizeHuman})</p>
+                        </div>
+                    `;
+
+                    card.dataset.artist = JSON.stringify(artist);
+                    card.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        openAlbumView(artist);
+                    });
+                    placeholder.replaceWith(card);
+                    observer.unobserve(placeholder);
+                }
+            });
+        }, {
+            root: null,
+            rootMargin: '200px',
+            threshold: 0
+        });
+
+        filteredArtists.forEach(artist => {
+            const placeholder = document.createElement('div');
+            placeholder.classList.add('music-card-placeholder');
+            placeholder.style.height = '174px';
+            placeholder.dataset.artist = JSON.stringify(artist);
+            grid.appendChild(placeholder);
+            currentObserver.observe(placeholder);
+        });
+    }
+}
+
+function openAlbumView(artist) {
+    const overlay = document.createElement('div');
+    overlay.classList.add('album-overlay');
+
+    const overlayContent = document.createElement('div');
+    overlayContent.classList.add('album-overlay-content');
+
+    const artistCard = document.createElement('div');
+    artistCard.classList.add('music-card', 'overlay-artist-card');
+    artistCard.innerHTML = `
+        <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.jpg" alt="${artist.artistName}">
+        <div class="music-year">(${artist.yearRange})</div>
+        <div class="music-details">
+            <h3>${artist.artistName}</h3>
+            <p>Albums: ${artist.totalAlbums}</p>
+            <p>${artist.totalTracks} Tracks</p>
+            <p>(${artist.totalSizeHuman})</p>
+        </div>
+    `;
+
+    const albumsGrid = document.createElement('div');
+    albumsGrid.classList.add('albums-grid');
+
+    overlayContent.appendChild(artistCard);
+    overlayContent.appendChild(albumsGrid);
+    overlay.appendChild(overlayContent);
+    document.body.appendChild(overlay);
+
+    overlay.offsetHeight;
+
+    const sortedAlbums = artist.albums.slice().sort((a, b) => {
+        if (a.year === null && b.year === null) return 0;
+        if (a.year === null) return 1;
+        if (b.year === null) return -1;
+        return b.year - a.year;
+    });
+
+    const isMobile = window.innerWidth <= 768;
+
+    if (isMobile) {
+        const batchSize = 5;
+        let currentIndex = 0;
+
+        const renderBatch = () => {
+            const endIndex = Math.min(currentIndex + batchSize, sortedAlbums.length);
+            for (let i = currentIndex; i < endIndex; i++) {
+                const album = sortedAlbums[i];
+                const albumCard = document.createElement('div');
+                albumCard.classList.add('album-card');
+
+                const img = document.createElement('img');
+                img.src = `assets/images/music_image/${album.ratingKey}.thumb.jpg`;
+                img.alt = album.title;
+                img.onerror = function() {
+                    this.src = 'assets/images/placeholder.jpg';
+                };
+
+                const albumYear = document.createElement('div');
+                albumYear.classList.add('album-year');
+                albumYear.textContent = `(${album.year || 'Unknown'})`;
+
+                const albumDetails = document.createElement('div');
+                albumDetails.classList.add('album-details');
+
+                const albumTitle = document.createElement('h4');
+                albumTitle.textContent = album.title;
+
+                const tracks = document.createElement('p');
+                tracks.textContent = `${album.tracks} Tracks`;
+
+                const duration = document.createElement('p');
+                duration.textContent = album.albumDurationHuman;
+
+                const container = document.createElement('p');
+                container.textContent = `.${album.albumContainers.join(', .')}`;
+
+                const size = document.createElement('p');
+                size.textContent = `(${album.albumSizeHuman})`;
+
+                albumDetails.appendChild(albumTitle);
+                albumDetails.appendChild(tracks);
+                albumDetails.appendChild(duration);
+                albumDetails.appendChild(container);
+                albumDetails.appendChild(size);
+
+                albumCard.appendChild(img);
+                albumCard.appendChild(albumYear);
+                albumCard.appendChild(albumDetails);
+
+                albumsGrid.appendChild(albumCard);
+                albumCard.offsetHeight;
+            }
+
+            albumsGrid.style.display = 'none';
+            albumsGrid.offsetHeight;
+            albumsGrid.style.display = 'flex';
+            overlayContent.appendChild(albumsGrid);
+            overlay.scrollTop = 0;
+
+            currentIndex = endIndex;
+            if (currentIndex < sortedAlbums.length) {
+                setTimeout(renderBatch, 100);
+            }
+        };
+
+        renderBatch();
+
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        if (isIOS) {
+            setTimeout(() => {
+                albumsGrid.style.display = 'none';
+                albumsGrid.offsetHeight;
+                albumsGrid.style.display = 'flex';
+                overlayContent.appendChild(albumsGrid);
+                overlay.scrollTop = 0;
+            }, 200 * Math.ceil(sortedAlbums.length / batchSize));
+        }
+    } else {
+        const albumObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const placeholder = entry.target;
+                    const album = JSON.parse(placeholder.dataset.album);
+
+                    const albumCard = document.createElement('div');
+                    albumCard.classList.add('album-card');
+
+                    const img = document.createElement('img');
+                    img.src = `assets/images/music_image/${album.ratingKey}.thumb.jpg`;
+                    img.alt = album.title;
+                    img.onerror = function() {
+                        this.src = 'assets/images/placeholder.jpg';
+                    };
+
+                    const albumYear = document.createElement('div');
+                    albumYear.classList.add('album-year');
+                    albumYear.textContent = `(${album.year || 'Unknown'})`;
+
+                    const albumDetails = document.createElement('div');
+                    albumDetails.classList.add('album-details');
+
+                    const albumTitle = document.createElement('h4');
+                    albumTitle.textContent = album.title;
+
+                    const tracks = document.createElement('p');
+                    tracks.textContent = `${album.tracks} Tracks`;
+
+                    const duration = document.createElement('p');
+                    duration.textContent = album.albumDurationHuman;
+
+                    const container = document.createElement('p');
+                    container.textContent = `.${album.albumContainers.join(', .')}`;
+
+                    const size = document.createElement('p');
+                    size.textContent = `(${album.albumSizeHuman})`;
+
+                    albumDetails.appendChild(albumTitle);
+                    albumDetails.appendChild(tracks);
+                    albumDetails.appendChild(duration);
+                    albumDetails.appendChild(container);
+                    albumDetails.appendChild(size);
+
+                    albumCard.appendChild(img);
+                    albumCard.appendChild(albumYear);
+                    albumCard.appendChild(albumDetails);
+
+                    placeholder.replaceWith(albumCard);
+                    observer.unobserve(placeholder);
+
+                    albumCard.offsetHeight;
+                }
+            });
+        }, {
+            root: albumsGrid,
+            rootMargin: '200px',
+            threshold: 0
+        });
+
+        sortedAlbums.forEach(album => {
+            const placeholder = document.createElement('div');
+            placeholder.classList.add('album-card-placeholder');
+            placeholder.style.width = '145px';
+            placeholder.style.height = '217.5px';
+            placeholder.style.background = '#333';
+            placeholder.dataset.album = JSON.stringify(album);
+            albumsGrid.appendChild(placeholder);
+            albumObserver.observe(placeholder);
+        });
+    }
+
+    albumsGrid.offsetHeight;
+
+    const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+    if (isTouchDevice) {
+        let touchStartTime;
+        let touchStartY;
+        let isScrolling = false;
+        let justOpened = true;
+        let isClosing = false;
+
+        setTimeout(() => {
+            justOpened = false;
+        }, 500);
+
+        overlay.addEventListener('touchstart', (event) => {
+            touchStartTime = Date.now();
+            touchStartY = event.touches[0].clientY;
+            isScrolling = false;
+        });
+
+        overlay.addEventListener('touchmove', (event) => {
+            const touchY = event.touches[0].clientY;
+            if (Math.abs(touchY - touchStartY) > 10) {
+                isScrolling = true;
             }
         });
-    }, {
-        root: null,
-        rootMargin: '200px',
-        threshold: 0
-    });
 
-    artists.forEach(artist => {
-        const placeholder = document.createElement('div');
-        placeholder.classList.add('music-card-placeholder');
-        placeholder.style.height = '174px';
-        placeholder.dataset.artist = JSON.stringify(artist);
-        grid.appendChild(placeholder);
+        overlay.addEventListener('touchend', (event) => {
+            if (justOpened || isClosing) return;
+            if (isScrolling) {
+                isScrolling = false;
+                return;
+            }
+            const touchDuration = Date.now() - touchStartTime;
+            if (touchDuration < 300 && !event.target.closest('.music-card') && !event.target.closest('.album-card')) {
+                event.stopPropagation();
+                event.preventDefault();
+                isClosing = true;
+                closeAlbumView(overlay);
+                setTimeout(() => {
+                    isClosing = false;
+                }, 300);
+            }
+        });
 
-        observer.observe(placeholder);
-    });
+        overlay.addEventListener('click', (event) => {
+            event.preventDefault();
+            event.stopPropagation();
+        });
+    } else {
+        overlay.addEventListener('click', (event) => {
+            if (!event.target.closest('.music-card') && !event.target.closest('.album-card')) {
+                closeAlbumView(overlay);
+            }
+        });
+    }
 
-    container.appendChild(grid);
+    document.body.style.overflow = 'hidden';
+}
+
+function closeAlbumView(overlay) {
+    overlay.remove();
+    document.body.style.overflow = 'auto';
 }
 
 document.addEventListener('refDataLoaded', (event) => {
@@ -76,7 +374,8 @@ document.addEventListener("refDataLoaded", (event) => {
     }
 });
 
-document.addEventListener("refDataLoaded", () => {
+document.addEventListener("refDataLoaded", (event) => {
+    const data = event.detail;
     const searchInput = document.getElementById("music-search");
 
     let debounceTimeout;
@@ -84,15 +383,7 @@ document.addEventListener("refDataLoaded", () => {
         clearTimeout(debounceTimeout);
         debounceTimeout = setTimeout(() => {
             const query = searchInput.value.toLowerCase();
-            const musicCards = document.querySelectorAll(".music-card");
-
-            musicCards.forEach((card) => {
-                const titleElement = card.querySelector("h3");
-                if (!titleElement) return;
-
-                const title = titleElement.textContent.toLowerCase();
-                card.style.display = title.includes(query) ? "block" : "none";
-            });
+            populateMusicContent(data, query);
         }, 300);
     });
 });
