@@ -7,6 +7,14 @@
     border-radius: 8px;
 }
 
+.season-card-placeholder {
+    max-width: 145px;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    background-color: #212121;
+    border-radius: 8px;
+}
+
 .season-overlay {
     position: fixed;
     top: 0;

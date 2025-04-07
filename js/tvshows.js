@@ -80,35 +80,96 @@ function openSeasonView(show) {
             <p>Seasons: ${show.seasonCount}</p>
             <p>(${show.showTotalEpisode} Episodes)</p>
             <p>Avg Runtime: ${show.avgEpisodeDuration}</p>
-            <p>(${show.showSizeHuman})</p>
         </div>
     `;
 
     const seasonsGrid = document.createElement('div');
     seasonsGrid.classList.add('seasons-grid');
 
+    // Create placeholders for season cards
+    const seasonObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const placeholder = entry.target;
+                const season = JSON.parse(placeholder.dataset.season);
+
+                const seasonCard = document.createElement('div');
+                seasonCard.classList.add('season-card');
+
+                const img = document.createElement('img');
+                img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.jpg`;
+                img.alt = `Season ${season.seasonNumber}`;
+                img.onerror = function() {
+                    this.src = 'assets/images/placeholder.jpg';
+                };
+
+                const seasonYear = document.createElement('div');
+                seasonYear.classList.add('season-year');
+                seasonYear.textContent = `(${season.yearRange})`;
+
+                const seasonDetails = document.createElement('div');
+                seasonDetails.classList.add('season-details');
+
+                const seasonTitle = document.createElement('h4');
+                seasonTitle.textContent = `Season ${season.seasonNumber}`;
+
+                const episodes = document.createElement('p');
+                episodes.textContent = `Episodes: ${season.seasonTotalEpisode}`;
+
+                const size = document.createElement('p');
+                size.textContent = `(${season.seasonSizeHuman})`;
+
+                const resolution = document.createElement('p');
+                resolution.textContent = season.avgSeasonVideoResolution;
+
+                const codec = document.createElement('p');
+                codec.textContent = season.avgSeasonVideoCodec;
+
+                const container = document.createElement('p');
+                container.textContent = `.${season.avgSeasonContainer}`;
+
+                seasonDetails.appendChild(seasonTitle);
+                seasonDetails.appendChild(episodes);
+                seasonDetails.appendChild(size);
+                seasonDetails.appendChild(resolution);
+                seasonDetails.appendChild(codec);
+                seasonDetails.appendChild(container);
+
+                seasonCard.appendChild(img);
+                seasonCard.appendChild(seasonYear);
+                seasonCard.appendChild(seasonDetails);
+
+                placeholder.replaceWith(seasonCard);
+                observer.unobserve(placeholder);
+
+                // Force a reflow to ensure rendering on iOS
+                seasonCard.offsetHeight;
+            }
+        });
+    }, {
+        root: null,
+        rootMargin: '200px',
+        threshold: 0
+    });
+
     show.seasons.forEach(season => {
-        const seasonCard = document.createElement('div');
-        seasonCard.classList.add('season-card');
-        seasonCard.innerHTML = `
-            <img loading="lazy" src="assets/images/tv_image/${season.seasonRatingKey}.thumb.jpg" alt="Season ${season.seasonNumber}">
-            <div class="season-year">(${season.yearRange})</div>
-            <div class="season-details">
-                <h4>Season ${season.seasonNumber}</h4>
-                <p>Episodes: ${season.seasonTotalEpisode}</p>
-                <p>${season.avgSeasonVideoResolution}</p>
-                <p>${season.avgSeasonVideoCodec}</p>
-                <p>.${season.avgSeasonContainer}</p>
-                <p>(${season.seasonSizeHuman})</p>
-            </div>
-        `;
-        seasonsGrid.appendChild(seasonCard);
+        const placeholder = document.createElement('div');
+        placeholder.classList.add('season-card-placeholder');
+        placeholder.style.width = '145px';
+        placeholder.style.height = '217.5px';
+        placeholder.style.background = '#333';
+        placeholder.dataset.season = JSON.stringify(season);
+        seasonsGrid.appendChild(placeholder);
+        seasonObserver.observe(placeholder);
     });
 
     overlayContent.appendChild(showCard);
     overlayContent.appendChild(seasonsGrid);
     overlay.appendChild(overlayContent);
     document.body.appendChild(overlay);
+
+    // Force a reflow on the entire grid
+    seasonsGrid.offsetHeight;
 
     overlay.addEventListener('click', (event) => {
         if (!event.target.closest('.tvshow-card') && !event.target.closest('.season-card')) {
