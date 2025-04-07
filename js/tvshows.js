@@ -95,11 +95,11 @@ function openSeasonView(show) {
 
     overlay.offsetHeight;
 
-    // Detect if the device is iOS
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    // Detect if the device is mobile (screen width <= 768px)
+    const isMobile = window.innerWidth <= 768;
 
-    if (isIOS) {
-        // Render season cards directly on iOS
+    if (isMobile) {
+        // Render season cards directly on mobile devices
         show.seasons.forEach(season => {
             const seasonCard = document.createElement('div');
             seasonCard.classList.add('season-card');
@@ -151,18 +151,19 @@ function openSeasonView(show) {
             seasonCard.offsetHeight;
         });
 
-        // Force a stronger repaint after a longer delay
-        setTimeout(() => {
-            // Toggle display to force a repaint
-            seasonsGrid.style.display = 'none';
-            seasonsGrid.offsetHeight;
-            seasonsGrid.style.display = 'flex';
-            // Re-append the grid to force a re-render
-            overlayContent.appendChild(seasonsGrid);
-            overlay.scrollTop = 0; // Ensure the overlay is scrolled to the top
-        }, 200);
+        // Force a stronger repaint after a delay for iOS
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        if (isIOS) {
+            setTimeout(() => {
+                seasonsGrid.style.display = 'none';
+                seasonsGrid.offsetHeight;
+                seasonsGrid.style.display = 'flex';
+                overlayContent.appendChild(seasonsGrid);
+                overlay.scrollTop = 0;
+            }, 200);
+        }
     } else {
-        // Use Intersection Observer for non-iOS devices
+        // Use Intersection Observer for desktop devices
         const seasonObserver = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
