@@ -150,6 +150,12 @@ function openSeasonView(show) {
             seasonsGrid.appendChild(seasonCard);
             seasonCard.offsetHeight;
         });
+
+        // Force a repaint after a short delay to ensure rendering on iOS
+        setTimeout(() => {
+            seasonsGrid.offsetHeight;
+            overlay.scrollTop = 0; // Ensure the overlay is scrolled to the top
+        }, 100);
     } else {
         // Use Intersection Observer for non-iOS devices
         const seasonObserver = new IntersectionObserver((entries, observer) => {
@@ -238,6 +244,7 @@ function openSeasonView(show) {
         let touchStartY;
         let isScrolling = false;
         let justOpened = true;
+        let isClosing = false;
 
         // Ignore touch events for the first 500ms after opening
         setTimeout(() => {
@@ -252,25 +259,33 @@ function openSeasonView(show) {
 
         overlay.addEventListener('touchmove', (event) => {
             const touchY = event.touches[0].clientY;
-            if (Math.abs(touchY - touchStartY) > 10) { // Minimum movement threshold
+            if (Math.abs(touchY - touchStartY) > 10) {
                 isScrolling = true;
             }
         });
 
         overlay.addEventListener('touchend', (event) => {
-            if (justOpened) return; // Ignore the first touchend after opening
+            if (justOpened || isClosing) return;
             if (isScrolling) {
                 isScrolling = false;
                 return;
             }
             const touchDuration = Date.now() - touchStartTime;
             if (touchDuration < 300 && !event.target.closest('.tvshow-card') && !event.target.closest('.season-card')) {
+                event.stopPropagation(); // Prevent the tap from propagating to underlying elements
+                event.preventDefault();
+                isClosing = true;
                 closeSeasonView(overlay);
+                // Reset isClosing after a short delay to prevent immediate re-taps
+                setTimeout(() => {
+                    isClosing = false;
+                }, 300);
             }
         });
 
         overlay.addEventListener('click', (event) => {
             event.preventDefault();
+            event.stopPropagation();
         });
     } else {
         overlay.addEventListener('click', (event) => {
