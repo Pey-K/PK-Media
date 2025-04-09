@@ -206,7 +206,6 @@ function initializeInfoIcons() {
 
 initializeInfoIcons();
 
-// Recommendation Feature for Movies Page
 function initializeRecommendationFeature() {
     console.log('initializeRecommendationFeature called');
 
@@ -261,13 +260,11 @@ function initializeRecommendationFeature() {
     });
 }
 
-// Ensure the function runs even if DOMContentLoaded doesn't fire
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded fired');
     initializeRecommendationFeature();
 });
 
-// Fallback: Run after a short delay if DOMContentLoaded doesn't fire
 setTimeout(() => {
     if (document.readyState === 'complete' || document.readyState === 'interactive') {
         console.log('Fallback: Running initializeRecommendationFeature');

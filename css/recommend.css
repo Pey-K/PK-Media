@@ -45,9 +45,9 @@ h1 {
 .request-entry p {
     margin: 5px 0;
     color: #bbbbbb;
-    max-width: 100%; /* Ensure text doesn't exceed container */
-    overflow-wrap: break-word; /* Break long words */
-    word-break: break-all; /* Force break on very long strings */
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-all;
 }
 .timestamp {
     font-size: 0.7em;
@@ -63,24 +63,24 @@ h1 {
         min-width: 90%;
     }
     .category-list {
-        display: flex !important; /* Ensure flex is applied */
-        flex-direction: row !important; /* Force horizontal layout */
-        flex-wrap: nowrap; /* Prevent wrapping */
-        overflow-x: auto; /* Enable horizontal scrolling */
-        gap: 15px; /* Space between entries */
-        padding-bottom: 15px; /* Space for scrollbar */
-        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 15px;
+        padding-bottom: 15px;
+        -webkit-overflow-scrolling: touch;
     }
     .request-entry {
-        flex: 0 0 200px; /* Fixed width for each entry */
-        margin-bottom: 0; /* Remove bottom margin */
-        padding: 10px; /* Adjust padding */
-        border-bottom: none; /* Remove bottom border */
-        border: 1px solid #9c9bb9; /* Vertical separator */
-        background-color: #2a2a2a; /* Slightly darker background */
-        border-radius: 4px; /* Rounded corners */
-        display: block; /* Ensure block display within flex */
-        max-width: 180px; /* Slightly less than card width to account for padding */
+        flex: 0 0 200px;
+        margin-bottom: 0;
+        padding: 10px;
+        border-bottom: none;
+        border: 1px solid #9c9bb9;
+        background-color: #2a2a2a;
+        border-radius: 4px;
+        display: block;
+        max-width: 180px;
         overflow-wrap: break-word;
         word-break: break-all;
     }

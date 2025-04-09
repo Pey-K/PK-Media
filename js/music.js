@@ -549,7 +549,6 @@ function initializeRecommendationFeature() {
     });
 }
 
-// Ensure the function runs even if DOMContentLoaded doesn't fire
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded fired');
     initializeRecommendationFeature();
@@ -557,7 +556,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeScroll();
 });
 
-// Fallback: Run after a short delay if DOMContentLoaded doesn't fire
 setTimeout(() => {
     if (document.readyState === 'complete' || document.readyState === 'interactive') {
         console.log('Fallback: Running initializeRecommendationFeature');
@@ -567,7 +565,6 @@ setTimeout(() => {
     }
 }, 1000);
 
-// Event listeners for refDataLoaded
 document.addEventListener('refDataLoaded', (event) => {
     populateMusicContent(event.detail);
 });

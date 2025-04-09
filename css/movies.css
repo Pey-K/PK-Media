@@ -324,9 +324,6 @@
     opacity: 1;
 }
 
-/* Existing styles from movies.css would be here */
-
-/* FAB and Modal Styles */
 #recommend-fab {
     position: fixed;
     bottom: 20px;

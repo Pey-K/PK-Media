@@ -438,22 +438,17 @@ def process_export_zip(zip_path, section_id, library_name):
         for file in files:
             if file.lower().endswith(('.jpg', '.jpeg', '.png')):
                 try:
-                    # Step 1: Extract ratingKey and rename the file
                     rating_key = file.split("[")[-1].split("]")[0]
                     source_path = os.path.join(root, file)
                     
-                    # Step 2: Convert to WebP
                     temp_webp_filename = f"{rating_key}.thumb.webp"
                     temp_webp_path = os.path.join(root, temp_webp_filename)
                     if convert_jpg_to_webp(source_path, temp_webp_path):
-                        # Step 3: Move the WebP file to the destination folder
                         dest_path = os.path.join(image_folder, temp_webp_filename)
                         shutil.move(temp_webp_path, dest_path)
                         print(f"Moved WebP image to {dest_path}")
                     else:
                         print(f"Skipping {file} due to conversion failure")
-                    
-                    # Remove the original JPG file
                     os.remove(source_path)
                     print(f"Removed original image {source_path}")
                 except IndexError:

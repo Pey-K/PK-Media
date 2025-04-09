@@ -50,9 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         const event = new CustomEvent("refDataLoaded", { detail: refData });
                         document.dispatchEvent(event);
                     }
-                    // Call initializeRecommendations if loading the recommend page
                     if (page === 'recommend.html' && typeof window.initializeRecommendations === 'function') {
-                        // Retry mechanism to ensure DOM elements are available
                         const maxAttempts = 20;
                         let attempts = 0;
                         const tryInitialize = () => {
@@ -63,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             } else {
                                 attempts++;
                                 console.log('DOM not ready, retrying initializeRecommendations, attempt', attempts);
-                                setTimeout(tryInitialize, 200); // Increased delay to 200ms
+                                setTimeout(tryInitialize, 200);
                             }
                         };
                         tryInitialize();
@@ -83,7 +81,6 @@ document.addEventListener("DOMContentLoaded", () => {
     if (isIndexPage) {
         loadStylesheet("css/index.css");
 
-        // Handle clicks on index cards (Movies, TV Shows, Music)
         const cards = document.querySelectorAll(".index-card");
         cards.forEach((card) => {
             card.addEventListener("click", () => {
@@ -95,7 +92,6 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
 
-        // Handle clicks on the header logo (Recommend)
         const headerLogo = document.querySelector(".header-logo");
         if (headerLogo) {
             headerLogo.addEventListener("click", () => {

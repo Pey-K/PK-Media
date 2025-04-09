@@ -1,7 +1,6 @@
 function initializeRecommendations() {
     console.log('initializeRecommendations called');
 
-    // Check if Firebase is initialized
     if (!window.firebase || !window.db || !window.messaging) {
         console.error('Firebase not initialized. Ensure Firebase is set up in index.html.');
         return;
@@ -9,13 +8,10 @@ function initializeRecommendations() {
 
     const db = window.db;
     const messaging = window.messaging;
-
-    // References to the lists for each category
     const moviesList = document.getElementById('movies-list');
     const tvshowsList = document.getElementById('tvshows-list');
     const musicList = document.getElementById('music-list');
 
-    // Check if the elements exist
     if (!moviesList || !tvshowsList || !musicList) {
         console.error('One or more category list elements not found:', {
             moviesList: !!moviesList,
@@ -25,7 +21,6 @@ function initializeRecommendations() {
         return;
     }
 
-    // Function to truncate or wrap text after a certain number of characters
     function wrapText(text, maxLength) {
         if (text.length <= maxLength) return text;
         let wrapped = '';
@@ -35,13 +30,10 @@ function initializeRecommendations() {
         return wrapped;
     }
 
-    // Listen for real-time updates from Firestore
     db.collection('recommendations')
         .orderBy('timestamp', 'desc')
         .onSnapshot(snapshot => {
             console.log('Firestore snapshot received:', snapshot.size, 'documents');
-            
-            // Clear existing content
             moviesList.innerHTML = '';
             tvshowsList.innerHTML = '';
             musicList.innerHTML = '';
@@ -54,7 +46,6 @@ function initializeRecommendations() {
                 return;
             }
 
-            // Process each recommendation
             snapshot.forEach(doc => {
                 const data = doc.data();
                 console.log('Recommendation data:', data);
@@ -88,7 +79,6 @@ function initializeRecommendations() {
             console.error('Error fetching recommendations:', error);
         });
 
-    // Request permission for notifications
     function requestNotificationPermission() {
         messaging.requestPermission()
             .then(() => {
@@ -97,17 +87,15 @@ function initializeRecommendations() {
             })
             .then(token => {
                 console.log('FCM Token:', token);
-                // You can save this token to Firestore or a server to send notifications later
+                
             })
             .catch(err => {
                 console.error('Unable to get permission to notify:', err);
             });
     }
 
-    // Call the function to request permission
     requestNotificationPermission();
 
-    // Handle incoming messages
     messaging.onMessage(payload => {
         console.log('Message received:', payload);
         const notificationTitle = payload.notification.title;
@@ -119,5 +107,4 @@ function initializeRecommendations() {
     });
 }
 
-// Export the function so it can be called by scripts.js
 window.initializeRecommendations = initializeRecommendations;
