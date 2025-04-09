@@ -4743,35 +4743,8 @@
             ]
         },
         {
-            "ratingKey": 10760,
-            "title": "The Haunting",
-            "avgEpisodeDuration": "1 hr",
-            "contentRating": "TV-MA",
-            "seasonCount": 1,
-            "showTotalEpisode": 10,
-            "showSizeHuman": "13.92 GB",
-            "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "AAC",
-            "avgVideoCodecs": "HEVC",
-            "avgContainers": "mkv",
-            "showYearRange": "2018-2018",
-            "seasons": [
-                {
-                    "seasonRatingKey": 10761,
-                    "seasonNumber": 1,
-                    "seasonTotalEpisode": 10,
-                    "seasonSizeHuman": "13.92 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2018-2018"
-                }
-            ]
-        },
-        {
             "ratingKey": 10749,
-            "title": "The Haunting of Bly Manor",
+            "title": "The Haunting",
             "avgEpisodeDuration": "55 mins",
             "contentRating": "TV-MA",
             "seasonCount": 1,
@@ -4793,6 +4766,33 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mp4",
                     "yearRange": "2020-2020"
+                }
+            ]
+        },
+        {
+            "ratingKey": 10760,
+            "title": "The Haunting of Hill House",
+            "avgEpisodeDuration": "1 hr",
+            "contentRating": "TV-MA",
+            "seasonCount": 1,
+            "showTotalEpisode": 10,
+            "showSizeHuman": "13.92 GB",
+            "avgVideoResolutions": "1080p",
+            "avgAudioCodecs": "AAC",
+            "avgVideoCodecs": "HEVC",
+            "avgContainers": "mkv",
+            "showYearRange": "2018-2018",
+            "seasons": [
+                {
+                    "seasonRatingKey": 10761,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 10,
+                    "seasonSizeHuman": "13.92 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AAC",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2018-2018"
                 }
             ]
         },
@@ -7813,7 +7813,7 @@
         },
         {
             "ratingKey": 7737,
-            "title": "Percy Jackson and\u00a0the\u00a0Olympians",
+            "title": "Percy Jackson and the Olympians",
             "avgEpisodeDuration": "45 mins",
             "contentRating": "TV-PG",
             "seasonCount": 1,
@@ -11336,7 +11336,7 @@
         },
         {
             "ratingKey": 9390,
-            "title": "Teen Titans Go!",
+            "title": "TEEN TiTANS GO!",
             "avgEpisodeDuration": "11 mins",
             "contentRating": "TV-PG",
             "seasonCount": 7,

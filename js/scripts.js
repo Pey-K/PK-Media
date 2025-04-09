@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             console.log(`Loading page: ${page}`);
             const response = await fetch(`pages/${page}`);
-            if (!response.ok) throw new Error("Page not found");
+            if (!response.ok) throw new Error(`Page not found: ${page}`);
             const content = await response.text();
             mainContent.innerHTML = content;
     
@@ -41,28 +41,49 @@ document.addEventListener("DOMContentLoaded", () => {
                 newScript.src = script;
                 newScript.defer = true;
                 newScript.dataset.dynamic = "true";
-                newScript.onload = async () => { // Wait for script to load
+                newScript.onload = async () => {
                     if (refFile) {
                         const refResponse = await fetch(`data/${refFile}`);
                         if (!refResponse.ok) throw new Error(`Failed to load ${refFile}`);
                         const refData = await refResponse.json();
-                        await new Promise(resolve => setTimeout(resolve, 0)); // Ensure DOM update
+                        await new Promise(resolve => setTimeout(resolve, 0));
                         const event = new CustomEvent("refDataLoaded", { detail: refData });
                         document.dispatchEvent(event);
                     }
+                    // Call initializeRecommendations if loading the recommend page
+                    if (page === 'recommend.html' && typeof window.initializeRecommendations === 'function') {
+                        // Retry mechanism to ensure DOM elements are available
+                        const maxAttempts = 20;
+                        let attempts = 0;
+                        const tryInitialize = () => {
+                            const moviesList = document.getElementById('movies-list');
+                            if (moviesList || attempts >= maxAttempts) {
+                                console.log('Calling initializeRecommendations after', attempts, 'attempts');
+                                window.initializeRecommendations();
+                            } else {
+                                attempts++;
+                                console.log('DOM not ready, retrying initializeRecommendations, attempt', attempts);
+                                setTimeout(tryInitialize, 200); // Increased delay to 200ms
+                            }
+                        };
+                        tryInitialize();
+                    }
+                };
+                newScript.onerror = (error) => {
+                    console.error(`Failed to load script: ${script}`, error);
                 };
                 document.body.appendChild(newScript);
             }
         } catch (error) {
             console.error(error);
-            mainContent.innerHTML = `<p>Error loading content. Please try again later.</p>`;
+            mainContent.innerHTML = `<p>Error loading content: ${page}. Please try again later.</p>`;
         }
     };
 
     if (isIndexPage) {
-
         loadStylesheet("css/index.css");
 
+        // Handle clicks on index cards (Movies, TV Shows, Music)
         const cards = document.querySelectorAll(".index-card");
         cards.forEach((card) => {
             card.addEventListener("click", () => {
@@ -73,6 +94,31 @@ document.addEventListener("DOMContentLoaded", () => {
                 loadPage(page, stylesheet, script, refFile);
             });
         });
+
+        // Handle clicks on the header logo (Recommend)
+        const headerLogo = document.querySelector(".header-logo");
+        if (headerLogo) {
+            headerLogo.addEventListener("click", () => {
+                const page = headerLogo.dataset.page;
+                const stylesheet = `css/${page.replace(".html", "")}.css`;
+                const script = `js/${page.replace(".html", "")}.js`;
+                loadPage(page, stylesheet, script, null);
+            });
+        }
     }
 });
 
+function storeRecommendation(recommendation) {
+    if (!window.db) {
+        console.error('Firestore not initialized. Make sure Firebase is set up in your HTML file.');
+        return;
+    }
+
+    window.db.collection('recommendations').add(recommendation)
+        .then(() => {
+            console.log('Recommendation stored in Firestore');
+        })
+        .catch(error => {
+            console.error('Error storing recommendation:', error);
+        });
+}

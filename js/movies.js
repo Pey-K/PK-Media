@@ -37,7 +37,7 @@ function populateMoviesContent(data, searchQuery = '', attempts = 0, maxAttempts
                 const card = document.createElement('div');
                 card.classList.add('movie-card');
                 card.innerHTML = `
-                    <img loading="lazy" src="assets/images/movie_image/${movie.ratingKey}.thumb.jpg" alt="${movie.title}">
+                    <img loading="lazy" src="assets/images/movie_image/${movie.ratingKey}.thumb.webp" alt="${movie.title}">
                     <div class="movie-year">(${movie.year})</div>
                     <div class="movie-details">
                         <h3>${movie.title}</h3>
@@ -205,3 +205,72 @@ function initializeInfoIcons() {
 }
 
 initializeInfoIcons();
+
+// Recommendation Feature for Movies Page
+function initializeRecommendationFeature() {
+    console.log('initializeRecommendationFeature called');
+
+    const fab = document.getElementById('recommend-fab');
+    if (!fab) {
+        console.error('FAB element with id "recommend-fab" not found in the HTML.');
+        return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'recommend-modal';
+    modal.classList.add('recommend-modal');
+    modal.innerHTML = `
+        <div class="recommend-modal-content">
+            <h3>Recommend a Movie</h3>
+            <div class="recommend-form">
+                <input type="text" id="recommend-title" class="recommend-search-box" placeholder="Enter movie title...">
+                <button id="recommend-submit">Submit</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+
+    fab.addEventListener('click', () => {
+        console.log('FAB clicked');
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    });
+
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            document.getElementById('recommend-title').value = '';
+        }
+    });
+
+    document.getElementById('recommend-submit').addEventListener('click', () => {
+        const title = document.getElementById('recommend-title').value.trim();
+        if (title) {
+            storeRecommendation({
+                category: 'Movies',
+                title: title,
+                timestamp: new Date().toISOString()
+            });
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            document.getElementById('recommend-title').value = '';
+        } else {
+            alert('Please enter a movie title.');
+        }
+    });
+}
+
+// Ensure the function runs even if DOMContentLoaded doesn't fire
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOMContentLoaded fired');
+    initializeRecommendationFeature();
+});
+
+// Fallback: Run after a short delay if DOMContentLoaded doesn't fire
+setTimeout(() => {
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        console.log('Fallback: Running initializeRecommendationFeature');
+        initializeRecommendationFeature();
+    }
+}, 1000);

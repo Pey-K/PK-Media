@@ -6,6 +6,7 @@ import os
 import shutil
 import json
 from collections import defaultdict
+import ffmpeg
 
 TAUTULLI_URL = os.getenv("TAUTULLI_URL")
 API_KEY = os.getenv("API_KEY")
@@ -387,6 +388,21 @@ def download_export(export_id):
         print(f"Failed to download export {export_id}: {response.status_code}")
         return None
 
+def convert_jpg_to_webp(source_path, temp_webp_path):
+    """Convert a JPG image to WebP format using ffmpeg."""
+    try:
+        ffmpeg.input(source_path, **{'color_range': 'jpeg'}).output(
+            temp_webp_path,
+            vcodec='libwebp',
+            quality=80,
+            **{'color_range': 'jpeg'}
+        ).run(overwrite_output=True, quiet=True)
+        print(f"Converted {source_path} to {temp_webp_path}")
+        return True
+    except ffmpeg.Error as e:
+        print(f"Error converting {source_path} to WebP: {e}")
+        return False
+
 def process_export_zip(zip_path, section_id, library_name):
     extract_folder = f"export_section_{section_id}"
     os.makedirs(extract_folder, exist_ok=True)
@@ -422,15 +438,27 @@ def process_export_zip(zip_path, section_id, library_name):
         for file in files:
             if file.lower().endswith(('.jpg', '.jpeg', '.png')):
                 try:
+                    # Step 1: Extract ratingKey and rename the file
                     rating_key = file.split("[")[-1].split("]")[0]
-                    new_filename = f"{rating_key}.thumb.jpg"
+                    source_path = os.path.join(root, file)
+                    
+                    # Step 2: Convert to WebP
+                    temp_webp_filename = f"{rating_key}.thumb.webp"
+                    temp_webp_path = os.path.join(root, temp_webp_filename)
+                    if convert_jpg_to_webp(source_path, temp_webp_path):
+                        # Step 3: Move the WebP file to the destination folder
+                        dest_path = os.path.join(image_folder, temp_webp_filename)
+                        shutil.move(temp_webp_path, dest_path)
+                        print(f"Moved WebP image to {dest_path}")
+                    else:
+                        print(f"Skipping {file} due to conversion failure")
+                    
+                    # Remove the original JPG file
+                    os.remove(source_path)
+                    print(f"Removed original image {source_path}")
                 except IndexError:
                     print(f"Skipping image (couldn't extract ratingKey): {file}")
                     continue
-                source_path = os.path.join(root, file)
-                dest_path = os.path.join(image_folder, new_filename)
-                shutil.move(source_path, dest_path)
-                print(f"Moved and renamed image {file} to {new_filename} in {image_folder}")
 
     shutil.rmtree(extract_folder, ignore_errors=True)
     print(f"Removed temporary folder {extract_folder}")

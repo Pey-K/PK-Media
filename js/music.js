@@ -29,7 +29,7 @@ function populateMusicContent(data, searchQuery = '', attempts = 0, maxAttempts 
             const card = document.createElement('div');
             card.classList.add('music-card');
             card.innerHTML = `
-                <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.jpg" alt="${artist.artistName}">
+                <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.webp" alt="${artist.artistName}">
                 <div class="music-year">(${artist.yearRange})</div>
                 <div class="music-details">
                     <h3>${artist.artistName}</h3>
@@ -60,7 +60,7 @@ function populateMusicContent(data, searchQuery = '', attempts = 0, maxAttempts 
                     const card = document.createElement('div');
                     card.classList.add('music-card');
                     card.innerHTML = `
-                        <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.jpg" alt="${artist.artistName}">
+                        <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.webp" alt="${artist.artistName}">
                         <div class="music-year">(${artist.yearRange})</div>
                         <div class="music-details">
                             <h3>${artist.artistName}</h3>
@@ -106,7 +106,7 @@ function openAlbumView(artist) {
     const artistCard = document.createElement('div');
     artistCard.classList.add('music-card', 'overlay-artist-card');
     artistCard.innerHTML = `
-        <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.jpg" alt="${artist.artistName}">
+        <img loading="lazy" src="assets/images/music_image/${artist.ratingKey}.thumb.webp" alt="${artist.artistName}">
         <div class="music-year">(${artist.yearRange})</div>
         <div class="music-details">
             <h3>${artist.artistName}</h3>
@@ -147,10 +147,10 @@ function openAlbumView(artist) {
                 albumCard.classList.add('album-card');
 
                 const img = document.createElement('img');
-                img.src = `assets/images/music_image/${album.ratingKey}.thumb.jpg`;
+                img.src = `assets/images/music_image/${album.ratingKey}.thumb.webp`;
                 img.alt = album.title;
                 img.onerror = function() {
-                    this.src = 'assets/images/placeholder.jpg';
+                    this.src = 'assets/images/placeholder.webp';
                 };
 
                 const albumYear = document.createElement('div');
@@ -224,10 +224,10 @@ function openAlbumView(artist) {
                     albumCard.classList.add('album-card');
 
                     const img = document.createElement('img');
-                    img.src = `assets/images/music_image/${album.ratingKey}.thumb.jpg`;
+                    img.src = `assets/images/music_image/${album.ratingKey}.thumb.webp`;
                     img.alt = album.title;
                     img.onerror = function() {
-                        this.src = 'assets/images/placeholder.jpg';
+                        this.src = 'assets/images/placeholder.webp';
                     };
 
                     const albumYear = document.createElement('div');
@@ -481,3 +481,127 @@ function initializeInfoIcons() {
 }
 
 initializeInfoIcons();
+
+function initializeRecommendationFeature() {
+    console.log('initializeRecommendationFeature called');
+
+    const fab = document.getElementById('recommend-fab');
+    if (!fab) {
+        console.error('FAB element with id "recommend-fab" not found in the HTML.');
+        return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'recommend-modal';
+    modal.classList.add('recommend-modal');
+    modal.innerHTML = `
+        <div class="recommend-modal-content">
+            <h3>Recommend Music</h3>
+            <div class="recommend-form">
+                <input type="text" id="recommend-artist" class="recommend-search-box" placeholder="Enter artist name...">
+                <input type="text" id="recommend-album" class="recommend-search-box" placeholder="Enter album name... (optional)" style="display: none;">
+                <button id="recommend-submit">Submit</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+
+    const artistInput = document.getElementById('recommend-artist');
+    const albumInput = document.getElementById('recommend-album');
+    artistInput.addEventListener('input', () => {
+        albumInput.style.display = artistInput.value.trim() ? 'block' : 'none';
+    });
+
+    fab.addEventListener('click', () => {
+        console.log('FAB clicked');
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    });
+
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            artistInput.value = '';
+            albumInput.value = '';
+            albumInput.style.display = 'none';
+        }
+    });
+
+    document.getElementById('recommend-submit').addEventListener('click', () => {
+        const artist = artistInput.value.trim();
+        const album = albumInput.value.trim();
+        if (artist) {
+            storeRecommendation({
+                category: 'Music',
+                artist: artist,
+                album: album || null,
+                timestamp: new Date().toISOString()
+            });
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            artistInput.value = '';
+            albumInput.value = '';
+            albumInput.style.display = 'none';
+        } else {
+            alert('Please enter an artist name.');
+        }
+    });
+}
+
+// Ensure the function runs even if DOMContentLoaded doesn't fire
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOMContentLoaded fired');
+    initializeRecommendationFeature();
+    initializeInfoIcons();
+    initializeScroll();
+});
+
+// Fallback: Run after a short delay if DOMContentLoaded doesn't fire
+setTimeout(() => {
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        console.log('Fallback: Running initializeRecommendationFeature');
+        initializeRecommendationFeature();
+        initializeInfoIcons();
+        initializeScroll();
+    }
+}, 1000);
+
+// Event listeners for refDataLoaded
+document.addEventListener('refDataLoaded', (event) => {
+    populateMusicContent(event.detail);
+});
+
+document.addEventListener("refDataLoaded", (event) => {
+    const data = event.detail.metadata;
+    const totalArtists = document.querySelector("#music-total");
+    const totalAlbums = document.querySelector("#music-albums");
+    const totalTracks = document.querySelector("#music-tracks");
+    const totalSize = document.querySelector("#music-size");
+    const totalDuration = document.querySelector("#music-duration");
+    if (totalArtists && totalAlbums && totalTracks && totalSize && totalDuration) {
+        const formatNumber = (number) => number.toLocaleString('en-US');
+        totalArtists.textContent = formatNumber(data.totalArtists);
+        totalAlbums.textContent = formatNumber(data.totalAlbums);
+        totalTracks.textContent = formatNumber(data.totalTracks);
+        totalSize.textContent = data.totalSizeHuman;
+        totalDuration.textContent = data.totalDurationHuman;
+        document.querySelectorAll('.music-card .staggered div').forEach((detail) => {
+            detail.classList.add('data-loaded');
+        });
+    }
+});
+
+document.addEventListener("refDataLoaded", (event) => {
+    const data = event.detail;
+    const searchInput = document.getElementById("music-search");
+
+    let debounceTimeout;
+    searchInput.addEventListener("input", () => {
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => {
+            const query = searchInput.value.toLowerCase();
+            populateMusicContent(data, query);
+        }, 300);
+    });
+});

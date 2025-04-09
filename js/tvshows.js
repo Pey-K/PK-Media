@@ -33,7 +33,7 @@ function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempt
             const card = document.createElement('div');
             card.classList.add('tvshow-card');
             card.innerHTML = `
-                <img loading="lazy" src="assets/images/tv_image/${show.ratingKey}.thumb.jpg" alt="${show.title}">
+                <img loading="lazy" src="assets/images/tv_image/${show.ratingKey}.thumb.webp" alt="${show.title}">
                 <div class="tvshow-year">(${show.showYearRange})</div>
                 <div class="tvshow-details">
                     <h3>${show.title}</h3>
@@ -72,7 +72,7 @@ function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempt
                     const card = document.createElement('div');
                     card.classList.add('tvshow-card');
                     card.innerHTML = `
-                        <img loading="lazy" src="assets/images/tv_image/${show.ratingKey}.thumb.jpg" alt="${show.title}">
+                        <img loading="lazy" src="assets/images/tv_image/${show.ratingKey}.thumb.webp" alt="${show.title}">
                         <div class="tvshow-year">(${show.showYearRange})</div>
                         <div class="tvshow-details">
                             <h3>${show.title}</h3>
@@ -122,7 +122,7 @@ function openSeasonView(show) {
     const showCard = document.createElement('div');
     showCard.classList.add('tvshow-card', 'overlay-show-card');
     showCard.innerHTML = `
-        <img loading="lazy" src="assets/images/tv_image/${show.ratingKey}.thumb.jpg" alt="${show.title}">
+        <img loading="lazy" src="assets/images/tv_image/${show.ratingKey}.thumb.webp" alt="${show.title}">
         <div class="tvshow-year">(${show.showYearRange})</div>
         <div class="tvshow-details">
             <h3>${show.title}</h3>
@@ -156,10 +156,10 @@ function openSeasonView(show) {
                 seasonCard.classList.add('season-card');
 
                 const img = document.createElement('img');
-                img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.jpg`;
+                img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.webp`;
                 img.alt = `Season ${season.seasonNumber}`;
                 img.onerror = function() {
-                    this.src = 'assets/images/placeholder.jpg';
+                    this.src = 'assets/images/placeholder.webp';
                 };
 
                 const seasonYear = document.createElement('div');
@@ -237,10 +237,10 @@ function openSeasonView(show) {
                     seasonCard.classList.add('season-card');
 
                     const img = document.createElement('img');
-                    img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.jpg`;
+                    img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.webp`;
                     img.alt = `Season ${season.seasonNumber}`;
                     img.onerror = function() {
-                        this.src = 'assets/images/placeholder.jpg';
+                        this.src = 'assets/images/placeholder.webp';
                     };
 
                     const seasonYear = document.createElement('div');
@@ -498,3 +498,126 @@ function initializeInfoIcons() {
 }
 
 initializeInfoIcons();
+
+// Recommendation Feature for TV Shows Page
+function initializeRecommendationFeature() {
+    console.log('initializeRecommendationFeature called');
+
+    const fab = document.getElementById('recommend-fab');
+    if (!fab) {
+        console.error('FAB element with id "recommend-fab" not found in the HTML.');
+        return;
+    }
+
+    const modal = document.createElement('div');
+    modal.id = 'recommend-modal';
+    modal.classList.add('recommend-modal');
+    modal.innerHTML = `
+        <div class="recommend-modal-content">
+            <h3>Recommend a Show</h3>
+            <div class="recommend-form">
+                <input type="text" id="recommend-show" class="recommend-search-box" placeholder="Enter show title...">
+                <input type="text" id="recommend-season" class="recommend-search-box" placeholder="Enter season #... (optional)" style="display: none;">
+                <button id="recommend-submit">Submit</button>
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
+
+    const showInput = document.getElementById('recommend-show');
+    const seasonInput = document.getElementById('recommend-season');
+    showInput.addEventListener('input', () => {
+        seasonInput.style.display = showInput.value.trim() ? 'block' : 'none';
+    });
+
+    fab.addEventListener('click', () => {
+        console.log('FAB clicked');
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    });
+
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            showInput.value = '';
+            seasonInput.value = '';
+            seasonInput.style.display = 'none';
+        }
+    });
+
+    document.getElementById('recommend-submit').addEventListener('click', () => {
+        const show = showInput.value.trim();
+        const season = seasonInput.value.trim();
+        if (show) {
+            storeRecommendation({
+                category: 'TV Shows',
+                show: show,
+                season: season || null,
+                timestamp: new Date().toISOString()
+            });
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            showInput.value = '';
+            seasonInput.value = '';
+            seasonInput.style.display = 'none';
+        } else {
+            alert('Please enter a show title.');
+        }
+    });
+}
+
+// Ensure the function runs even if DOMContentLoaded doesn't fire
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('DOMContentLoaded fired');
+    initializeRecommendationFeature();
+    initializeInfoIcons();
+    initializeScroll();
+});
+
+// Fallback: Run after a short delay if DOMContentLoaded doesn't fire
+setTimeout(() => {
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        console.log('Fallback: Running initializeRecommendationFeature');
+        initializeRecommendationFeature();
+        initializeInfoIcons();
+        initializeScroll();
+    }
+}, 1000);
+
+// Event listeners for refDataLoaded
+document.addEventListener('refDataLoaded', (event) => {
+    populateShowsContent(event.detail);
+});
+
+document.addEventListener("refDataLoaded", (event) => {
+    const data = event.detail.metadata;
+    const totalShows = document.querySelector("#tvshows-total");
+    const totalSeasons = document.querySelector("#tvshows-seasons");
+    const totalEpisodes = document.querySelector("#tvshows-episodes");
+    const totalSize = document.querySelector("#tvshows-size");
+    if (totalShows && totalSeasons && totalEpisodes && totalSize) {
+        const formatNumber = (number) => number.toLocaleString('en-US');
+        totalShows.textContent = formatNumber(data.totalShow);
+        totalSeasons.textContent = formatNumber(data.totalSeasonCount);
+        totalEpisodes.textContent = formatNumber(data.TotalEpisode);
+        totalSize.textContent = data.totalSizeHuman;
+        document.querySelectorAll('.show-card .staggered div').forEach((detail) => {
+            detail.classList.add('data-loaded');
+        });
+    }
+});
+
+document.addEventListener("refDataLoaded", (event) => {
+    const data = event.detail;
+    const searchInput = document.getElementById("tvshows-search");
+
+    let debounceTimeout;
+    searchInput.addEventListener("input", () => {
+        clearTimeout(debounceTimeout);
+        debounceTimeout = setTimeout(() => {
+            const query = searchInput.value.toLowerCase();
+            populateShowsContent(data, query);
+        }, 300);
+    });
+});

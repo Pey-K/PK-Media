@@ -1321,7 +1321,7 @@
         "ratingKey": 170,
         "studio": "Walt Disney Pictures",
         "summary": "In the boorish city of Agrabah, kind-hearted street urchin Aladdin and Princess Jasmine fall in love, although she can only marry a prince. He and power-hungry Grand Vizier Jafar vie for a magic lamp that can fulfill their wishes.",
-        "tagline": "Wish granted!",
+        "tagline": "Imagine if you had three wishes, three hopes, three dreams and they all could come true.",
         "thumbFile": "Movie - Aladdin [170].images\\Aladdin [170].thumb.jpg",
         "title": "Aladdin",
         "titleSort": "Aladdin",
@@ -2036,7 +2036,7 @@
         "ratingKey": 120803,
         "studio": "Lionsgate",
         "summary": "A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.",
-        "tagline": "Killer looks.",
+        "tagline": "I think my mask of sanity is about to slip.",
         "thumbFile": "Movie - American Psycho [120803].images\\American Psycho [120803].thumb.jpg",
         "title": "American Psycho",
         "titleSort": "American Psycho",
@@ -19395,7 +19395,7 @@
         "ratingImage": null,
         "ratingKey": 121043,
         "studio": "Green Hat Films",
-        "summary": "In the aftermath of the death of Alan's father, the wolfpack decide to take Alan to get treated for his mental issues. But things start to go wrong on the way to the hospital as the wolfpack is assaulted and Doug is kidnapped. Now they must find Mr. Chow again in order to surrender him to the gangster who kidnapped Doug in order to save him.",
+        "summary": "In the aftermath of the death of Alan's father, the Wolf Pack decides to take Alan to get treated for his mental issues. But things start to go wrong on the way to the hospital as they are is assaulted and Doug is kidnapped. Now they must find Mr. Chow again in order to surrender him to the gangster who kidnapped Doug in order to save him.",
         "tagline": "It all ends.",
         "thumbFile": "Movie - The Hangover Part III [121043].images\\The Hangover Part III [121043].thumb.jpg",
         "title": "The Hangover Part III",
@@ -23152,6 +23152,68 @@
                         "optimizedForStreaming": null,
                         "size": 3000404983,
                         "sizeHuman": "2.79 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-08T12:54:29",
+        "audienceRating": 6.6,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 4907008,
+        "durationHuman": "1 hr 22 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d9f3ce906d220001febdd28",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Hush.(2016)\\Hush.(2016).1080p.h265.EAC3.mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2016-04-08",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127005,
+        "studio": "Intrepid Pictures",
+        "summary": "A deaf and mute writer who retreated into the woods to live a solitary life must fight for her life in silence when a masked killer appears at her window.",
+        "tagline": "Silence can be killer.",
+        "thumbFile": "Movie - Hush [127005].images\\Hush [127005].thumb.jpg",
+        "title": "Hush",
+        "titleSort": "Hush",
+        "type": "movie",
+        "userRating": null,
+        "year": 2016,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 5848,
+                "container": "mkv",
+                "duration": 4907008,
+                "hdr": false,
+                "height": 804,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 4907008,
+                        "file": "E:\\Plex\\Movies\\Hush.(2016)\\Hush.(2016).1080p.h265.EAC3.mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 3583848256,
+                        "sizeHuman": "3.34 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -37252,7 +37314,7 @@
         "ratingKey": 121119,
         "studio": "Columbia Pictures",
         "summary": "When aliens misinterpret video feeds of classic arcade games as a declaration of war, they attack the Earth in the form of the video games.",
-        "tagline": "Game On.",
+        "tagline": "Game on.",
         "thumbFile": "Movie - Pixels [121119].images\\Pixels [121119].thumb.jpg",
         "title": "Pixels",
         "titleSort": "Pixels",
@@ -55947,7 +56009,7 @@
         "ratingKey": 121091,
         "studio": "The Donners' Company",
         "summary": "The human government develops a cure for mutations, and Jean Grey becomes a darker uncontrollable persona called the Phoenix who allies with Magneto, causing escalation into an all-out battle for the X-Men.",
-        "tagline": "Whose side will you be on?",
+        "tagline": "Take a stand.",
         "thumbFile": "Movie - X-Men_ The Last Stand [121091].images\\X-Men_ The Last Stand [121091].thumb.jpg",
         "title": "X-Men: The Last Stand",
         "titleSort": "X-Men: The Last Stand",
@@ -56356,6 +56418,130 @@
                         "size": 1665966990,
                         "sizeHuman": "1.55 GB",
                         "videoProfile": "high"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-08T12:54:29",
+        "audienceRating": 6.5,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 5352471,
+        "durationHuman": "1 hr 29 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776833eb5d26001f1e00e5",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Zoolander.(2001)\\Zoolander.(2001).1080p.h265.AAC.mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2001-09-28",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127004,
+        "studio": "Paramount Pictures",
+        "summary": "Clear the runway for Derek Zoolander, VH1's three-time male model of the year. His face falls when hippie-chic Hansel scooters in to steal this year's award. The evil fashion guru Mugatu seizes the opportunity to turn Derek into a killing machine. It's a well-designed conspiracy and only with the help of Hansel and a few well-chosen accessories like Matilda can Derek make the world safe for male models everywhere.",
+        "tagline": "3% body fat. 1% brain activity.",
+        "thumbFile": "Movie - Zoolander [127004].images\\Zoolander [127004].thumb.jpg",
+        "title": "Zoolander",
+        "titleSort": "Zoolander",
+        "type": "movie",
+        "userRating": null,
+        "year": 2001,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7322,
+                "container": "mkv",
+                "duration": 5352471,
+                "hdr": false,
+                "height": 820,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 5352471,
+                        "file": "E:\\Plex\\Movies\\Zoolander.(2001)\\Zoolander.(2001).1080p.h265.AAC.mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4875381596,
+                        "sizeHuman": "4.54 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-08T12:54:28",
+        "audienceRating": 4.7,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 6107560,
+        "durationHuman": "1 hr 42 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776b83594b2b001e6dc1e4",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Zoolander.2.(2016)\\Zoolander.2.(2016).1080p.h265.AAC.mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2016-02-06",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127003,
+        "studio": "Paramount Pictures",
+        "summary": "Derek and Hansel are lured into modelling again, in Rome, where they find themselves the target of a sinister conspiracy.",
+        "tagline": "Long time no Z",
+        "thumbFile": "Movie - Zoolander 2 [127003].images\\Zoolander 2 [127003].thumb.jpg",
+        "title": "Zoolander 2",
+        "titleSort": "Zoolander 2",
+        "type": "movie",
+        "userRating": null,
+        "year": 2016,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5698,
+                "container": "mkv",
+                "duration": 6107560,
+                "hdr": false,
+                "height": 804,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 6107560,
+                        "file": "E:\\Plex\\Movies\\Zoolander.2.(2016)\\Zoolander.2.(2016).1080p.h265.AAC.mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4341407881,
+                        "sizeHuman": "4.04 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }

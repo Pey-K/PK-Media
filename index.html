@@ -42,7 +42,7 @@
 </head>
 <body>
     <header>
-        <div class="header-logo">
+        <div class="header-logo" data-page="recommend.html">
             <img src="assets/images/icons/PK+.png" alt="PK+" />
         </div>
     </header>    
@@ -96,5 +96,57 @@
     <script src="js/populate.js"></script>
     <script src="js/index.js"></script>
     <script defer src="js/scripts.js"></script>
+    <script>
+        // Firebase compatibility API
+        const firebaseConfig = {
+            apiKey: "AIzaSyD0ESPnB6CzlxmyRAnj5Du9aW9cJ2VTW0",
+            authDomain: "pk-media-collection.firebaseapp.com",
+            projectId: "pk-media-collection",
+            storageBucket: "pk-media-collection.appspot.com",
+            messagingSenderId: "974712983842",
+            appId: "1:974712983842:web:7c4244940c0b07452f61b7",
+            measurementId: "G-8WHEPEZK49"
+        };
+
+        // Load Firebase compatibility scripts dynamically
+        const loadFirebaseScripts = () => {
+            return new Promise((resolve, reject) => {
+                const appScript = document.createElement('script');
+                appScript.src = 'https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js';
+                appScript.onload = () => {
+                    const firestoreScript = document.createElement('script');
+                    firestoreScript.src = 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js';
+                    firestoreScript.onload = () => {
+                        const messagingScript = document.createElement('script');
+                        messagingScript.src = 'https://www.gstatic.com/firebasejs/9.22.0/firebase-messaging-compat.js';
+                        messagingScript.onload = () => {
+                            resolve();
+                        };
+                        messagingScript.onerror = reject;
+                        document.head.appendChild(messagingScript);
+                    };
+                    firestoreScript.onerror = reject;
+                    document.head.appendChild(firestoreScript);
+                };
+                appScript.onerror = reject;
+                document.head.appendChild(appScript);
+            });
+        };
+
+        // Initialize Firebase after scripts are loaded
+        loadFirebaseScripts().then(() => {
+            const app = firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore();
+            const messaging = firebase.messaging();
+
+            // Expose Firebase objects globally
+            window.firebase = firebase;
+            window.db = db;
+            window.messaging = messaging;
+            console.log('Firebase initialized in index.html');
+        }).catch(error => {
+            console.error('Failed to load Firebase scripts in index.html:', error);
+        });
+    </script>
 </body>
 </html>
