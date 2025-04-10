@@ -1,10 +1,10 @@
 {
     "metadata": {
         "totalArtists": 253,
-        "totalAlbums": 1953,
-        "totalTracks": 32229,
-        "totalSizeHuman": "757.49 GB",
-        "totalDurationHuman": "1920 hrs 45 mins"
+        "totalAlbums": 1956,
+        "totalTracks": 32274,
+        "totalSizeHuman": "757.85 GB",
+        "totalDurationHuman": "1923 hrs 8 mins"
     },
     "artists": [
         {
@@ -5604,9 +5604,9 @@
         {
             "artistName": "Drake",
             "ratingKey": 112602,
-            "totalAlbums": 19,
-            "totalTracks": 299,
-            "totalSizeHuman": "7.46 GB",
+            "totalAlbums": 20,
+            "totalTracks": 316,
+            "totalSizeHuman": "7.62 GB",
             "yearRange": "2009-2025",
             "albums": [
                 {
@@ -5631,6 +5631,20 @@
                     "albumDurationHuman": "13 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 127038,
+                    "title": "100 GIGS (Unreleased)",
+                    "year": 2024,
+                    "tracks": 17,
+                    "albumSizeHuman": "158.48 MB",
+                    "totalAlbumSizeBytes": 158484194,
+                    "albumDurationHuman": "56 mins",
+                    "albumContainers": [
+                        "mp4",
+                        "mp3",
+                        "wav"
                     ]
                 },
                 {
@@ -11440,10 +11454,10 @@
         {
             "artistName": "Juice WRLD",
             "ratingKey": 105566,
-            "totalAlbums": 5,
-            "totalTracks": 107,
-            "totalSizeHuman": "2.11 GB",
-            "yearRange": "2018-2024",
+            "totalAlbums": 6,
+            "totalTracks": 116,
+            "totalSizeHuman": "2.18 GB",
+            "yearRange": "2017-2024",
             "albums": [
                 {
                     "ratingKey": 105635,
@@ -11479,6 +11493,18 @@
                     "albumDurationHuman": "58 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 127058,
+                    "title": "JuiceWRLD 9 9 9",
+                    "year": 2017,
+                    "tracks": 9,
+                    "albumSizeHuman": "70.74 MB",
+                    "totalAlbumSizeBytes": 70739341,
+                    "albumDurationHuman": "29 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -13696,9 +13722,9 @@
         {
             "artistName": "Lil Durk",
             "ratingKey": 100717,
-            "totalAlbums": 18,
-            "totalTracks": 304,
-            "totalSizeHuman": "6.86 GB",
+            "totalAlbums": 19,
+            "totalTracks": 323,
+            "totalSizeHuman": "6.99 GB",
             "yearRange": "2012-2025",
             "albums": [
                 {
@@ -13831,6 +13857,18 @@
                     "albumDurationHuman": "30 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 127018,
+                    "title": "No Auto Durk",
+                    "year": 2020,
+                    "tracks": 19,
+                    "albumSizeHuman": "129.99 MB",
+                    "totalAlbumSizeBytes": 129994323,
+                    "albumDurationHuman": "57 mins",
+                    "albumContainers": [
+                        "mp4"
                     ]
                 },
                 {
@@ -14418,8 +14456,8 @@
                     "totalAlbumSizeBytes": 130194206,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp3",
-                        "mp4"
+                        "mp4",
+                        "mp3"
                     ]
                 },
                 {
@@ -24168,8 +24206,8 @@
                     "totalAlbumSizeBytes": 112314157,
                     "albumDurationHuman": "21 mins",
                     "albumContainers": [
-                        "wav",
-                        "mp3"
+                        "mp3",
+                        "wav"
                     ]
                 }
             ]
@@ -24393,8 +24431,8 @@
                     "totalAlbumSizeBytes": 164407384,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp3",
-                        "mp4"
+                        "mp4",
+                        "mp3"
                     ]
                 },
                 {
