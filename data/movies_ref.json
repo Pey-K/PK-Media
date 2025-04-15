@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "totalMovies": 912,
+        "totalMovies": 914,
         "totalSizeHuman": "3.09 TB"
     },
     "movies": [
@@ -1635,6 +1635,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.60 GB"
+        },
+        {
+            "ratingKey": 127078,
+            "title": "Clue",
+            "year": 1985,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 37 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.47 GB"
         },
         {
             "ratingKey": 1149,
@@ -7935,6 +7947,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.86 GB"
+        },
+        {
+            "ratingKey": 127077,
+            "title": "Riff Raff",
+            "year": 2025,
+            "contentRating": "R",
+            "durationHuman": "1 hr 44 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "1.55 GB"
         },
         {
             "ratingKey": 2945,

@@ -1,9 +1,9 @@
 {
     "metadata": {
-        "totalShow": 177,
-        "totalSeasonCount": 945,
-        "TotalEpisode": 16975,
-        "totalSizeHuman": "10.35 TB"
+        "totalShow": 178,
+        "totalSeasonCount": 948,
+        "TotalEpisode": 16994,
+        "totalSizeHuman": "10.38 TB"
     },
     "shows": [
         {
@@ -242,18 +242,45 @@
             ]
         },
         {
+            "ratingKey": 127093,
+            "title": "1883",
+            "avgEpisodeDuration": "1 hr",
+            "contentRating": "TV-MA",
+            "seasonCount": 1,
+            "showTotalEpisode": 10,
+            "showSizeHuman": "16.03 GB",
+            "avgVideoResolutions": "1080p",
+            "avgAudioCodecs": "AAC",
+            "avgVideoCodecs": "HEVC",
+            "avgContainers": "mkv",
+            "showYearRange": "2021-2022",
+            "seasons": [
+                {
+                    "seasonRatingKey": 127094,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 10,
+                    "seasonSizeHuman": "16.03 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AAC",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2021-2022"
+                }
+            ]
+        },
+        {
             "ratingKey": 83054,
             "title": "1923",
             "avgEpisodeDuration": "1 hr",
             "contentRating": "TV-MA",
-            "seasonCount": 1,
-            "showTotalEpisode": 8,
-            "showSizeHuman": "16.16 GB",
+            "seasonCount": 2,
+            "showTotalEpisode": 15,
+            "showSizeHuman": "26.98 GB",
             "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "EAC3",
+            "avgAudioCodecs": "AAC, EAC3",
             "avgVideoCodecs": "HEVC",
             "avgContainers": "mkv",
-            "showYearRange": "2022-2023",
+            "showYearRange": "2022-2025",
             "seasons": [
                 {
                     "seasonRatingKey": 83055,
@@ -265,6 +292,17 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2022-2023"
+                },
+                {
+                    "seasonRatingKey": 127085,
+                    "seasonNumber": 2,
+                    "seasonTotalEpisode": 7,
+                    "seasonSizeHuman": "10.82 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AAC",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2025-2025"
                 }
             ]
         },
@@ -5916,14 +5954,14 @@
             "title": "The Last of Us",
             "avgEpisodeDuration": "50 mins",
             "contentRating": "TV-MA",
-            "seasonCount": 1,
-            "showTotalEpisode": 9,
-            "showSizeHuman": "35.26 GB",
+            "seasonCount": 2,
+            "showTotalEpisode": 10,
+            "showSizeHuman": "36.46 GB",
             "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "EAC3",
-            "avgVideoCodecs": "H264",
+            "avgAudioCodecs": "AC3, EAC3",
+            "avgVideoCodecs": "H264, HEVC",
             "avgContainers": "mkv",
-            "showYearRange": "2023-2023",
+            "showYearRange": "2023-2025",
             "seasons": [
                 {
                     "seasonRatingKey": 10773,
@@ -5935,6 +5973,17 @@
                     "avgSeasonVideoCodec": "H264",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2023-2023"
+                },
+                {
+                    "seasonRatingKey": 127083,
+                    "seasonNumber": 2,
+                    "seasonTotalEpisode": 1,
+                    "seasonSizeHuman": "1.20 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2025-2025"
                 }
             ]
         },
@@ -12906,8 +12955,8 @@
             "avgEpisodeDuration": "1 hr",
             "contentRating": "TV-MA",
             "seasonCount": 3,
-            "showTotalEpisode": 28,
-            "showSizeHuman": "44.51 GB",
+            "showTotalEpisode": 29,
+            "showSizeHuman": "45.35 GB",
             "avgVideoResolutions": "1080p",
             "avgAudioCodecs": "AC3, EAC3",
             "avgVideoCodecs": "HEVC",
@@ -12939,8 +12988,8 @@
                 {
                     "seasonRatingKey": 125445,
                     "seasonNumber": 3,
-                    "seasonTotalEpisode": 9,
-                    "seasonSizeHuman": "6.56 GB",
+                    "seasonTotalEpisode": 10,
+                    "seasonSizeHuman": "7.41 GB",
                     "avgSeasonVideoResolution": "1080p",
                     "avgSeasonAudioCodec": "AC3",
                     "avgSeasonVideoCodec": "HEVC",
