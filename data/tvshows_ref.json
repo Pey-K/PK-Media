@@ -1,8 +1,8 @@
 {
     "metadata": {
         "totalShow": 180,
-        "totalSeasonCount": 952,
-        "TotalEpisode": 17020,
+        "totalSeasonCount": 950,
+        "TotalEpisode": 16997,
         "totalSizeHuman": "10.44 TB"
     },
     "shows": [
@@ -12596,25 +12596,14 @@
             "avgEpisodeDuration": "2 mins",
             "contentRating": "Not Rated",
             "seasonCount": 1,
-            "showTotalEpisode": 27,
-            "showSizeHuman": "798.92 MB",
-            "avgVideoResolutions": "1080p, 720p, sd",
-            "avgAudioCodecs": "AAC, EAC3",
+            "showTotalEpisode": 10,
+            "showSizeHuman": "513.88 MB",
+            "avgVideoResolutions": "1080p",
+            "avgAudioCodecs": "EAC3",
             "avgVideoCodecs": "HEVC",
             "avgContainers": "mkv",
             "showYearRange": "2002-2002",
             "seasons": [
-                {
-                    "seasonRatingKey": 120330,
-                    "seasonNumber": 0,
-                    "seasonTotalEpisode": 17,
-                    "seasonSizeHuman": "285.04 MB",
-                    "avgSeasonVideoResolution": "1080p, 720p, sd",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2002-2002"
-                },
                 {
                     "seasonRatingKey": 120319,
                     "seasonNumber": 1,
@@ -12634,25 +12623,14 @@
             "avgEpisodeDuration": "30 mins",
             "contentRating": "Not Rated",
             "seasonCount": 1,
-            "showTotalEpisode": 12,
-            "showSizeHuman": "5.75 GB",
+            "showTotalEpisode": 6,
+            "showSizeHuman": "4.82 GB",
             "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "AC3, EAC3",
+            "avgAudioCodecs": "EAC3",
             "avgVideoCodecs": "HEVC",
             "avgContainers": "mkv",
             "showYearRange": "2010-2010",
             "seasons": [
-                {
-                    "seasonRatingKey": 120356,
-                    "seasonNumber": 0,
-                    "seasonTotalEpisode": 6,
-                    "seasonSizeHuman": "925.07 MB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AC3",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2010-2010"
-                },
                 {
                     "seasonRatingKey": 120349,
                     "seasonNumber": 1,

@@ -12805,6 +12805,68 @@
         ]
     },
     {
+        "addedAt": "2025-04-24T14:27:08",
+        "audienceRating": 6.6,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG",
+        "duration": 6149152,
+        "durationHuman": "1 hr 42 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d77696996b655001fdce2f7",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Epic (2013)\\Epic (2013).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2013-05-01",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127181,
+        "studio": "Blue Sky Studios",
+        "summary": "A teenager finds herself transported to a deep forest setting where a battle between the forces of good and evil is taking place. She bands together with a ragtag group of characters to save their world--and ours.",
+        "tagline": "Discover a world beyond your imagination.",
+        "thumbFile": "Movie - Epic [127181].images\\Epic [127181].thumb.jpg",
+        "title": "Epic",
+        "titleSort": "Epic",
+        "type": "movie",
+        "userRating": null,
+        "year": 2013,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "ac3",
+                "audioProfile": null,
+                "bitrate": 4845,
+                "container": "mkv",
+                "duration": 6149152,
+                "hdr": false,
+                "height": 800,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6149152,
+                        "file": "E:\\Plex\\Movies\\Epic (2013)\\Epic (2013).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 3723788998,
+                        "sizeHuman": "3.47 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2024-09-25T10:06:00",
         "audienceRating": 6.7,
         "audienceRatingImage": "imdb://image.rating",
@@ -16642,6 +16704,68 @@
                         "optimizedForStreaming": null,
                         "size": 3462657219,
                         "sizeHuman": "3.22 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-24T14:27:07",
+        "audienceRating": 6.6,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 7741588,
+        "durationHuman": "2 hrs 9 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776d44594b2b001e7051a6",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Glass (2019)\\Glass (2019).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2019-01-16",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127179,
+        "studio": "Blinding Edge Pictures",
+        "summary": "After pursuing Kevin Wendell Crumb and the multiple identities that reside within, David Dunn finds himself locked in a mental hospital alongside his archenemy, Elijah Price. The trio must now contend with a psychiatrist, who is out to prove they do not actually possess superhuman abilities.",
+        "tagline": "You Cannot Contain What You Are",
+        "thumbFile": "Movie - Glass [127179].images\\Glass [127179].thumb.jpg",
+        "title": "Glass",
+        "titleSort": "Glass",
+        "type": "movie",
+        "userRating": null,
+        "year": 2019,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 3242,
+                "container": "mkv",
+                "duration": 7741588,
+                "hdr": false,
+                "height": 804,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7741588,
+                        "file": "E:\\Plex\\Movies\\Glass (2019)\\Glass (2019).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 3137585722,
+                        "sizeHuman": "2.92 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -31219,6 +31343,130 @@
         ]
     },
     {
+        "addedAt": "2025-04-24T14:27:06",
+        "audienceRating": 7.0,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG",
+        "duration": 6934953,
+        "durationHuman": "1 hr 56 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d77683c7e9a3c0020c6e1ec",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Marley & Me (2008)\\Marley & Me (2008).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2008-12-25",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127178,
+        "studio": "Sunswept Entertainment",
+        "summary": "A newly married couple, in the process of starting a family, learn many of life's important lessons from their trouble-loving retriever, Marley. Packed with plenty of laughs to lighten the load, the film explores the highs and lows of marriage, maturity and confronting one's own mortality, as seen through the lens of family life with a dog.",
+        "tagline": "Heel the love.",
+        "thumbFile": "Movie - Marley _ Me [127178].images\\Marley _ Me [127178].thumb.jpg",
+        "title": "Marley & Me",
+        "titleSort": "Marley & Me",
+        "type": "movie",
+        "userRating": null,
+        "year": 2008,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5543,
+                "container": "mkv",
+                "duration": 6934953,
+                "hdr": false,
+                "height": 816,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6934953,
+                        "file": "E:\\Plex\\Movies\\Marley & Me (2008)\\Marley & Me (2008).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4804871944,
+                        "sizeHuman": "4.47 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-24T14:27:06",
+        "audienceRating": 7.0,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 6072483,
+        "durationHuman": "1 hr 41 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7768286f4521001ea9930e",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\The Mask (1994)\\The Mask (1994).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "1994-07-29",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127177,
+        "studio": "Dark Horse Entertainment",
+        "summary": "Timid bank clerk, Stanley Ipkiss (Jim Carrey). Unfortunately, he's too gentle, and is unable to handle confrontations. After one of the worst days, he finds a mask which depicts Loki, the Norse god of mischief. When he puts it on, he becomes his inner, self: a cartoon wild man. After Ipkiss's alter ego indirectly kills the friend of small time crime boss, Dorian Tyrel (Peter Greene),he wants the green-faced goon destroyed.",
+        "tagline": "From zero to hero.",
+        "thumbFile": "Movie - The Mask [127177].images\\The Mask [127177].thumb.jpg",
+        "title": "The Mask",
+        "titleSort": "Mask",
+        "type": "movie",
+        "userRating": null,
+        "year": 1994,
+        "media": [
+            {
+                "aspectRatio": 1.78,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 4610,
+                "container": "mkv",
+                "duration": 6072483,
+                "hdr": false,
+                "height": 1080,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6072483,
+                        "file": "E:\\Plex\\Movies\\The Mask (1994)\\The Mask (1994).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 3498929113,
+                        "sizeHuman": "3.26 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2024-09-22T22:16:07",
         "audienceRating": 5.8,
         "audienceRatingImage": "imdb://image.rating",
@@ -34447,13 +34695,12 @@
         "audienceRating": 6.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5802733,
+        "duration": 5801824,
         "durationHuman": "1 hr 37 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776a1e96b655001fde3e6b",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Neighbors.(2014).1080p\\Neighbors.(2014).1080p.h265.mkv",
             "E:\\Plex\\Movies\\Neighbors (2014)\\Neighbors (2014).mkv"
         ],
         "originalTitle": null,
@@ -34471,38 +34718,6 @@
         "userRating": null,
         "year": 2014,
         "media": [
-            {
-                "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2401,
-                "container": "mkv",
-                "duration": 5802733,
-                "hdr": false,
-                "height": 800,
-                "isOptimizedVersion": false,
-                "videoCodec": "hevc",
-                "videoFrameRate": "24p",
-                "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
-                "parts": [
-                    {
-                        "audioProfile": null,
-                        "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5802733,
-                        "file": "E:\\Plex\\Movies\\Neighbors.(2014).1080p\\Neighbors.(2014).1080p.h265.mkv",
-                        "hasPreviewThumbnails": false,
-                        "indexes": null,
-                        "optimizedForStreaming": null,
-                        "size": 1741487358,
-                        "sizeHuman": "1.62 GB",
-                        "videoProfile": "main 10"
-                    }
-                ]
-            },
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
@@ -34542,13 +34757,12 @@
         "audienceRating": 5.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5543882,
+        "duration": 5543840,
         "durationHuman": "1 hr 32 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b74fb0d55001f5689a0",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Neighbors.2.Sorority.Rising.(2016).1080p\\Neighbors.2.Sorority.Rising.(2016).1080p.h265.mkv",
             "E:\\Plex\\Movies\\Neighbors 2 - Sorority Rising (2016)\\Neighbors 2 - Sorority Rising (2016).mkv"
         ],
         "originalTitle": null,
@@ -34566,38 +34780,6 @@
         "userRating": null,
         "year": 2016,
         "media": [
-            {
-                "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2599,
-                "container": "mkv",
-                "duration": 5543882,
-                "hdr": false,
-                "height": 800,
-                "isOptimizedVersion": false,
-                "videoCodec": "hevc",
-                "videoFrameRate": "24p",
-                "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
-                "parts": [
-                    {
-                        "audioProfile": null,
-                        "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5543882,
-                        "file": "E:\\Plex\\Movies\\Neighbors.2.Sorority.Rising.(2016).1080p\\Neighbors.2.Sorority.Rising.(2016).1080p.h265.mkv",
-                        "hasPreviewThumbnails": false,
-                        "indexes": null,
-                        "optimizedForStreaming": null,
-                        "size": 1801107610,
-                        "sizeHuman": "1.68 GB",
-                        "videoProfile": "main 10"
-                    }
-                ]
-            },
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
@@ -48430,6 +48612,68 @@
         ]
     },
     {
+        "addedAt": "2025-04-24T14:27:07",
+        "audienceRating": 7.3,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 7027881,
+        "durationHuman": "1 hr 57 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776c17594b2b001e6eac2b",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Split (2016)\\Split (2016).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2017-01-18",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127180,
+        "studio": "Blinding Edge Pictures",
+        "summary": "Though Kevin (James McAvoy) has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher (Betty Buckley), there remains one still submerged who is set to materialize and dominate all of the others. Compelled to abduct three teenage girls led by the willful, observant Casey, Kevin reaches a war for survival among all of those contained within him -- as well as everyone around him -- as the walls between his compartments shatter.",
+        "tagline": "Kevin has 23 distinct personalities. The 24th is about to be unleashed.",
+        "thumbFile": "Movie - Split [127180].images\\Split [127180].thumb.jpg",
+        "title": "Split",
+        "titleSort": "Split",
+        "type": "movie",
+        "userRating": null,
+        "year": 2017,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5394,
+                "container": "mkv",
+                "duration": 7027881,
+                "hdr": false,
+                "height": 804,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7027881,
+                        "file": "E:\\Plex\\Movies\\Split (2016)\\Split (2016).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4738112529,
+                        "sizeHuman": "4.41 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2023-07-19T22:55:00",
         "audienceRating": 7.2,
         "audienceRatingImage": "imdb://image.rating",
@@ -56112,6 +56356,68 @@
                         "size": 1837424558,
                         "sizeHuman": "1.71 GB",
                         "videoProfile": "high"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-24T14:27:06",
+        "audienceRating": 5.8,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 6974128,
+        "durationHuman": "1 hr 56 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/65422b6ba2e549cd84b254f7",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\A Working Man (2025)\\A Working Man (2025).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2025-03-26",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127176,
+        "studio": "Cedar Park Entertainment",
+        "summary": "Levon Cade left his profession behind to work construction and be a good dad to his daughter. But when a local girl vanishes, he's asked to return to the skills that made him a mythic figure in the shadowy world of counter-terrorism.",
+        "tagline": "Human traffickers beware.",
+        "thumbFile": "Movie - A Working Man [127176].images\\A Working Man [127176].thumb.jpg",
+        "title": "A Working Man",
+        "titleSort": "Working Man",
+        "type": "movie",
+        "userRating": null,
+        "year": 2025,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 4970,
+                "container": "mkv",
+                "duration": 6974128,
+                "hdr": false,
+                "height": 800,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6974128,
+                        "file": "E:\\Plex\\Movies\\A Working Man (2025)\\A Working Man (2025).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4332920817,
+                        "sizeHuman": "4.04 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }

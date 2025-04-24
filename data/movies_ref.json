@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 921,
-        "totalSizeHuman": "3.13 TB"
+        "totalMovies": 927,
+        "totalSizeHuman": "3.15 TB"
     },
     "movies": [
         {
@@ -2477,6 +2477,18 @@
             "sizeHuman": "4.37 GB"
         },
         {
+            "ratingKey": 127181,
+            "title": "Epic",
+            "year": 2013,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 42 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.47 GB"
+        },
+        {
             "ratingKey": 1732,
             "title": "Escape Plan",
             "year": 2013,
@@ -3219,6 +3231,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.22 GB"
+        },
+        {
+            "ratingKey": 127179,
+            "title": "Glass",
+            "year": 2019,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 9 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.92 GB"
         },
         {
             "ratingKey": 1999,
@@ -6041,6 +6065,30 @@
             "sizeHuman": "2.09 GB"
         },
         {
+            "ratingKey": 127178,
+            "title": "Marley & Me",
+            "year": 2008,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 56 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.47 GB"
+        },
+        {
+            "ratingKey": 127177,
+            "title": "The Mask",
+            "year": 1994,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 41 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.26 GB"
+        },
+        {
             "ratingKey": 2602,
             "title": "Masterminds",
             "year": 2015,
@@ -6674,7 +6722,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.62 GB"
+            "sizeHuman": "2.26 GB"
         },
         {
             "ratingKey": 2726,
@@ -6686,7 +6734,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.68 GB"
+            "sizeHuman": "2.01 GB"
         },
         {
             "ratingKey": 2728,
@@ -9353,6 +9401,18 @@
             "sizeHuman": "2.49 GB"
         },
         {
+            "ratingKey": 127180,
+            "title": "Split",
+            "year": 2017,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 57 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.41 GB"
+        },
+        {
             "ratingKey": 3882,
             "title": "The SpongeBob SquarePants Movie",
             "year": 2004,
@@ -10839,6 +10899,18 @@
             "videoCodec": "H264",
             "videoResolution": "1080p",
             "sizeHuman": "1.71 GB"
+        },
+        {
+            "ratingKey": 127176,
+            "title": "A Working Man",
+            "year": 2025,
+            "contentRating": "R",
+            "durationHuman": "1 hr 56 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.04 GB"
         },
         {
             "ratingKey": 3917,
