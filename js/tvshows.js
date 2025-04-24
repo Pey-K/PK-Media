@@ -129,6 +129,7 @@ function openSeasonView(show) {
             <p>Seasons: ${show.seasonCount}</p>
             <p>(${show.showTotalEpisode} Episodes)</p>
             <p>Avg Runtime: ${show.avgEpisodeDuration}</p>
+            <p>(${show.showSizeHuman})</p>
         </div>
     `;
 
