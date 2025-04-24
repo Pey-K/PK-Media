@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 914,
-        "totalSizeHuman": "3.09 TB"
+        "totalMovies": 921,
+        "totalSizeHuman": "3.13 TB"
     },
     "movies": [
         {
@@ -855,6 +855,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.55 GB"
+        },
+        {
+            "ratingKey": 127168,
+            "title": "The Beekeeper",
+            "year": 2024,
+            "contentRating": "R",
+            "durationHuman": "1 hr 45 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.88 GB"
         },
         {
             "ratingKey": 651,
@@ -2163,6 +2175,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.68 GB"
+        },
+        {
+            "ratingKey": 127122,
+            "title": "Doctor Sleep",
+            "year": 2019,
+            "contentRating": "R",
+            "durationHuman": "3 hrs",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.67 GB"
         },
         {
             "ratingKey": 1531,
@@ -6329,6 +6353,18 @@
             "sizeHuman": "3.70 GB"
         },
         {
+            "ratingKey": 127118,
+            "title": "The Monkey",
+            "year": 2025,
+            "contentRating": "R",
+            "durationHuman": "1 hr 38 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.87 GB"
+        },
+        {
             "ratingKey": 2661,
             "title": "Monster House",
             "year": 2006,
@@ -6411,6 +6447,18 @@
             "videoCodec": "H264",
             "videoResolution": "1080p",
             "sizeHuman": "1.51 GB"
+        },
+        {
+            "ratingKey": 127121,
+            "title": "Movie 43",
+            "year": 2013,
+            "contentRating": "R",
+            "durationHuman": "1 hr 38 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.16 GB"
         },
         {
             "ratingKey": 120106,
@@ -6579,6 +6627,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.47 GB"
+        },
+        {
+            "ratingKey": 4019,
+            "title": "National Lampoon's Vacation",
+            "year": 1983,
+            "contentRating": "R",
+            "durationHuman": "1 hr 38 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.47 GB"
         },
         {
             "ratingKey": 120797,
@@ -7827,6 +7887,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.73 GB"
+        },
+        {
+            "ratingKey": 127120,
+            "title": "Reservoir Dogs",
+            "year": 1992,
+            "contentRating": "R",
+            "durationHuman": "1 hr 39 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.79 GB"
         },
         {
             "ratingKey": 121037,
@@ -9713,6 +9785,18 @@
             "sizeHuman": "2.09 GB"
         },
         {
+            "ratingKey": 127119,
+            "title": "Tammy",
+            "year": 2014,
+            "contentRating": "R",
+            "durationHuman": "1 hr 41 mins",
+            "audioCodec": "AAC",
+            "container": "mp4",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "1.57 GB"
+        },
+        {
             "ratingKey": 3321,
             "title": "Tangled",
             "year": 2010,
@@ -10205,6 +10289,18 @@
             "sizeHuman": "3.70 GB"
         },
         {
+            "ratingKey": 127167,
+            "title": "Unbreakable",
+            "year": 2000,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 47 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.07 GB"
+        },
+        {
             "ratingKey": 3975,
             "title": "Unbroken",
             "year": 2014,
@@ -10299,18 +10395,6 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.71 GB"
-        },
-        {
-            "ratingKey": 4019,
-            "title": "Vacation",
-            "year": 1983,
-            "contentRating": "R",
-            "durationHuman": "1 hr 38 mins",
-            "audioCodec": "AAC",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.47 GB"
         },
         {
             "ratingKey": 4024,

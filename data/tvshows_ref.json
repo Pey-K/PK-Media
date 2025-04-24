@@ -1,9 +1,9 @@
 {
     "metadata": {
-        "totalShow": 178,
-        "totalSeasonCount": 948,
-        "TotalEpisode": 16994,
-        "totalSizeHuman": "10.38 TB"
+        "totalShow": 180,
+        "totalSeasonCount": 952,
+        "TotalEpisode": 17020,
+        "totalSizeHuman": "10.44 TB"
     },
     "shows": [
         {
@@ -1430,14 +1430,14 @@
             "title": "Black Mirror",
             "avgEpisodeDuration": "1 hr",
             "contentRating": "TV-MA",
-            "seasonCount": 6,
-            "showTotalEpisode": 26,
-            "showSizeHuman": "59.51 GB",
+            "seasonCount": 7,
+            "showTotalEpisode": 32,
+            "showSizeHuman": "72.81 GB",
             "avgVideoResolutions": "1080p",
             "avgAudioCodecs": "EAC3",
             "avgVideoCodecs": "HEVC",
             "avgContainers": "mkv",
-            "showYearRange": "2011-2023",
+            "showYearRange": "2011-2025",
             "seasons": [
                 {
                     "seasonRatingKey": 82725,
@@ -1504,6 +1504,17 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2023-2023"
+                },
+                {
+                    "seasonRatingKey": 127110,
+                    "seasonNumber": 7,
+                    "seasonTotalEpisode": 6,
+                    "seasonSizeHuman": "13.30 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2025-2025"
                 }
             ]
         },
@@ -6633,6 +6644,33 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2022-2022"
+                }
+            ]
+        },
+        {
+            "ratingKey": 127152,
+            "title": "Midnight Mass",
+            "avgEpisodeDuration": "1 hr 4 mins",
+            "contentRating": "TV-MA",
+            "seasonCount": 1,
+            "showTotalEpisode": 7,
+            "showSizeHuman": "16.33 GB",
+            "avgVideoResolutions": "1080p",
+            "avgAudioCodecs": "EAC3",
+            "avgVideoCodecs": "HEVC",
+            "avgContainers": "mkv",
+            "showYearRange": "2021-2021",
+            "seasons": [
+                {
+                    "seasonRatingKey": 127153,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 7,
+                    "seasonSizeHuman": "16.33 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2021-2021"
                 }
             ]
         },
@@ -11806,7 +11844,7 @@
         {
             "ratingKey": 82729,
             "title": "Twin Peaks",
-            "avgEpisodeDuration": "46 mins",
+            "avgEpisodeDuration": "50 mins",
             "contentRating": "TV-MA",
             "seasonCount": 3,
             "showTotalEpisode": 48,
@@ -12859,6 +12897,44 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2005-2005"
+                }
+            ]
+        },
+        {
+            "ratingKey": 127134,
+            "title": "The White Lotus",
+            "avgEpisodeDuration": "1 hr 1 min",
+            "contentRating": "TV-MA",
+            "seasonCount": 2,
+            "showTotalEpisode": 13,
+            "showSizeHuman": "30.72 GB",
+            "avgVideoResolutions": "1080p",
+            "avgAudioCodecs": "EAC3",
+            "avgVideoCodecs": "HEVC",
+            "avgContainers": "mkv",
+            "showYearRange": "2021-2022",
+            "seasons": [
+                {
+                    "seasonRatingKey": 127143,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 6,
+                    "seasonSizeHuman": "13.80 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2021-2021"
+                },
+                {
+                    "seasonRatingKey": 127135,
+                    "seasonNumber": 2,
+                    "seasonTotalEpisode": 7,
+                    "seasonSizeHuman": "16.92 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2022-2022"
                 }
             ]
         },

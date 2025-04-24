@@ -3338,7 +3338,7 @@
         "ratingKey": 3391,
         "studio": "Screen Australia",
         "summary": "A single mother and her child fall into a deep well of paranoia when an eerie children's book titled \"Mister Babadook\" manifests in their home.",
-        "tagline": "If it's in a word, or it's in a look, you can't get rid of the Babadook.",
+        "tagline": "If it's in a word, or it's in a look, you can't get rid of... the Babadook.",
         "thumbFile": "Movie - The Babadook [3391].images\\The Babadook [3391].thumb.jpg",
         "title": "The Babadook",
         "titleSort": "Babadook",
@@ -4435,6 +4435,68 @@
         ]
     },
     {
+        "addedAt": "2025-04-24T01:30:34",
+        "audienceRating": 6.3,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 6314152,
+        "durationHuman": "1 hr 45 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/613c7a5b1fe69c7d644a8e0a",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\The Beekeeper (2024)\\The Beekeeper (2024).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2024-01-08",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127168,
+        "studio": "Miramax",
+        "summary": "Adam Clay is a beekeeper, but someone very important to him is scammed and driven to harm. However, what these power and money hungry scammers don't know, is that Clay is an agent in a classified program called Beekeepers, and they underestimate how much of a threat he is. Adam sets out on a quest of vengeance, where he hunts and kills those responsible for the incident.",
+        "tagline": "Expose the corruption. Protect the hive.",
+        "thumbFile": "Movie - The Beekeeper [127168].images\\The Beekeeper [127168].thumb.jpg",
+        "title": "The Beekeeper",
+        "titleSort": "Beekeeper",
+        "type": "movie",
+        "userRating": null,
+        "year": 2024,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 8011,
+                "container": "mkv",
+                "duration": 6314152,
+                "hdr": false,
+                "height": 804,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 6314152,
+                        "file": "E:\\Plex\\Movies\\The Beekeeper (2024)\\The Beekeeper (2024).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 6317269461,
+                        "sizeHuman": "5.88 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2024-09-11T04:34:25",
         "audienceRating": 7.5,
         "audienceRatingImage": "imdb://image.rating",
@@ -4560,7 +4622,7 @@
     },
     {
         "addedAt": "2024-10-01T12:11:11",
-        "audienceRating": 5.5,
+        "audienceRating": 5.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
         "duration": 5110174,
@@ -11193,6 +11255,68 @@
         ]
     },
     {
+        "addedAt": "2025-04-20T01:59:14",
+        "audienceRating": 7.3,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 10814356,
+        "durationHuman": "3 hrs",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776da0594b2b001e70ddb5",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Doctor Sleep (2019)\\Doctor Sleep (2019).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2019-10-30",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127122,
+        "studio": "Vertigo Entertainment",
+        "summary": "Years following the events of The Shining (1980), a now-adult Dan Torrance must protect a young girl with similar powers from a cult known as The True Knot, who prey on children with powers to remain immortal.",
+        "tagline": "Return to the Overlook.",
+        "thumbFile": "Movie - Doctor Sleep [127122].images\\Doctor Sleep [127122].thumb.jpg",
+        "title": "Doctor Sleep",
+        "titleSort": "Doctor Sleep",
+        "type": "movie",
+        "userRating": null,
+        "year": 2019,
+        "media": [
+            {
+                "aspectRatio": 1.85,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5325,
+                "container": "mkv",
+                "duration": 10814356,
+                "hdr": false,
+                "height": 1040,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 10814356,
+                        "file": "E:\\Plex\\Movies\\Doctor Sleep (2019)\\Doctor Sleep (2019).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 7163888255,
+                        "sizeHuman": "6.67 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2024-09-25T12:22:06",
         "audienceRating": 7.5,
         "audienceRatingImage": "imdb://image.rating",
@@ -12824,7 +12948,7 @@
         "ratingKey": 3505,
         "studio": "Hoya Productions",
         "summary": "A visiting actress in Washington, D.C., notices dramatic and dangerous changes in the behavior and physical makeup of her 12-year-old daughter. Meanwhile, a young priest at nearby Georgetown University begins to doubt his faith while dealing with his mother's terminal sickness. A frail, elderly priest recognizes the necessity for a show-down with an old demonic enemy.",
-        "tagline": "Something almost beyond comprehension is happening to a girl on this street, in this house… and a man has been sent for as a last resort. This man is The Exorcist.",
+        "tagline": "Something almost beyond comprehension is happening to a girl on this street, in this house…And a man has been sent for as a last resort. This man is The Exorcist.",
         "thumbFile": "Movie - The Exorcist [3505].images\\The Exorcist [3505].thumb.jpg",
         "title": "The Exorcist",
         "titleSort": "Exorcist",
@@ -32646,7 +32770,7 @@
     },
     {
         "addedAt": "2025-01-28T08:13:02",
-        "audienceRating": 6.7,
+        "audienceRating": 6.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
         "duration": 5993542,
@@ -32700,6 +32824,68 @@
                         "optimizedForStreaming": null,
                         "size": 3977983987,
                         "sizeHuman": "3.70 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-20T01:59:02",
+        "audienceRating": 6.0,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 5895616,
+        "durationHuman": "1 hr 38 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/645bee92d7bfe4a7c17f81e2",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\The Monkey (2025)\\The Monkey (2025).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2025-02-19",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127118,
+        "studio": "Atomic Monster",
+        "summary": "When twin brothers Bill and Hal find their father's old monkey toy in the attic, a series of gruesome deaths start. The siblings decide to throw the toy away and move on with their lives, growing apart over the years.",
+        "tagline": "Everybody dies. And that's fucked up.",
+        "thumbFile": "Movie - The Monkey [127118].images\\The Monkey [127118].thumb.jpg",
+        "title": "The Monkey",
+        "titleSort": "Monkey",
+        "type": "movie",
+        "userRating": null,
+        "year": 2025,
+        "media": [
+            {
+                "aspectRatio": 1.85,
+                "audioChannels": 6,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 5639,
+                "container": "mkv",
+                "duration": 5895616,
+                "hdr": false,
+                "height": 960,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 5895616,
+                        "file": "E:\\Plex\\Movies\\The Monkey (2025)\\The Monkey (2025).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4157691371,
+                        "sizeHuman": "3.87 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -33135,6 +33321,68 @@
                         "size": 1623149575,
                         "sizeHuman": "1.51 GB",
                         "videoProfile": "high"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-20T01:59:03",
+        "audienceRating": 4.4,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 5881813,
+        "durationHuman": "1 hr 38 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7768e3594b2b001e6976b0",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Movie 43 (2013)\\Movie 43 (2013).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2013-01-01",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127121,
+        "studio": "Witness Protection Films",
+        "summary": "A series of interconnected short films follows a washed-up producer as he pitches insane story lines featuring some of the biggest stars in Hollywood.",
+        "tagline": "The biggest cast ever assembled for the most outrageous comedy ever made.",
+        "thumbFile": "Movie - Movie 43 [127121].images\\Movie 43 [127121].thumb.jpg",
+        "title": "Movie 43",
+        "titleSort": "Movie 43",
+        "type": "movie",
+        "userRating": null,
+        "year": 2013,
+        "media": [
+            {
+                "aspectRatio": 1.85,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6073,
+                "container": "mkv",
+                "duration": 5881813,
+                "hdr": false,
+                "height": 1040,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 5881813,
+                        "file": "E:\\Plex\\Movies\\Movie 43 (2013)\\Movie 43 (2013).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4467956382,
+                        "sizeHuman": "4.16 GB",
+                        "videoProfile": "main"
                     }
                 ]
             }
@@ -34009,6 +34257,68 @@
         ]
     },
     {
+        "addedAt": "2024-05-01T03:40:50",
+        "audienceRating": 7.3,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 5896014,
+        "durationHuman": "1 hr 38 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776836103a2d001f567ea4",
+        "hasCreditsMarker": false,
+        "locations": [
+            "E:\\Plex\\Movies\\Vacation.(1983).1080p\\Vacation.(1983).1080p.h265.mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "1983-07-29",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 4019,
+        "studio": "Warner Bros. Pictures",
+        "summary": "The Griswold family's cross-country drive to the Walley World theme park proves to be much more arduous than they ever anticipated.",
+        "tagline": "Every summer Chevy Chase takes his family on a little trip. This year he went too far.",
+        "thumbFile": "Movie - National Lampoon_s Vacation [4019].images\\National Lampoon_s Vacation [4019].thumb.jpg",
+        "title": "National Lampoon's Vacation",
+        "titleSort": "National Lampoon's Vacation",
+        "type": "movie",
+        "userRating": null,
+        "year": 1983,
+        "media": [
+            {
+                "aspectRatio": 1.85,
+                "audioChannels": 2,
+                "audioCodec": "aac",
+                "audioProfile": "he-aac",
+                "bitrate": 3666,
+                "container": "mkv",
+                "duration": 5896014,
+                "hdr": true,
+                "height": 1038,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "he-aac",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 5896014,
+                        "file": "E:\\Plex\\Movies\\Vacation.(1983).1080p\\Vacation.(1983).1080p.h265.mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 2652157816,
+                        "sizeHuman": "2.47 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2025-02-05T20:21:23",
         "audienceRating": 6.9,
         "audienceRatingImage": "imdb://image.rating",
@@ -34143,7 +34453,8 @@
         "guid": "plex://movie/5d776a1e96b655001fde3e6b",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Neighbors.(2014).1080p\\Neighbors.(2014).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Neighbors.(2014).1080p\\Neighbors.(2014).1080p.h265.mkv",
+            "E:\\Plex\\Movies\\Neighbors (2014)\\Neighbors (2014).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2014-05-03",
@@ -34165,7 +34476,7 @@
                 "audioChannels": 6,
                 "audioCodec": "eac3",
                 "audioProfile": null,
-                "bitrate": 2444,
+                "bitrate": 2401,
                 "container": "mkv",
                 "duration": 5802733,
                 "hdr": false,
@@ -34191,6 +34502,38 @@
                         "videoProfile": "main 10"
                     }
                 ]
+            },
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 3385,
+                "container": "mkv",
+                "duration": 5801824,
+                "hdr": false,
+                "height": 800,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 5801824,
+                        "file": "E:\\Plex\\Movies\\Neighbors (2014)\\Neighbors (2014).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 2422571924,
+                        "sizeHuman": "2.26 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
             }
         ]
     },
@@ -34199,13 +34542,14 @@
         "audienceRating": 5.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5543880,
+        "duration": 5543882,
         "durationHuman": "1 hr 32 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b74fb0d55001f5689a0",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Neighbors.2.Sorority.Rising.(2016).1080p\\Neighbors.2.Sorority.Rising.(2016).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Neighbors.2.Sorority.Rising.(2016).1080p\\Neighbors.2.Sorority.Rising.(2016).1080p.h265.mkv",
+            "E:\\Plex\\Movies\\Neighbors 2 - Sorority Rising (2016)\\Neighbors 2 - Sorority Rising (2016).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2016-05-04",
@@ -34227,9 +34571,9 @@
                 "audioChannels": 6,
                 "audioCodec": "eac3",
                 "audioProfile": null,
-                "bitrate": 2704,
+                "bitrate": 2599,
                 "container": "mkv",
-                "duration": 5543880,
+                "duration": 5543882,
                 "hdr": false,
                 "height": 800,
                 "isOptimizedVersion": false,
@@ -34243,13 +34587,45 @@
                         "audioProfile": null,
                         "container": "mkv",
                         "deepAnalysisVersion": 6,
-                        "duration": 5543880,
+                        "duration": 5543882,
                         "file": "E:\\Plex\\Movies\\Neighbors.2.Sorority.Rising.(2016).1080p\\Neighbors.2.Sorority.Rising.(2016).1080p.h265.mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
                         "size": 1801107610,
                         "sizeHuman": "1.68 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            },
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 3159,
+                "container": "mkv",
+                "duration": 5543840,
+                "hdr": false,
+                "height": 800,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 5543840,
+                        "file": "E:\\Plex\\Movies\\Neighbors 2 - Sorority Rising (2016)\\Neighbors 2 - Sorority Rising (2016).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 2157620432,
+                        "sizeHuman": "2.01 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -35640,7 +36016,7 @@
         "ratingKey": 81180,
         "studio": "Syncopy",
         "summary": "The narrative follows J. Robert Oppenheimer, a key figure behind the atomic bomb's creation, a pivotal factor in concluding World War 2. From his time in academia to the aftermath of the war, the story unfolds, depicting how his renown entangled him in complex political situations.",
-        "tagline": "The world forever changes.",
+        "tagline": "The man who moved the earth.",
         "thumbFile": "Movie - Oppenheimer [81180].images\\Oppenheimer [81180].thumb.jpg",
         "title": "Oppenheimer",
         "titleSort": "Oppenheimer",
@@ -40457,6 +40833,68 @@
         ]
     },
     {
+        "addedAt": "2025-04-20T01:59:03",
+        "audienceRating": 8.3,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 5950034,
+        "durationHuman": "1 hr 39 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776826103a2d001f564150",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Reservoir Dogs (1992)\\Reservoir Dogs (1992).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "1992-09-02",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127120,
+        "studio": "Live Entertainment",
+        "summary": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
+        "tagline": "Every dog has his day.",
+        "thumbFile": "Movie - Reservoir Dogs [127120].images\\Reservoir Dogs [127120].thumb.jpg",
+        "title": "Reservoir Dogs",
+        "titleSort": "Reservoir Dogs",
+        "type": "movie",
+        "userRating": null,
+        "year": 1992,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5507,
+                "container": "mkv",
+                "duration": 5950034,
+                "hdr": false,
+                "height": 820,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1916,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 5950034,
+                        "file": "E:\\Plex\\Movies\\Reservoir Dogs (1992)\\Reservoir Dogs (1992).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4074179855,
+                        "sizeHuman": "3.79 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2025-02-06T01:55:16",
         "audienceRating": 6.6,
         "audienceRatingImage": "imdb://image.rating",
@@ -41574,7 +42012,7 @@
     },
     {
         "addedAt": "2024-04-21T10:02:04",
-        "audienceRating": 6.3,
+        "audienceRating": 6.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
         "duration": 5646336,
@@ -43000,7 +43438,7 @@
     },
     {
         "addedAt": "2024-12-01T21:58:18",
-        "audienceRating": 5.7,
+        "audienceRating": 5.8,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "G",
         "duration": 6262272,
@@ -47327,7 +47765,7 @@
         "rating": null,
         "ratingImage": null,
         "ratingKey": 3162,
-        "studio": "Warner Bros. Pictures Animation",
+        "studio": "Warner Animation Group",
         "summary": "An algorithm named Al G Rhythm captures famed basketball player LeBron James and his son Dom. Al G challenges LeBron to a basketball game against Al's digitized champions. LeBron gets the help of Bugs Bunny and the Looney Tunes to win the basketball game and get his son back.",
         "tagline": "Welcome to the Jam!",
         "thumbFile": "Movie - Space Jam_ A New Legacy [3162].images\\Space Jam_ A New Legacy [3162].thumb.jpg",
@@ -48569,7 +49007,7 @@
         "ratingKey": 3245,
         "studio": "Lucasfilm Ltd.",
         "summary": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long-dormant Sith resurface to claim their former glory.",
-        "tagline": "Every generation has a legend. Every journey has a first step. Every saga has a beginning.",
+        "tagline": "Every saga has a beginning.",
         "thumbFile": "Movie - Star Wars_ Episode I - The Phantom Menace [3245].images\\Star Wars_ Episode I - The Phantom Menace [3245].thumb.jpg",
         "title": "Star Wars: Episode I - The Phantom Menace",
         "titleSort": "Star Wars: Episode I - The Phantom Menace",
@@ -50217,6 +50655,68 @@
                         "optimizedForStreaming": null,
                         "size": 2243161588,
                         "sizeHuman": "2.09 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-20T01:59:02",
+        "audienceRating": 4.9,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 6035321,
+        "durationHuman": "1 hr 41 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776a5ffb0d55001f544234",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Tammy (2014)\\Tammy (2014) [Extended Edition].mp4"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2014-07-02",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127119,
+        "studio": "Gary Sanchez Productions",
+        "summary": "For Tammy, a burger-joint employee, a bad day keeps getting worse. She wrecks her car, loses her job, and finds that her husband has been unfaithful. It's time for Tammy to hit the road, but without money or transportation, her options are limited. Her only choice is a road trip with her hard-drinking grandmother, Pearl, who has a car, cash, and an itch to see Niagara Falls. It's not the escape Tammy had in mind, but it may be what she needs.",
+        "tagline": "She hit the road. The road hit back.",
+        "thumbFile": "Movie - Tammy [127119].images\\Tammy [127119].thumb.jpg",
+        "title": "Tammy",
+        "titleSort": "Tammy",
+        "type": "movie",
+        "userRating": null,
+        "year": 2014,
+        "media": [
+            {
+                "aspectRatio": 1.78,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 2223,
+                "container": "mp4",
+                "duration": 6035321,
+                "hdr": false,
+                "height": 1080,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mp4",
+                        "deepAnalysisVersion": 6,
+                        "duration": 6035321,
+                        "file": "E:\\Plex\\Movies\\Tammy (2014)\\Tammy (2014) [Extended Edition].mp4",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": false,
+                        "size": 1682202543,
+                        "sizeHuman": "1.57 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -52643,7 +53143,7 @@
     },
     {
         "addedAt": "2024-10-01T06:24:32",
-        "audienceRating": 5.7,
+        "audienceRating": 5.8,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
         "duration": 5180633,
@@ -52759,6 +53259,68 @@
                         "optimizedForStreaming": null,
                         "size": 3972587271,
                         "sizeHuman": "3.70 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-24T01:30:33",
+        "audienceRating": 7.3,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 6398740,
+        "durationHuman": "1 hr 47 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7768337e9a3c0020c6c6de",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Unbreakable (2000)\\Unbreakable (2000).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2000-11-22",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127167,
+        "studio": "Barry Mendel Productions",
+        "summary": "An ordinary man makes an extraordinary discovery when a train accident leaves his fellow passengers dead — and him unscathed. The answer to this mystery could lie with the mysterious Elijah Price, a man who suffers from a disease that renders his bones as fragile as glass.",
+        "tagline": "Are you ready for the truth?",
+        "thumbFile": "Movie - Unbreakable [127167].images\\Unbreakable [127167].thumb.jpg",
+        "title": "Unbreakable",
+        "titleSort": "Unbreakable",
+        "type": "movie",
+        "userRating": null,
+        "year": 2000,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5469,
+                "container": "mkv",
+                "duration": 6398740,
+                "hdr": false,
+                "height": 800,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 6398740,
+                        "file": "E:\\Plex\\Movies\\Unbreakable (2000)\\Unbreakable (2000).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4370253801,
+                        "sizeHuman": "4.07 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -53157,7 +53719,7 @@
         "ratingKey": 4011,
         "studio": "Monkeypaw Productions",
         "summary": "In order to get away from their busy lives, the Wilson family takes a vacation to Santa Cruz, California. At night, four strangers break into Adelaide's childhood home. The family is shocked to find out that the intruders look like them.",
-        "tagline": "Watch yourself",
+        "tagline": "Watch yourself.",
         "thumbFile": "Movie - Us [4011].images\\Us [4011].thumb.jpg",
         "title": "Us",
         "titleSort": "Us",
@@ -53201,7 +53763,7 @@
     },
     {
         "addedAt": "2024-10-21T02:33:33",
-        "audienceRating": 5.9,
+        "audienceRating": 5.8,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "Not Rated",
         "duration": 6850218,
@@ -53255,68 +53817,6 @@
                         "optimizedForStreaming": null,
                         "size": 3978447164,
                         "sizeHuman": "3.71 GB",
-                        "videoProfile": "main 10"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "addedAt": "2024-05-01T03:40:50",
-        "audienceRating": 7.3,
-        "audienceRatingImage": "imdb://image.rating",
-        "contentRating": "R",
-        "duration": 5896014,
-        "durationHuman": "1 hr 38 mins",
-        "editionTitle": null,
-        "guid": "plex://movie/5d776836103a2d001f567ea4",
-        "hasCreditsMarker": false,
-        "locations": [
-            "E:\\Plex\\Movies\\Vacation.(1983).1080p\\Vacation.(1983).1080p.h265.mkv"
-        ],
-        "originalTitle": "National Lampoon's Vacation",
-        "originallyAvailableAt": "1983-07-29",
-        "rating": null,
-        "ratingImage": null,
-        "ratingKey": 4019,
-        "studio": "Warner Bros. Pictures",
-        "summary": "The Griswold family's cross-country drive to the Walley World theme park proves to be much more arduous than they ever anticipated.",
-        "tagline": "Every summer Chevy Chase takes his family on a little trip. This year he went too far.",
-        "thumbFile": "Movie - Vacation [4019].images\\Vacation [4019].thumb.jpg",
-        "title": "Vacation",
-        "titleSort": "Vacation",
-        "type": "movie",
-        "userRating": null,
-        "year": 1983,
-        "media": [
-            {
-                "aspectRatio": 1.85,
-                "audioChannels": 2,
-                "audioCodec": "aac",
-                "audioProfile": "he-aac",
-                "bitrate": 3666,
-                "container": "mkv",
-                "duration": 5896014,
-                "hdr": true,
-                "height": 1038,
-                "isOptimizedVersion": false,
-                "videoCodec": "hevc",
-                "videoFrameRate": "24p",
-                "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
-                "parts": [
-                    {
-                        "audioProfile": "he-aac",
-                        "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5896014,
-                        "file": "E:\\Plex\\Movies\\Vacation.(1983).1080p\\Vacation.(1983).1080p.h265.mkv",
-                        "hasPreviewThumbnails": false,
-                        "indexes": null,
-                        "optimizedForStreaming": null,
-                        "size": 2652157816,
-                        "sizeHuman": "2.47 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -53653,7 +54153,7 @@
         "ratingKey": 4037,
         "studio": "Columbia Pictures",
         "summary": "Eddie Brock struggles to adjust to his new life as the host of the alien symbiote Venom, which grants him super-human abilities in order to be a lethal vigilante. Brock attempts to reignite his career by interviewing serial killer Cletus Kasady, who becomes the host of the symbiote Carnage and escapes prison after a failed execution.",
-        "tagline": "It’s time to meet Carnage.",
+        "tagline": "You are what you eat.",
         "thumbFile": "Movie - Venom_ Let There Be Carnage [4037].images\\Venom_ Let There Be Carnage [4037].thumb.jpg",
         "title": "Venom: Let There Be Carnage",
         "titleSort": "Venom: Let There Be Carnage",
@@ -55264,7 +55764,7 @@
         "ratingImage": null,
         "ratingKey": 81184,
         "studio": "Motown Productions",
-        "summary": "An adaptation of \"The Wizard of Oz\" that tries to capture the essence of the African-American experience.",
+        "summary": "When Harlem schoolteacher Dorothy is miraculously whisked away to an urban fantasy land called Oz, she goes in search of the Wiz, a wizard who can help her get back to Manhattan, along with the Scarecrow, the Tin Man and the Cowardly Lion.",
         "tagline": "The wiz! The stars! The music! Wow!",
         "thumbFile": "Movie - The Wiz [81184].images\\The Wiz [81184].thumb.jpg",
         "title": "The Wiz",
@@ -55327,7 +55827,7 @@
         "ratingKey": 3916,
         "studio": "Metro-Goldwyn-Mayer",
         "summary": "Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others' wishes.",
-        "tagline": "Gaiety! Glory! Glamour!",
+        "tagline": "We're off to see the Wizard, the wonderful Wizard of Oz!",
         "thumbFile": "Movie - The Wizard of Oz [3916].images\\The Wizard of Oz [3916].thumb.jpg",
         "title": "The Wizard of Oz",
         "titleSort": "Wizard of Oz",
