@@ -5642,8 +5642,8 @@
                     "totalAlbumSizeBytes": 158484194,
                     "albumDurationHuman": "56 mins",
                     "albumContainers": [
-                        "wav",
                         "mp4",
+                        "wav",
                         "mp3"
                     ]
                 },

@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 927,
-        "totalSizeHuman": "3.15 TB"
+        "totalMovies": 928,
+        "totalSizeHuman": "3.16 TB"
     },
     "movies": [
         {
@@ -10779,6 +10779,18 @@
             "videoCodec": "H264",
             "videoResolution": "1080p",
             "sizeHuman": "1.68 GB"
+        },
+        {
+            "ratingKey": 127598,
+            "title": "Wildflower",
+            "year": 2023,
+            "contentRating": "R",
+            "durationHuman": "1 hr 46 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "H264",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.00 GB"
         },
         {
             "ratingKey": 120453,
