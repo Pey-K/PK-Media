@@ -6853,6 +6853,68 @@
         ]
     },
     {
+        "addedAt": "2025-04-26T15:26:57",
+        "audienceRating": 6.7,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 5653695,
+        "durationHuman": "1 hr 34 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7769d0fb0d55001f530f63",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\The Call (2013)\\The Call (2013).mp4"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2013-03-14",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 127601,
+        "studio": "TriStar Pictures",
+        "summary": "Jordan Turner (Halle Berry) is an experienced 911 operator but when she makes an error in judgment and a call ends badly, Jordan is rattled and unsure if she can continue, but then teenager Casey Welson (Abigail Breslin) is abducted and calls 911. Jordan is the one called upon to use all of her experience, insights and quick thinking to try to help Casey escape and also to make sure the man is brought to justice.",
+        "tagline": "There are 188 million 911 calls a year. This one made it personal.",
+        "thumbFile": "Movie - The Call [127601].images\\The Call [127601].thumb.jpg",
+        "title": "The Call",
+        "titleSort": "Call",
+        "type": "movie",
+        "userRating": null,
+        "year": 2013,
+        "media": [
+            {
+                "aspectRatio": 1.85,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 2228,
+                "container": "mp4",
+                "duration": 5653695,
+                "hdr": false,
+                "height": 1040,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mp4",
+                        "deepAnalysisVersion": null,
+                        "duration": 5653695,
+                        "file": "E:\\Plex\\Movies\\The Call (2013)\\The Call (2013).mp4",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": false,
+                        "size": 1574629683,
+                        "sizeHuman": "1.47 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2024-04-29T15:27:34",
         "audienceRating": 7.8,
         "audienceRatingImage": "imdb://image.rating",

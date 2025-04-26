@@ -1,9 +1,9 @@
 {
     "metadata": {
-        "totalShow": 181,
-        "totalSeasonCount": 971,
-        "TotalEpisode": 17375,
-        "totalSizeHuman": "10.52 TB"
+        "totalShow": 184,
+        "totalSeasonCount": 992,
+        "TotalEpisode": 17763,
+        "totalSizeHuman": "10.64 TB"
     },
     "shows": [
         {
@@ -1815,6 +1815,176 @@
             ]
         },
         {
+            "ratingKey": 127604,
+            "title": "Bob's Burgers",
+            "avgEpisodeDuration": "23 mins",
+            "contentRating": "TV-PG",
+            "seasonCount": 14,
+            "showTotalEpisode": 276,
+            "showSizeHuman": "51.46 GB",
+            "avgVideoResolutions": "1080p",
+            "avgAudioCodecs": "EAC3, OPUS",
+            "avgVideoCodecs": "HEVC",
+            "avgContainers": "mkv",
+            "showYearRange": "2011-2024",
+            "seasons": [
+                {
+                    "seasonRatingKey": 127881,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 13,
+                    "seasonSizeHuman": "2.64 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2011-2011"
+                },
+                {
+                    "seasonRatingKey": 127871,
+                    "seasonNumber": 2,
+                    "seasonTotalEpisode": 9,
+                    "seasonSizeHuman": "2.14 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2012-2012"
+                },
+                {
+                    "seasonRatingKey": 127847,
+                    "seasonNumber": 3,
+                    "seasonTotalEpisode": 23,
+                    "seasonSizeHuman": "5.18 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2012-2013"
+                },
+                {
+                    "seasonRatingKey": 127824,
+                    "seasonNumber": 4,
+                    "seasonTotalEpisode": 22,
+                    "seasonSizeHuman": "4.16 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2013-2014"
+                },
+                {
+                    "seasonRatingKey": 127802,
+                    "seasonNumber": 5,
+                    "seasonTotalEpisode": 21,
+                    "seasonSizeHuman": "3.92 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2014-2015"
+                },
+                {
+                    "seasonRatingKey": 127782,
+                    "seasonNumber": 6,
+                    "seasonTotalEpisode": 19,
+                    "seasonSizeHuman": "3.54 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2015-2016"
+                },
+                {
+                    "seasonRatingKey": 127759,
+                    "seasonNumber": 7,
+                    "seasonTotalEpisode": 22,
+                    "seasonSizeHuman": "3.62 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2016-2017"
+                },
+                {
+                    "seasonRatingKey": 127737,
+                    "seasonNumber": 8,
+                    "seasonTotalEpisode": 21,
+                    "seasonSizeHuman": "3.90 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2017-2018"
+                },
+                {
+                    "seasonRatingKey": 127714,
+                    "seasonNumber": 9,
+                    "seasonTotalEpisode": 22,
+                    "seasonSizeHuman": "4.26 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2018-2019"
+                },
+                {
+                    "seasonRatingKey": 127691,
+                    "seasonNumber": 10,
+                    "seasonTotalEpisode": 22,
+                    "seasonSizeHuman": "3.52 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2019-2020"
+                },
+                {
+                    "seasonRatingKey": 127668,
+                    "seasonNumber": 11,
+                    "seasonTotalEpisode": 22,
+                    "seasonSizeHuman": "3.54 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2020-2021"
+                },
+                {
+                    "seasonRatingKey": 127645,
+                    "seasonNumber": 12,
+                    "seasonTotalEpisode": 22,
+                    "seasonSizeHuman": "4.12 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2021-2022"
+                },
+                {
+                    "seasonRatingKey": 127622,
+                    "seasonNumber": 13,
+                    "seasonTotalEpisode": 22,
+                    "seasonSizeHuman": "4.76 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2022-2023"
+                },
+                {
+                    "seasonRatingKey": 127605,
+                    "seasonNumber": 14,
+                    "seasonTotalEpisode": 16,
+                    "seasonSizeHuman": "2.16 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "OPUS",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2023-2024"
+                }
+            ]
+        },
+        {
             "ratingKey": 10127,
             "title": "The Boondocks",
             "avgEpisodeDuration": "22 mins",
@@ -2368,6 +2538,66 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mp4",
                     "yearRange": "2000-2000"
+                }
+            ]
+        },
+        {
+            "ratingKey": 127895,
+            "title": "The Cleveland Show",
+            "avgEpisodeDuration": "22 mins",
+            "contentRating": "TV-14",
+            "seasonCount": 4,
+            "showTotalEpisode": 88,
+            "showSizeHuman": "20.68 GB",
+            "avgVideoResolutions": "1080p",
+            "avgAudioCodecs": "AAC",
+            "avgVideoCodecs": "HEVC",
+            "avgContainers": "mkv",
+            "showYearRange": "2009-2013",
+            "seasons": [
+                {
+                    "seasonRatingKey": 127967,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 21,
+                    "seasonSizeHuman": "5.04 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AAC",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2009-2010"
+                },
+                {
+                    "seasonRatingKey": 127944,
+                    "seasonNumber": 2,
+                    "seasonTotalEpisode": 22,
+                    "seasonSizeHuman": "5.21 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AAC",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2010-2011"
+                },
+                {
+                    "seasonRatingKey": 127920,
+                    "seasonNumber": 3,
+                    "seasonTotalEpisode": 22,
+                    "seasonSizeHuman": "5.01 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AAC",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2011-2012"
+                },
+                {
+                    "seasonRatingKey": 127896,
+                    "seasonNumber": 4,
+                    "seasonTotalEpisode": 23,
+                    "seasonSizeHuman": "5.42 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AAC",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2012-2013"
                 }
             ]
         },
@@ -8776,6 +9006,55 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mp4",
                     "yearRange": "2019-2020"
+                }
+            ]
+        },
+        {
+            "ratingKey": 127989,
+            "title": "Reacher",
+            "avgEpisodeDuration": "50 mins",
+            "contentRating": "TV-MA",
+            "seasonCount": 3,
+            "showTotalEpisode": 24,
+            "showSizeHuman": "41.93 GB",
+            "avgVideoResolutions": "1080p",
+            "avgAudioCodecs": "EAC3",
+            "avgVideoCodecs": "HEVC",
+            "avgContainers": "mkv",
+            "showYearRange": "2022-2025",
+            "seasons": [
+                {
+                    "seasonRatingKey": 128009,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "14.96 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2022-2022"
+                },
+                {
+                    "seasonRatingKey": 127999,
+                    "seasonNumber": 2,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "13.60 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2023-2024"
+                },
+                {
+                    "seasonRatingKey": 127990,
+                    "seasonNumber": 3,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "13.37 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2025-2025"
                 }
             ]
         },
