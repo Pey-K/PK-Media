@@ -55774,7 +55774,7 @@
                 "audioChannels": 6,
                 "audioCodec": "eac3",
                 "audioProfile": null,
-                "bitrate": 6770,
+                "bitrate": 6768,
                 "container": "mkv",
                 "duration": 6347648,
                 "hdr": false,
@@ -55789,7 +55789,7 @@
                     {
                         "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": null,
+                        "deepAnalysisVersion": 6,
                         "duration": 6347648,
                         "file": "E:\\Plex\\Movies\\Wildflower (2022)\\Wildflower (2022).mkv",
                         "hasPreviewThumbnails": false,
