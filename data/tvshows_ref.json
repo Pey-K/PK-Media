@@ -1,9 +1,9 @@
 {
     "metadata": {
-        "totalShow": 184,
-        "totalSeasonCount": 992,
-        "TotalEpisode": 17763,
-        "totalSizeHuman": "10.64 TB"
+        "totalShow": 185,
+        "totalSeasonCount": 993,
+        "TotalEpisode": 17785,
+        "totalSizeHuman": "10.66 TB"
     },
     "shows": [
         {
@@ -9694,6 +9694,33 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "1970-1970"
+                }
+            ]
+        },
+        {
+            "ratingKey": 128018,
+            "title": "The Secret Circle",
+            "avgEpisodeDuration": "42 mins",
+            "contentRating": "TV-14",
+            "seasonCount": 1,
+            "showTotalEpisode": 22,
+            "showSizeHuman": "21.84 GB",
+            "avgVideoResolutions": "1080p",
+            "avgAudioCodecs": "AAC",
+            "avgVideoCodecs": "HEVC",
+            "avgContainers": "mkv",
+            "showYearRange": "2011-2012",
+            "seasons": [
+                {
+                    "seasonRatingKey": 128019,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 22,
+                    "seasonSizeHuman": "21.84 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AAC",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2011-2012"
                 }
             ]
         },
