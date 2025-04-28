@@ -1,9 +1,9 @@
 {
     "metadata": {
-        "totalShow": 185,
-        "totalSeasonCount": 993,
-        "TotalEpisode": 17785,
-        "totalSizeHuman": "10.66 TB"
+        "totalShow": 182,
+        "totalSeasonCount": 979,
+        "TotalEpisode": 17637,
+        "totalSizeHuman": "10.43 TB"
     },
     "shows": [
         {
@@ -905,154 +905,6 @@
                     "avgSeasonVideoCodec": "H264, HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2024-2025"
-                }
-            ]
-        },
-        {
-            "ratingKey": 82907,
-            "title": "American Horror Story",
-            "avgEpisodeDuration": "1 hr",
-            "contentRating": "TV-MA",
-            "seasonCount": 12,
-            "showTotalEpisode": 132,
-            "showSizeHuman": "224.15 GB",
-            "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "AAC, EAC3",
-            "avgVideoCodecs": "HEVC",
-            "avgContainers": "mkv",
-            "showYearRange": "2011-2024",
-            "seasons": [
-                {
-                    "seasonRatingKey": 83041,
-                    "seasonNumber": 1,
-                    "seasonTotalEpisode": 12,
-                    "seasonSizeHuman": "19.80 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2011-2011"
-                },
-                {
-                    "seasonRatingKey": 83027,
-                    "seasonNumber": 2,
-                    "seasonTotalEpisode": 13,
-                    "seasonSizeHuman": "23.55 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2012-2013"
-                },
-                {
-                    "seasonRatingKey": 83013,
-                    "seasonNumber": 3,
-                    "seasonTotalEpisode": 13,
-                    "seasonSizeHuman": "20.99 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2013-2014"
-                },
-                {
-                    "seasonRatingKey": 82999,
-                    "seasonNumber": 4,
-                    "seasonTotalEpisode": 13,
-                    "seasonSizeHuman": "25.55 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2014-2015"
-                },
-                {
-                    "seasonRatingKey": 82986,
-                    "seasonNumber": 5,
-                    "seasonTotalEpisode": 12,
-                    "seasonSizeHuman": "26.48 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2015-2016"
-                },
-                {
-                    "seasonRatingKey": 82975,
-                    "seasonNumber": 6,
-                    "seasonTotalEpisode": 10,
-                    "seasonSizeHuman": "18.86 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2016-2016"
-                },
-                {
-                    "seasonRatingKey": 82963,
-                    "seasonNumber": 7,
-                    "seasonTotalEpisode": 11,
-                    "seasonSizeHuman": "19.10 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2017-2017"
-                },
-                {
-                    "seasonRatingKey": 82952,
-                    "seasonNumber": 8,
-                    "seasonTotalEpisode": 10,
-                    "seasonSizeHuman": "16.22 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2018-2018"
-                },
-                {
-                    "seasonRatingKey": 82942,
-                    "seasonNumber": 9,
-                    "seasonTotalEpisode": 9,
-                    "seasonSizeHuman": "13.66 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "EAC3",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2019-2019"
-                },
-                {
-                    "seasonRatingKey": 82931,
-                    "seasonNumber": 10,
-                    "seasonTotalEpisode": 10,
-                    "seasonSizeHuman": "14.38 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "EAC3",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2021-2021"
-                },
-                {
-                    "seasonRatingKey": 82919,
-                    "seasonNumber": 11,
-                    "seasonTotalEpisode": 10,
-                    "seasonSizeHuman": "13.84 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "EAC3",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2022-2022"
-                },
-                {
-                    "seasonRatingKey": 82908,
-                    "seasonNumber": 12,
-                    "seasonTotalEpisode": 9,
-                    "seasonSizeHuman": "11.72 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "EAC3",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2023-2024"
                 }
             ]
         },
@@ -13140,60 +12992,6 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mp4",
                     "yearRange": "2021-2022"
-                }
-            ]
-        },
-        {
-            "ratingKey": 120318,
-            "title": "Wallace & Gromit's Cracking Contraptions",
-            "avgEpisodeDuration": "2 mins",
-            "contentRating": "Not Rated",
-            "seasonCount": 1,
-            "showTotalEpisode": 10,
-            "showSizeHuman": "513.88 MB",
-            "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "EAC3",
-            "avgVideoCodecs": "HEVC",
-            "avgContainers": "mkv",
-            "showYearRange": "2002-2002",
-            "seasons": [
-                {
-                    "seasonRatingKey": 120319,
-                    "seasonNumber": 1,
-                    "seasonTotalEpisode": 10,
-                    "seasonSizeHuman": "513.88 MB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "EAC3",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2002-2002"
-                }
-            ]
-        },
-        {
-            "ratingKey": 120348,
-            "title": "Wallace & Gromit's World of Invention",
-            "avgEpisodeDuration": "30 mins",
-            "contentRating": "Not Rated",
-            "seasonCount": 1,
-            "showTotalEpisode": 6,
-            "showSizeHuman": "4.82 GB",
-            "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "EAC3",
-            "avgVideoCodecs": "HEVC",
-            "avgContainers": "mkv",
-            "showYearRange": "2010-2010",
-            "seasons": [
-                {
-                    "seasonRatingKey": 120349,
-                    "seasonNumber": 1,
-                    "seasonTotalEpisode": 6,
-                    "seasonSizeHuman": "4.82 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "EAC3",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": "2010-2010"
                 }
             ]
         },
