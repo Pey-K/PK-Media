@@ -1,5 +1,7 @@
 let allMovies = [];
 let currentObserver = null;
+let currentFilter = 'title'; // Default filter
+let isAscending = true; // Default sort order
 
 function populateMoviesContent(data, searchQuery = '', attempts = 0, maxAttempts = 50) {
     const container = document.getElementById('movies-content');
@@ -15,9 +17,24 @@ function populateMoviesContent(data, searchQuery = '', attempts = 0, maxAttempts
     }
 
     const query = searchQuery.toLowerCase();
-    const filteredMovies = query
+    let filteredMovies = query
         ? allMovies.filter(movie => movie.title.toLowerCase().includes(query))
         : allMovies;
+
+    // Sort movies based on current filter and order
+    filteredMovies = filteredMovies.slice().sort((a, b) => {
+        let comparison = 0;
+        if (currentFilter === 'title') {
+            comparison = a.title.localeCompare(b.title);
+        } else if (currentFilter === 'size') {
+            const sizeA = parseSize(a.sizeHuman);
+            const sizeB = parseSize(b.sizeHuman);
+            comparison = sizeA - sizeB;
+        } else if (currentFilter === 'date') {
+            comparison = (a.year || 0) - (b.year || 0);
+        }
+        return isAscending ? comparison : -comparison;
+    });
 
     container.innerHTML = '';
     const grid = document.createElement('div');
@@ -71,8 +88,152 @@ function populateMoviesContent(data, searchQuery = '', attempts = 0, maxAttempts
     });
 }
 
+// Helper function to parse size (e.g., "1.5 GB" to MB for comparison)
+function parseSize(sizeHuman) {
+    if (!sizeHuman) return 0;
+    const [value, unit] = sizeHuman.split(' ');
+    const numValue = parseFloat(value) || 0;
+    if (unit === 'GB') return numValue * 1024;
+    if (unit === 'TB') return numValue * 1024 * 1024;
+    return numValue; // Assume MB if no unit or MB
+}
+
+function initializeFilterAndSort() {
+    const searchContainer = document.querySelector('.search-container');
+    if (!searchContainer) {
+        setTimeout(initializeFilterAndSort, 100);
+        return;
+    }
+
+    const searchInput = document.getElementById('movie-search');
+    if (!searchInput) return;
+
+    // Create a new search-row container
+    const searchRow = document.createElement('div');
+    searchRow.className = 'search-row';
+    searchRow.style.display = 'flex';
+    searchRow.style.alignItems = 'center';
+    searchRow.style.gap = '8px';
+    searchRow.style.flexWrap = 'wrap';
+
+    // Create a container for the search input
+    const searchInputContainer = document.createElement('div');
+    searchInputContainer.className = 'search-input-container';
+    searchInputContainer.style.display = 'flex';
+    searchInputContainer.style.justifyContent = 'center';
+    searchInputContainer.style.width = '100%';
+
+    // Filter buttons (left side)
+    const filterButtonsDiv = document.createElement('div');
+    filterButtonsDiv.className = 'filter-buttons';
+    filterButtonsDiv.style.display = 'flex';
+    filterButtonsDiv.style.gap = '5px'; // Add gap between buttons
+
+    const filters = [
+        { name: 'Title', value: 'title', icon: '📝' }, // Unicode for a memo/note icon
+        { name: 'Size', value: 'size', icon: '💾' },   // Unicode for a floppy disk icon
+        { name: 'Date', value: 'date', icon: '📅' }    // Unicode for a calendar icon
+    ];
+
+    filters.forEach(filter => {
+        const btn = document.createElement('button');
+        btn.dataset.filter = filter.value;
+        btn.title = filter.name; // Tooltip for accessibility
+        btn.className = 'filter-btn';
+        btn.style.width = '36px';
+        btn.style.height = '36px';
+        btn.style.display = 'flex';
+        btn.style.zIndex = '1000';
+        btn.style.alignItems = 'center';
+        btn.style.justifyContent = 'center';
+        btn.style.border = 'none';
+        btn.style.cursor = 'pointer';
+        btn.style.backgroundColor = filter.value === currentFilter ? '#9c9bb9' : '#1a1a1a';
+        btn.style.color = filter.value === currentFilter ? '#fff' : '#ccc';
+        btn.style.fontSize = '18px';
+        btn.style.transition = 'background-color 0.3s, color 0.3s';
+        btn.style.borderRadius = '4px'; // Match the sort order button's border-radius
+        btn.textContent = filter.icon;
+        filterButtonsDiv.appendChild(btn);
+    });
+
+    // Sort order button (right side)
+    const sortOrderContainer = document.createElement('div');
+    sortOrderContainer.className = 'sort-order-container';
+    sortOrderContainer.style.display = 'flex';
+
+    const sortOrderBtn = document.createElement('button');
+    sortOrderBtn.id = 'sort-order-btn';
+    sortOrderBtn.className = 'sort-order-btn';
+    sortOrderBtn.style.width = '36px';
+    sortOrderBtn.style.height = '36px';
+    sortOrderBtn.style.backgroundColor = '#9c9bb9';
+    sortOrderBtn.style.border = 'none';
+    sortOrderBtn.style.borderRadius = '4px';
+    sortOrderBtn.style.cursor = 'pointer';
+    sortOrderBtn.style.transition = 'transform 0.3s';
+    updateSortButtonIcon(sortOrderBtn);
+    sortOrderContainer.appendChild(sortOrderBtn);
+
+    // Create a container for all buttons (filter + sort order)
+    const buttonsContainer = document.createElement('div');
+    buttonsContainer.className = 'buttons-container';
+    buttonsContainer.style.display = 'flex';
+    buttonsContainer.style.alignItems = 'center';
+    buttonsContainer.style.gap = '8px';
+    buttonsContainer.appendChild(filterButtonsDiv);
+    buttonsContainer.appendChild(sortOrderContainer);
+
+    // Reconstruct the layout: search input container, then buttons container
+    searchInputContainer.appendChild(searchInput);
+    searchRow.appendChild(searchInputContainer);
+    searchRow.appendChild(buttonsContainer);
+
+    // Check if a search wrapper already exists to avoid duplicates
+    const existingSearchRow = searchContainer.querySelector('.search-row');
+    if (existingSearchRow) {
+        existingSearchRow.replaceWith(searchRow);
+    } else {
+        searchContainer.appendChild(searchRow);
+    }
+
+    // Event listeners for filter buttons
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            currentFilter = button.dataset.filter;
+            // Update button styles
+            filterButtons.forEach(btn => {
+                btn.style.backgroundColor = '#1a1a1a';
+                btn.style.color = '#ccc';
+            });
+            button.style.backgroundColor = '#9c9bb9';
+            button.style.color = '#fff';
+            // Reset sort order to ascending
+            isAscending = true;
+            updateSortButtonIcon(sortOrderBtn);
+            // Re-populate with sorted data
+            populateMoviesContent(window.moviesData, searchInput.value);
+        });
+    });
+
+    // Event listener for sort order button
+    sortOrderBtn.addEventListener('click', () => {
+        isAscending = !isAscending;
+        updateSortButtonIcon(sortOrderBtn);
+        populateMoviesContent(window.moviesData, searchInput.value);
+    });
+}
+
+function updateSortButtonIcon(sortOrderBtn) {
+    sortOrderBtn.style.transform = isAscending ? 'scaleY(1)' : 'scaleY(-1)';
+    sortOrderBtn.title = isAscending ? 'Sort Ascending' : 'Sort Descending'; // Tooltip for accessibility
+}
+
 document.addEventListener('refDataLoaded', (event) => {
     populateMoviesContent(event.detail);
+    // Ensure filter and sort buttons are initialized after data is loaded
+    initializeFilterAndSort();
 });
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -83,6 +244,8 @@ document.addEventListener("DOMContentLoaded", () => {
             event.preventDefault();
         });
     }
+    // Initialize filter and sort buttons on DOM load as a fallback
+    initializeFilterAndSort();
 });
 
 document.addEventListener("refDataLoaded", (event) => {

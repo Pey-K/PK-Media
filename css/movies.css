@@ -190,7 +190,6 @@
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
 }
 
-
 .index-card:hover .overlay {
     background: rgba(0, 0, 0, 0.6);
 }
@@ -417,14 +416,74 @@
     background-color: #7a7996;
 }
 
+/* Ensure the search row is centered and takes full width */
+.search-row {
+    width: 100%;
+    max-width: 800px; /* Maximum width for larger screens */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
 
+/* Style the buttons container */
+.buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 
+/* Style the filter buttons container */
+.filter-buttons {
+    display: flex;
+    gap: 5px; /* Already set in movies.js, but included here for clarity */
+}
 
+/* Style individual filter buttons */
+.filter-btn {
+    outline: 1px solid #9c9bb9; /* Match the sort order button's outline */
+    outline-offset: -1px; /* Pull the outline inside to align with the button edge */
+}
 
+/* Hover effects for buttons */
+.filter-btn:hover, .sort-order-btn:hover {
+    opacity: 0.9;
+}
 
+/* Ensure buttons are visually distinct when active */
+.filter-btn.active {
+    background-color: #9c9bb9 !important;
+    color: #fff !important;
+}
 
+/* Style the sort order button with the custom icon */
+.sort-order-btn {
+    background-image: url('/assets/icons/sort-icon.webp'); /* Adjust the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #9c9bb9;
+    border: none;
+    border-radius: 4px;
+    outline: 1px solid #9c9bb9; /* Add outline to match filter buttons */
+    outline-offset: -1px; /* Pull the outline inside to align with the button edge */
+}
 
+/* Hover state for sort order button */
+.sort-order-btn:hover {
+    outline: 1px solid #9c9bb9; /* Lighter outline on hover for visual feedback */
+    opacity: 0.7;
+}
 
-
-
-
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    #movie-search {
+        width: 80vw; /* Slightly wider on smaller screens */
+        max-width: 400px;
+    }
+    .buttons-container {
+        margin-top: 8px;
+    }
+}
