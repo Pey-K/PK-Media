@@ -80,8 +80,6 @@ function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempt
                             <p>(${show.showTotalEpisode} Episodes)</p>
                             <p>Avg Runtime: ${show.avgEpisodeDuration}</p>
                             <p>${resolutions.join(', ')}</p>
-                            <p>${videoCodecs.join(', ')}</p>
-                            <p>${containers.join(', ')}</p>
                             <p>(${show.showSizeHuman})</p>
                         </div>
                     `;
