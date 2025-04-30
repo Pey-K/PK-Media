@@ -6981,13 +6981,13 @@
         "audienceRating": 6.9,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7450271,
+        "duration": 7451625,
         "durationHuman": "2 hrs 4 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77682a103a2d001f564ffb",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Captain.America.The.First.Avenger.(2011).1080p\\Captain.America.The.First.Avenger.(2011).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Captain America - The First Avenger (2011)\\Captain America - The First Avenger (2011).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2011-07-22",
@@ -7006,14 +7006,14 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2062,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5683,
                 "container": "mkv",
-                "duration": 7450271,
+                "duration": 7451625,
                 "hdr": false,
-                "height": 800,
+                "height": 816,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -7022,16 +7022,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7450271,
-                        "file": "E:\\Plex\\Movies\\Captain.America.The.First.Avenger.(2011).1080p\\Captain.America.The.First.Avenger.(2011).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7451625,
+                        "file": "E:\\Plex\\Movies\\Captain America - The First Avenger (2011)\\Captain America - The First Avenger (2011).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1923824796,
-                        "sizeHuman": "1.79 GB",
+                        "size": 5293627219,
+                        "sizeHuman": "4.93 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -7043,13 +7043,13 @@
         "audienceRating": 7.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 8154227,
+        "duration": 8154280,
         "durationHuman": "2 hrs 16 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77690896b655001fdc8aca",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Captain.America.The.Winter.Soldier.(2014).1080p\\Captain.America.The.Winter.Soldier.(2014).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Captain America - The Winter Soldier (2014)\\Captain America - The Winter Soldier (2014).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2014-03-26",
@@ -7068,13 +7068,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2470,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5693,
                 "container": "mkv",
-                "duration": 8154227,
-                "hdr": true,
+                "duration": 8154280,
+                "hdr": false,
                 "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -7084,16 +7084,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8154227,
-                        "file": "E:\\Plex\\Movies\\Captain.America.The.Winter.Soldier.(2014).1080p\\Captain.America.The.Winter.Soldier.(2014).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8154280,
+                        "file": "E:\\Plex\\Movies\\Captain America - The Winter Soldier (2014)\\Captain America - The Winter Soldier (2014).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2300549225,
-                        "sizeHuman": "2.14 GB",
+                        "size": 5803266162,
+                        "sizeHuman": "5.40 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -9089,13 +9089,13 @@
         "audienceRating": 7.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7997824,
+        "duration": 7990036,
         "durationHuman": "2 hrs 13 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b577a53e9001e72283c",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Creed.(2015).1080p\\Creed.(2015).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Creed (2015)\\Creed (2015).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2015-11-25",
@@ -9104,7 +9104,7 @@
         "ratingKey": 1195,
         "studio": "Metro-Goldwyn-Mayer",
         "summary": "The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.",
-        "tagline": "Your legacy is more than a name",
+        "tagline": "Your legacy is more than a name.",
         "thumbFile": "Movie - Creed [1195].images\\Creed [1195].thumb.jpg",
         "title": "Creed",
         "titleSort": "Creed",
@@ -9114,13 +9114,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2836,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 4794,
                 "container": "mkv",
-                "duration": 7997824,
-                "hdr": true,
+                "duration": 7990036,
+                "hdr": false,
                 "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -9130,16 +9130,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7997824,
-                        "file": "E:\\Plex\\Movies\\Creed.(2015).1080p\\Creed.(2015).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7990036,
+                        "file": "E:\\Plex\\Movies\\Creed (2015)\\Creed (2015).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2800581118,
-                        "sizeHuman": "2.61 GB",
+                        "size": 4787909663,
+                        "sizeHuman": "4.46 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -9151,13 +9151,13 @@
         "audienceRating": 7.1,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7800512,
+        "duration": 7800468,
         "durationHuman": "2 hrs 10 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776d9c7a53e9001e75e10a",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Creed.II.(2018).1080p\\Creed.II.(2018).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Creed II (2018)\\Creed II (2018).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2018-11-21",
@@ -9176,13 +9176,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2697,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 3810,
                 "container": "mkv",
-                "duration": 7800512,
-                "hdr": true,
+                "duration": 7800468,
+                "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -9192,16 +9192,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7800512,
-                        "file": "E:\\Plex\\Movies\\Creed.II.(2018).1080p\\Creed.II.(2018).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7800468,
+                        "file": "E:\\Plex\\Movies\\Creed II (2018)\\Creed II (2018).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2568663361,
-                        "sizeHuman": "2.39 GB",
+                        "size": 3714933713,
+                        "sizeHuman": "3.46 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -9213,13 +9213,13 @@
         "audienceRating": 6.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 6977440,
+        "duration": 6976361,
         "durationHuman": "1 hr 56 mins",
         "editionTitle": null,
         "guid": "plex://movie/5e5d3b0bc20b28003df9e33f",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Creed.III.(2023).1080p\\Creed.III.(2023).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Creed III (2023)\\Creed III (2023).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2023-03-01",
@@ -9238,14 +9238,14 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2709,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6793,
                 "container": "mkv",
-                "duration": 6977440,
-                "hdr": true,
-                "height": 802,
+                "duration": 6976361,
+                "hdr": false,
+                "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -9254,16 +9254,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6977440,
-                        "file": "E:\\Plex\\Movies\\Creed.III.(2023).1080p\\Creed.III.(2023).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6976361,
+                        "file": "E:\\Plex\\Movies\\Creed III (2023)\\Creed III (2023).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2341068914,
-                        "sizeHuman": "2.18 GB",
+                        "size": 5923718725,
+                        "sizeHuman": "5.52 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -9709,13 +9709,13 @@
         "audienceRating": 9.0,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 9132256,
+        "duration": 9133333,
         "durationHuman": "2 hrs 32 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768247e9a3c0020c6a8f3",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.Dark.Knight.(2008).1080p\\The.Dark.Knight.(2008).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\The Dark Knight (2008)\\The Dark Knight (2008).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2008-07-16",
@@ -9735,12 +9735,12 @@
             {
                 "aspectRatio": 1.78,
                 "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2354,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5626,
                 "container": "mkv",
-                "duration": 9132256,
-                "hdr": true,
+                "duration": 9133333,
+                "hdr": false,
                 "height": 1080,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -9750,16 +9750,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 9132256,
-                        "file": "E:\\Plex\\Movies\\The.Dark.Knight.(2008).1080p\\The.Dark.Knight.(2008).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 9133333,
+                        "file": "E:\\Plex\\Movies\\The Dark Knight (2008)\\The Dark Knight (2008).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2644383950,
-                        "sizeHuman": "2.46 GB",
+                        "size": 6422670030,
+                        "sizeHuman": "5.98 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -9771,13 +9771,13 @@
         "audienceRating": 8.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 9872287,
+        "duration": 9873876,
         "durationHuman": "2 hrs 45 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768883ab0e7001f503bc0",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.Dark.Knight.Rises.(2012).1080p\\The.Dark.Knight.Rises.(2012).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\The Dark Knight Rises (2012)\\The Dark Knight Rises (2012).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2012-07-19",
@@ -9797,12 +9797,12 @@
             {
                 "aspectRatio": 1.78,
                 "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2281,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 4879,
                 "container": "mkv",
-                "duration": 9872287,
-                "hdr": true,
+                "duration": 9873876,
+                "hdr": false,
                 "height": 1080,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -9812,16 +9812,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 9872287,
-                        "file": "E:\\Plex\\Movies\\The.Dark.Knight.Rises.(2012).1080p\\The.Dark.Knight.Rises.(2012).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 9873876,
+                        "file": "E:\\Plex\\Movies\\The Dark Knight Rises (2012)\\The Dark Knight Rises (2012).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2745018957,
-                        "sizeHuman": "2.56 GB",
+                        "size": 6022129497,
+                        "sizeHuman": "5.61 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -18265,13 +18265,13 @@
         "audienceRating": 7.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 8142664,
+        "duration": 8146452,
         "durationHuman": "2 hrs 16 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b057a53e9001e71734b",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Guardians.of.the.Galaxy.Vol.2.(2017).1080p\\Guardians.of.the.Galaxy.Vol.2.(2017).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Guardians of the Galaxy Vol. 2 (2017)\\Guardians of the Galaxy Vol. 2 (2017).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2017-04-25",
@@ -18289,33 +18289,33 @@
         "year": 2017,
         "media": [
             {
-                "aspectRatio": 1.85,
-                "audioChannels": 6,
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2174,
+                "bitrate": 9465,
                 "container": "mkv",
-                "duration": 8142664,
-                "hdr": false,
-                "height": 1012,
+                "duration": 8146452,
+                "hdr": true,
+                "height": 1608,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8142664,
-                        "file": "E:\\Plex\\Movies\\Guardians.of.the.Galaxy.Vol.2.(2017).1080p\\Guardians.of.the.Galaxy.Vol.2.(2017).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8146452,
+                        "file": "E:\\Plex\\Movies\\Guardians of the Galaxy Vol. 2 (2017)\\Guardians of the Galaxy Vol. 2 (2017).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2215720061,
-                        "sizeHuman": "2.06 GB",
+                        "size": 9637959663,
+                        "sizeHuman": "8.98 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -18327,13 +18327,13 @@
         "audienceRating": 7.9,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 9002784,
+        "duration": 9002388,
         "durationHuman": "2 hrs 30 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776d1bfb0d55001f597ed4",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Guardians.of.the.Galaxy.Vol.3.(2023).1080p\\Guardians.of.the.Galaxy.Vol.3.(2023).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Guardians of the Galaxy Vol. 3 (2023)\\Guardians of the Galaxy Vol. 3 (2023) [IMAX].mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2023-05-03",
@@ -18352,32 +18352,32 @@
         "media": [
             {
                 "aspectRatio": 1.85,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2253,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 14441,
                 "container": "mkv",
-                "duration": 9002784,
-                "hdr": false,
-                "height": 1008,
+                "duration": 9002388,
+                "hdr": true,
+                "height": 2024,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 9002784,
-                        "file": "E:\\Plex\\Movies\\Guardians.of.the.Galaxy.Vol.3.(2023).1080p\\Guardians.of.the.Galaxy.Vol.3.(2023).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 9002388,
+                        "file": "E:\\Plex\\Movies\\Guardians of the Galaxy Vol. 3 (2023)\\Guardians of the Galaxy Vol. 3 (2023) [IMAX].mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2537977357,
-                        "sizeHuman": "2.36 GB",
+                        "size": 16250124110,
+                        "sizeHuman": "15.13 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -19443,13 +19443,13 @@
         "audienceRating": 6.0,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "G",
-        "duration": 4929799,
+        "duration": 4927859,
         "durationHuman": "1 hr 22 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776864eb5d26001f1e95ae",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Halloweentown.High.(2004).720p\\Halloweentown.High.(2004).720p.h264.mp4"
+            "E:\\Plex\\Movies\\Halloweentown High (2004)\\Halloweentown High (2004).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2004-10-08",
@@ -19470,31 +19470,31 @@
                 "aspectRatio": 1.78,
                 "audioChannels": 2,
                 "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 1765,
-                "container": "mp4",
-                "duration": 4929799,
+                "audioProfile": "he-aac",
+                "bitrate": 5010,
+                "container": "mkv",
+                "duration": 4927859,
                 "hdr": false,
                 "height": 720,
                 "isOptimizedVersion": false,
                 "videoCodec": "h264",
                 "videoFrameRate": "24p",
-                "videoProfile": "main",
+                "videoProfile": "high",
                 "videoResolution": "720",
                 "width": 1280,
                 "parts": [
                     {
-                        "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 4929799,
-                        "file": "E:\\Plex\\Movies\\Halloweentown.High.(2004).720p\\Halloweentown.High.(2004).720p.h264.mp4",
+                        "audioProfile": "he-aac",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 4927859,
+                        "file": "E:\\Plex\\Movies\\Halloweentown High (2004)\\Halloweentown High (2004).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1091934854,
-                        "sizeHuman": "1.02 GB",
-                        "videoProfile": "main"
+                        "optimizedForStreaming": null,
+                        "size": 3085774482,
+                        "sizeHuman": "2.87 GB",
+                        "videoProfile": "high"
                     }
                 ]
             }
@@ -20683,13 +20683,13 @@
         "audienceRating": 5.2,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5283145,
+        "duration": 5283157,
         "durationHuman": "1 hr 28 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776835880197001ec93607",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.Haunted.Mansion.(2003).1080p\\The.Haunted.Mansion.(2003).1080p.MPEG-2.mkv"
+            "E:\\Plex\\Movies\\The Haunted Mansion (2003)\\The Haunted Mansion (2003).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2003-11-26",
@@ -20707,34 +20707,34 @@
         "year": 2003,
         "media": [
             {
-                "aspectRatio": 1.78,
+                "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "dca-ma",
-                "audioProfile": "ma",
-                "bitrate": 22180,
+                "audioCodec": "ac3",
+                "audioProfile": null,
+                "bitrate": 8803,
                 "container": "mkv",
-                "duration": 5283145,
+                "duration": 5283157,
                 "hdr": false,
-                "height": 1080,
+                "height": 816,
                 "isOptimizedVersion": false,
-                "videoCodec": "mpeg2video",
+                "videoCodec": "hevc",
                 "videoFrameRate": "24p",
-                "videoProfile": "main",
+                "videoProfile": "main 10",
                 "videoResolution": "1080",
-                "width": 1920,
+                "width": 1916,
                 "parts": [
                     {
-                        "audioProfile": "ma",
+                        "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5283145,
-                        "file": "E:\\Plex\\Movies\\The.Haunted.Mansion.(2003).1080p\\The.Haunted.Mansion.(2003).1080p.MPEG-2.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5283157,
+                        "file": "E:\\Plex\\Movies\\The Haunted Mansion (2003)\\The Haunted Mansion (2003).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 14569381058,
-                        "sizeHuman": "13.57 GB",
-                        "videoProfile": "main"
+                        "size": 5813437399,
+                        "sizeHuman": "5.41 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }
@@ -23225,13 +23225,13 @@
         "audienceRating": 7.5,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 8802813,
-        "durationHuman": "2 hrs 27 mins",
+        "duration": 8774696,
+        "durationHuman": "2 hrs 26 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77690b594b2b001e69b830",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.Hunger.Games.Catching.Fire.(2013).1080p\\The.Hunger.Games.Catching.Fire.(2013).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\The Hunger Games - Catching Fire (2013)\\The Hunger Games - Catching Fire (2013) [IMAX].mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2013-11-15",
@@ -23249,15 +23249,15 @@
         "year": 2013,
         "media": [
             {
-                "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2626,
+                "aspectRatio": 1.78,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5167,
                 "container": "mkv",
-                "duration": 8802813,
-                "hdr": true,
-                "height": 800,
+                "duration": 8774696,
+                "hdr": false,
+                "height": 1080,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -23266,16 +23266,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8802813,
-                        "file": "E:\\Plex\\Movies\\The.Hunger.Games.Catching.Fire.(2013).1080p\\The.Hunger.Games.Catching.Fire.(2013).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8774696,
+                        "file": "E:\\Plex\\Movies\\The Hunger Games - Catching Fire (2013)\\The Hunger Games - Catching Fire (2013) [IMAX].mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2848936105,
-                        "sizeHuman": "2.65 GB",
+                        "size": 5667339000,
+                        "sizeHuman": "5.28 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -26635,13 +26635,13 @@
         "audienceRating": 7.5,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 6072597,
+        "duration": 6071848,
         "durationHuman": "1 hr 41 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776a8afb0d55001f5490a7",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\John.Wick.(2014).1080p\\John.Wick.(2014).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\John Wick (2014)\\John Wick (2014).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2014-10-23",
@@ -26660,33 +26660,33 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
+                "audioChannels": 8,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2570,
+                "bitrate": 10204,
                 "container": "mkv",
-                "duration": 6072597,
-                "hdr": false,
-                "height": 800,
+                "duration": 6071848,
+                "hdr": true,
+                "height": 1600,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
-                "videoProfile": "main",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoProfile": "main 10",
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6072597,
-                        "file": "E:\\Plex\\Movies\\John.Wick.(2014).1080p\\John.Wick.(2014).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6071848,
+                        "file": "E:\\Plex\\Movies\\John Wick (2014)\\John Wick (2014).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1958193503,
-                        "sizeHuman": "1.82 GB",
-                        "videoProfile": "main"
+                        "size": 7744790933,
+                        "sizeHuman": "7.21 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }
@@ -26697,13 +26697,13 @@
         "audienceRating": 7.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 7326313,
+        "duration": 7342504,
         "durationHuman": "2 hrs 2 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b7323d5a3001f510a6d",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\John.Wick.Chapter.2.(2017).1080p\\John.Wick.Chapter.2.(2017).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\John Wick - Chapter 2 (2017)\\John Wick - Chapter 2 (2017).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2017-02-08",
@@ -26722,33 +26722,33 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
+                "audioChannels": 8,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2502,
+                "bitrate": 6061,
                 "container": "mkv",
-                "duration": 7326313,
+                "duration": 7342504,
                 "hdr": false,
                 "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
-                "videoProfile": "main",
+                "videoProfile": "main 10",
                 "videoResolution": "1080",
                 "width": 1920,
                 "parts": [
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7326313,
-                        "file": "E:\\Plex\\Movies\\John.Wick.Chapter.2.(2017).1080p\\John.Wick.Chapter.2.(2017).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7342504,
+                        "file": "E:\\Plex\\Movies\\John Wick - Chapter 2 (2017)\\John Wick - Chapter 2 (2017).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2297536641,
-                        "sizeHuman": "2.14 GB",
-                        "videoProfile": "main"
+                        "size": 5563302934,
+                        "sizeHuman": "5.18 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }
@@ -26759,13 +26759,13 @@
         "audienceRating": 7.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 7845228,
+        "duration": 7845886,
         "durationHuman": "2 hrs 11 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776d31fb0d55001f599a2b",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\John.Wick.Chapter.3.-.Parabellum.(2019).1080p\\John.Wick.Chapter.3.-.Parabellum.(2019).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\John Wick - Chapter 3 - Parabellum (2019)\\John Wick - Chapter 3 - Parabellum (2019).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2019-05-15",
@@ -26784,33 +26784,33 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
+                "audioChannels": 8,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2746,
+                "bitrate": 6731,
                 "container": "mkv",
-                "duration": 7845228,
+                "duration": 7845886,
                 "hdr": false,
                 "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
-                "videoProfile": "main",
+                "videoProfile": "main 10",
                 "videoResolution": "1080",
                 "width": 1920,
                 "parts": [
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7845228,
-                        "file": "E:\\Plex\\Movies\\John.Wick.Chapter.3.-.Parabellum.(2019).1080p\\John.Wick.Chapter.3.-.Parabellum.(2019).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7845886,
+                        "file": "E:\\Plex\\Movies\\John Wick - Chapter 3 - Parabellum (2019)\\John Wick - Chapter 3 - Parabellum (2019).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2705005411,
-                        "sizeHuman": "2.52 GB",
-                        "videoProfile": "main"
+                        "size": 6600851849,
+                        "sizeHuman": "6.15 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }
@@ -26821,13 +26821,13 @@
         "audienceRating": 7.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 10158168,
+        "duration": 10158206,
         "durationHuman": "2 hrs 49 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7770e5b2739400200eab75",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\John.Wick.Chapter.4.(2023).1080p\\John.Wick.Chapter.4.(2023).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\John Wick - Chapter 4 (2023)\\John Wick - Chapter 4 (2023).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2023-03-22",
@@ -26846,33 +26846,33 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
+                "audioChannels": 8,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2504,
+                "bitrate": 6414,
                 "container": "mkv",
-                "duration": 10158168,
+                "duration": 10158206,
                 "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
-                "videoProfile": "main",
+                "videoProfile": "main 10",
                 "videoResolution": "1080",
                 "width": 1920,
                 "parts": [
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 10158168,
-                        "file": "E:\\Plex\\Movies\\John.Wick.Chapter.4.(2023).1080p\\John.Wick.Chapter.4.(2023).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 10158206,
+                        "file": "E:\\Plex\\Movies\\John Wick - Chapter 4 (2023)\\John Wick - Chapter 4 (2023).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 3188583741,
-                        "sizeHuman": "2.97 GB",
-                        "videoProfile": "main"
+                        "size": 8144407954,
+                        "sizeHuman": "7.59 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }
@@ -27627,13 +27627,13 @@
         "audienceRating": 8.2,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7588019,
+        "duration": 7588000,
         "durationHuman": "2 hrs 6 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776d187a53e9001e750e7c",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Jurassic.Park.(1993).1440p\\Jurassic.Park.(1993).1440p.h265.mkv"
+            "E:\\Plex\\Movies\\Jurassic Park (1993)\\Jurassic Park (1993).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "1993-06-11",
@@ -27652,32 +27652,32 @@
         "media": [
             {
                 "aspectRatio": 1.85,
-                "audioChannels": 8,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 3795,
+                "audioChannels": 6,
+                "audioCodec": "ac3",
+                "audioProfile": null,
+                "bitrate": 8397,
                 "container": "mkv",
-                "duration": 7588019,
+                "duration": 7588000,
                 "hdr": true,
-                "height": 1384,
+                "height": 2076,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "2k",
-                "width": 2560,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
-                        "audioProfile": "lc",
+                        "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7588019,
-                        "file": "E:\\Plex\\Movies\\Jurassic.Park.(1993).1440p\\Jurassic.Park.(1993).1440p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7588000,
+                        "file": "E:\\Plex\\Movies\\Jurassic Park (1993)\\Jurassic Park (1993).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 3579243938,
-                        "sizeHuman": "3.33 GB",
+                        "size": 7964414692,
+                        "sizeHuman": "7.42 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -27689,13 +27689,13 @@
         "audienceRating": 5.9,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 5540552,
+        "duration": 5540544,
         "durationHuman": "1 hr 32 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768254de0ee001fcc83aa",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Jurassic.Park.III.(2001).1080p\\Jurassic.Park.III.(2001).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Jurassic Park III (2001)\\Jurassic Park III (2001).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2001-07-18",
@@ -27717,29 +27717,29 @@
                 "audioChannels": 6,
                 "audioCodec": "ac3",
                 "audioProfile": null,
-                "bitrate": 2185,
+                "bitrate": 8392,
                 "container": "mkv",
-                "duration": 5540552,
+                "duration": 5540544,
                 "hdr": true,
-                "height": 1038,
+                "height": 2076,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
                         "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5540552,
-                        "file": "E:\\Plex\\Movies\\Jurassic.Park.III.(2001).1080p\\Jurassic.Park.III.(2001).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5540544,
+                        "file": "E:\\Plex\\Movies\\Jurassic Park III (2001)\\Jurassic Park III (2001).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1470436582,
-                        "sizeHuman": "1.37 GB",
+                        "size": 5812013178,
+                        "sizeHuman": "5.41 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -27757,7 +27757,7 @@
         "guid": "plex://movie/5d77699e96b655001fdd42fc",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Jurassic.World.(2015).1080p\\Jurassic.World.(2015).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Jurassic World (2015)\\Jurassic World (2015).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2015-06-10",
@@ -27779,29 +27779,29 @@
                 "audioChannels": 6,
                 "audioCodec": "ac3",
                 "audioProfile": null,
-                "bitrate": 2994,
+                "bitrate": 8401,
                 "container": "mkv",
                 "duration": 7464000,
                 "hdr": true,
-                "height": 960,
+                "height": 1920,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
                         "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
+                        "deepAnalysisVersion": null,
                         "duration": 7464000,
-                        "file": "E:\\Plex\\Movies\\Jurassic.World.(2015).1080p\\Jurassic.World.(2015).1080p.h265.mkv",
+                        "file": "E:\\Plex\\Movies\\Jurassic World (2015)\\Jurassic World (2015).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2773992926,
-                        "sizeHuman": "2.58 GB",
+                        "size": 7838289986,
+                        "sizeHuman": "7.30 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -27813,13 +27813,13 @@
         "audienceRating": 5.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 9641216,
+        "duration": 9641184,
         "durationHuman": "2 hrs 41 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d777038594b2b001e746fa9",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Jurassic.World.Dominion.(2022).1080p\\Jurassic.World.Dominion.(2022).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Jurassic World Dominion (2022)\\Jurassic World Dominion (2022) [Extended Edition].mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2022-06-01",
@@ -27829,9 +27829,9 @@
         "studio": "Amblin Entertainment",
         "summary": "After surviving the destruction of Isla Nubla, Owen Grady and Claire Dearing took in young Maisie Lockwood. They've been living under the radar to protect Maisie, but she feels like a prisoner. When Maisie goes missing, Owen and Claire set out to find her, and eventually confront Lewis Dodgson, owner of Biosyn. Paleobotanist Ellie Sattler, Paleontologist Alan Grant, and Chaotician Ian Malcolm set out to expose Dodgson's schemes.",
         "tagline": "The epic conclusion of the Jurassic era.",
-        "thumbFile": "Movie - Jurassic World_ Dominion [2465].images\\Jurassic World_ Dominion [2465].thumb.jpg",
-        "title": "Jurassic World: Dominion",
-        "titleSort": "Jurassic World: Dominion",
+        "thumbFile": "Movie - Jurassic World Dominion [2465].images\\Jurassic World Dominion [2465].thumb.jpg",
+        "title": "Jurassic World Dominion",
+        "titleSort": "Jurassic World Dominion",
         "type": "movie",
         "userRating": null,
         "year": 2022,
@@ -27839,31 +27839,31 @@
             {
                 "aspectRatio": 1.85,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
+                "audioCodec": "ac3",
                 "audioProfile": null,
-                "bitrate": 3721,
+                "bitrate": 8403,
                 "container": "mkv",
-                "duration": 9641216,
+                "duration": 9641184,
                 "hdr": true,
-                "height": 960,
+                "height": 1920,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
                         "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 9641216,
-                        "file": "E:\\Plex\\Movies\\Jurassic.World.Dominion.(2022).1080p\\Jurassic.World.Dominion.(2022).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 9641184,
+                        "file": "E:\\Plex\\Movies\\Jurassic World Dominion (2022)\\Jurassic World Dominion (2022) [Extended Edition].mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 4465741979,
-                        "sizeHuman": "4.16 GB",
+                        "size": 10126839752,
+                        "sizeHuman": "9.43 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -27881,7 +27881,7 @@
         "guid": "plex://movie/5d9f3cbfadeb7a0021ce9637",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Jurassic.World.Fallen.Kingdom.(2018).1080p\\Jurassic.World.Fallen.Kingdom.(2018).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Jurassic World - Fallen Kingdom (2018)\\Jurassic World - Fallen Kingdom (2018).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2018-06-06",
@@ -27903,29 +27903,29 @@
                 "audioChannels": 6,
                 "audioCodec": "ac3",
                 "audioProfile": null,
-                "bitrate": 1647,
+                "bitrate": 8406,
                 "container": "mkv",
                 "duration": 7697696,
                 "hdr": true,
-                "height": 800,
+                "height": 1604,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
                         "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
+                        "deepAnalysisVersion": null,
                         "duration": 7697696,
-                        "file": "E:\\Plex\\Movies\\Jurassic.World.Fallen.Kingdom.(2018).1080p\\Jurassic.World.Fallen.Kingdom.(2018).1080p.h265.mkv",
+                        "file": "E:\\Plex\\Movies\\Jurassic World - Fallen Kingdom (2018)\\Jurassic World - Fallen Kingdom (2018).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1533314539,
-                        "sizeHuman": "1.43 GB",
+                        "size": 8088672093,
+                        "sizeHuman": "7.53 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -30727,13 +30727,13 @@
         "audienceRating": 6.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7719518,
+        "duration": 7719520,
         "durationHuman": "2 hrs 9 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768253c3c2a001fbcab72",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.Lost.World.Jurassic.Park.(1997).1080p\\The.Lost.World.Jurassic.Park.(1997).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\The Lost World - Jurassic Park (1997)\\The Lost World - Jurassic Park (1997).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "1997-05-22",
@@ -30752,32 +30752,32 @@
         "media": [
             {
                 "aspectRatio": 1.85,
-                "audioChannels": 8,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 2583,
+                "audioChannels": 6,
+                "audioCodec": "ac3",
+                "audioProfile": null,
+                "bitrate": 8405,
                 "container": "mkv",
-                "duration": 7719518,
+                "duration": 7719520,
                 "hdr": true,
-                "height": 1040,
+                "height": 2076,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
-                        "audioProfile": "lc",
+                        "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7719518,
-                        "file": "E:\\Plex\\Movies\\The.Lost.World.Jurassic.Park.(1997).1080p\\The.Lost.World.Jurassic.Park.(1997).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7719520,
+                        "file": "E:\\Plex\\Movies\\The Lost World - Jurassic Park (1997)\\The Lost World - Jurassic Park (1997).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2472522536,
-                        "sizeHuman": "2.30 GB",
+                        "size": 8110247243,
+                        "sizeHuman": "7.55 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -44553,13 +44553,13 @@
         "audienceRating": 6.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5297194,
+        "duration": 5297214,
         "durationHuman": "1 hr 28 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d78b9ac96b655001ff0cba1",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Scary.Movie.(2000).1080p\\Scary.Movie.(2000).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Scary Movie (2000)\\Scary Movie (2000).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2000-07-07",
@@ -44578,14 +44578,14 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 2,
+                "audioChannels": 6,
                 "audioCodec": "aac",
-                "audioProfile": "he-aac",
-                "bitrate": 2099,
+                "audioProfile": "lc",
+                "bitrate": 6474,
                 "container": "mkv",
-                "duration": 5297194,
+                "duration": 5297214,
                 "hdr": false,
-                "height": 804,
+                "height": 814,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -44594,16 +44594,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "he-aac",
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5297194,
-                        "file": "E:\\Plex\\Movies\\Scary.Movie.(2000).1080p\\Scary.Movie.(2000).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5297214,
+                        "file": "E:\\Plex\\Movies\\Scary Movie (2000)\\Scary Movie (2000).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1392108602,
-                        "sizeHuman": "1.30 GB",
+                        "size": 4287065815,
+                        "sizeHuman": "3.99 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -48244,13 +48244,13 @@
         "audienceRating": 7.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7272307,
+        "duration": 7272360,
         "durationHuman": "2 hrs 1 min",
         "editionTitle": null,
         "guid": "plex://movie/5d776d1923d5a3001f52079d",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Spider-Man.(2002).1080p\\Spider-Man.(2002).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Spider-Man (2002)\\Spider-Man (2002).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2002-05-01",
@@ -48270,13 +48270,13 @@
             {
                 "aspectRatio": 1.85,
                 "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 3556,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6691,
                 "container": "mkv",
-                "duration": 7272307,
-                "hdr": true,
-                "height": 1038,
+                "duration": 7272360,
+                "hdr": false,
+                "height": 1040,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -48285,16 +48285,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7272307,
-                        "file": "E:\\Plex\\Movies\\Spider-Man.(2002).1080p\\Spider-Man.(2002).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7272360,
+                        "file": "E:\\Plex\\Movies\\Spider-Man (2002)\\Spider-Man (2002).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 3182344031,
-                        "sizeHuman": "2.96 GB",
+                        "size": 6082412978,
+                        "sizeHuman": "5.66 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -48306,13 +48306,13 @@
         "audienceRating": 7.5,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7647648,
+        "duration": 7648254,
         "durationHuman": "2 hrs 7 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776827a091de001f2e62cc",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Spider-Man.2.(2004).1080p\\Spider-Man.2.(2004).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Spider-Man 2 (2004)\\Spider-Man 2 (2004).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2004-06-25",
@@ -48332,13 +48332,13 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2594,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6647,
                 "container": "mkv",
-                "duration": 7647648,
-                "hdr": true,
-                "height": 800,
+                "duration": 7648254,
+                "hdr": false,
+                "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -48347,16 +48347,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7647648,
-                        "file": "E:\\Plex\\Movies\\Spider-Man.2.(2004).1080p\\Spider-Man.2.(2004).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7648254,
+                        "file": "E:\\Plex\\Movies\\Spider-Man 2 (2004)\\Spider-Man 2 (2004).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2435466410,
-                        "sizeHuman": "2.27 GB",
+                        "size": 6354410061,
+                        "sizeHuman": "5.92 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -48368,13 +48368,13 @@
         "audienceRating": 6.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 8351390,
+        "duration": 8351400,
         "durationHuman": "2 hrs 19 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768264de0ee001fcc87e6",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Spider-Man.3.(2007).1080p\\Spider-Man.3.(2007).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Spider-Man 3 (2007)\\Spider-Man 3 (2007).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2007-04-03",
@@ -48394,12 +48394,12 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2861,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6619,
                 "container": "mkv",
-                "duration": 8351390,
-                "hdr": true,
+                "duration": 8351400,
+                "hdr": false,
                 "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -48409,16 +48409,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8351390,
-                        "file": "E:\\Plex\\Movies\\Spider-Man.3.(2007).1080p\\Spider-Man.3.(2007).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8351400,
+                        "file": "E:\\Plex\\Movies\\Spider-Man 3 (2007)\\Spider-Man 3 (2007).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2941228162,
-                        "sizeHuman": "2.74 GB",
+                        "size": 6909730743,
+                        "sizeHuman": "6.44 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -48492,13 +48492,13 @@
         "audienceRating": 7.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7762720,
+        "duration": 7763774,
         "durationHuman": "2 hrs 9 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776d3196b655001fe42280",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Spider-Man.Far.from.Home.(2019).1080p\\Spider-Man.Far.from.Home.(2019).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Spider-Man - Far From Home (2019)\\Spider-Man - Far From Home (2019).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2019-06-28",
@@ -48516,15 +48516,15 @@
         "year": 2019,
         "media": [
             {
-                "aspectRatio": 1.85,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2855,
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5911,
                 "container": "mkv",
-                "duration": 7762720,
-                "hdr": true,
-                "height": 1012,
+                "duration": 7763774,
+                "hdr": false,
+                "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -48533,16 +48533,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7762720,
-                        "file": "E:\\Plex\\Movies\\Spider-Man.Far.from.Home.(2019).1080p\\Spider-Man.Far.from.Home.(2019).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7763774,
+                        "file": "E:\\Plex\\Movies\\Spider-Man - Far From Home (2019)\\Spider-Man - Far From Home (2019).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2680063721,
-                        "sizeHuman": "2.50 GB",
+                        "size": 5736697359,
+                        "sizeHuman": "5.34 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -48864,13 +48864,13 @@
         "audienceRating": 7.2,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5214999,
+        "duration": 5229502,
         "durationHuman": "1 hr 27 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d9f350006d220001feb3f8c",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.SpongeBob.SquarePants.Movie.(2004).1080p\\The.SpongeBob.SquarePants.Movie.(2004).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\The SpongeBob SquarePants Movie (2004)\\The SpongeBob SquarePants Movie (2004).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2004-11-19",
@@ -48889,12 +48889,12 @@
         "media": [
             {
                 "aspectRatio": 1.78,
-                "audioChannels": 2,
+                "audioChannels": 6,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2176,
+                "bitrate": 5095,
                 "container": "mkv",
-                "duration": 5214999,
+                "duration": 5229502,
                 "hdr": false,
                 "height": 1080,
                 "isOptimizedVersion": false,
@@ -48907,14 +48907,14 @@
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5214999,
-                        "file": "E:\\Plex\\Movies\\The.SpongeBob.SquarePants.Movie.(2004).1080p\\The.SpongeBob.SquarePants.Movie.(2004).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5229502,
+                        "file": "E:\\Plex\\Movies\\The SpongeBob SquarePants Movie (2004)\\The SpongeBob SquarePants Movie (2004).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1420175058,
-                        "sizeHuman": "1.32 GB",
+                        "size": 3330385738,
+                        "sizeHuman": "3.10 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -52584,13 +52584,13 @@
         "audienceRating": 7.9,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7827194,
-        "durationHuman": "2 hrs 10 mins",
+        "duration": 7830782,
+        "durationHuman": "2 hrs 11 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b0547dd6e001f6da17c",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Thor.Ragnarok.(2017).1080p\\Thor.Ragnarok.(2017).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Thor - Ragnarok (2017)\\Thor - Ragnarok (2017).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2017-10-24",
@@ -52608,15 +52608,15 @@
         "year": 2017,
         "media": [
             {
-                "aspectRatio": 1.85,
-                "audioChannels": 6,
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2290,
+                "bitrate": 5174,
                 "container": "mkv",
-                "duration": 7827194,
+                "duration": 7830782,
                 "hdr": false,
-                "height": 1012,
+                "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -52627,14 +52627,14 @@
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7827194,
-                        "file": "E:\\Plex\\Movies\\Thor.Ragnarok.(2017).1080p\\Thor.Ragnarok.(2017).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7830782,
+                        "file": "E:\\Plex\\Movies\\Thor - Ragnarok (2017)\\Thor - Ragnarok (2017).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2242844500,
-                        "sizeHuman": "2.09 GB",
+                        "size": 5064993448,
+                        "sizeHuman": "4.72 GB",
                         "videoProfile": "main 10"
                     }
                 ]
