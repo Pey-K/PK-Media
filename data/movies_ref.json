@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 929,
-        "totalSizeHuman": "3.16 TB"
+        "totalMovies": 934,
+        "totalSizeHuman": "3.30 TB"
     },
     "movies": [
         {
@@ -598,11 +598,11 @@
             "year": 2012,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 23 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.46 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "9.54 GB"
         },
         {
             "ratingKey": 428,
@@ -610,11 +610,11 @@
             "year": 2015,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 21 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.34 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "8.52 GB"
         },
         {
             "ratingKey": 439,
@@ -622,11 +622,11 @@
             "year": 2019,
             "contentRating": "PG-13",
             "durationHuman": "3 hrs 1 min",
-            "audioCodec": "AAC",
+            "audioCodec": "TRUEHD",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.34 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "13.32 GB"
         },
         {
             "ratingKey": 447,
@@ -637,8 +637,8 @@
             "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.57 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "12.07 GB"
         },
         {
             "ratingKey": 3391,
@@ -3898,11 +3898,11 @@
             "year": 2002,
             "contentRating": "PG",
             "durationHuman": "2 hrs 41 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AC3",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "3.44 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "9.46 GB"
         },
         {
             "ratingKey": 2128,
@@ -3910,11 +3910,11 @@
             "year": 2010,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 26 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "3.22 GB"
+            "sizeHuman": "8.58 GB"
         },
         {
             "ratingKey": 2131,
@@ -3922,11 +3922,11 @@
             "year": 2011,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 10 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.54 GB"
+            "sizeHuman": "7.66 GB"
         },
         {
             "ratingKey": 2132,
@@ -3934,11 +3934,11 @@
             "year": 2005,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 37 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "3.57 GB"
+            "sizeHuman": "9.23 GB"
         },
         {
             "ratingKey": 2138,
@@ -3946,11 +3946,11 @@
             "year": 2009,
             "contentRating": "PG",
             "durationHuman": "2 hrs 34 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.86 GB"
+            "sizeHuman": "9.02 GB"
         },
         {
             "ratingKey": 2139,
@@ -3958,11 +3958,11 @@
             "year": 2007,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 18 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.75 GB"
+            "sizeHuman": "8.12 GB"
         },
         {
             "ratingKey": 2145,
@@ -3970,11 +3970,11 @@
             "year": 2004,
             "contentRating": "PG",
             "durationHuman": "2 hrs 22 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "3.14 GB"
+            "sizeHuman": "8.32 GB"
         },
         {
             "ratingKey": 2157,
@@ -3982,11 +3982,11 @@
             "year": 2001,
             "contentRating": "PG",
             "durationHuman": "2 hrs 32 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AC3",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.53 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "8.95 GB"
         },
         {
             "ratingKey": 3554,
@@ -4983,6 +4983,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.94 GB"
+        },
+        {
+            "ratingKey": 128063,
+            "title": "Jack Reacher",
+            "year": 2012,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 10 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.15 GB"
+        },
+        {
+            "ratingKey": 128049,
+            "title": "Jack Reacher: Never Go Back",
+            "year": 2016,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 58 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.19 GB"
         },
         {
             "ratingKey": 2339,
@@ -9526,11 +9550,11 @@
             "year": 1977,
             "contentRating": "PG",
             "durationHuman": "2 hrs 5 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.91 GB"
+            "sizeHuman": "6.48 GB"
         },
         {
             "ratingKey": 3245,
@@ -9538,23 +9562,23 @@
             "year": 1999,
             "contentRating": "PG",
             "durationHuman": "2 hrs 16 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.19 GB"
+            "sizeHuman": "5.85 GB"
         },
         {
             "ratingKey": 3248,
             "title": "Star Wars: Episode II - Attack of the Clones",
             "year": 2002,
             "contentRating": "PG",
-            "durationHuman": "2 hrs 23 mins",
-            "audioCodec": "AC3",
+            "durationHuman": "2 hrs 22 mins",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.79 GB"
+            "sizeHuman": "4.59 GB"
         },
         {
             "ratingKey": 3249,
@@ -9562,11 +9586,11 @@
             "year": 2005,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 20 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.07 GB"
+            "sizeHuman": "6.58 GB"
         },
         {
             "ratingKey": 3257,
@@ -9574,11 +9598,11 @@
             "year": 1980,
             "contentRating": "PG",
             "durationHuman": "2 hrs 7 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.67 GB"
+            "sizeHuman": "5.67 GB"
         },
         {
             "ratingKey": 3267,
@@ -9586,11 +9610,47 @@
             "year": 1983,
             "contentRating": "PG",
             "durationHuman": "2 hrs 15 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.11 GB"
+            "sizeHuman": "7.30 GB"
+        },
+        {
+            "ratingKey": 128072,
+            "title": "Star Wars: Episode VIII - The Last Jedi",
+            "year": 2017,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 32 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.98 GB"
+        },
+        {
+            "ratingKey": 128073,
+            "title": "Star Wars: The Force Awakens",
+            "year": null,
+            "contentRating": null,
+            "durationHuman": "2 hrs 18 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.48 GB"
+        },
+        {
+            "ratingKey": 128071,
+            "title": "Star Wars: The Rise Of Skywalker",
+            "year": 2019,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 22 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.56 GB"
         },
         {
             "ratingKey": 121115,

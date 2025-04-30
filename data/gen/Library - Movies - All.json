@@ -3075,13 +3075,13 @@
         "audienceRating": 8.0,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 8575753,
+        "duration": 8575700,
         "durationHuman": "2 hrs 23 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77684d61141d001fb181b9",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.Avengers.(2012).1080p\\The.Avengers.(2012).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\The Avengers (2012)\\The Avengers (2012).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2012-04-25",
@@ -3100,32 +3100,32 @@
         "media": [
             {
                 "aspectRatio": 1.85,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2509,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 9560,
                 "container": "mkv",
-                "duration": 8575753,
+                "duration": 8575700,
                 "hdr": true,
-                "height": 1040,
+                "height": 2076,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8575753,
-                        "file": "E:\\Plex\\Movies\\The.Avengers.(2012).1080p\\The.Avengers.(2012).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8575700,
+                        "file": "E:\\Plex\\Movies\\The Avengers (2012)\\The Avengers (2012).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2645168485,
-                        "sizeHuman": "2.46 GB",
+                        "size": 10247570261,
+                        "sizeHuman": "9.54 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -3137,13 +3137,13 @@
         "audienceRating": 7.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 8478793,
+        "duration": 8478185,
         "durationHuman": "2 hrs 21 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77690623d5a3001f4f4ab6",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Avengers.Age.of.Ultron.(2015).1080p\\Avengers.Age.of.Ultron.(2015).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Avengers - Age of Ultron (2015)\\Avengers - Age of Ultron (2015).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2015-04-22",
@@ -3162,32 +3162,32 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2420,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 8631,
                 "container": "mkv",
-                "duration": 8478793,
+                "duration": 8478185,
                 "hdr": true,
-                "height": 800,
+                "height": 1608,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8478793,
-                        "file": "E:\\Plex\\Movies\\Avengers.Age.of.Ultron.(2015).1080p\\Avengers.Age.of.Ultron.(2015).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8478185,
+                        "file": "E:\\Plex\\Movies\\Avengers - Age of Ultron (2015)\\Avengers - Age of Ultron (2015).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2517703235,
-                        "sizeHuman": "2.34 GB",
+                        "size": 9147043826,
+                        "sizeHuman": "8.52 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -3199,13 +3199,13 @@
         "audienceRating": 8.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 10868564,
+        "duration": 10871552,
         "durationHuman": "3 hrs 1 min",
         "editionTitle": null,
         "guid": "plex://movie/5d776b37fb0d55001f56046d",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Avengers.Endgame.(2019).1080p\\Avengers.Endgame.(2019).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Avengers - Endgame (2019)\\Avengers - Endgame (2019).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2019-04-24",
@@ -3223,33 +3223,33 @@
         "year": 2019,
         "media": [
             {
-                "aspectRatio": 1.85,
-                "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 1846,
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "truehd",
+                "audioProfile": null,
+                "bitrate": 10525,
                 "container": "mkv",
-                "duration": 10868564,
-                "hdr": false,
-                "height": 1008,
+                "duration": 10871552,
+                "hdr": true,
+                "height": 1608,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
-                        "audioProfile": "lc",
+                        "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 10868564,
-                        "file": "E:\\Plex\\Movies\\Avengers.Endgame.(2019).1080p\\Avengers.Endgame.(2019).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 10871552,
+                        "file": "E:\\Plex\\Movies\\Avengers - Endgame (2019)\\Avengers - Endgame (2019).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2511460693,
-                        "sizeHuman": "2.34 GB",
+                        "size": 14302907442,
+                        "sizeHuman": "13.32 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -3261,13 +3261,13 @@
         "audienceRating": 8.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 8957655,
+        "duration": 8961961,
         "durationHuman": "2 hrs 29 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b377a53e9001e71e283",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Avengers.Infinity.War.(2018).1080p\\Avengers.Infinity.War.(2018).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Avengers - Infinity War (2018)\\Avengers - Infinity War (2018).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2018-04-25",
@@ -3285,33 +3285,33 @@
         "year": 2018,
         "media": [
             {
-                "aspectRatio": 1.85,
-                "audioChannels": 6,
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2462,
+                "bitrate": 11569,
                 "container": "mkv",
-                "duration": 8957655,
-                "hdr": false,
-                "height": 1008,
+                "duration": 8961961,
+                "hdr": true,
+                "height": 1608,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8957655,
-                        "file": "E:\\Plex\\Movies\\Avengers.Infinity.War.(2018).1080p\\Avengers.Infinity.War.(2018).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8961961,
+                        "file": "E:\\Plex\\Movies\\Avengers - Infinity War (2018)\\Avengers - Infinity War (2018).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2759669817,
-                        "sizeHuman": "2.57 GB",
+                        "size": 12960035747,
+                        "sizeHuman": "12.07 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -20125,13 +20125,13 @@
         "audienceRating": 7.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 9658720,
+        "duration": 9658691,
         "durationHuman": "2 hrs 41 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768278718ba001e311d57",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Harry.Potter.and.the.Chamber.of.Secrets.(2002).1080p\\Harry.Potter.and.the.Chamber.of.Secrets.(2002).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Harry Potter and the Chamber of Secrets (2002)\\Harry Potter and the Chamber of Secrets (2002).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2002-11-13",
@@ -20151,31 +20151,31 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
+                "audioCodec": "ac3",
                 "audioProfile": null,
-                "bitrate": 3122,
+                "bitrate": 8409,
                 "container": "mkv",
-                "duration": 9658720,
+                "duration": 9658691,
                 "hdr": true,
-                "height": 800,
+                "height": 1600,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
                         "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 9658720,
-                        "file": "E:\\Plex\\Movies\\Harry.Potter.and.the.Chamber.of.Secrets.(2002).1080p\\Harry.Potter.and.the.Chamber.of.Secrets.(2002).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 9658691,
+                        "file": "E:\\Plex\\Movies\\Harry Potter and the Chamber of Secrets (2002)\\Harry Potter and the Chamber of Secrets (2002).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 3695173338,
-                        "sizeHuman": "3.44 GB",
+                        "size": 10152614475,
+                        "sizeHuman": "9.46 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -20187,13 +20187,13 @@
         "audienceRating": 7.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 8765312,
+        "duration": 8765279,
         "durationHuman": "2 hrs 26 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768385af944001f1fac9c",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Harry.Potter.and.the.Deathly.Hallows.Part.1.(2010).1080p\\Harry.Potter.and.the.Deathly.Hallows.Part.1.(2010).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Harry Potter and the Deathly Hallows - Part 1 (2010)\\Harry Potter and the Deathly Hallows - Part 1 (2010).mkv"
         ],
         "originalTitle": "Harry Potter and the Deathly Hallows - Part 1",
         "originallyAvailableAt": "2010-11-17",
@@ -20213,12 +20213,12 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 3198,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 8404,
                 "container": "mkv",
-                "duration": 8765312,
-                "hdr": true,
+                "duration": 8765279,
+                "hdr": false,
                 "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -20228,16 +20228,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
                         "deepAnalysisVersion": 6,
-                        "duration": 8765312,
-                        "file": "E:\\Plex\\Movies\\Harry.Potter.and.the.Deathly.Hallows.Part.1.(2010).1080p\\Harry.Potter.and.the.Deathly.Hallows.Part.1.(2010).1080p.h265.mkv",
+                        "duration": 8765279,
+                        "file": "E:\\Plex\\Movies\\Harry Potter and the Deathly Hallows - Part 1 (2010)\\Harry Potter and the Deathly Hallows - Part 1 (2010).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 3459665894,
-                        "sizeHuman": "3.22 GB",
+                        "size": 9210343511,
+                        "sizeHuman": "8.58 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -20249,13 +20249,13 @@
         "audienceRating": 8.1,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7826336,
+        "duration": 7826304,
         "durationHuman": "2 hrs 10 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776838151a60001f24e81b",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Harry.Potter.and.the.Deathly.Hallows.Part.2.(2011).1080p\\Harry.Potter.and.the.Deathly.Hallows.Part.2.(2011).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Harry Potter and the Deathly Hallows - Part 2 (2011)\\Harry Potter and the Deathly Hallows - Part 2 (2011).mkv"
         ],
         "originalTitle": "Harry Potter and the Deathly Hallows - Part 2",
         "originallyAvailableAt": "2011-07-12",
@@ -20275,12 +20275,12 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2815,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 8405,
                 "container": "mkv",
-                "duration": 7826336,
-                "hdr": true,
+                "duration": 7826304,
+                "hdr": false,
                 "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -20290,16 +20290,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
                         "deepAnalysisVersion": 6,
-                        "duration": 7826336,
-                        "file": "E:\\Plex\\Movies\\Harry.Potter.and.the.Deathly.Hallows.Part.2.(2011).1080p\\Harry.Potter.and.the.Deathly.Hallows.Part.2.(2011).1080p.h265.mkv",
+                        "duration": 7826304,
+                        "file": "E:\\Plex\\Movies\\Harry Potter and the Deathly Hallows - Part 2 (2011)\\Harry Potter and the Deathly Hallows - Part 2 (2011).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2723944108,
-                        "sizeHuman": "2.54 GB",
+                        "size": 8224276750,
+                        "sizeHuman": "7.66 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -20317,7 +20317,7 @@
         "guid": "plex://movie/5d77682785719b001f3a0d8b",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Harry.Potter.and.the.Goblet.of.Fire.(2005).1080p\\Harry.Potter.and.the.Goblet.of.Fire.(2005).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Harry Potter and the Goblet of Fire (2005)\\Harry Potter and the Goblet of Fire (2005).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2005-11-16",
@@ -20337,12 +20337,12 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 3322,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 8406,
                 "container": "mkv",
                 "duration": 9425624,
-                "hdr": true,
+                "hdr": false,
                 "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -20352,16 +20352,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
                         "deepAnalysisVersion": 6,
                         "duration": 9425624,
-                        "file": "E:\\Plex\\Movies\\Harry.Potter.and.the.Goblet.of.Fire.(2005).1080p\\Harry.Potter.and.the.Goblet.of.Fire.(2005).1080p.h265.mkv",
+                        "file": "E:\\Plex\\Movies\\Harry Potter and the Goblet of Fire (2005)\\Harry Potter and the Goblet of Fire (2005).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 3832079859,
-                        "sizeHuman": "3.57 GB",
+                        "size": 9905943441,
+                        "sizeHuman": "9.23 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -20373,13 +20373,13 @@
         "audienceRating": 7.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 9210784,
+        "duration": 9210751,
         "durationHuman": "2 hrs 34 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768282e80df001ebdcebc",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Harry.Potter.and.the.Half-Blood.Prince.(2009).1080p\\Harry.Potter.and.the.Half-Blood.Prince.(2009).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Harry Potter and the Half-Blood Prince (2009)\\Harry Potter and the Half-Blood Prince (2009).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2009-07-15",
@@ -20399,12 +20399,12 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2726,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 8406,
                 "container": "mkv",
-                "duration": 9210784,
-                "hdr": true,
+                "duration": 9210751,
+                "hdr": false,
                 "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -20414,16 +20414,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
                         "deepAnalysisVersion": 6,
-                        "duration": 9210784,
-                        "file": "E:\\Plex\\Movies\\Harry.Potter.and.the.Half-Blood.Prince.(2009).1080p\\Harry.Potter.and.the.Half-Blood.Prince.(2009).1080p.h265.mkv",
+                        "duration": 9210751,
+                        "file": "E:\\Plex\\Movies\\Harry Potter and the Half-Blood Prince (2009)\\Harry Potter and the Half-Blood Prince (2009).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 3066072282,
-                        "sizeHuman": "2.86 GB",
+                        "size": 9681055182,
+                        "sizeHuman": "9.02 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -20435,13 +20435,13 @@
         "audienceRating": 7.5,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 8293407,
+        "duration": 8293376,
         "durationHuman": "2 hrs 18 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77682854c0f0001f301de2",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Harry.Potter.and.the.Order.of.the.Phoenix.(2007).1080p\\Harry.Potter.and.the.Order.of.the.Phoenix.(2007).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Harry Potter and the Order of the Phoenix (2007)\\Harry Potter and the Order of the Phoenix (2007).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2007-07-11",
@@ -20461,13 +20461,13 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2937,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 8405,
                 "container": "mkv",
-                "duration": 8293407,
-                "hdr": true,
-                "height": 800,
+                "duration": 8293376,
+                "hdr": false,
+                "height": 798,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -20476,16 +20476,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
                         "deepAnalysisVersion": 6,
-                        "duration": 8293407,
-                        "file": "E:\\Plex\\Movies\\Harry.Potter.and.the.Order.of.the.Phoenix.(2007).1080p\\Harry.Potter.and.the.Order.of.the.Phoenix.(2007).1080p.h265.mkv",
+                        "duration": 8293376,
+                        "file": "E:\\Plex\\Movies\\Harry Potter and the Order of the Phoenix (2007)\\Harry Potter and the Order of the Phoenix (2007).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2951600815,
-                        "sizeHuman": "2.75 GB",
+                        "size": 8715265366,
+                        "sizeHuman": "8.12 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -20497,13 +20497,13 @@
         "audienceRating": 7.9,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 8502528,
+        "duration": 8502496,
         "durationHuman": "2 hrs 22 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776827103a2d001f564489",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Harry.Potter.and.the.Prisoner.of.Azkaban.(2004).1080p\\Harry.Potter.and.the.Prisoner.of.Azkaban.(2004).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Harry Potter and the Prisoner of Azkaban (2004)\\Harry Potter and the Prisoner of Azkaban (2004).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2004-05-31",
@@ -20523,13 +20523,13 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 3199,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 8407,
                 "container": "mkv",
-                "duration": 8502528,
-                "hdr": true,
-                "height": 800,
+                "duration": 8502496,
+                "hdr": false,
+                "height": 798,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -20538,16 +20538,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
                         "deepAnalysisVersion": 6,
-                        "duration": 8502528,
-                        "file": "E:\\Plex\\Movies\\Harry.Potter.and.the.Prisoner.of.Azkaban.(2004).1080p\\Harry.Potter.and.the.Prisoner.of.Azkaban.(2004).1080p.h265.mkv",
+                        "duration": 8502496,
+                        "file": "E:\\Plex\\Movies\\Harry Potter and the Prisoner of Azkaban (2004)\\Harry Potter and the Prisoner of Azkaban (2004).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 3369661214,
-                        "sizeHuman": "3.14 GB",
+                        "size": 8936913237,
+                        "sizeHuman": "8.32 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -20559,13 +20559,13 @@
         "audienceRating": 7.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 9141376,
+        "duration": 9141344,
         "durationHuman": "2 hrs 32 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77682785719b001f3a0d8e",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Harry.Potter.and.the.Sorcerer's.Stone.(2001).1080p\\Harry.Potter.and.the.Sorcerer's.Stone.(2001).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Harry Potter and the Philosopher's Stone (2001)\\Harry Potter and the Philosopher's Stone (2001).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2001-11-16",
@@ -20585,31 +20585,31 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
+                "audioCodec": "ac3",
                 "audioProfile": null,
-                "bitrate": 2457,
+                "bitrate": 8408,
                 "container": "mkv",
-                "duration": 9141376,
+                "duration": 9141344,
                 "hdr": true,
-                "height": 800,
+                "height": 1600,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
                         "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 9141376,
-                        "file": "E:\\Plex\\Movies\\Harry.Potter.and.the.Sorcerer's.Stone.(2001).1080p\\Harry.Potter.and.the.Sorcerer's.Stone.(2001).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 9141344,
+                        "file": "E:\\Plex\\Movies\\Harry Potter and the Philosopher's Stone (2001)\\Harry Potter and the Philosopher's Stone (2001).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2718523539,
-                        "sizeHuman": "2.53 GB",
+                        "size": 9607467577,
+                        "sizeHuman": "8.95 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -25757,6 +25757,130 @@
                         "size": 4234147624,
                         "sizeHuman": "3.94 GB",
                         "videoProfile": "main"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-29T13:14:03",
+        "audienceRating": 7.0,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 7824465,
+        "durationHuman": "2 hrs 10 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7768b91999bc0020dcf34d",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Jack Reacher (2012)\\Jack Reacher (2012).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2012-12-20",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 128063,
+        "studio": "Paramount Pictures",
+        "summary": "Jack Reacher, a homicide investigator, digs deeper into a case involving a trained military sniper responsible for a mass shooting.",
+        "tagline": "The law has limits. He does not.",
+        "thumbFile": "Movie - Jack Reacher [128063].images\\Jack Reacher [128063].thumb.jpg",
+        "title": "Jack Reacher",
+        "titleSort": "Jack Reacher",
+        "type": "movie",
+        "userRating": null,
+        "year": 2012,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6826,
+                "container": "mkv",
+                "duration": 7824465,
+                "hdr": false,
+                "height": 816,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 7824465,
+                        "file": "E:\\Plex\\Movies\\Jack Reacher (2012)\\Jack Reacher (2012).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 6599736301,
+                        "sizeHuman": "6.15 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-29T13:14:00",
+        "audienceRating": 6.2,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 7088958,
+        "durationHuman": "1 hr 58 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776bacf617c90020178f1f",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Jack Reacher - Never Go Back (2016)\\Jack Reacher - Never Go Back (2016).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2016-10-19",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 128049,
+        "studio": "Skydance Media",
+        "summary": "Years after resigning command of an elite military police unit, the nomadic, righter-of-wrongs Reacher is drawn back into the life he left behind when his friend and successor, Major Susan Turner is framed for espionage. Reacher will stop at nothing to prove her innocence and to expose the real perpetrators behind the killings of his former soldiers.",
+        "tagline": "Never give in. Never give up. Never go back.",
+        "thumbFile": "Movie - Jack Reacher_ Never Go Back [128049].images\\Jack Reacher_ Never Go Back [128049].thumb.jpg",
+        "title": "Jack Reacher: Never Go Back",
+        "titleSort": "Jack Reacher: Never Go Back",
+        "type": "movie",
+        "userRating": null,
+        "year": 2016,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7509,
+                "container": "mkv",
+                "duration": 7088958,
+                "hdr": false,
+                "height": 804,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 7088958,
+                        "file": "E:\\Plex\\Movies\\Jack Reacher - Never Go Back (2016)\\Jack Reacher - Never Go Back (2016).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 6645932734,
+                        "sizeHuman": "6.19 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }
@@ -49236,13 +49360,13 @@
         "audienceRating": 8.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 7485344,
+        "duration": 7484670,
         "durationHuman": "2 hrs 5 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776824880197001ec901ac",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Star.Wars.Episode.IV.-.A.New.Hope.(1977).1080p\\Star.Wars.Episode.IV.-.A.New.Hope.(1977).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Star Wars (1977)\\Star Wars (1977).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "1977-05-25",
@@ -49261,13 +49385,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2255,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7440,
                 "container": "mkv",
-                "duration": 7485344,
-                "hdr": true,
+                "duration": 7484670,
+                "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -49277,16 +49401,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7485344,
-                        "file": "E:\\Plex\\Movies\\Star.Wars.Episode.IV.-.A.New.Hope.(1977).1080p\\Star.Wars.Episode.IV.-.A.New.Hope.(1977).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7484670,
+                        "file": "E:\\Plex\\Movies\\Star Wars (1977)\\Star Wars (1977).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2053881729,
-                        "sizeHuman": "1.91 GB",
+                        "size": 6960361869,
+                        "sizeHuman": "6.48 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -49298,13 +49422,13 @@
         "audienceRating": 6.5,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 8171579,
+        "duration": 8171688,
         "durationHuman": "2 hrs 16 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77682a961905001eb91f0f",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Star.Wars.Episode.I.-.The.Phantom.Menace.(1999).1080p\\Star.Wars.Episode.I.-.The.Phantom.Menace.(1999).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Star Wars - Episode I - The Phantom Menace (1999)\\Star Wars - Episode I - The Phantom Menace (1999).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "1999-05-19",
@@ -49323,13 +49447,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2332,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6146,
                 "container": "mkv",
-                "duration": 8171579,
-                "hdr": true,
+                "duration": 8171688,
+                "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -49339,16 +49463,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8171579,
-                        "file": "E:\\Plex\\Movies\\Star.Wars.Episode.I.-.The.Phantom.Menace.(1999).1080p\\Star.Wars.Episode.I.-.The.Phantom.Menace.(1999).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8171688,
+                        "file": "E:\\Plex\\Movies\\Star Wars - Episode I - The Phantom Menace (1999)\\Star Wars - Episode I - The Phantom Menace (1999).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2346143501,
-                        "sizeHuman": "2.19 GB",
+                        "size": 6277788621,
+                        "sizeHuman": "5.85 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -49360,13 +49484,13 @@
         "audienceRating": 6.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 8550496,
-        "durationHuman": "2 hrs 23 mins",
+        "duration": 8549758,
+        "durationHuman": "2 hrs 22 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77682a961905001eb91f40",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Star.Wars.Episode.II.-.Attack.of.the.Clones.(2002).1080p\\Star.Wars.Episode.II.-.Attack.of.the.Clones.(2002).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Star Wars - Episode II - Attack of the Clones (2002)\\Star Wars - Episode II - Attack of the Clones (2002).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2002-05-16",
@@ -49385,13 +49509,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 1845,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 4607,
                 "container": "mkv",
-                "duration": 8550496,
-                "hdr": true,
+                "duration": 8549758,
+                "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -49401,16 +49525,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8550496,
-                        "file": "E:\\Plex\\Movies\\Star.Wars.Episode.II.-.Attack.of.the.Clones.(2002).1080p\\Star.Wars.Episode.II.-.Attack.of.the.Clones.(2002).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8549758,
+                        "file": "E:\\Plex\\Movies\\Star Wars - Episode II - Attack of the Clones (2002)\\Star Wars - Episode II - Attack of the Clones (2002).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1926701840,
-                        "sizeHuman": "1.79 GB",
+                        "size": 4923578735,
+                        "sizeHuman": "4.59 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -49422,13 +49546,13 @@
         "audienceRating": 7.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 8408000,
+        "duration": 8406440,
         "durationHuman": "2 hrs 20 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77682a61141d001fb13a3a",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Star.Wars.Episode.III.-.Revenge.of.the.Sith.(2005).1080p\\Star.Wars.Episode.III.-.Revenge.of.the.Sith.(2005).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Star Wars - Episode III - Revenge of the Sith (2005)\\Star Wars - Episode III - Revenge of the Sith (2005).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2005-05-17",
@@ -49437,7 +49561,7 @@
         "ratingKey": 3249,
         "studio": "Lucasfilm Ltd.",
         "summary": "As the Clone Wars nears its end, Obi-Wan Kenobi pursues a new threat, while Anakin Skywalker is lured by Chancellor Palpatine into a sinister plot for galactic domination.",
-        "tagline": "The saga is complete.",
+        "tagline": "Every story has a hero. Every hero has a destiny. Every saga has an end.",
         "thumbFile": "Movie - Star Wars_ Episode III - Revenge of the Sith [3249].images\\Star Wars_ Episode III - Revenge of the Sith [3249].thumb.jpg",
         "title": "Star Wars: Episode III - Revenge of the Sith",
         "titleSort": "Star Wars: Episode III - Revenge of the Sith",
@@ -49447,13 +49571,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2258,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6720,
                 "container": "mkv",
-                "duration": 8408000,
-                "hdr": true,
+                "duration": 8406440,
+                "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -49463,16 +49587,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8408000,
-                        "file": "E:\\Plex\\Movies\\Star.Wars.Episode.III.-.Revenge.of.the.Sith.(2005).1080p\\Star.Wars.Episode.III.-.Revenge.of.the.Sith.(2005).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8406440,
+                        "file": "E:\\Plex\\Movies\\Star Wars - Episode III - Revenge of the Sith (2005)\\Star Wars - Episode III - Revenge of the Sith (2005).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2222451341,
-                        "sizeHuman": "2.07 GB",
+                        "size": 7061411837,
+                        "sizeHuman": "6.58 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -49484,13 +49608,13 @@
         "audienceRating": 8.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 7644224,
+        "duration": 7643091,
         "durationHuman": "2 hrs 7 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77682a880197001ec91562",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Star.Wars.Episode.V.-.The.Empire.Strikes.Back.(1980).1080p\\Star.Wars.Episode.V.-.The.Empire.Strikes.Back.(1980).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\The Empire Strikes Back (1980)\\The Empire Strikes Back (1980).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "1980-05-21",
@@ -49509,13 +49633,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 1967,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6369,
                 "container": "mkv",
-                "duration": 7644224,
-                "hdr": true,
+                "duration": 7643091,
+                "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -49525,16 +49649,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7644224,
-                        "file": "E:\\Plex\\Movies\\Star.Wars.Episode.V.-.The.Empire.Strikes.Back.(1980).1080p\\Star.Wars.Episode.V.-.The.Empire.Strikes.Back.(1980).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7643091,
+                        "file": "E:\\Plex\\Movies\\The Empire Strikes Back (1980)\\The Empire Strikes Back (1980).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1791833309,
-                        "sizeHuman": "1.67 GB",
+                        "size": 6085086142,
+                        "sizeHuman": "5.67 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -49546,13 +49670,13 @@
         "audienceRating": 8.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 8088064,
+        "duration": 8087678,
         "durationHuman": "2 hrs 15 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77682a61141d001fb13a40",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Star.Wars.Episode.VI.-.Return.of.the.Jedi.(1983).1080p\\Star.Wars.Episode.VI.-.Return.of.the.Jedi.(1983).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Return of the Jedi (1983)\\Return of the Jedi (1983).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "1983-05-25",
@@ -49571,13 +49695,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2275,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7751,
                 "container": "mkv",
-                "duration": 8088064,
-                "hdr": true,
+                "duration": 8087678,
+                "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -49587,16 +49711,202 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8088064,
-                        "file": "E:\\Plex\\Movies\\Star.Wars.Episode.VI.-.Return.of.the.Jedi.(1983).1080p\\Star.Wars.Episode.VI.-.Return.of.the.Jedi.(1983).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8087678,
+                        "file": "E:\\Plex\\Movies\\Return of the Jedi (1983)\\Return of the Jedi (1983).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2263976058,
-                        "sizeHuman": "2.11 GB",
+                        "size": 7835569563,
+                        "sizeHuman": "7.30 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-30T02:40:50",
+        "audienceRating": 6.9,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 9111828,
+        "durationHuman": "2 hrs 32 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7769ff47dd6e001f6cd581",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Star Wars - The Last Jedi (2017)\\Star Wars - The Last Jedi (2017).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2017-12-13",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 128072,
+        "studio": "Lucasfilm Ltd.",
+        "summary": "Jedi Master-in-hiding Luke Skywalker unwillingly attempts to guide young hopeful Rey in the ways of the force, while Leia, former princess turned general, attempts to lead what is left of the Resistance away from the ruthless tyrannical grip of the First Order.",
+        "tagline": "Darkness rises...and light to meet it.",
+        "thumbFile": "Movie - Star Wars_ Episode VIII - The Last Jedi [128072].images\\Star Wars_ Episode VIII - The Last Jedi [128072].thumb.jpg",
+        "title": "Star Wars: Episode VIII - The Last Jedi",
+        "titleSort": "Star Wars: Episode VIII - The Last Jedi",
+        "type": "movie",
+        "userRating": null,
+        "year": 2017,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6584,
+                "container": "mkv",
+                "duration": 9111828,
+                "hdr": false,
+                "height": 804,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 9111828,
+                        "file": "E:\\Plex\\Movies\\Star Wars - The Last Jedi (2017)\\Star Wars - The Last Jedi (2017).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 7498893220,
+                        "sizeHuman": "6.98 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-30T02:40:50",
+        "audienceRating": 5.9,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": null,
+        "duration": 8286803,
+        "durationHuman": "2 hrs 18 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/654e52ecf8e5e4c04a80c04b",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Star Wars - The Force Awakens (2015)\\Star Wars - The Force Awakens (2015).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": null,
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 128073,
+        "studio": null,
+        "summary": "An audiobook of 'Star Wars: The Force Awakens' narrated by Marc Thompson.",
+        "tagline": null,
+        "thumbFile": "Movie - Star Wars_ The Force Awakens [128073].images\\Star Wars_ The Force Awakens [128073].thumb.jpg",
+        "title": "Star Wars: The Force Awakens",
+        "titleSort": "Star Wars: The Force Awakens",
+        "type": "movie",
+        "userRating": null,
+        "year": null,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6715,
+                "container": "mkv",
+                "duration": 8286803,
+                "hdr": false,
+                "height": 800,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8286803,
+                        "file": "E:\\Plex\\Movies\\Star Wars - The Force Awakens (2015)\\Star Wars - The Force Awakens (2015).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 6956106355,
+                        "sizeHuman": "6.48 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-30T02:40:49",
+        "audienceRating": 6.4,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 8513022,
+        "durationHuman": "2 hrs 22 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7769ff47dd6e001f6cd584",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Star Wars - The Rise of Skywalker (2019)\\Star Wars - The Rise of Skywalker (2019).mkv"
+        ],
+        "originalTitle": "Star Wars: Episode IX - The Rise of Skywalker",
+        "originallyAvailableAt": "2019-12-18",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 128071,
+        "studio": "Lucasfilm Ltd.",
+        "summary": "The surviving Resistance faces the First Order once again.",
+        "tagline": "The saga will end. The story lives forever.",
+        "thumbFile": "Movie - Star Wars_ The Rise Of Skywalker [128071].images\\Star Wars_ The Rise Of Skywalker [128071].thumb.jpg",
+        "title": "Star Wars: The Rise Of Skywalker",
+        "titleSort": "Star Wars: The Rise Of Skywalker",
+        "type": "movie",
+        "userRating": null,
+        "year": 2019,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6616,
+                "container": "mkv",
+                "duration": 8513022,
+                "hdr": false,
+                "height": 804,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8513022,
+                        "file": "E:\\Plex\\Movies\\Star Wars - The Rise of Skywalker (2019)\\Star Wars - The Rise of Skywalker (2019).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 7040440249,
+                        "sizeHuman": "6.56 GB",
                         "videoProfile": "main 10"
                     }
                 ]
