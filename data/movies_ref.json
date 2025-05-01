@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 934,
-        "totalSizeHuman": "3.41 TB"
+        "totalMovies": 936,
+        "totalSizeHuman": "3.49 TB"
     },
     "movies": [
         {
@@ -370,11 +370,11 @@
             "year": 2012,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 16 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.02 GB"
+            "sizeHuman": "3.56 GB"
         },
         {
             "ratingKey": 3379,
@@ -382,11 +382,11 @@
             "year": 2014,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 22 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.49 GB"
+            "sizeHuman": "4.60 GB"
         },
         {
             "ratingKey": 120803,
@@ -1318,11 +1318,11 @@
             "year": 2012,
             "contentRating": "R",
             "durationHuman": "1 hr 35 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.14 GB"
+            "sizeHuman": "4.73 GB"
         },
         {
             "ratingKey": 127601,
@@ -1346,7 +1346,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.98 GB"
+            "sizeHuman": "5.61 GB"
         },
         {
             "ratingKey": 884,
@@ -3754,11 +3754,11 @@
             "year": 1998,
             "contentRating": "G",
             "durationHuman": "1 hr 24 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "AC3",
             "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "720p",
-            "sizeHuman": "999.70 MB"
+            "videoCodec": "MPEG2VIDEO",
+            "videoResolution": "480p",
+            "sizeHuman": "3.45 GB"
         },
         {
             "ratingKey": 2112,
@@ -3778,11 +3778,11 @@
             "year": 2001,
             "contentRating": "G",
             "durationHuman": "1 hr 21 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
-            "videoResolution": "720p",
-            "sizeHuman": "1003.98 MB"
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "MPEG2VIDEO",
+            "videoResolution": "480p",
+            "sizeHuman": "3.30 GB"
         },
         {
             "ratingKey": 2116,
@@ -4486,11 +4486,11 @@
             "year": 2012,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 23 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "3.69 GB"
+            "sizeHuman": "5.55 GB"
         },
         {
             "ratingKey": 3581,
@@ -4510,11 +4510,11 @@
             "year": 2014,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 3 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.57 GB"
+            "sizeHuman": "2.86 GB"
         },
         {
             "ratingKey": 3591,
@@ -4522,11 +4522,11 @@
             "year": 2015,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 17 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "3.06 GB"
+            "sizeHuman": "3.39 GB"
         },
         {
             "ratingKey": 3595,
@@ -4534,11 +4534,11 @@
             "year": 2023,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 37 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "3.31 GB"
+            "sizeHuman": "7.25 GB"
         },
         {
             "ratingKey": 120706,
@@ -4690,11 +4690,11 @@
             "year": 2006,
             "contentRating": "R",
             "durationHuman": "1 hr 24 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.37 GB"
+            "sizeHuman": "2.36 GB"
         },
         {
             "ratingKey": 120840,
@@ -6035,10 +6035,10 @@
             "contentRating": "R",
             "durationHuman": "1 hr 47 mins",
             "audioCodec": "AAC",
-            "container": "mp4",
+            "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.66 GB"
+            "sizeHuman": "2.80 GB"
         },
         {
             "ratingKey": 2595,
@@ -8642,7 +8642,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.37 GB"
+            "sizeHuman": "3.72 GB"
         },
         {
             "ratingKey": 3043,
@@ -8654,7 +8654,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.47 GB"
+            "sizeHuman": "3.89 GB"
         },
         {
             "ratingKey": 3047,
@@ -8666,7 +8666,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.24 GB"
+            "sizeHuman": "4.21 GB"
         },
         {
             "ratingKey": 3048,
@@ -8678,7 +8678,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.02 GB"
+            "sizeHuman": "4.24 GB"
         },
         {
             "ratingKey": 3050,
@@ -8758,11 +8758,11 @@
             "year": 1996,
             "contentRating": "R",
             "durationHuman": "1 hr 51 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.07 GB"
+            "sizeHuman": "6.70 GB"
         },
         {
             "ratingKey": 3065,
@@ -8770,23 +8770,23 @@
             "year": 2022,
             "contentRating": "R",
             "durationHuman": "1 hr 54 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.88 GB"
+            "sizeHuman": "6.72 GB"
         },
         {
             "ratingKey": 3069,
             "title": "Scream 2",
             "year": 1997,
             "contentRating": "R",
-            "durationHuman": "2 hrs",
-            "audioCodec": "EAC3",
+            "durationHuman": "2 hrs 1 min",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "3.04 GB"
+            "sizeHuman": "6.37 GB"
         },
         {
             "ratingKey": 3075,
@@ -8794,11 +8794,11 @@
             "year": 2000,
             "contentRating": "R",
             "durationHuman": "1 hr 57 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.39 GB"
+            "sizeHuman": "5.38 GB"
         },
         {
             "ratingKey": 3078,
@@ -8818,11 +8818,11 @@
             "year": 2023,
             "contentRating": "R",
             "durationHuman": "2 hrs 3 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.39 GB"
+            "sizeHuman": "5.57 GB"
         },
         {
             "ratingKey": 82423,
@@ -9394,11 +9394,11 @@
             "year": 2017,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 13 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.10 GB"
+            "sizeHuman": "5.02 GB"
         },
         {
             "ratingKey": 3201,
@@ -9418,11 +9418,11 @@
             "year": 2021,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 28 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "3.18 GB"
+            "sizeHuman": "5.68 GB"
         },
         {
             "ratingKey": 3876,
@@ -10157,6 +10157,18 @@
             "sizeHuman": "3.89 GB"
         },
         {
+            "ratingKey": 128132,
+            "title": "Thor",
+            "year": 2011,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 55 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.98 GB"
+        },
+        {
             "ratingKey": 3918,
             "title": "Thor: Love and Thunder",
             "year": 2022,
@@ -10166,7 +10178,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.50 GB"
+            "sizeHuman": "4.36 GB"
         },
         {
             "ratingKey": 3919,
@@ -10179,6 +10191,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "4.72 GB"
+        },
+        {
+            "ratingKey": 128133,
+            "title": "Thor: The Dark World",
+            "year": 2013,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 52 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.62 GB"
         },
         {
             "ratingKey": 3896,
