@@ -17647,8 +17647,8 @@
                     "totalAlbumSizeBytes": 333545346,
                     "albumDurationHuman": "1 hrs 0 mins",
                     "albumContainers": [
-                        "flac",
-                        "mp3"
+                        "mp3",
+                        "flac"
                     ]
                 },
                 {

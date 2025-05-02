@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 936,
-        "totalSizeHuman": "3.51 TB"
+        "totalMovies": 934,
+        "totalSizeHuman": "3.63 TB"
     },
     "movies": [
         {
@@ -70,11 +70,11 @@
             "year": 2012,
             "contentRating": "R",
             "durationHuman": "1 hr 50 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.70 GB"
+            "sizeHuman": "4.03 GB"
         },
         {
             "ratingKey": 5,
@@ -82,11 +82,11 @@
             "year": 2014,
             "contentRating": "R",
             "durationHuman": "1 hr 52 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.95 GB"
+            "sizeHuman": "5.31 GB"
         },
         {
             "ratingKey": 6,
@@ -490,11 +490,11 @@
             "year": 2015,
             "contentRating": "PG-13",
             "durationHuman": "1 hr 57 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.03 GB"
+            "sizeHuman": "4.64 GB"
         },
         {
             "ratingKey": 296,
@@ -502,23 +502,23 @@
             "year": 2018,
             "contentRating": "PG-13",
             "durationHuman": "1 hr 58 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.43 GB"
+            "sizeHuman": "3.87 GB"
         },
         {
             "ratingKey": 308,
             "title": "Ant-Man and the Wasp: Quantumania",
             "year": 2023,
             "contentRating": "PG-13",
-            "durationHuman": "2 hrs 4 mins",
-            "audioCodec": "AC3",
+            "durationHuman": "2 hrs 5 mins",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.45 GB"
+            "sizeHuman": "4.96 GB"
         },
         {
             "ratingKey": 314,
@@ -681,12 +681,12 @@
             "title": "The Babysitter: Killer Queen",
             "year": 2020,
             "contentRating": "R",
-            "durationHuman": "1 hr 42 mins",
-            "audioCodec": "AAC",
+            "durationHuman": "1 hr 41 mins",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.50 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "11.33 GB"
         },
         {
             "ratingKey": 482,
@@ -898,11 +898,11 @@
             "year": 2006,
             "contentRating": "PG-13",
             "durationHuman": "1 hr 25 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
+            "audioCodec": "AC3",
+            "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.33 GB"
+            "sizeHuman": "4.05 GB"
         },
         {
             "ratingKey": 714,
@@ -934,11 +934,11 @@
             "year": 1999,
             "contentRating": "PG-13",
             "durationHuman": "1 hr 33 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.74 GB"
+            "sizeHuman": "4.20 GB"
         },
         {
             "ratingKey": 717,
@@ -1090,11 +1090,11 @@
             "year": 2014,
             "contentRating": "PG-13",
             "durationHuman": "1 hr 57 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "AC3",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.74 GB"
+            "sizeHuman": "4.20 GB"
         },
         {
             "ratingKey": 3420,
@@ -1259,10 +1259,10 @@
             "contentRating": "PG",
             "durationHuman": "1 hr 36 mins",
             "audioCodec": "AAC",
-            "container": "mp4",
+            "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.49 GB"
+            "sizeHuman": "4.78 GB"
         },
         {
             "ratingKey": 858,
@@ -1426,11 +1426,11 @@
             "year": 1995,
             "contentRating": "PG",
             "durationHuman": "1 hr 40 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "DCA",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.78 GB"
+            "sizeHuman": "3.49 GB"
         },
         {
             "ratingKey": 1002,
@@ -1942,23 +1942,23 @@
             "year": 2016,
             "contentRating": "R",
             "durationHuman": "1 hr 48 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.77 GB"
+            "sizeHuman": "3.60 GB"
         },
         {
             "ratingKey": 1344,
             "title": "Deadpool 2",
             "year": 2018,
             "contentRating": "R",
-            "durationHuman": "2 hrs 14 mins",
-            "audioCodec": "EAC3",
+            "durationHuman": "1 hr 58 mins",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.31 GB"
+            "sizeHuman": "5.97 GB"
         },
         {
             "ratingKey": 125449,
@@ -2057,18 +2057,6 @@
             "sizeHuman": "1.44 GB"
         },
         {
-            "ratingKey": 1443,
-            "title": "Diary of a Wimpy Kid",
-            "year": 2021,
-            "contentRating": "PG",
-            "durationHuman": "56 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "895.93 MB"
-        },
-        {
             "ratingKey": 1469,
             "title": "Diary of a Wimpy Kid: Dog Days",
             "year": 2012,
@@ -2090,19 +2078,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.40 GB"
-        },
-        {
-            "ratingKey": 1497,
-            "title": "Diary of a Wimpy Kid: Rodrick Rules",
-            "year": 2022,
-            "contentRating": "PG",
-            "durationHuman": "1 hr 14 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.16 GB"
+            "sizeHuman": "4.26 GB"
         },
         {
             "ratingKey": 3491,
@@ -2867,10 +2843,10 @@
             "contentRating": "R",
             "durationHuman": "1 hr 37 mins",
             "audioCodec": "AAC",
-            "container": "mp4",
+            "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.51 GB"
+            "sizeHuman": "4.48 GB"
         },
         {
             "ratingKey": 1891,
@@ -4210,11 +4186,11 @@
             "year": 2022,
             "contentRating": "PG",
             "durationHuman": "1 hr 44 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
+            "audioCodec": "EAC3",
+            "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.62 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "3.66 GB"
         },
         {
             "ratingKey": 2183,
@@ -4462,11 +4438,11 @@
             "year": 2020,
             "contentRating": "PG-13",
             "durationHuman": "1 hr 44 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.60 GB"
+            "sizeHuman": "4.33 GB"
         },
         {
             "ratingKey": 120841,
@@ -4630,11 +4606,11 @@
             "year": 2022,
             "contentRating": "PG",
             "durationHuman": "1 hr 21 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.35 GB"
+            "sizeHuman": "2.63 GB"
         },
         {
             "ratingKey": 2261,
@@ -5102,7 +5078,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.54 GB"
+            "sizeHuman": "3.51 GB"
         },
         {
             "ratingKey": 2369,
@@ -5230,11 +5206,11 @@
             "year": 2012,
             "contentRating": "PG",
             "durationHuman": "1 hr 34 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
+            "audioCodec": "EAC3",
+            "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.47 GB"
+            "sizeHuman": "3.51 GB"
         },
         {
             "ratingKey": 2413,
@@ -5339,10 +5315,10 @@
             "contentRating": "PG-13",
             "durationHuman": "1 hr 36 mins",
             "audioCodec": "AAC",
-            "container": "mp4",
+            "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.49 GB"
+            "sizeHuman": "2.54 GB"
         },
         {
             "ratingKey": 2446,
@@ -5498,7 +5474,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.96 GB"
+            "sizeHuman": "4.18 GB"
         },
         {
             "ratingKey": 2506,
@@ -5510,7 +5486,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.42 GB"
+            "sizeHuman": "5.22 GB"
         },
         {
             "ratingKey": 125401,
@@ -5614,11 +5590,11 @@
             "year": 2008,
             "contentRating": "PG",
             "durationHuman": "1 hr 32 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.37 GB"
+            "sizeHuman": "2.68 GB"
         },
         {
             "ratingKey": 2534,
@@ -5626,11 +5602,11 @@
             "year": 2011,
             "contentRating": "PG",
             "durationHuman": "1 hr 30 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.44 GB"
+            "sizeHuman": "2.60 GB"
         },
         {
             "ratingKey": 2537,
@@ -5649,12 +5625,12 @@
             "title": "Kung Fu Panda 4",
             "year": 2024,
             "contentRating": "PG",
-            "durationHuman": "1 hr 35 mins",
+            "durationHuman": "1 hr 34 mins",
             "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.19 GB"
+            "sizeHuman": "3.35 GB"
         },
         {
             "ratingKey": 2551,
@@ -6562,11 +6538,11 @@
             "year": 2002,
             "contentRating": "PG-13",
             "durationHuman": "1 hr 37 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
+            "audioCodec": "AC3",
+            "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.51 GB"
+            "sizeHuman": "9.49 GB"
         },
         {
             "ratingKey": 2701,
@@ -7607,10 +7583,10 @@
             "contentRating": "R",
             "durationHuman": "1 hr 33 mins",
             "audioCodec": "AAC",
-            "container": "mp4",
+            "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.45 GB"
+            "sizeHuman": "5.76 GB"
         },
         {
             "ratingKey": 2853,
@@ -7689,24 +7665,24 @@
             "title": "Puss in Boots",
             "year": 2011,
             "contentRating": "PG",
-            "durationHuman": "1 hr 31 mins",
-            "audioCodec": "EAC3",
+            "durationHuman": "1 hr 30 mins",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.85 GB"
+            "sizeHuman": "3.08 GB"
         },
         {
             "ratingKey": 2855,
             "title": "Puss in Boots: The Last Wish",
             "year": 2022,
             "contentRating": "PG",
-            "durationHuman": "1 hr 43 mins",
-            "audioCodec": "AC3",
+            "durationHuman": "1 hr 42 mins",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.47 GB"
+            "sizeHuman": "5.09 GB"
         },
         {
             "ratingKey": 2857,
@@ -8122,11 +8098,11 @@
             "year": 2019,
             "contentRating": "PG",
             "durationHuman": "1 hr 39 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
+            "audioCodec": "EAC3",
+            "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.54 GB"
+            "sizeHuman": "2.81 GB"
         },
         {
             "ratingKey": 3807,
@@ -8518,11 +8494,11 @@
             "year": 2004,
             "contentRating": "R",
             "durationHuman": "1 hr 43 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.09 GB"
+            "sizeHuman": "5.56 GB"
         },
         {
             "ratingKey": 3015,
@@ -8530,11 +8506,11 @@
             "year": 2010,
             "contentRating": "R",
             "durationHuman": "1 hr 30 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.55 GB"
+            "sizeHuman": "4.90 GB"
         },
         {
             "ratingKey": 3016,
@@ -8542,11 +8518,11 @@
             "year": 2005,
             "contentRating": "R",
             "durationHuman": "1 hr 35 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.98 GB"
+            "sizeHuman": "4.99 GB"
         },
         {
             "ratingKey": 3023,
@@ -8554,11 +8530,11 @@
             "year": 2006,
             "contentRating": "R",
             "durationHuman": "2 hrs 1 min",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.22 GB"
+            "sizeHuman": "6.01 GB"
         },
         {
             "ratingKey": 3024,
@@ -8578,11 +8554,11 @@
             "year": 2008,
             "contentRating": "R",
             "durationHuman": "1 hr 35 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.61 GB"
+            "sizeHuman": "4.47 GB"
         },
         {
             "ratingKey": 3034,
@@ -8590,11 +8566,11 @@
             "year": 2009,
             "contentRating": "R",
             "durationHuman": "1 hr 32 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.66 GB"
+            "sizeHuman": "4.64 GB"
         },
         {
             "ratingKey": 3035,
@@ -8602,11 +8578,11 @@
             "year": 2023,
             "contentRating": "R",
             "durationHuman": "1 hr 58 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.24 GB"
+            "sizeHuman": "5.91 GB"
         },
         {
             "ratingKey": 3038,
@@ -8942,7 +8918,7 @@
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.24 GB"
+            "sizeHuman": "7.96 GB"
         },
         {
             "ratingKey": 3097,
@@ -10474,11 +10450,11 @@
             "year": 2022,
             "contentRating": "PG-13",
             "durationHuman": "1 hr 56 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "AAC",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "2.06 GB"
+            "sizeHuman": "6.42 GB"
         },
         {
             "ratingKey": 3990,

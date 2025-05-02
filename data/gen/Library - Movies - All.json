@@ -314,13 +314,13 @@
         "audienceRating": 7.2,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 6577609,
+        "duration": 6577662,
         "durationHuman": "1 hr 50 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768a6594b2b001e691db4",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\21.Jump.Street.(2012).1080p\\21.Jump.Street.(2012).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\21 Jump Street (2012)\\21 Jump Street (2012).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2012-03-14",
@@ -340,13 +340,13 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2477,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5269,
                 "container": "mkv",
-                "duration": 6577609,
-                "hdr": true,
-                "height": 800,
+                "duration": 6577662,
+                "hdr": false,
+                "height": 802,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -355,16 +355,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6577609,
-                        "file": "E:\\Plex\\Movies\\21.Jump.Street.(2012).1080p\\21.Jump.Street.(2012).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6577662,
+                        "file": "E:\\Plex\\Movies\\21 Jump Street (2012)\\21 Jump Street (2012).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1824366293,
-                        "sizeHuman": "1.70 GB",
+                        "size": 4332339986,
+                        "sizeHuman": "4.03 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -376,13 +376,13 @@
         "audienceRating": 7.0,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 6716745,
+        "duration": 6716798,
         "durationHuman": "1 hr 52 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776a097a53e9001e6f8491",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\22.Jump.Street.(2014).1080p\\22.Jump.Street.(2014).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\22 Jump Street (2014)\\22 Jump Street (2014).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2014-06-05",
@@ -402,13 +402,13 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2823,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6787,
                 "container": "mkv",
-                "duration": 6716745,
-                "hdr": true,
-                "height": 800,
+                "duration": 6716798,
+                "hdr": false,
+                "height": 802,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -417,16 +417,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6716745,
-                        "file": "E:\\Plex\\Movies\\22.Jump.Street.(2014).1080p\\22.Jump.Street.(2014).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6716798,
+                        "file": "E:\\Plex\\Movies\\22 Jump Street (2014)\\22 Jump Street (2014).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2096552046,
-                        "sizeHuman": "1.95 GB",
+                        "size": 5698046386,
+                        "sizeHuman": "5.31 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -2517,13 +2517,13 @@
         "audienceRating": 7.2,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7026368,
+        "duration": 7026771,
         "durationHuman": "1 hr 57 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77690f7a53e9001e6e05a8",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Ant-Man.(2015).1080p\\Ant-Man.(2015).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Ant-Man (2015)\\Ant-Man (2015).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2015-07-14",
@@ -2542,13 +2542,13 @@
         "media": [
             {
                 "aspectRatio": 1.85,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2751,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5671,
                 "container": "mkv",
-                "duration": 7026368,
-                "hdr": true,
+                "duration": 7026771,
+                "hdr": false,
                 "height": 1040,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -2558,16 +2558,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7026368,
-                        "file": "E:\\Plex\\Movies\\Ant-Man.(2015).1080p\\Ant-Man.(2015).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7026771,
+                        "file": "E:\\Plex\\Movies\\Ant-Man (2015)\\Ant-Man (2015).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2175951257,
-                        "sizeHuman": "2.03 GB",
+                        "size": 4980676767,
+                        "sizeHuman": "4.64 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -2579,13 +2579,13 @@
         "audienceRating": 7.0,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7085661,
+        "duration": 7085662,
         "durationHuman": "1 hr 58 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776be596b655001fe1f7fa",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Ant-Man.and.the.Wasp.(2018).1080p\\Ant-Man.and.the.Wasp.(2018).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Ant-Man and the Wasp (2018)\\Ant-Man and the Wasp (2018) [IMAX].mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2018-07-04",
@@ -2605,11 +2605,11 @@
             {
                 "aspectRatio": 1.85,
                 "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 1726,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 4694,
                 "container": "mkv",
-                "duration": 7085661,
+                "duration": 7085662,
                 "hdr": false,
                 "height": 1012,
                 "isOptimizedVersion": false,
@@ -2620,16 +2620,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "lc",
+                        "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7085661,
-                        "file": "E:\\Plex\\Movies\\Ant-Man.and.the.Wasp.(2018).1080p\\Ant-Man.and.the.Wasp.(2018).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7085662,
+                        "file": "E:\\Plex\\Movies\\Ant-Man and the Wasp (2018)\\Ant-Man and the Wasp (2018) [IMAX].mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1530756103,
-                        "sizeHuman": "1.43 GB",
+                        "size": 4157470980,
+                        "sizeHuman": "3.87 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -2641,13 +2641,13 @@
         "audienceRating": 6.0,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7469332,
-        "durationHuman": "2 hrs 4 mins",
+        "duration": 7474144,
+        "durationHuman": "2 hrs 5 mins",
         "editionTitle": null,
         "guid": "plex://movie/5e161a83bea6ac004126e148",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Ant-Man.and.the.Wasp.Quantumania.(2023).1080p\\Ant-Man.and.the.Wasp.Quantumania.(2023).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Ant-Man and the Wasp - Quantumania (2023)\\Ant-Man and the Wasp - Quantumania (2023) [IMAX].mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2023-02-15",
@@ -2665,15 +2665,15 @@
         "year": 2023,
         "media": [
             {
-                "aspectRatio": 2.35,
+                "aspectRatio": 1.85,
                 "audioChannels": 6,
-                "audioCodec": "ac3",
+                "audioCodec": "eac3",
                 "audioProfile": null,
-                "bitrate": 2891,
+                "bitrate": 5699,
                 "container": "mkv",
-                "duration": 7469332,
-                "hdr": true,
-                "height": 808,
+                "duration": 7474144,
+                "hdr": false,
+                "height": 1012,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -2684,14 +2684,14 @@
                     {
                         "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7469332,
-                        "file": "E:\\Plex\\Movies\\Ant-Man.and.the.Wasp.Quantumania.(2023).1080p\\Ant-Man.and.the.Wasp.Quantumania.(2023).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7474144,
+                        "file": "E:\\Plex\\Movies\\Ant-Man and the Wasp - Quantumania (2023)\\Ant-Man and the Wasp - Quantumania (2023) [IMAX].mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2626935765,
-                        "sizeHuman": "2.45 GB",
+                        "size": 5324350955,
+                        "sizeHuman": "4.96 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -3509,13 +3509,13 @@
         "audienceRating": 5.8,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 6146541,
-        "durationHuman": "1 hr 42 mins",
+        "duration": 6063296,
+        "durationHuman": "1 hr 41 mins",
         "editionTitle": null,
         "guid": "plex://movie/5e161fea321c35003e214331",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.Babysitter.Killer.Queen.(2020).1080p\\The.Babysitter.Killer.Queen.(2020).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\The Babysitter - Killer Queen (2020)\\The Babysitter - Killer Queen (2020).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2020-09-10",
@@ -3533,33 +3533,33 @@
         "year": 2020,
         "media": [
             {
-                "aspectRatio": 2.35,
+                "aspectRatio": 1.78,
                 "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "he-aac",
-                "bitrate": 2090,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 16049,
                 "container": "mkv",
-                "duration": 6146541,
-                "hdr": false,
-                "height": 808,
+                "duration": 6063296,
+                "hdr": true,
+                "height": 2160,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
-                        "audioProfile": "he-aac",
+                        "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6146541,
-                        "file": "E:\\Plex\\Movies\\The.Babysitter.Killer.Queen.(2020).1080p\\The.Babysitter.Killer.Queen.(2020).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6063296,
+                        "file": "E:\\Plex\\Movies\\The Babysitter - Killer Queen (2020)\\The Babysitter - Killer Queen (2020).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1609163791,
-                        "sizeHuman": "1.50 GB",
+                        "size": 12163415835,
+                        "sizeHuman": "11.33 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -4625,13 +4625,13 @@
         "audienceRating": 5.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 5110174,
+        "duration": 5110143,
         "durationHuman": "1 hr 25 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768332ec6b5001f6bba49",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.Benchwarmers.(2006).1080p\\The.Benchwarmers.(2006).1080p.h265.mp4"
+            "E:\\Plex\\Movies\\The Benchwarmers (2006)\\The Benchwarmers (2006).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2006-04-07",
@@ -4651,11 +4651,11 @@
             {
                 "aspectRatio": 1.85,
                 "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 2224,
-                "container": "mp4",
-                "duration": 5110174,
+                "audioCodec": "ac3",
+                "audioProfile": null,
+                "bitrate": 6807,
+                "container": "mkv",
+                "duration": 5110143,
                 "hdr": false,
                 "height": 1040,
                 "isOptimizedVersion": false,
@@ -4666,16 +4666,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5110174,
-                        "file": "E:\\Plex\\Movies\\The.Benchwarmers.(2006).1080p\\The.Benchwarmers.(2006).1080p.h265.mp4",
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5110143,
+                        "file": "E:\\Plex\\Movies\\The Benchwarmers (2006)\\The Benchwarmers (2006).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1424669985,
-                        "sizeHuman": "1.33 GB",
+                        "optimizedForStreaming": null,
+                        "size": 4347981248,
+                        "sizeHuman": "4.05 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -4811,13 +4811,13 @@
         "audienceRating": 6.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 5585525,
+        "duration": 5584596,
         "durationHuman": "1 hr 33 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776832eb5d26001f1e0024",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Big.Daddy.(1999).1080p\\Big.Daddy.(1999).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Big Daddy (1999)\\Big Daddy (1999).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "1999-06-25",
@@ -4837,11 +4837,11 @@
             {
                 "aspectRatio": 1.85,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2671,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6462,
                 "container": "mkv",
-                "duration": 5585525,
+                "duration": 5584596,
                 "hdr": false,
                 "height": 1038,
                 "isOptimizedVersion": false,
@@ -4852,16 +4852,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5585525,
-                        "file": "E:\\Plex\\Movies\\Big.Daddy.(1999).1080p\\Big.Daddy.(1999).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5584596,
+                        "file": "E:\\Plex\\Movies\\Big Daddy (1999)\\Big Daddy (1999).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1866908561,
-                        "sizeHuman": "1.74 GB",
+                        "size": 4510728537,
+                        "sizeHuman": "4.20 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -5617,13 +5617,13 @@
         "audienceRating": 6.5,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 7033749,
+        "duration": 7033760,
         "durationHuman": "1 hr 57 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776a6bad5437001f77d7fb",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Blended.(2014).1080p\\Blended.(2014).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Blended (2014)\\Blended (2014).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2014-05-22",
@@ -5641,34 +5641,34 @@
         "year": 2014,
         "media": [
             {
-                "aspectRatio": 1.78,
+                "aspectRatio": 1.85,
                 "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 2120,
+                "audioCodec": "ac3",
+                "audioProfile": null,
+                "bitrate": 5124,
                 "container": "mkv",
-                "duration": 7033749,
+                "duration": 7033760,
                 "hdr": false,
-                "height": 1080,
+                "height": 1036,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
-                "videoProfile": "main",
+                "videoProfile": "main 10",
                 "videoResolution": "1080",
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "lc",
+                        "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7033749,
-                        "file": "E:\\Plex\\Movies\\Blended.(2014).1080p\\Blended.(2014).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7033760,
+                        "file": "E:\\Plex\\Movies\\Blended (2014)\\Blended (2014).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1865937179,
-                        "sizeHuman": "1.74 GB",
-                        "videoProfile": "main"
+                        "size": 4504928949,
+                        "sizeHuman": "4.20 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }
@@ -6485,13 +6485,13 @@
         "audienceRating": 7.2,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5731839,
+        "duration": 5731838,
         "durationHuman": "1 hr 36 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776828151a60001f24b07d",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Bridge.to.Terabithia.(2007).1080p\\Bridge.to.Terabithia.(2007).1080p.h265.mp4"
+            "E:\\Plex\\Movies\\Bridge to Terabithia (2007)\\Bridge to Terabithia (2007).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2007-02-15",
@@ -6513,11 +6513,11 @@
                 "audioChannels": 6,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2224,
-                "container": "mp4",
-                "duration": 5731839,
+                "bitrate": 7170,
+                "container": "mkv",
+                "duration": 5731838,
                 "hdr": false,
-                "height": 1036,
+                "height": 1038,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -6527,15 +6527,15 @@
                 "parts": [
                     {
                         "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5731839,
-                        "file": "E:\\Plex\\Movies\\Bridge.to.Terabithia.(2007).1080p\\Bridge.to.Terabithia.(2007).1080p.h265.mp4",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5731838,
+                        "file": "E:\\Plex\\Movies\\Bridge to Terabithia (2007)\\Bridge to Terabithia (2007).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1598572570,
-                        "sizeHuman": "1.49 GB",
+                        "optimizedForStreaming": null,
+                        "size": 5137427813,
+                        "sizeHuman": "4.78 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -7353,13 +7353,13 @@
         "audienceRating": 6.2,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 6008521,
+        "duration": 6008480,
         "durationHuman": "1 hr 40 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77683261141d001fb14df9",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Casper.(1995).1080p\\Casper.(1995).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Casper (1995)\\Casper (1995).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "1995-05-26",
@@ -7377,33 +7377,33 @@
         "year": 1995,
         "media": [
             {
-                "aspectRatio": 1.85,
+                "aspectRatio": 1.78,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2564,
+                "audioCodec": "dca",
+                "audioProfile": "dts",
+                "bitrate": 4992,
                 "container": "mkv",
-                "duration": 6008521,
+                "duration": 6008480,
                 "hdr": false,
-                "height": 1032,
+                "height": 1080,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
                 "videoResolution": "1080",
-                "width": 1912,
+                "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "dts",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6008521,
-                        "file": "E:\\Plex\\Movies\\Casper.(1995).1080p\\Casper.(1995).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6008480,
+                        "file": "E:\\Plex\\Movies\\Casper (1995)\\Casper (1995).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1911066851,
-                        "sizeHuman": "1.78 GB",
+                        "size": 3749524004,
+                        "sizeHuman": "3.49 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -10019,13 +10019,13 @@
         "audienceRating": 8.0,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 6486272,
+        "duration": 6486312,
         "durationHuman": "1 hr 48 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b257a53e9001e71bb98",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Deadpool.(2016).1080p\\Deadpool.(2016).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Deadpool (2016)\\Deadpool (2016).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2016-02-09",
@@ -10044,14 +10044,14 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2427,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 4772,
                 "container": "mkv",
-                "duration": 6486272,
-                "hdr": true,
-                "height": 800,
+                "duration": 6486312,
+                "hdr": false,
+                "height": 806,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -10060,16 +10060,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6486272,
-                        "file": "E:\\Plex\\Movies\\Deadpool.(2016).1080p\\Deadpool.(2016).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6486312,
+                        "file": "E:\\Plex\\Movies\\Deadpool (2016)\\Deadpool (2016).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1902984617,
-                        "sizeHuman": "1.77 GB",
+                        "size": 3869458121,
+                        "sizeHuman": "3.60 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -10081,13 +10081,13 @@
         "audienceRating": 7.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 8039648,
-        "durationHuman": "2 hrs 14 mins",
+        "duration": 7061118,
+        "durationHuman": "1 hr 58 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776c1c51dd69001fe37d4f",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Deadpool.2.(2018).1080p\\Deadpool.2.(2018).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Deadpool 2 (2018)\\Deadpool 2 (2018).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2018-05-15",
@@ -10106,13 +10106,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2497,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7264,
                 "container": "mkv",
-                "duration": 8039648,
-                "hdr": true,
+                "duration": 7061118,
+                "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -10122,16 +10122,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8039648,
-                        "file": "E:\\Plex\\Movies\\Deadpool.2.(2018).1080p\\Deadpool.2.(2018).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7061118,
+                        "file": "E:\\Plex\\Movies\\Deadpool 2 (2018)\\Deadpool 2 (2018).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2480290401,
-                        "sizeHuman": "2.31 GB",
+                        "size": 6411761870,
+                        "sizeHuman": "5.97 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -10635,68 +10635,6 @@
         ]
     },
     {
-        "addedAt": "2024-09-25T07:58:47",
-        "audienceRating": 5.1,
-        "audienceRatingImage": "imdb://image.rating",
-        "contentRating": "PG",
-        "duration": 3370185,
-        "durationHuman": "56 mins",
-        "editionTitle": null,
-        "guid": "plex://movie/5fd4f985ffea6a002d08b3aa",
-        "hasCreditsMarker": true,
-        "locations": [
-            "E:\\Plex\\Movies\\Diary.of.a.Wimpy.Kid.(2021).1080p\\Diary.of.a.Wimpy.Kid.(2021).1080p.h265.mp4"
-        ],
-        "originalTitle": null,
-        "originallyAvailableAt": "2021-12-03",
-        "rating": null,
-        "ratingImage": null,
-        "ratingKey": 1443,
-        "studio": "Walt Disney Pictures",
-        "summary": "Greg Heffley is an ambitious kid with an active imagination and big plans to be rich and famous. The problem is that he has to survive middle school first.",
-        "tagline": "New school. Old cheese.",
-        "thumbFile": "Movie - Diary of a Wimpy Kid [1443].images\\Diary of a Wimpy Kid [1443].thumb.jpg",
-        "title": "Diary of a Wimpy Kid",
-        "titleSort": "Diary of a Wimpy Kid",
-        "type": "movie",
-        "userRating": null,
-        "year": 2021,
-        "media": [
-            {
-                "aspectRatio": 1.78,
-                "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 2225,
-                "container": "mp4",
-                "duration": 3370185,
-                "hdr": false,
-                "height": 1080,
-                "isOptimizedVersion": false,
-                "videoCodec": "hevc",
-                "videoFrameRate": "24p",
-                "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
-                "parts": [
-                    {
-                        "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 3370185,
-                        "file": "E:\\Plex\\Movies\\Diary.of.a.Wimpy.Kid.(2021).1080p\\Diary.of.a.Wimpy.Kid.(2021).1080p.h265.mp4",
-                        "hasPreviewThumbnails": false,
-                        "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 939448243,
-                        "sizeHuman": "895.93 MB",
-                        "videoProfile": "main 10"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "addedAt": "2024-09-22T19:33:19",
         "audienceRating": 6.3,
         "audienceRatingImage": "imdb://image.rating",
@@ -10763,13 +10701,13 @@
         "audienceRating": 6.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5973655,
+        "duration": 5973653,
         "durationHuman": "1 hr 40 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77689f3ab0e7001f505e45",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Diary.of.a.Wimpy.Kid.Rodrick.Rules.(2011).1080p\\Diary.of.a.Wimpy.Kid.Rodrick.Rules.(2011).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Diary of a Wimpy Kid - Rodrick Rules (2011)\\Diary of a Wimpy Kid - Rodrick Rules (2011).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2011-03-17",
@@ -10778,7 +10716,7 @@
         "ratingKey": 1485,
         "studio": "Color Force",
         "summary": "Greg and Rodrick don't get along, and his parents are fully aware of that. In order to help them get along, Greg's mother introduces Mom Bucks, which rewards them for getting along. But Rodrick isn't the only problem. He has to deal with any conflicts involving Holly Hills, as well as other embarrassing situations. Will Greg and Rodrick get along?",
-        "tagline": "Welcome to the next grade",
+        "tagline": "Welcome to the next grade.",
         "thumbFile": "Movie - Diary of a Wimpy Kid_ Rodrick Rules [1485].images\\Diary of a Wimpy Kid_ Rodrick Rules [1485].thumb.jpg",
         "title": "Diary of a Wimpy Kid: Rodrick Rules",
         "titleSort": "Diary of a Wimpy Kid: Rodrick Rules",
@@ -10791,73 +10729,11 @@
                 "audioChannels": 6,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2004,
+                "bitrate": 6130,
                 "container": "mkv",
-                "duration": 5973655,
+                "duration": 5973653,
                 "hdr": false,
                 "height": 816,
-                "isOptimizedVersion": false,
-                "videoCodec": "hevc",
-                "videoFrameRate": "24p",
-                "videoProfile": "main",
-                "videoResolution": "1080",
-                "width": 1920,
-                "parts": [
-                    {
-                        "audioProfile": "lc",
-                        "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5973655,
-                        "file": "E:\\Plex\\Movies\\Diary.of.a.Wimpy.Kid.Rodrick.Rules.(2011).1080p\\Diary.of.a.Wimpy.Kid.Rodrick.Rules.(2011).1080p.h265.mkv",
-                        "hasPreviewThumbnails": false,
-                        "indexes": null,
-                        "optimizedForStreaming": null,
-                        "size": 1498201341,
-                        "sizeHuman": "1.40 GB",
-                        "videoProfile": "main"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "addedAt": "2024-09-25T07:42:57",
-        "audienceRating": 5.1,
-        "audienceRatingImage": "imdb://image.rating",
-        "contentRating": "PG",
-        "duration": 4449417,
-        "durationHuman": "1 hr 14 mins",
-        "editionTitle": null,
-        "guid": "plex://movie/618e2778f7ad5af01ba03b05",
-        "hasCreditsMarker": true,
-        "locations": [
-            "E:\\Plex\\Movies\\Diary.of.a.Wimpy.Kid.Rodrick.Rules.(2022).1080p\\Diary.of.a.Wimpy.Kid.Rodrick.Rules.(2022).1080p.h265.mp4"
-        ],
-        "originalTitle": null,
-        "originallyAvailableAt": "2022-12-02",
-        "rating": null,
-        "ratingImage": null,
-        "ratingKey": 1497,
-        "studio": "Walt Disney Pictures",
-        "summary": "A new school year, his brother Rodrick teases him over and over and over and over again. Will Greg manage to get along with him? Or will a secret ruin everything?",
-        "tagline": "Get ready to rock n' rüle!",
-        "thumbFile": "Movie - Diary of a Wimpy Kid_ Rodrick Rules [1497].images\\Diary of a Wimpy Kid_ Rodrick Rules [1497].thumb.jpg",
-        "title": "Diary of a Wimpy Kid: Rodrick Rules",
-        "titleSort": "Diary of a Wimpy Kid: Rodrick Rules",
-        "type": "movie",
-        "userRating": null,
-        "year": 2022,
-        "media": [
-            {
-                "aspectRatio": 1.78,
-                "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 2225,
-                "container": "mp4",
-                "duration": 4449417,
-                "hdr": false,
-                "height": 1080,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -10867,15 +10743,15 @@
                 "parts": [
                     {
                         "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 4449417,
-                        "file": "E:\\Plex\\Movies\\Diary.of.a.Wimpy.Kid.Rodrick.Rules.(2022).1080p\\Diary.of.a.Wimpy.Kid.Rodrick.Rules.(2022).1080p.h265.mp4",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5973653,
+                        "file": "E:\\Plex\\Movies\\Diary of a Wimpy Kid - Rodrick Rules (2011)\\Diary of a Wimpy Kid - Rodrick Rules (2011).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1240649607,
-                        "sizeHuman": "1.16 GB",
+                        "optimizedForStreaming": null,
+                        "size": 4577437212,
+                        "sizeHuman": "4.26 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -14793,13 +14669,13 @@
         "audienceRating": 7.2,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5826409,
+        "duration": 5826366,
         "durationHuman": "1 hr 37 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768352e80df001ebde5e5",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Friday.(1995).1080p\\Friday.(1995).1080p.h265.mp4"
+            "E:\\Plex\\Movies\\Friday (1995)\\Friday (1995).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "1995-04-26",
@@ -14818,12 +14694,12 @@
         "media": [
             {
                 "aspectRatio": 1.78,
-                "audioChannels": 6,
+                "audioChannels": 8,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2225,
-                "container": "mp4",
-                "duration": 5826409,
+                "bitrate": 6608,
+                "container": "mkv",
+                "duration": 5826366,
                 "hdr": false,
                 "height": 1080,
                 "isOptimizedVersion": false,
@@ -14835,15 +14711,15 @@
                 "parts": [
                     {
                         "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5826409,
-                        "file": "E:\\Plex\\Movies\\Friday.(1995).1080p\\Friday.(1995).1080p.h265.mp4",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5826366,
+                        "file": "E:\\Plex\\Movies\\Friday (1995)\\Friday (1995).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1624067292,
-                        "sizeHuman": "1.51 GB",
+                        "optimizedForStreaming": null,
+                        "size": 4812627428,
+                        "sizeHuman": "4.48 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -21737,13 +21613,13 @@
         "audienceRating": 6.0,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 6219017,
+        "duration": 6218976,
         "durationHuman": "1 hr 44 mins",
         "editionTitle": null,
         "guid": "plex://movie/5f409b8452f200004161e126",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Hocus.Pocus.2.(2022).1080p\\Hocus.Pocus.2.(2022).1080p.h265.mp4"
+            "E:\\Plex\\Movies\\Hocus Pocus 2 (2022)\\Hocus Pocus 2 (2022).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2022-09-30",
@@ -21761,33 +21637,33 @@
         "year": 2022,
         "media": [
             {
-                "aspectRatio": 2.2,
+                "aspectRatio": 1.78,
                 "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 2225,
-                "container": "mp4",
-                "duration": 6219017,
-                "hdr": false,
-                "height": 872,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 5056,
+                "container": "mkv",
+                "duration": 6218976,
+                "hdr": true,
+                "height": 2160,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
                 "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
+                "videoResolution": "4k",
+                "width": 3840,
                 "parts": [
                     {
-                        "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6219017,
-                        "file": "E:\\Plex\\Movies\\Hocus.Pocus.2.(2022).1080p\\Hocus.Pocus.2.(2022).1080p.h265.mp4",
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6218976,
+                        "file": "E:\\Plex\\Movies\\Hocus Pocus 2 (2022)\\Hocus Pocus 2 (2022).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1734162783,
-                        "sizeHuman": "1.62 GB",
+                        "optimizedForStreaming": null,
+                        "size": 3930327547,
+                        "sizeHuman": "3.66 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -23039,13 +22915,13 @@
         "audienceRating": 5.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 6238624,
+        "duration": 6238656,
         "durationHuman": "1 hr 44 mins",
         "editionTitle": null,
         "guid": "plex://movie/5e1633094c78f7003e7f1a5e",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Hubie.Halloween.(2020).1080p\\Hubie.Halloween.(2020).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Hubie Halloween (2020)\\Hubie Halloween (2020).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2020-10-07",
@@ -23063,15 +22939,15 @@
         "year": 2020,
         "media": [
             {
-                "aspectRatio": 1.85,
+                "aspectRatio": 1.78,
                 "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "he-aac",
-                "bitrate": 2197,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 5958,
                 "container": "mkv",
-                "duration": 6238624,
-                "hdr": false,
-                "height": 960,
+                "duration": 6238656,
+                "hdr": true,
+                "height": 1080,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -23080,16 +22956,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "he-aac",
+                        "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6238624,
-                        "file": "E:\\Plex\\Movies\\Hubie.Halloween.(2020).1080p\\Hubie.Halloween.(2020).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6238656,
+                        "file": "E:\\Plex\\Movies\\Hubie Halloween (2020)\\Hubie Halloween (2020).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1716856918,
-                        "sizeHuman": "1.60 GB",
+                        "size": 4646346703,
+                        "sizeHuman": "4.33 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -23907,13 +23783,13 @@
         "audienceRating": 4.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 4865527,
+        "duration": 4865536,
         "durationHuman": "1 hr 21 mins",
         "editionTitle": null,
         "guid": "plex://movie/5fd4f985357c02002d315018",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.Ice.Age.Adventures.of.Buck.Wild.(2022).1080p\\The.Ice.Age.Adventures.of.Buck.Wild.(2022).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\The Ice Age Adventures of Buck Wild (2022)\\The Ice Age Adventures of Buck Wild (2022).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2022-01-28",
@@ -23933,11 +23809,11 @@
             {
                 "aspectRatio": 1.78,
                 "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "he-aac",
-                "bitrate": 2384,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 4641,
                 "container": "mkv",
-                "duration": 4865527,
+                "duration": 4865536,
                 "hdr": false,
                 "height": 1080,
                 "isOptimizedVersion": false,
@@ -23948,16 +23824,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "he-aac",
+                        "audioProfile": null,
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 4865527,
-                        "file": "E:\\Plex\\Movies\\The.Ice.Age.Adventures.of.Buck.Wild.(2022).1080p\\The.Ice.Age.Adventures.of.Buck.Wild.(2022).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 4865536,
+                        "file": "E:\\Plex\\Movies\\The Ice Age Adventures of Buck Wild (2022)\\The Ice Age Adventures of Buck Wild (2022).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1451704741,
-                        "sizeHuman": "1.35 GB",
+                        "size": 2822804846,
+                        "sizeHuman": "2.63 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -26325,13 +26201,13 @@
         "audienceRating": 5.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5517044,
+        "duration": 5517096,
         "durationHuman": "1 hr 32 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b339ab5440021508989",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Jigsaw.(2017).1080p\\Jigsaw.(2017).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Jigsaw (2017)\\Jigsaw (2017).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2017-10-26",
@@ -26350,14 +26226,14 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 7,
+                "audioChannels": 8,
                 "audioCodec": "aac",
-                "audioProfile": "he-aac",
-                "bitrate": 2392,
+                "audioProfile": "lc",
+                "bitrate": 5470,
                 "container": "mkv",
-                "duration": 5517044,
+                "duration": 5517096,
                 "hdr": false,
-                "height": 808,
+                "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -26366,16 +26242,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "he-aac",
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5517044,
-                        "file": "E:\\Plex\\Movies\\Jigsaw.(2017).1080p\\Jigsaw.(2017).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5517096,
+                        "file": "E:\\Plex\\Movies\\Jigsaw (2017)\\Jigsaw (2017).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1650717725,
-                        "sizeHuman": "1.54 GB",
+                        "size": 3772588131,
+                        "sizeHuman": "3.51 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -27007,13 +26883,13 @@
         "audienceRating": 5.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5651731,
+        "duration": 5651648,
         "durationHuman": "1 hr 34 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768b4431c830024c13b69",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Journey.2.The.Mysterious.Island.(2012).1080p\\Journey.2.The.Mysterious.Island.(2012).1080p.h265.mp4"
+            "E:\\Plex\\Movies\\Journey 2 - The Mysterious Island (2012)\\Journey 2 - The Mysterious Island (2012).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2012-01-19",
@@ -27033,11 +26909,11 @@
             {
                 "aspectRatio": 1.78,
                 "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 2224,
-                "container": "mp4",
-                "duration": 5651731,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 5328,
+                "container": "mkv",
+                "duration": 5651648,
                 "hdr": false,
                 "height": 1080,
                 "isOptimizedVersion": false,
@@ -27048,16 +26924,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5651731,
-                        "file": "E:\\Plex\\Movies\\Journey.2.The.Mysterious.Island.(2012).1080p\\Journey.2.The.Mysterious.Island.(2012).1080p.h265.mp4",
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5651648,
+                        "file": "E:\\Plex\\Movies\\Journey 2 - The Mysterious Island (2012)\\Journey 2 - The Mysterious Island (2012).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1575758793,
-                        "sizeHuman": "1.47 GB",
+                        "optimizedForStreaming": null,
+                        "size": 3764275100,
+                        "sizeHuman": "3.51 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -27565,13 +27441,13 @@
         "audienceRating": 7.4,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 5764851,
+        "duration": 5764819,
         "durationHuman": "1 hr 36 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77683161141d001fb14b26",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Juno.(2007).1080p\\Juno.(2007).1080p.h265.mp4"
+            "E:\\Plex\\Movies\\Juno (2007)\\Juno (2007).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2007-12-25",
@@ -27593,11 +27469,11 @@
                 "audioChannels": 6,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2220,
-                "container": "mp4",
-                "duration": 5764851,
+                "bitrate": 3780,
+                "container": "mkv",
+                "duration": 5764819,
                 "hdr": false,
-                "height": 1038,
+                "height": 1036,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -27607,15 +27483,15 @@
                 "parts": [
                     {
                         "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5764851,
-                        "file": "E:\\Plex\\Movies\\Juno.(2007).1080p\\Juno.(2007).1080p.h265.mp4",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5764819,
+                        "file": "E:\\Plex\\Movies\\Juno (2007)\\Juno (2007).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1604502642,
-                        "sizeHuman": "1.49 GB",
+                        "optimizedForStreaming": null,
+                        "size": 2724096586,
+                        "sizeHuman": "2.54 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -28371,13 +28247,13 @@
         "audienceRating": 8.2,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 6655044,
+        "duration": 6643667,
         "durationHuman": "1 hr 51 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768257228e5001f1dcccd",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Kill.Bill.Vol.1.(2003).1080p\\Kill.Bill.Vol.1.(2003).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Kill Bill - Vol. 1 (2003)\\Kill Bill - Vol. 1 (2003).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2003-10-10",
@@ -28395,15 +28271,15 @@
         "year": 2003,
         "media": [
             {
-                "aspectRatio": 1.78,
+                "aspectRatio": 2.35,
                 "audioChannels": 6,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2525,
+                "bitrate": 5406,
                 "container": "mkv",
-                "duration": 6655044,
+                "duration": 6643667,
                 "hdr": false,
-                "height": 1080,
+                "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -28414,14 +28290,14 @@
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6655044,
-                        "file": "E:\\Plex\\Movies\\Kill.Bill.Vol.1.(2003).1080p\\Kill.Bill.Vol.1.(2003).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6643667,
+                        "file": "E:\\Plex\\Movies\\Kill Bill - Vol. 1 (2003)\\Kill Bill - Vol. 1 (2003).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2102500877,
-                        "sizeHuman": "1.96 GB",
+                        "size": 4489204235,
+                        "sizeHuman": "4.18 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -28433,13 +28309,13 @@
         "audienceRating": 8.0,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 8230700,
+        "duration": 8217855,
         "durationHuman": "2 hrs 17 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776825103a2d001f563e45",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Kill.Bill.Vol.2.(2004).1080p\\Kill.Bill.Vol.2.(2004).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Kill Bill - Vol. 2 (2004)\\Kill Bill - Vol. 2 (2004).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2004-04-16",
@@ -28457,15 +28333,15 @@
         "year": 2004,
         "media": [
             {
-                "aspectRatio": 1.78,
+                "aspectRatio": 2.35,
                 "audioChannels": 6,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2525,
+                "bitrate": 5454,
                 "container": "mkv",
-                "duration": 8230700,
+                "duration": 8217855,
                 "hdr": false,
-                "height": 1080,
+                "height": 800,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -28476,14 +28352,14 @@
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8230700,
-                        "file": "E:\\Plex\\Movies\\Kill.Bill.Vol.2.(2004).1080p\\Kill.Bill.Vol.2.(2004).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8217855,
+                        "file": "E:\\Plex\\Movies\\Kill Bill - Vol. 2 (2004)\\Kill Bill - Vol. 2 (2004).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2600325572,
-                        "sizeHuman": "2.42 GB",
+                        "size": 5602388313,
+                        "sizeHuman": "5.22 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -28991,13 +28867,13 @@
         "audienceRating": 7.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5540477,
+        "duration": 5529555,
         "durationHuman": "1 hr 32 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768323c3c2a001fbcd974",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Kung.Fu.Panda.(2008).1080p\\Kung.Fu.Panda.(2008).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Kung Fu Panda (2008)\\Kung Fu Panda (2008).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2008-06-05",
@@ -29017,13 +28893,13 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 3993,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 4167,
                 "container": "mkv",
-                "duration": 5540477,
-                "hdr": true,
-                "height": 816,
+                "duration": 5529555,
+                "hdr": false,
+                "height": 818,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -29032,16 +28908,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5540477,
-                        "file": "E:\\Plex\\Movies\\Kung.Fu.Panda.(2008).1080p\\Kung.Fu.Panda.(2008).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5529555,
+                        "file": "E:\\Plex\\Movies\\Kung Fu Panda (2008)\\Kung Fu Panda (2008).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2539929386,
-                        "sizeHuman": "2.37 GB",
+                        "size": 2879920455,
+                        "sizeHuman": "2.68 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -29053,13 +28929,13 @@
         "audienceRating": 7.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5423959,
+        "duration": 5424040,
         "durationHuman": "1 hr 30 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776889431c830024c0ea15",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Kung.Fu.Panda.2.(2011).1080p\\Kung.Fu.Panda.2.(2011).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Kung Fu Panda 2 (2011)\\Kung Fu Panda 2 (2011).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2011-05-25",
@@ -29078,12 +28954,12 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 3887,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 4124,
                 "container": "mkv",
-                "duration": 5423959,
+                "duration": 5424040,
                 "hdr": false,
                 "height": 816,
                 "isOptimizedVersion": false,
@@ -29094,16 +28970,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5423959,
-                        "file": "E:\\Plex\\Movies\\Kung.Fu.Panda.2.(2011).1080p\\Kung.Fu.Panda.2.(2011).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5424040,
+                        "file": "E:\\Plex\\Movies\\Kung Fu Panda 2 (2011)\\Kung Fu Panda 2 (2011).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2620068191,
-                        "sizeHuman": "2.44 GB",
+                        "size": 2796248735,
+                        "sizeHuman": "2.60 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -29177,13 +29053,13 @@
         "audienceRating": 6.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5713832,
-        "durationHuman": "1 hr 35 mins",
+        "duration": 5618728,
+        "durationHuman": "1 hr 34 mins",
         "editionTitle": null,
         "guid": "plex://movie/62f7fa559cfa6d4d6ff07649",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Kung.Fu.Panda.4.(2024).1080p\\Kung.Fu.Panda.4.(2024).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Kung Fu Panda 4 (2024)\\Kung Fu Panda 4 (2024).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2024-03-06",
@@ -29202,14 +29078,14 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
+                "audioChannels": 8,
                 "audioCodec": "aac",
-                "audioProfile": "he-aac",
-                "bitrate": 1788,
+                "audioProfile": "lc",
+                "bitrate": 5126,
                 "container": "mkv",
-                "duration": 5713832,
+                "duration": 5618728,
                 "hdr": false,
-                "height": 800,
+                "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -29218,16 +29094,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "he-aac",
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5713832,
-                        "file": "E:\\Plex\\Movies\\Kung.Fu.Panda.4.(2024).1080p\\Kung.Fu.Panda.4.(2024).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5618728,
+                        "file": "E:\\Plex\\Movies\\Kung Fu Panda 4 (2024)\\Kung Fu Panda 4 (2024).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1278352906,
-                        "sizeHuman": "1.19 GB",
+                        "size": 3600062865,
+                        "sizeHuman": "3.35 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -33889,13 +33765,13 @@
         "audienceRating": 5.8,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 5796882,
+        "duration": 5796832,
         "durationHuman": "1 hr 37 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77682a151a60001f24b688",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Mr.Deeds.(2002).1080p\\Mr.Deeds.(2002).1080p.h265.mp4"
+            "E:\\Plex\\Movies\\Mr. Deeds (2002)\\Mr. Deeds (2002).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2002-06-28",
@@ -33915,13 +33791,13 @@
             {
                 "aspectRatio": 1.85,
                 "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 2223,
-                "container": "mp4",
-                "duration": 5796882,
+                "audioCodec": "ac3",
+                "audioProfile": null,
+                "bitrate": 14065,
+                "container": "mkv",
+                "duration": 5796832,
                 "hdr": false,
-                "height": 1038,
+                "height": 1040,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -33930,16 +33806,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5796882,
-                        "file": "E:\\Plex\\Movies\\Mr.Deeds.(2002).1080p\\Mr.Deeds.(2002).1080p.h265.mp4",
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5796832,
+                        "file": "E:\\Plex\\Movies\\Mr. Deeds (2002)\\Mr. Deeds (2002).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1616051744,
-                        "sizeHuman": "1.51 GB",
+                        "optimizedForStreaming": null,
+                        "size": 10191480759,
+                        "sizeHuman": "9.49 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -39283,13 +39159,13 @@
         "audienceRating": 6.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5579869,
+        "duration": 5579795,
         "durationHuman": "1 hr 33 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77689a96b655001fdbca85",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Project.X.(2012).1080p\\Project.X.(2012).1080p.h265.mp4"
+            "E:\\Plex\\Movies\\Project X (2012)\\Project X (2012) [Extended Edition].mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2012-03-01",
@@ -39311,11 +39187,11 @@
                 "audioChannels": 6,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 2224,
-                "container": "mp4",
-                "duration": 5579869,
+                "bitrate": 8863,
+                "container": "mkv",
+                "duration": 5579795,
                 "hdr": false,
-                "height": 1080,
+                "height": 1072,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -39325,15 +39201,15 @@
                 "parts": [
                     {
                         "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5579869,
-                        "file": "E:\\Plex\\Movies\\Project.X.(2012).1080p\\Project.X.(2012).1080p.h265.mp4",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5579795,
+                        "file": "E:\\Plex\\Movies\\Project X (2012)\\Project X (2012) [Extended Edition].mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1555878735,
-                        "sizeHuman": "1.45 GB",
+                        "optimizedForStreaming": null,
+                        "size": 6181612988,
+                        "sizeHuman": "5.76 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -39717,13 +39593,13 @@
         "audienceRating": 6.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5438674,
-        "durationHuman": "1 hr 31 mins",
+        "duration": 5414611,
+        "durationHuman": "1 hr 30 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776c76ad5437001f7bed2a",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Puss.in.Boots.(2011).1080p\\Puss.in.Boots.(2011).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Puss in Boots (2011)\\Puss in Boots (2011).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2011-10-27",
@@ -39742,13 +39618,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 3098,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 4882,
                 "container": "mkv",
-                "duration": 5438674,
-                "hdr": true,
+                "duration": 5414611,
+                "hdr": false,
                 "height": 816,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -39758,16 +39634,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5438674,
-                        "file": "E:\\Plex\\Movies\\Puss.in.Boots.(2011).1080p\\Puss.in.Boots.(2011).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5414611,
+                        "file": "E:\\Plex\\Movies\\Puss in Boots (2011)\\Puss in Boots (2011).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1988316594,
-                        "sizeHuman": "1.85 GB",
+                        "size": 3304020886,
+                        "sizeHuman": "3.08 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -39779,13 +39655,13 @@
         "audienceRating": 7.8,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 6194025,
-        "durationHuman": "1 hr 43 mins",
+        "duration": 6141267,
+        "durationHuman": "1 hr 42 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b5df617c900201752a7",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Puss.in.Boots.The.Last.Wish.(2022).1080p\\Puss.in.Boots.The.Last.Wish.(2022).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Puss in Boots - The Last Wish (2022)\\Puss in Boots - The Last Wish (2022).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2022-12-07",
@@ -39804,13 +39680,13 @@
         "media": [
             {
                 "aspectRatio": 2.35,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 3452,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7123,
                 "container": "mkv",
-                "duration": 6194025,
-                "hdr": true,
+                "duration": 6141267,
+                "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -39820,16 +39696,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6194025,
-                        "file": "E:\\Plex\\Movies\\Puss.in.Boots.The.Last.Wish.(2022).1080p\\Puss.in.Boots.The.Last.Wish.(2022).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6141267,
+                        "file": "E:\\Plex\\Movies\\Puss in Boots - The Last Wish (2022)\\Puss in Boots - The Last Wish (2022).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2655444164,
-                        "sizeHuman": "2.47 GB",
+                        "size": 5468334430,
+                        "sizeHuman": "5.09 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -41949,13 +41825,13 @@
         "audienceRating": 5.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5948443,
+        "duration": 5948401,
         "durationHuman": "1 hr 39 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77705fad5437001f820464",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Rim.of.the.World.(2019).1080p\\Rim.of.the.World.(2019).1080p.h265.mp4"
+            "E:\\Plex\\Movies\\Rim of the World (2019)\\Rim of the World (2019).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2019-05-24",
@@ -41964,7 +41840,7 @@
         "ratingKey": 2945,
         "studio": "Wonderland Sound and Vision",
         "summary": "Four misfit campers must band together and conquer their fears in order to save the world during an alien invasion.",
-        "tagline": "Saving the world is alien to them",
+        "tagline": "Saving the world is alien to them.",
         "thumbFile": "Movie - Rim of the World [2945].images\\Rim of the World [2945].thumb.jpg",
         "title": "Rim of the World",
         "titleSort": "Rim of the World",
@@ -41973,15 +41849,15 @@
         "year": 2019,
         "media": [
             {
-                "aspectRatio": 1.85,
+                "aspectRatio": 1.78,
                 "audioChannels": 6,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 2221,
-                "container": "mp4",
-                "duration": 5948443,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 4062,
+                "container": "mkv",
+                "duration": 5948401,
                 "hdr": false,
-                "height": 960,
+                "height": 1080,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -41990,16 +41866,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5948443,
-                        "file": "E:\\Plex\\Movies\\Rim.of.the.World.(2019).1080p\\Rim.of.the.World.(2019).1080p.h265.mp4",
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5948401,
+                        "file": "E:\\Plex\\Movies\\Rim of the World (2019)\\Rim of the World (2019).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": false,
-                        "size": 1655568795,
-                        "sizeHuman": "1.54 GB",
+                        "optimizedForStreaming": null,
+                        "size": 3020086972,
+                        "sizeHuman": "2.81 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -43995,13 +43871,13 @@
         "audienceRating": 7.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 6172000,
+        "duration": 6172072,
         "durationHuman": "1 hr 43 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776d1447dd6e001f6efbc1",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Saw.(2004).1080p\\Saw.(2004).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Saw (2004)\\Saw (2004).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2004-10-01",
@@ -44020,13 +43896,13 @@
         "media": [
             {
                 "aspectRatio": 1.85,
-                "audioChannels": 6,
-                "audioCodec": "ac3",
-                "audioProfile": null,
-                "bitrate": 2927,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7736,
                 "container": "mkv",
-                "duration": 6172000,
-                "hdr": true,
+                "duration": 6172072,
+                "hdr": false,
                 "height": 1040,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -44036,16 +43912,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6172000,
-                        "file": "E:\\Plex\\Movies\\Saw.(2004).1080p\\Saw.(2004).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6172072,
+                        "file": "E:\\Plex\\Movies\\Saw (2004)\\Saw (2004).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2240839333,
-                        "sizeHuman": "2.09 GB",
+                        "size": 5968149889,
+                        "sizeHuman": "5.56 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -44057,13 +43933,13 @@
         "audienceRating": 5.5,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5426976,
+        "duration": 5411326,
         "durationHuman": "1 hr 30 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768757a53e9001e6cf66e",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Saw.3D.(2010).1080p\\Saw.3D.(2010).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Saw 3D (2010)\\Saw 3D (2010) [Unrated].mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2010-10-22",
@@ -44082,12 +43958,12 @@
         "media": [
             {
                 "aspectRatio": 1.78,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2450,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7773,
                 "container": "mkv",
-                "duration": 5426976,
+                "duration": 5411326,
                 "hdr": false,
                 "height": 1080,
                 "isOptimizedVersion": false,
@@ -44098,16 +43974,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5426976,
-                        "file": "E:\\Plex\\Movies\\Saw.3D.(2010).1080p\\Saw.3D.(2010).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5411326,
+                        "file": "E:\\Plex\\Movies\\Saw 3D (2010)\\Saw 3D (2010) [Unrated].mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1663577150,
-                        "sizeHuman": "1.55 GB",
+                        "size": 5258039051,
+                        "sizeHuman": "4.90 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -44119,13 +43995,13 @@
         "audienceRating": 6.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5682752,
+        "duration": 5672574,
         "durationHuman": "1 hr 35 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776824e6d55c002040ae69",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Saw.II.(2005).1080p\\Saw.II.(2005).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Saw II (2005)\\Saw II (2005) [Unrated].mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2005-10-28",
@@ -44143,15 +44019,15 @@
         "year": 2005,
         "media": [
             {
-                "aspectRatio": 1.85,
+                "aspectRatio": 1.78,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2983,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7555,
                 "container": "mkv",
-                "duration": 5682752,
+                "duration": 5672574,
                 "hdr": false,
-                "height": 1032,
+                "height": 1080,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -44160,16 +44036,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5682752,
-                        "file": "E:\\Plex\\Movies\\Saw.II.(2005).1080p\\Saw.II.(2005).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5672574,
+                        "file": "E:\\Plex\\Movies\\Saw II (2005)\\Saw II (2005) [Unrated].mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2121105298,
-                        "sizeHuman": "1.98 GB",
+                        "size": 5357118571,
+                        "sizeHuman": "4.99 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -44181,13 +44057,13 @@
         "audienceRating": 6.2,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 7249280,
+        "duration": 7242323,
         "durationHuman": "2 hrs 1 min",
         "editionTitle": null,
         "guid": "plex://movie/5d7768242e80df001ebdcc25",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Saw.III.(2006).1080p\\Saw.III.(2006).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Saw III (2006)\\Saw III (2006).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2006-10-26",
@@ -44206,12 +44082,12 @@
         "media": [
             {
                 "aspectRatio": 1.85,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2623,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7133,
                 "container": "mkv",
-                "duration": 7249280,
+                "duration": 7242323,
                 "hdr": false,
                 "height": 1036,
                 "isOptimizedVersion": false,
@@ -44222,16 +44098,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7249280,
-                        "file": "E:\\Plex\\Movies\\Saw.III.(2006).1080p\\Saw.III.(2006).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7242323,
+                        "file": "E:\\Plex\\Movies\\Saw III (2006)\\Saw III (2006).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2379777224,
-                        "sizeHuman": "2.22 GB",
+                        "size": 6457688809,
+                        "sizeHuman": "6.01 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -44305,13 +44181,13 @@
         "audienceRating": 5.8,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5714464,
+        "duration": 5703806,
         "durationHuman": "1 hr 35 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768382ec6b5001f6bc4ae",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Saw.V.(2008).1080p\\Saw.V.(2008).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Saw V (2008)\\Saw V (2008).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2008-10-23",
@@ -44329,15 +44205,15 @@
         "year": 2008,
         "media": [
             {
-                "aspectRatio": 1.85,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2416,
+                "aspectRatio": 1.78,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6738,
                 "container": "mkv",
-                "duration": 5714464,
+                "duration": 5703806,
                 "hdr": false,
-                "height": 1040,
+                "height": 1080,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -44346,16 +44222,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5714464,
-                        "file": "E:\\Plex\\Movies\\Saw.V.(2008).1080p\\Saw.V.(2008).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5703806,
+                        "file": "E:\\Plex\\Movies\\Saw V (2008)\\Saw V (2008).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1727541806,
-                        "sizeHuman": "1.61 GB",
+                        "size": 4804152412,
+                        "sizeHuman": "4.47 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -44367,13 +44243,13 @@
         "audienceRating": 6.0,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 5499360,
+        "duration": 5499390,
         "durationHuman": "1 hr 32 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77684a2e80df001ebe0dc2",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Saw.VI.(2009).1080p\\Saw.VI.(2009).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Saw VI (2009)\\Saw VI (2009).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2009-10-22",
@@ -44392,12 +44268,12 @@
         "media": [
             {
                 "aspectRatio": 1.78,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2631,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7254,
                 "container": "mkv",
-                "duration": 5499360,
+                "duration": 5499390,
                 "hdr": false,
                 "height": 1080,
                 "isOptimizedVersion": false,
@@ -44408,16 +44284,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5499360,
-                        "file": "E:\\Plex\\Movies\\Saw.VI.(2009).1080p\\Saw.VI.(2009).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5499390,
+                        "file": "E:\\Plex\\Movies\\Saw VI (2009)\\Saw VI (2009).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 1778390926,
-                        "sizeHuman": "1.66 GB",
+                        "size": 4986835903,
+                        "sizeHuman": "4.64 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -44429,13 +44305,13 @@
         "audienceRating": 6.6,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 7104125,
+        "duration": 7104211,
         "durationHuman": "1 hr 58 mins",
         "editionTitle": null,
         "guid": "plex://movie/630007c10a962d8cfc0d37ba",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Saw.X.(2023).1080p\\Saw.X.(2023).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Saw X (2023)\\Saw X (2023).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2023-09-25",
@@ -44454,14 +44330,14 @@
         "media": [
             {
                 "aspectRatio": 1.85,
-                "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2756,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7149,
                 "container": "mkv",
-                "duration": 7104125,
-                "hdr": true,
-                "height": 1038,
+                "duration": 7104211,
+                "hdr": false,
+                "height": 1040,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
                 "videoFrameRate": "24p",
@@ -44470,16 +44346,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 7104125,
-                        "file": "E:\\Plex\\Movies\\Saw.X.(2023).1080p\\Saw.X.(2023).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7104211,
+                        "file": "E:\\Plex\\Movies\\Saw X (2023)\\Saw X (2023).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2404296288,
-                        "sizeHuman": "2.24 GB",
+                        "size": 6348786980,
+                        "sizeHuman": "5.91 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -46198,13 +46074,13 @@
         "audienceRating": 9.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "R",
-        "duration": 8552543,
+        "duration": 8552659,
         "durationHuman": "2 hrs 23 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d7768248a7581001f12bc77",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\The.Shawshank.Redemption.(1994).1080p\\The.Shawshank.Redemption.(1994).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\The Shawshank Redemption (1994)\\The Shawshank Redemption (1994).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "1994-09-23",
@@ -46225,10 +46101,10 @@
                 "aspectRatio": 1.85,
                 "audioChannels": 6,
                 "audioCodec": "aac",
-                "audioProfile": "he-aac",
-                "bitrate": 2246,
+                "audioProfile": "lc",
+                "bitrate": 7991,
                 "container": "mkv",
-                "duration": 8552543,
+                "duration": 8552659,
                 "hdr": false,
                 "height": 1040,
                 "isOptimizedVersion": false,
@@ -46239,16 +46115,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "he-aac",
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8552543,
-                        "file": "E:\\Plex\\Movies\\The.Shawshank.Redemption.(1994).1080p\\The.Shawshank.Redemption.(1994).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8552659,
+                        "file": "E:\\Plex\\Movies\\The Shawshank Redemption (1994)\\The Shawshank Redemption (1994).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2402758276,
-                        "sizeHuman": "2.24 GB",
+                        "size": 8542826119,
+                        "sizeHuman": "7.96 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -54134,13 +54010,13 @@
         "audienceRating": 6.3,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
-        "duration": 6953170,
+        "duration": 6951038,
         "durationHuman": "1 hr 56 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776b94fb0d55001f56c0b0",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Uncharted.(2022).1080p\\Uncharted.(2022).1080p.h265.mkv"
+            "E:\\Plex\\Movies\\Uncharted (2022)\\Uncharted (2022).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2022-02-10",
@@ -54160,12 +54036,12 @@
             {
                 "aspectRatio": 2.35,
                 "audioChannels": 6,
-                "audioCodec": "eac3",
-                "audioProfile": null,
-                "bitrate": 2609,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 7938,
                 "container": "mkv",
-                "duration": 6953170,
-                "hdr": true,
+                "duration": 6951038,
+                "hdr": false,
                 "height": 804,
                 "isOptimizedVersion": false,
                 "videoCodec": "hevc",
@@ -54175,16 +54051,16 @@
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": null,
+                        "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 6953170,
-                        "file": "E:\\Plex\\Movies\\Uncharted.(2022).1080p\\Uncharted.(2022).1080p.h265.mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6951038,
+                        "file": "E:\\Plex\\Movies\\Uncharted (2022)\\Uncharted (2022).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
                         "optimizedForStreaming": null,
-                        "size": 2211481211,
-                        "sizeHuman": "2.06 GB",
+                        "size": 6897280062,
+                        "sizeHuman": "6.42 GB",
                         "videoProfile": "main 10"
                     }
                 ]
