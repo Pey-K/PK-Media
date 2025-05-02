@@ -1,7 +1,7 @@
 {
     "metadata": {
         "totalMovies": 936,
-        "totalSizeHuman": "3.49 TB"
+        "totalSizeHuman": "3.51 TB"
     },
     "movies": [
         {
@@ -3526,11 +3526,11 @@
             "year": 2014,
             "contentRating": "PG-13",
             "durationHuman": "2 hrs 1 min",
-            "audioCodec": "AAC",
+            "audioCodec": "TRUEHD",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "1.89 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "13.16 GB"
         },
         {
             "ratingKey": 2048,
@@ -6046,11 +6046,11 @@
             "year": 1994,
             "contentRating": "PG",
             "durationHuman": "1 hr 45 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
+            "audioCodec": "AC3",
+            "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.63 GB"
+            "sizeHuman": "6.44 GB"
         },
         {
             "ratingKey": 2597,
