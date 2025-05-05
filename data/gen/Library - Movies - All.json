@@ -12251,13 +12251,13 @@
         "audienceRating": 5.7,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG",
-        "duration": 5475469,
+        "duration": 5475470,
         "durationHuman": "1 hr 31 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d776a7996b655001fdef90e",
         "hasCreditsMarker": true,
         "locations": [
-            "E:\\Plex\\Movies\\Earth to Echo (2014)\\Earth to Echo (2014).mp4"
+            "E:\\Plex\\Movies\\Earth to Echo (2014)\\Earth to Echo (2014).mkv"
         ],
         "originalTitle": null,
         "originallyAvailableAt": "2014-07-02",
@@ -12276,33 +12276,33 @@
         "media": [
             {
                 "aspectRatio": 1.78,
-                "audioChannels": 2,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 2243,
-                "container": "mp4",
-                "duration": 5475469,
+                "audioChannels": 6,
+                "audioCodec": "ac3",
+                "audioProfile": null,
+                "bitrate": 6806,
+                "container": "mkv",
+                "duration": 5475470,
                 "hdr": false,
                 "height": 1080,
                 "isOptimizedVersion": false,
-                "videoCodec": "h264",
+                "videoCodec": "hevc",
                 "videoFrameRate": "24p",
-                "videoProfile": "high",
+                "videoProfile": "main 10",
                 "videoResolution": "1080",
                 "width": 1920,
                 "parts": [
                     {
-                        "audioProfile": "lc",
-                        "container": "mp4",
-                        "deepAnalysisVersion": 6,
-                        "duration": 5475469,
-                        "file": "E:\\Plex\\Movies\\Earth to Echo (2014)\\Earth to Echo (2014).mp4",
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5475470,
+                        "file": "E:\\Plex\\Movies\\Earth to Echo (2014)\\Earth to Echo (2014).mkv",
                         "hasPreviewThumbnails": false,
                         "indexes": null,
-                        "optimizedForStreaming": true,
-                        "size": 1538276415,
-                        "sizeHuman": "1.43 GB",
-                        "videoProfile": "high"
+                        "optimizedForStreaming": null,
+                        "size": 4658137350,
+                        "sizeHuman": "4.34 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }

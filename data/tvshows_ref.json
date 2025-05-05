@@ -2,8 +2,8 @@
     "metadata": {
         "totalShow": 178,
         "totalSeasonCount": 954,
-        "TotalEpisode": 17911,
-        "totalSizeHuman": "10.02 TB"
+        "TotalEpisode": 17910,
+        "totalSizeHuman": "10.03 TB"
     },
     "shows": [
         {
@@ -4673,10 +4673,10 @@
             "avgEpisodeDuration": "22 mins",
             "contentRating": "TV-PG",
             "seasonCount": 4,
-            "showTotalEpisode": 51,
-            "showSizeHuman": "37.28 GB",
+            "showTotalEpisode": 50,
+            "showSizeHuman": "42.48 GB",
             "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "AC3",
+            "avgAudioCodecs": "AAC",
             "avgVideoCodecs": "HEVC",
             "avgContainers": "mkv",
             "showYearRange": "2016-2020",
@@ -4685,9 +4685,9 @@
                     "seasonRatingKey": 17167,
                     "seasonNumber": 1,
                     "seasonTotalEpisode": 13,
-                    "seasonSizeHuman": "9.47 GB",
+                    "seasonSizeHuman": "10.67 GB",
                     "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonAudioCodec": "AAC",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2016-2017"
@@ -4696,9 +4696,9 @@
                     "seasonRatingKey": 17181,
                     "seasonNumber": 2,
                     "seasonTotalEpisode": 12,
-                    "seasonSizeHuman": "9.23 GB",
+                    "seasonSizeHuman": "10.06 GB",
                     "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonAudioCodec": "AAC",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2017-2018"
@@ -4706,10 +4706,10 @@
                 {
                     "seasonRatingKey": 17196,
                     "seasonNumber": 3,
-                    "seasonTotalEpisode": 13,
-                    "seasonSizeHuman": "8.55 GB",
+                    "seasonTotalEpisode": 12,
+                    "seasonSizeHuman": "10.44 GB",
                     "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonAudioCodec": "AAC",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2018-2019"
@@ -4718,9 +4718,9 @@
                     "seasonRatingKey": 17210,
                     "seasonNumber": 4,
                     "seasonTotalEpisode": 13,
-                    "seasonSizeHuman": "10.02 GB",
+                    "seasonSizeHuman": "11.30 GB",
                     "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonAudioCodec": "AAC",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2019-2020"

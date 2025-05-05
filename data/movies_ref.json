@@ -2374,11 +2374,11 @@
             "year": 2014,
             "contentRating": "PG",
             "durationHuman": "1 hr 31 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
-            "videoCodec": "H264",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "1.43 GB"
+            "sizeHuman": "4.34 GB"
         },
         {
             "ratingKey": 3503,
