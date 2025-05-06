@@ -49853,6 +49853,68 @@
     },
     {
         "addedAt": "2025-04-30T02:40:50",
+        "audienceRating": 7.8,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 8286802,
+        "durationHuman": "2 hrs 18 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7769a9594b2b001e6a6b7e",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Star Wars - The Force Awakens (2015)\\Star Wars - The Force Awakens (2015).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2015-12-16",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 128073,
+        "studio": "Lucasfilm Ltd.",
+        "summary": "30 years after the defeat of Darth Vader and the Empire, Rey, a scavenger from the planet Jakku, finds a BB-8 droid that knows the whereabouts of the long lost Luke Skywalker. Rey, as well as a rogue stormtrooper and two smugglers, are thrown into the middle of a battle between the Resistance and the daunting legions of the First Order.",
+        "tagline": "Every generation has a story.",
+        "thumbFile": "Movie - Star Wars_ Episode VII - The Force Awakens [128073].images\\Star Wars_ Episode VII - The Force Awakens [128073].thumb.jpg",
+        "title": "Star Wars: Episode VII - The Force Awakens",
+        "titleSort": "Star Wars: Episode VII - The Force Awakens",
+        "type": "movie",
+        "userRating": null,
+        "year": 2015,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 6735,
+                "container": "mkv",
+                "duration": 8286802,
+                "hdr": false,
+                "height": 800,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": 6,
+                        "duration": 8286802,
+                        "file": "E:\\Plex\\Movies\\Star Wars - The Force Awakens (2015)\\Star Wars - The Force Awakens (2015).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 6956106355,
+                        "sizeHuman": "6.48 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-04-30T02:40:50",
         "audienceRating": 6.9,
         "audienceRatingImage": "imdb://image.rating",
         "contentRating": "PG-13",
@@ -49907,68 +49969,6 @@
                         "optimizedForStreaming": null,
                         "size": 7498893220,
                         "sizeHuman": "6.98 GB",
-                        "videoProfile": "main 10"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "addedAt": "2025-04-30T02:40:50",
-        "audienceRating": 5.9,
-        "audienceRatingImage": "imdb://image.rating",
-        "contentRating": null,
-        "duration": 8286802,
-        "durationHuman": "2 hrs 18 mins",
-        "editionTitle": null,
-        "guid": "plex://movie/654e52ecf8e5e4c04a80c04b",
-        "hasCreditsMarker": true,
-        "locations": [
-            "E:\\Plex\\Movies\\Star Wars - The Force Awakens (2015)\\Star Wars - The Force Awakens (2015).mkv"
-        ],
-        "originalTitle": null,
-        "originallyAvailableAt": null,
-        "rating": null,
-        "ratingImage": null,
-        "ratingKey": 128073,
-        "studio": null,
-        "summary": "An audiobook of 'Star Wars: The Force Awakens' narrated by Marc Thompson.",
-        "tagline": null,
-        "thumbFile": "Movie - Star Wars_ The Force Awakens [128073].images\\Star Wars_ The Force Awakens [128073].thumb.jpg",
-        "title": "Star Wars: The Force Awakens",
-        "titleSort": "Star Wars: The Force Awakens",
-        "type": "movie",
-        "userRating": null,
-        "year": null,
-        "media": [
-            {
-                "aspectRatio": 2.35,
-                "audioChannels": 8,
-                "audioCodec": "aac",
-                "audioProfile": "lc",
-                "bitrate": 6735,
-                "container": "mkv",
-                "duration": 8286802,
-                "hdr": false,
-                "height": 800,
-                "isOptimizedVersion": false,
-                "videoCodec": "hevc",
-                "videoFrameRate": "24p",
-                "videoProfile": "main 10",
-                "videoResolution": "1080",
-                "width": 1920,
-                "parts": [
-                    {
-                        "audioProfile": "lc",
-                        "container": "mkv",
-                        "deepAnalysisVersion": 6,
-                        "duration": 8286802,
-                        "file": "E:\\Plex\\Movies\\Star Wars - The Force Awakens (2015)\\Star Wars - The Force Awakens (2015).mkv",
-                        "hasPreviewThumbnails": false,
-                        "indexes": null,
-                        "optimizedForStreaming": null,
-                        "size": 6956106355,
-                        "sizeHuman": "6.48 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -56611,31 +56611,31 @@
     },
     {
         "addedAt": "2025-02-14T06:47:47",
-        "audienceRating": 5.4,
+        "audienceRating": 7.0,
         "audienceRatingImage": "imdb://image.rating",
-        "contentRating": null,
+        "contentRating": "R",
         "duration": 5546663,
         "durationHuman": "1 hr 32 mins",
         "editionTitle": null,
-        "guid": "plex://movie/5f40cdc102101b00400fe88a",
+        "guid": "plex://movie/5d776b54ad5437001f79bad5",
         "hasCreditsMarker": true,
         "locations": [
             "E:\\Plex\\Movies\\The Witch (2016)\\The Witch (2016).mkv"
         ],
-        "originalTitle": null,
-        "originallyAvailableAt": null,
+        "originalTitle": "The VVitch: A New-England Folktale",
+        "originallyAvailableAt": "2015-11-11",
         "rating": null,
         "ratingImage": null,
         "ratingKey": 128222,
-        "studio": null,
-        "summary": "The short film named \"The witch\" starts with a key which an artist takes from a person. He takes the mirror by entering the gate that the key opens. With the mirror on his back he shows the mirror's reflections to the people while visiting several places of Adana",
-        "tagline": null,
+        "studio": "Very Special Projects",
+        "summary": "In 1630, a farmer relocates his family to a remote plot of land on the edge of a forest where strange, unsettling things happen. With suspicion and paranoia mounting, each family member's faith, loyalty and love are tested in shocking ways.",
+        "tagline": "Evil takes many forms.",
         "thumbFile": "Movie - The Witch [128222].images\\The Witch [128222].thumb.jpg",
         "title": "The Witch",
         "titleSort": "Witch",
         "type": "movie",
         "userRating": null,
-        "year": null,
+        "year": 2015,
         "media": [
             {
                 "aspectRatio": 1.66,

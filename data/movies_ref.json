@@ -9641,6 +9641,18 @@
             "sizeHuman": "7.30 GB"
         },
         {
+            "ratingKey": 128073,
+            "title": "Star Wars: Episode VII - The Force Awakens",
+            "year": 2015,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 18 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.48 GB"
+        },
+        {
             "ratingKey": 128072,
             "title": "Star Wars: Episode VIII - The Last Jedi",
             "year": 2017,
@@ -9651,18 +9663,6 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "6.98 GB"
-        },
-        {
-            "ratingKey": 128073,
-            "title": "Star Wars: The Force Awakens",
-            "year": null,
-            "contentRating": null,
-            "durationHuman": "2 hrs 18 mins",
-            "audioCodec": "AAC",
-            "container": "mkv",
-            "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "6.48 GB"
         },
         {
             "ratingKey": 128071,
@@ -10951,8 +10951,8 @@
         {
             "ratingKey": 128222,
             "title": "The Witch",
-            "year": null,
-            "contentRating": null,
+            "year": 2015,
+            "contentRating": "R",
             "durationHuman": "1 hr 32 mins",
             "audioCodec": "AAC",
             "container": "mkv",
