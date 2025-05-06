@@ -1,7 +1,7 @@
 let allShows = [];
 let currentObserver = null;
-let currentFilter = 'title'; // Default filter
-let isAscending = true; // Default sort order
+let currentFilter = 'title';
+let isAscending = true;
 
 function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempts = 50) {
     const container = document.getElementById('tvshows-content');
@@ -21,7 +21,6 @@ function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempt
         ? allShows.filter(show => show.title.toLowerCase().includes(query))
         : allShows;
 
-    // Sort the shows based on the current filter and sort order
     filteredShows = filteredShows.slice().sort((a, b) => {
         let comparison = 0;
         if (currentFilter === 'title') {
@@ -60,8 +59,6 @@ function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempt
                     <p>(${show.showTotalEpisode} Episodes)</p>
                     <p>Avg Runtime: ${show.avgEpisodeDuration}</p>
                     <p>${resolutions.join(', ')}</p>
-                    <p>${videoCodecs.join(', ')}</p>
-                    <p>${containers.join(', ')}</p>
                     <p>(${show.showSizeHuman})</p>
                 </div>
             `;
@@ -295,11 +292,9 @@ function openSeasonView(show) {
 
     overlay.offsetHeight;
 
-    // Improved mobile detection including tablets like iPads
     const isMobileDevice = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <= 1024;
 
     if (isMobileDevice) {
-        // Preload images
         const preloadImages = show.seasons.map(season => {
             return new Promise((resolve) => {
                 const img = new Image();
@@ -307,7 +302,7 @@ function openSeasonView(show) {
                 img.onload = resolve;
                 img.onerror = () => {
                     console.warn(`Failed to load image for season ${season.seasonRatingKey}, using placeholder`);
-                    resolve(); // Resolve even on error to continue
+                    resolve();
                 };
             });
         });
@@ -319,8 +314,9 @@ function openSeasonView(show) {
                     seasonCard.classList.add('season-card');
 
                     const img = document.createElement('img');
+                    const displayTitle = String(season.seasonNumber) === '0' || Number(season.seasonNumber) === 0 ? 'Specials' : `Season ${season.seasonNumber}`;
                     img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.webp`;
-                    img.alt = `Season ${season.seasonNumber}`;
+                    img.alt = displayTitle;
                     img.onerror = function() {
                         this.src = 'assets/images/placeholder.webp';
                     };
@@ -333,7 +329,7 @@ function openSeasonView(show) {
                     seasonDetails.classList.add('season-details');
 
                     const seasonTitle = document.createElement('h4');
-                    seasonTitle.textContent = `Season ${season.seasonNumber}`;
+                    seasonTitle.textContent = String(season.seasonNumber) === '0' || Number(season.seasonNumber) === 0 ? 'Specials' : `Season ${season.seasonNumber}`;
 
                     const episodes = document.createElement('p');
                     episodes.textContent = `Episodes: ${season.seasonTotalEpisode}`;
@@ -380,8 +376,9 @@ function openSeasonView(show) {
                     seasonCard.classList.add('season-card');
 
                     const img = document.createElement('img');
+                    const displayTitle = String(season.seasonNumber) === '0' || Number(season.seasonNumber) === 0 ? 'Specials' : `Season ${season.seasonNumber}`;
                     img.src = `assets/images/tv_image/${season.seasonRatingKey}.thumb.webp`;
-                    img.alt = `Season ${season.seasonNumber}`;
+                    img.alt = displayTitle;
                     img.onerror = function() {
                         this.src = 'assets/images/placeholder.webp';
                     };
@@ -394,7 +391,7 @@ function openSeasonView(show) {
                     seasonDetails.classList.add('season-details');
 
                     const seasonTitle = document.createElement('h4');
-                    seasonTitle.textContent = `Season ${season.seasonNumber}`;
+                    seasonTitle.textContent = String(season.seasonNumber) === '0' || Number(season.seasonNumber) === 0 ? 'Specials' : `Season ${season.seasonNumber}`;
 
                     const episodes = document.createElement('p');
                     episodes.textContent = `Episodes: ${season.seasonTotalEpisode}`;
@@ -513,7 +510,7 @@ function closeSeasonView(overlay) {
 }
 
 document.addEventListener('refDataLoaded', (event) => {
-    window.tvshowsData = event.detail; // Store data globally for filter/sort
+    window.tvshowsData = event.detail;
     populateTVShowsContent(event.detail);
     initializeFilterAndSort();
 });
