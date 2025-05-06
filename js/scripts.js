@@ -24,9 +24,18 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.scrollTop = 0;
     };
 
+    const removeExistingModals = () => {
+        const modal = document.getElementById('recommend-modal');
+        if (modal) {
+            modal.remove();
+        }
+        document.body.style.overflow = 'auto';
+    };
+
     const loadPage = async (page, stylesheet, script, refFile) => {
         try {
             console.log(`Loading page: ${page}`);
+            removeExistingModals();
             const response = await fetch(`pages/${page}`);
             if (!response.ok) throw new Error(`Page not found: ${page}`);
             const content = await response.text();

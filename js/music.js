@@ -1,7 +1,7 @@
 let allArtists = [];
 let currentObserver = null;
-let currentFilter = 'artist';
-let isAscending = true;
+let currentFilter = 'artist'; // Default filter
+let isAscending = true; // Default sort order
 
 function populateMusicContent(data, searchQuery = '', attempts = 0, maxAttempts = 50) {
     const container = document.getElementById('music-content');
@@ -21,6 +21,7 @@ function populateMusicContent(data, searchQuery = '', attempts = 0, maxAttempts 
         ? allArtists.filter(artist => artist.artistName.toLowerCase().includes(query))
         : allArtists;
 
+    // Sort the artists based on the current filter and sort order
     filteredArtists = filteredArtists.slice().sort((a, b) => {
         let comparison = 0;
         if (currentFilter === 'artist') {
@@ -286,16 +287,13 @@ function openAlbumView(artist) {
         return b.year - a.year;
     });
 
-    const isMobile = window.innerWidth <= 768;
+    // Improved mobile detection including tablets like iPads
+    const isMobileDevice = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <= 1024;
 
-    if (isMobile) {
-        const batchSize = 5;
-        let currentIndex = 0;
-
-        const renderBatch = () => {
-            const endIndex = Math.min(currentIndex + batchSize, sortedAlbums.length);
-            for (let i = currentIndex; i < endIndex; i++) {
-                const album = sortedAlbums[i];
+    if (isMobileDevice) {
+        // Render all albums at once with a slight delay to ensure DOM updates
+        setTimeout(() => {
+            sortedAlbums.forEach(album => {
                 const albumCard = document.createElement('div');
                 albumCard.classList.add('album-card');
 
@@ -340,32 +338,11 @@ function openAlbumView(artist) {
 
                 albumsGrid.appendChild(albumCard);
                 albumCard.offsetHeight;
-            }
+            });
 
-            albumsGrid.style.display = 'none';
-            albumsGrid.offsetHeight;
             albumsGrid.style.display = 'flex';
-            overlayContent.appendChild(albumsGrid);
             overlay.scrollTop = 0;
-
-            currentIndex = endIndex;
-            if (currentIndex < sortedAlbums.length) {
-                setTimeout(renderBatch, 100);
-            }
-        };
-
-        renderBatch();
-
-        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-        if (isIOS) {
-            setTimeout(() => {
-                albumsGrid.style.display = 'none';
-                albumsGrid.offsetHeight;
-                albumsGrid.style.display = 'flex';
-                overlayContent.appendChild(albumsGrid);
-                overlay.scrollTop = 0;
-            }, 200 * Math.ceil(sortedAlbums.length / batchSize));
-        }
+        }, 100);
     } else {
         const albumObserver = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
@@ -506,7 +483,7 @@ function closeAlbumView(overlay) {
 }
 
 document.addEventListener('refDataLoaded', (event) => {
-    window.musicData = event.detail;
+    window.musicData = event.detail; // Store data globally for filter/sort
     populateMusicContent(event.detail);
     initializeFilterAndSort();
 });
