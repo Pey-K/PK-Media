@@ -291,58 +291,72 @@ function openAlbumView(artist) {
     const isMobileDevice = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.innerWidth <= 1024;
 
     if (isMobileDevice) {
-        // Render all albums at once with a slight delay to ensure DOM updates
-        setTimeout(() => {
-            sortedAlbums.forEach(album => {
-                const albumCard = document.createElement('div');
-                albumCard.classList.add('album-card');
-
-                const img = document.createElement('img');
+        // Preload images
+        const preloadImages = sortedAlbums.map(album => {
+            return new Promise((resolve) => {
+                const img = new Image();
                 img.src = `assets/images/music_image/${album.ratingKey}.thumb.webp`;
-                img.alt = album.title;
-                img.onerror = function() {
-                    this.src = 'assets/images/placeholder.webp';
+                img.onload = resolve;
+                img.onerror = () => {
+                    console.warn(`Failed to load image for album ${album.ratingKey}, using placeholder`);
+                    resolve(); // Resolve even on error to continue
                 };
-
-                const albumYear = document.createElement('div');
-                albumYear.classList.add('album-year');
-                albumYear.textContent = `(${album.year || 'Unknown'})`;
-
-                const albumDetails = document.createElement('div');
-                albumDetails.classList.add('album-details');
-
-                const albumTitle = document.createElement('h4');
-                albumTitle.textContent = album.title;
-
-                const tracks = document.createElement('p');
-                tracks.textContent = `${album.tracks} Tracks`;
-
-                const duration = document.createElement('p');
-                duration.textContent = album.albumDurationHuman;
-
-                const container = document.createElement('p');
-                container.textContent = `.${album.albumContainers.join(', .')}`;
-
-                const size = document.createElement('p');
-                size.textContent = `(${album.albumSizeHuman})`;
-
-                albumDetails.appendChild(albumTitle);
-                albumDetails.appendChild(tracks);
-                albumDetails.appendChild(duration);
-                albumDetails.appendChild(container);
-                albumDetails.appendChild(size);
-
-                albumCard.appendChild(img);
-                albumCard.appendChild(albumYear);
-                albumCard.appendChild(albumDetails);
-
-                albumsGrid.appendChild(albumCard);
-                albumCard.offsetHeight;
             });
+        });
 
-            albumsGrid.style.display = 'flex';
-            overlay.scrollTop = 0;
-        }, 100);
+        Promise.all(preloadImages).then(() => {
+            requestAnimationFrame(() => {
+                sortedAlbums.forEach(album => {
+                    const albumCard = document.createElement('div');
+                    albumCard.classList.add('album-card');
+
+                    const img = document.createElement('img');
+                    img.src = `assets/images/music_image/${album.ratingKey}.thumb.webp`;
+                    img.alt = album.title;
+                    img.onerror = function() {
+                        this.src = 'assets/images/placeholder.webp';
+                    };
+
+                    const albumYear = document.createElement('div');
+                    albumYear.classList.add('album-year');
+                    albumYear.textContent = `(${album.year || 'Unknown'})`;
+
+                    const albumDetails = document.createElement('div');
+                    albumDetails.classList.add('album-details');
+
+                    const albumTitle = document.createElement('h4');
+                    albumTitle.textContent = album.title;
+
+                    const tracks = document.createElement('p');
+                    tracks.textContent = `${album.tracks} Tracks`;
+
+                    const duration = document.createElement('p');
+                    duration.textContent = album.albumDurationHuman;
+
+                    const container = document.createElement('p');
+                    container.textContent = `.${album.albumContainers.join(', .')}`;
+
+                    const size = document.createElement('p');
+                    size.textContent = `(${album.albumSizeHuman})`;
+
+                    albumDetails.appendChild(albumTitle);
+                    albumDetails.appendChild(tracks);
+                    albumDetails.appendChild(duration);
+                    albumDetails.appendChild(container);
+                    albumDetails.appendChild(size);
+
+                    albumCard.appendChild(img);
+                    albumCard.appendChild(albumYear);
+                    albumCard.appendChild(albumDetails);
+
+                    albumsGrid.appendChild(albumCard);
+                    albumCard.offsetHeight;
+                });
+
+                albumsGrid.style.display = 'flex';
+                overlay.scrollTop = 0;
+            });
+        });
     } else {
         const albumObserver = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
