@@ -1,5 +1,7 @@
 let allShows = [];
 let currentObserver = null;
+let currentFilter = 'title';
+let isAscending = true;
 
 function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempts = 50) {
     const container = document.getElementById('tvshows-content');
@@ -15,9 +17,25 @@ function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempt
     }
 
     const query = searchQuery.toLowerCase();
-    const filteredShows = query
+    let filteredShows = query
         ? allShows.filter(show => show.title.toLowerCase().includes(query))
         : allShows;
+
+    filteredShows = filteredShows.slice().sort((a, b) => {
+        let comparison = 0;
+        if (currentFilter === 'title') {
+            comparison = a.title.localeCompare(b.title);
+        } else if (currentFilter === 'size') {
+            const sizeA = parseSize(a.showSizeHuman);
+            const sizeB = parseSize(b.showSizeHuman);
+            comparison = sizeA - sizeB;
+        } else if (currentFilter === 'date') {
+            const yearA = parseYearRange(a.showYearRange);
+            const yearB = parseYearRange(b.showYearRange);
+            comparison = yearA - yearB;
+        }
+        return isAscending ? comparison : -comparison;
+    });
 
     container.innerHTML = '';
     const grid = document.createElement('div');
@@ -108,6 +126,141 @@ function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempt
             currentObserver.observe(placeholder);
         });
     }
+}
+
+function parseSize(sizeHuman) {
+    if (!sizeHuman) return 0;
+    const [value, unit] = sizeHuman.split(' ');
+    const numValue = parseFloat(value) || 0;
+    if (unit === 'GB') return numValue * 1024;
+    if (unit === 'TB') return numValue * 1024 * 1024;
+    return numValue;
+}
+
+function parseYearRange(yearRange) {
+    if (!yearRange) return 0;
+    const year = yearRange.match(/\d{4}/);
+    return year ? parseInt(year[0]) : 0;
+}
+
+function initializeFilterAndSort() {
+    const searchContainer = document.querySelector('.search-container');
+    if (!searchContainer) {
+        setTimeout(initializeFilterAndSort, 100);
+        return;
+    }
+
+    const searchInput = document.getElementById('tvshow-search');
+    if (!searchInput) return;
+
+    const searchRow = document.createElement('div');
+    searchRow.className = 'search-row';
+    searchRow.style.display = 'flex';
+    searchRow.style.alignItems = 'center';
+    searchRow.style.gap = '8px';
+    searchRow.style.flexWrap = 'wrap';
+
+    const searchInputContainer = document.createElement('div');
+    searchInputContainer.className = 'search-input-container';
+    searchInputContainer.style.display = 'flex';
+    searchInputContainer.style.justifyContent = 'center';
+    searchInputContainer.style.width = '100%';
+
+    const filterButtonsDiv = document.createElement('div');
+    filterButtonsDiv.className = 'filter-buttons';
+    filterButtonsDiv.style.display = 'flex';
+    filterButtonsDiv.style.gap = '5px';
+
+    const filters = [
+        { name: 'Title', value: 'title', icon: '📝' },
+        { name: 'Size', value: 'size', icon: '💾' },
+        { name: 'Date', value: 'date', icon: '📅' }
+    ];
+
+    filters.forEach(filter => {
+        const btn = document.createElement('button');
+        btn.dataset.filter = filter.value;
+        btn.title = filter.name;
+        btn.className = 'filter-btn';
+        btn.style.width = '36px';
+        btn.style.height = '36px';
+        btn.style.display = 'flex';
+        btn.style.zIndex = '1000';
+        btn.style.alignItems = 'center';
+        btn.style.justifyContent = 'center';
+        btn.style.border = 'none';
+        btn.style.cursor = 'pointer';
+        btn.style.backgroundColor = filter.value === currentFilter ? '#9c9bb9' : '#1a1a1a';
+        btn.style.color = filter.value === currentFilter ? '#fff' : '#ccc';
+        btn.style.fontSize = '18px';
+        btn.style.transition = 'background-color 0.3s, color 0.3s';
+        btn.style.borderRadius = '4px';
+        btn.textContent = filter.icon;
+        filterButtonsDiv.appendChild(btn);
+    });
+
+    const sortOrderContainer = document.createElement('div');
+    sortOrderContainer.className = 'sort-order-container';
+    sortOrderContainer.style.display = 'flex';
+
+    const sortOrderBtn = document.createElement('button');
+    sortOrderBtn.id = 'sort-order-btn';
+    sortOrderBtn.className = 'sort-order-btn';
+    sortOrderBtn.style.width = '36px';
+    sortOrderBtn.style.height = '36px';
+    sortOrderBtn.style.backgroundColor = '#9c9bb9';
+    sortOrderBtn.style.border = 'none';
+    sortOrderBtn.style.borderRadius = '4px';
+    sortOrderBtn.style.cursor = 'pointer';
+    sortOrderBtn.style.transition = 'transform 0.3s';
+    updateSortButtonIcon(sortOrderBtn);
+    sortOrderContainer.appendChild(sortOrderBtn);
+
+    const buttonsContainer = document.createElement('div');
+    buttonsContainer.className = 'buttons-container';
+    buttonsContainer.style.display = 'flex';
+    buttonsContainer.style.alignItems = 'center';
+    buttonsContainer.style.gap = '8px';
+    buttonsContainer.appendChild(filterButtonsDiv);
+    buttonsContainer.appendChild(sortOrderContainer);
+
+    searchInputContainer.appendChild(searchInput);
+    searchRow.appendChild(searchInputContainer);
+    searchRow.appendChild(buttonsContainer);
+
+    const existingSearchRow = searchContainer.querySelector('.search-row');
+    if (existingSearchRow) {
+        existingSearchRow.replaceWith(searchRow);
+    } else {
+        searchContainer.appendChild(searchRow);
+    }
+
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            currentFilter = button.dataset.filter;
+            filterButtons.forEach(btn => {
+                btn.style.backgroundColor = '#1a1a1a';
+                btn.style.color = '#ccc';
+            });
+            button.style.backgroundColor = '#9c9bb9';
+            button.style.color = '#fff';
+            isAscending = true;
+            updateSortButtonIcon(sortOrderBtn);
+            populateTVShowsContent(window.tvshowsData, searchInput.value);
+        });
+    });
+
+    sortOrderBtn.addEventListener('click', () => {
+        isAscending = !isAscending;
+        updateSortButtonIcon(sortOrderBtn);
+        populateTVShowsContent(window.tvshowsData, searchInput.value);
+    });
+}
+
+function updateSortButtonIcon(sortOrderBtn) {
+    sortOrderBtn.style.transform = isAscending ? 'scaleY(1)' : 'scaleY(-1)';
+    sortOrderBtn.title = isAscending ? 'Sort Ascending' : 'Sort Descending';
 }
 
 function openSeasonView(show) {
@@ -369,7 +522,9 @@ function closeSeasonView(overlay) {
 }
 
 document.addEventListener('refDataLoaded', (event) => {
+    window.tvshowsData = event.detail;
     populateTVShowsContent(event.detail);
+    initializeFilterAndSort();
 });
 
 document.addEventListener("refDataLoaded", (event) => {
@@ -580,39 +735,3 @@ setTimeout(() => {
         initializeScroll();
     }
 }, 1000);
-
-document.addEventListener('refDataLoaded', (event) => {
-    populateShowsContent(event.detail);
-});
-
-document.addEventListener("refDataLoaded", (event) => {
-    const data = event.detail.metadata;
-    const totalShows = document.querySelector("#tvshows-total");
-    const totalSeasons = document.querySelector("#tvshows-seasons");
-    const totalEpisodes = document.querySelector("#tvshows-episodes");
-    const totalSize = document.querySelector("#tvshows-size");
-    if (totalShows && totalSeasons && totalEpisodes && totalSize) {
-        const formatNumber = (number) => number.toLocaleString('en-US');
-        totalShows.textContent = formatNumber(data.totalShow);
-        totalSeasons.textContent = formatNumber(data.totalSeasonCount);
-        totalEpisodes.textContent = formatNumber(data.TotalEpisode);
-        totalSize.textContent = data.totalSizeHuman;
-        document.querySelectorAll('.show-card .staggered div').forEach((detail) => {
-            detail.classList.add('data-loaded');
-        });
-    }
-});
-
-document.addEventListener("refDataLoaded", (event) => {
-    const data = event.detail;
-    const searchInput = document.getElementById("tvshows-search");
-
-    let debounceTimeout;
-    searchInput.addEventListener("input", () => {
-        clearTimeout(debounceTimeout);
-        debounceTimeout = setTimeout(() => {
-            const query = searchInput.value.toLowerCase();
-            populateShowsContent(data, query);
-        }, 300);
-    });
-});

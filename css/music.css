@@ -545,3 +545,66 @@
 #recommend-submit:hover {
     background-color: #7a7996;
 }
+
+.search-row {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.filter-btn {
+    outline: 1px solid #9c9bb9;
+    outline-offset: -1px;
+}
+
+.filter-btn:hover, .sort-order-btn:hover {
+    opacity: 0.9;
+}
+
+.filter-btn.active {
+    background-color: #9c9bb9 !important;
+    color: #fff !important;
+}
+
+.sort-order-btn {
+    background-image: url('../assets/icons/sort-icon.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #9c9bb9;
+    border: none;
+    border-radius: 4px;
+    outline: 1px solid #9c9bb9;
+    outline-offset: -1px;
+}
+
+.sort-order-btn:hover {
+    outline: 1px solid #9c9bb9;
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    #music-search {
+        width: 80vw;
+        max-width: 400px;
+    }
+    .buttons-container {
+        margin-top: 8px;
+    }
+}

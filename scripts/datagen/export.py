@@ -269,6 +269,9 @@ def process_tvshow_data(input_path, output_path):
 
                     season_years.append(episode.get("year"))
 
+                valid_years = [year for year in season_years if year is not None]
+                year_range = f"{min(valid_years)}-{max(valid_years)}" if valid_years else None
+
                 season_data = {
                     "seasonRatingKey": season.get("ratingKey"),
                     "seasonNumber": season.get("seasonNumber"),
@@ -278,7 +281,7 @@ def process_tvshow_data(input_path, output_path):
                     "avgSeasonAudioCodec": aggregate_unique(season_audio_codecs),
                     "avgSeasonVideoCodec": aggregate_unique(season_video_codecs),
                     "avgSeasonContainer": aggregate_unique(season_containers),
-                    "yearRange": f"{min(season_years)}-{max(season_years)}" if season_years else None
+                    "yearRange": year_range
                 }
 
                 show_video_resolutions.extend(season_video_resolutions)
@@ -288,6 +291,9 @@ def process_tvshow_data(input_path, output_path):
                 show_years.extend(season_years)
 
                 seasons.append(season_data)
+
+            valid_show_years = [year for year in show_years if year is not None]
+            show_year_range = f"{min(valid_show_years)}-{max(valid_show_years)}" if valid_show_years else None
 
             show_data = {
                 "ratingKey": show["ratingKey"],
@@ -301,7 +307,7 @@ def process_tvshow_data(input_path, output_path):
                 "avgAudioCodecs": aggregate_unique(show_audio_codecs),
                 "avgVideoCodecs": aggregate_unique(show_video_codecs),
                 "avgContainers": aggregate_unique(show_containers),
-                "showYearRange": f"{min(show_years)}-{max(show_years)}" if show_years else None,
+                "showYearRange": show_year_range,
                 "seasons": seasons
             }
 
