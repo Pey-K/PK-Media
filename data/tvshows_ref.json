@@ -1,9 +1,9 @@
 {
     "metadata": {
-        "totalShow": 178,
-        "totalSeasonCount": 958,
-        "TotalEpisode": 18027,
-        "totalSizeHuman": "10.12 TB"
+        "totalShow": 180,
+        "totalSeasonCount": 963,
+        "TotalEpisode": 18063,
+        "totalSizeHuman": "10.15 TB"
     },
     "shows": [
         {
@@ -6049,8 +6049,8 @@
             "avgEpisodeDuration": "50 mins",
             "contentRating": "TV-MA",
             "seasonCount": 2,
-            "showTotalEpisode": 12,
-            "showSizeHuman": "38.88 GB",
+            "showTotalEpisode": 13,
+            "showSizeHuman": "39.71 GB",
             "avgVideoResolutions": "1080p",
             "avgAudioCodecs": "AC3, EAC3",
             "avgVideoCodecs": "H264, HEVC",
@@ -6071,8 +6071,8 @@
                 {
                     "seasonRatingKey": 127083,
                     "seasonNumber": 2,
-                    "seasonTotalEpisode": 3,
-                    "seasonSizeHuman": "3.63 GB",
+                    "seasonTotalEpisode": 4,
+                    "seasonSizeHuman": "4.45 GB",
                     "avgSeasonVideoResolution": "1080p",
                     "avgSeasonAudioCodec": "AC3",
                     "avgSeasonVideoCodec": "HEVC",
@@ -6891,6 +6891,66 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2019-2020"
+                }
+            ]
+        },
+        {
+            "ratingKey": 129681,
+            "title": "Mr Inbetween",
+            "avgEpisodeDuration": "23 mins",
+            "contentRating": "TV-MA",
+            "seasonCount": 3,
+            "showTotalEpisode": 27,
+            "showSizeHuman": "22.02 GB",
+            "avgVideoResolutions": "1080p, 576p",
+            "avgAudioCodecs": "AC3, EAC3",
+            "avgVideoCodecs": "HEVC",
+            "avgContainers": "mkv",
+            "showYearRange": "2018-2021",
+            "seasons": [
+                {
+                    "seasonRatingKey": 129682,
+                    "seasonNumber": 0,
+                    "seasonTotalEpisode": 1,
+                    "seasonSizeHuman": "1.31 GB",
+                    "avgSeasonVideoResolution": "576p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2018-2018"
+                },
+                {
+                    "seasonRatingKey": 129708,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 6,
+                    "seasonSizeHuman": "4.59 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2018-2018"
+                },
+                {
+                    "seasonRatingKey": 129694,
+                    "seasonNumber": 2,
+                    "seasonTotalEpisode": 11,
+                    "seasonSizeHuman": "8.39 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2019-2019"
+                },
+                {
+                    "seasonRatingKey": 129684,
+                    "seasonNumber": 3,
+                    "seasonTotalEpisode": 9,
+                    "seasonSizeHuman": "7.73 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2021-2021"
                 }
             ]
         },
@@ -10443,6 +10503,33 @@
             ]
         },
         {
+            "ratingKey": 129715,
+            "title": "The Spiderwick Chronicles",
+            "avgEpisodeDuration": "46 mins",
+            "contentRating": "TV-PG",
+            "seasonCount": 1,
+            "showTotalEpisode": 8,
+            "showSizeHuman": "4.62 GB",
+            "avgVideoResolutions": "1080p",
+            "avgAudioCodecs": "AC3",
+            "avgVideoCodecs": "HEVC",
+            "avgContainers": "mkv",
+            "showYearRange": "2024-2024",
+            "seasons": [
+                {
+                    "seasonRatingKey": 129716,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "4.62 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2024-2024"
+                }
+            ]
+        },
+        {
             "ratingKey": 8629,
             "title": "SpongeBob SquarePants",
             "avgEpisodeDuration": "11 mins",
@@ -11914,7 +12001,7 @@
             "avgAudioCodecs": "AAC, AC3, EAC3",
             "avgVideoCodecs": "HEVC",
             "avgContainers": "mkv",
-            "showYearRange": "1940-1940",
+            "showYearRange": "1940-1967",
             "seasons": [
                 {
                     "seasonRatingKey": 17413,
@@ -11925,7 +12012,7 @@
                     "avgSeasonAudioCodec": "AAC, AC3, EAC3",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
-                    "yearRange": null
+                    "yearRange": "1940-1949"
                 },
                 {
                     "seasonRatingKey": 17460,
@@ -11936,7 +12023,7 @@
                     "avgSeasonAudioCodec": "AC3, EAC3",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
-                    "yearRange": null
+                    "yearRange": "1950-1958"
                 },
                 {
                     "seasonRatingKey": 17529,
@@ -11947,7 +12034,7 @@
                     "avgSeasonAudioCodec": "AC3, EAC3",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
-                    "yearRange": "1940-1940"
+                    "yearRange": "1961-1967"
                 }
             ]
         },
