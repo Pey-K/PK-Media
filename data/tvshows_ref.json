@@ -1,9 +1,9 @@
 {
     "metadata": {
-        "totalShow": 180,
-        "totalSeasonCount": 963,
-        "TotalEpisode": 18063,
-        "totalSizeHuman": "10.15 TB"
+        "totalShow": 181,
+        "totalSeasonCount": 990,
+        "TotalEpisode": 18291,
+        "totalSizeHuman": "10.28 TB"
     },
     "shows": [
         {
@@ -11959,6 +11959,319 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mp4",
                     "yearRange": "2022-2022"
+                }
+            ]
+        },
+        {
+            "ratingKey": 129739,
+            "title": "The Three Stooges",
+            "avgEpisodeDuration": "1 hr 30 mins",
+            "contentRating": "TV-PG",
+            "seasonCount": 26,
+            "showTotalEpisode": 228,
+            "showSizeHuman": "125.69 GB",
+            "avgVideoResolutions": "480p, sd",
+            "avgAudioCodecs": "AAC, AC3",
+            "avgVideoCodecs": "H264, MPEG2VIDEO",
+            "avgContainers": "mkv",
+            "showYearRange": "1933-1959",
+            "seasons": [
+                {
+                    "seasonRatingKey": 129740,
+                    "seasonNumber": 0,
+                    "seasonTotalEpisode": 38,
+                    "seasonSizeHuman": "20.21 GB",
+                    "avgSeasonVideoResolution": "480p, sd",
+                    "avgSeasonAudioCodec": "AAC, AC3",
+                    "avgSeasonVideoCodec": "H264, MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1933-1959"
+                },
+                {
+                    "seasonRatingKey": 129990,
+                    "seasonNumber": 1,
+                    "seasonTotalEpisode": 4,
+                    "seasonSizeHuman": "2.31 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1934-1934"
+                },
+                {
+                    "seasonRatingKey": 129982,
+                    "seasonNumber": 2,
+                    "seasonTotalEpisode": 7,
+                    "seasonSizeHuman": "3.95 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1935-1935"
+                },
+                {
+                    "seasonRatingKey": 129973,
+                    "seasonNumber": 3,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "4.47 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1936-1936"
+                },
+                {
+                    "seasonRatingKey": 129964,
+                    "seasonNumber": 4,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "4.47 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1937-1937"
+                },
+                {
+                    "seasonRatingKey": 129955,
+                    "seasonNumber": 5,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "4.35 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1938-1938"
+                },
+                {
+                    "seasonRatingKey": 129946,
+                    "seasonNumber": 6,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "4.28 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1939-1939"
+                },
+                {
+                    "seasonRatingKey": 129936,
+                    "seasonNumber": 7,
+                    "seasonTotalEpisode": 9,
+                    "seasonSizeHuman": "4.94 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1940-1940"
+                },
+                {
+                    "seasonRatingKey": 129928,
+                    "seasonNumber": 8,
+                    "seasonTotalEpisode": 7,
+                    "seasonSizeHuman": "3.83 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1941-1941"
+                },
+                {
+                    "seasonRatingKey": 129920,
+                    "seasonNumber": 9,
+                    "seasonTotalEpisode": 7,
+                    "seasonSizeHuman": "3.75 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1942-1942"
+                },
+                {
+                    "seasonRatingKey": 129909,
+                    "seasonNumber": 10,
+                    "seasonTotalEpisode": 10,
+                    "seasonSizeHuman": "5.39 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1943-1943"
+                },
+                {
+                    "seasonRatingKey": 129902,
+                    "seasonNumber": 11,
+                    "seasonTotalEpisode": 6,
+                    "seasonSizeHuman": "3.28 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1944-1944"
+                },
+                {
+                    "seasonRatingKey": 129896,
+                    "seasonNumber": 12,
+                    "seasonTotalEpisode": 5,
+                    "seasonSizeHuman": "2.69 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1945-1945"
+                },
+                {
+                    "seasonRatingKey": 129886,
+                    "seasonNumber": 13,
+                    "seasonTotalEpisode": 9,
+                    "seasonSizeHuman": "4.95 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1946-1946"
+                },
+                {
+                    "seasonRatingKey": 129878,
+                    "seasonNumber": 14,
+                    "seasonTotalEpisode": 7,
+                    "seasonSizeHuman": "3.85 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1947-1947"
+                },
+                {
+                    "seasonRatingKey": 129868,
+                    "seasonNumber": 15,
+                    "seasonTotalEpisode": 9,
+                    "seasonSizeHuman": "4.84 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1948-1948"
+                },
+                {
+                    "seasonRatingKey": 129860,
+                    "seasonNumber": 16,
+                    "seasonTotalEpisode": 7,
+                    "seasonSizeHuman": "3.78 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1949-1949"
+                },
+                {
+                    "seasonRatingKey": 129850,
+                    "seasonNumber": 17,
+                    "seasonTotalEpisode": 9,
+                    "seasonSizeHuman": "4.70 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1950-1950"
+                },
+                {
+                    "seasonRatingKey": 129841,
+                    "seasonNumber": 18,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "4.09 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1951-1951"
+                },
+                {
+                    "seasonRatingKey": 129833,
+                    "seasonNumber": 19,
+                    "seasonTotalEpisode": 7,
+                    "seasonSizeHuman": "4.02 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1952-1952"
+                },
+                {
+                    "seasonRatingKey": 129823,
+                    "seasonNumber": 20,
+                    "seasonTotalEpisode": 9,
+                    "seasonSizeHuman": "5.15 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1953-1953"
+                },
+                {
+                    "seasonRatingKey": 129816,
+                    "seasonNumber": 21,
+                    "seasonTotalEpisode": 6,
+                    "seasonSizeHuman": "3.39 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1954-1954"
+                },
+                {
+                    "seasonRatingKey": 129807,
+                    "seasonNumber": 22,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "4.73 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1955-1955"
+                },
+                {
+                    "seasonRatingKey": 129798,
+                    "seasonNumber": 23,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "4.70 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1956-1956"
+                },
+                {
+                    "seasonRatingKey": 129789,
+                    "seasonNumber": 24,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "4.78 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1957-1957"
+                },
+                {
+                    "seasonRatingKey": 129782,
+                    "seasonNumber": 25,
+                    "seasonTotalEpisode": 6,
+                    "seasonSizeHuman": "3.60 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1958-1958"
+                },
+                {
+                    "seasonRatingKey": 129779,
+                    "seasonNumber": 26,
+                    "seasonTotalEpisode": 2,
+                    "seasonSizeHuman": "1.16 GB",
+                    "avgSeasonVideoResolution": "480p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "MPEG2VIDEO",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "1959-1959"
                 }
             ]
         },

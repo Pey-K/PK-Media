@@ -13983,6 +13983,68 @@
         ]
     },
     {
+        "addedAt": "2025-05-08T16:51:32",
+        "audienceRating": 7.7,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG",
+        "duration": 5386217,
+        "durationHuman": "1 hr 30 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d77687c7a53e9001e6d0761",
+        "hasCreditsMarker": false,
+        "locations": [
+            "E:\\Plex\\Movies\\Flipped (2010)\\Flipped (2010).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2010-09-10",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 129998,
+        "studio": "Reiner / Greisman Productions",
+        "summary": "When Juli meets Bryce in the second grade, she knows it's true love. After spending six years trying to convince Bryce of the same, she's ready to give up--until he starts to reconsider.",
+        "tagline": "You never forget your first love.",
+        "thumbFile": "Movie - Flipped [129998].images\\Flipped [129998].thumb.jpg",
+        "title": "Flipped",
+        "titleSort": "Flipped",
+        "type": "movie",
+        "userRating": null,
+        "year": 2010,
+        "media": [
+            {
+                "aspectRatio": 1.78,
+                "audioChannels": 6,
+                "audioCodec": "aac",
+                "audioProfile": "lc",
+                "bitrate": 5078,
+                "container": "mkv",
+                "duration": 5386217,
+                "hdr": false,
+                "height": 1080,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "lc",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5386217,
+                        "file": "E:\\Plex\\Movies\\Flipped (2010)\\Flipped (2010).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 3418632218,
+                        "sizeHuman": "3.18 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2024-09-25T10:52:27",
         "audienceRating": 6.6,
         "audienceRatingImage": "imdb://image.rating",
