@@ -13991,7 +13991,7 @@
         "durationHuman": "1 hr 30 mins",
         "editionTitle": null,
         "guid": "plex://movie/5d77687c7a53e9001e6d0761",
-        "hasCreditsMarker": false,
+        "hasCreditsMarker": true,
         "locations": [
             "E:\\Plex\\Movies\\Flipped (2010)\\Flipped (2010).mkv"
         ],

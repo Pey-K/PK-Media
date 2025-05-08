@@ -1,10 +1,10 @@
 {
     "metadata": {
-        "totalArtists": 253,
-        "totalAlbums": 1956,
-        "totalTracks": 32274,
-        "totalSizeHuman": "757.85 GB",
-        "totalDurationHuman": "1923 hrs 8 mins"
+        "totalArtists": 252,
+        "totalAlbums": 1957,
+        "totalTracks": 32303,
+        "totalSizeHuman": "758.75 GB",
+        "totalDurationHuman": "1924 hrs 30 mins"
     },
     "artists": [
         {
@@ -59,40 +59,6 @@
                     "albumSizeHuman": "280.57 MB",
                     "totalAlbumSizeBytes": 280569207,
                     "albumDurationHuman": "40 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                }
-            ]
-        },
-        {
-            "artistName": "\u00a5$",
-            "ratingKey": 89406,
-            "totalAlbums": 2,
-            "totalTracks": 31,
-            "totalSizeHuman": "673.69 MB",
-            "yearRange": "2023-2024",
-            "albums": [
-                {
-                    "ratingKey": 89424,
-                    "title": "VULTURES 1",
-                    "year": 2023,
-                    "tracks": 15,
-                    "albumSizeHuman": "362.52 MB",
-                    "totalAlbumSizeBytes": 362524517,
-                    "albumDurationHuman": "52 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                },
-                {
-                    "ratingKey": 89407,
-                    "title": "VULTURES 2",
-                    "year": 2024,
-                    "tracks": 16,
-                    "albumSizeHuman": "311.17 MB",
-                    "totalAlbumSizeBytes": 311168408,
-                    "albumDurationHuman": "50 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -5642,9 +5608,9 @@
                     "totalAlbumSizeBytes": 158484194,
                     "albumDurationHuman": "56 mins",
                     "albumContainers": [
+                        "mp4",
                         "wav",
-                        "mp3",
-                        "mp4"
+                        "mp3"
                     ]
                 },
                 {
@@ -8502,9 +8468,9 @@
         {
             "artistName": "Gucci Mane",
             "ratingKey": 87676,
-            "totalAlbums": 118,
-            "totalTracks": 2104,
-            "totalSizeHuman": "45.59 GB",
+            "totalAlbums": 119,
+            "totalTracks": 2128,
+            "totalSizeHuman": "45.65 GB",
             "yearRange": "2006-2024",
             "albums": [
                 {
@@ -9681,6 +9647,18 @@
                     "albumDurationHuman": "49 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 130033,
+                    "title": "Trap Story",
+                    "year": 2009,
+                    "tracks": 24,
+                    "albumSizeHuman": "56.47 MB",
+                    "totalAlbumSizeBytes": 56469695,
+                    "albumDurationHuman": "1 hrs 12 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -14456,8 +14434,8 @@
                     "totalAlbumSizeBytes": 130194206,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp3",
-                        "mp4"
+                        "mp4",
+                        "mp3"
                     ]
                 },
                 {
@@ -24261,9 +24239,9 @@
         {
             "artistName": "Kanye West",
             "ratingKey": 89440,
-            "totalAlbums": 22,
-            "totalTracks": 341,
-            "totalSizeHuman": "5.59 GB",
+            "totalAlbums": 24,
+            "totalTracks": 377,
+            "totalSizeHuman": "7.10 GB",
             "yearRange": "2003-2025",
             "albums": [
                 {
@@ -24279,15 +24257,15 @@
                     ]
                 },
                 {
-                    "ratingKey": 126971,
+                    "ratingKey": 130021,
                     "title": "BULLY",
                     "year": 2025,
-                    "tracks": 10,
-                    "albumSizeHuman": "67.01 MB",
-                    "totalAlbumSizeBytes": 67007766,
-                    "albumDurationHuman": "27 mins",
+                    "tracks": 11,
+                    "albumSizeHuman": "323.31 MB",
+                    "totalAlbumSizeBytes": 323314681,
+                    "albumDurationHuman": "29 mins",
                     "albumContainers": [
-                        "mp3"
+                        "flac"
                     ]
                 },
                 {
@@ -24339,15 +24317,15 @@
                     ]
                 },
                 {
-                    "ratingKey": 126752,
-                    "title": "Donda 2",
+                    "ratingKey": 130000,
+                    "title": "DONDA 2",
                     "year": 2022,
-                    "tracks": 16,
-                    "albumSizeHuman": "67.12 MB",
-                    "totalAlbumSizeBytes": 67116209,
-                    "albumDurationHuman": "47 mins",
+                    "tracks": 20,
+                    "albumSizeHuman": "646.40 MB",
+                    "totalAlbumSizeBytes": 646397346,
+                    "albumDurationHuman": "55 mins",
                     "albumContainers": [
-                        "mp3"
+                        "flac"
                     ]
                 },
                 {
@@ -24431,8 +24409,8 @@
                     "totalAlbumSizeBytes": 164407384,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp3",
-                        "mp4"
+                        "mp4",
+                        "mp3"
                     ]
                 },
                 {
@@ -24481,6 +24459,30 @@
                     "albumDurationHuman": "59 mins",
                     "albumContainers": [
                         "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 130075,
+                    "title": "VULTURES 1",
+                    "year": 2023,
+                    "tracks": 15,
+                    "albumSizeHuman": "362.52 MB",
+                    "totalAlbumSizeBytes": 362524517,
+                    "albumDurationHuman": "52 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 130058,
+                    "title": "VULTURES 2",
+                    "year": 2024,
+                    "tracks": 16,
+                    "albumSizeHuman": "311.17 MB",
+                    "totalAlbumSizeBytes": 311168408,
+                    "albumDurationHuman": "50 mins",
+                    "albumContainers": [
+                        "flac"
                     ]
                 },
                 {
