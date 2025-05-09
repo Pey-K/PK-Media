@@ -1,10 +1,10 @@
 {
     "metadata": {
         "totalArtists": 252,
-        "totalAlbums": 1957,
-        "totalTracks": 32303,
-        "totalSizeHuman": "758.75 GB",
-        "totalDurationHuman": "1924 hrs 30 mins"
+        "totalAlbums": 1960,
+        "totalTracks": 32363,
+        "totalSizeHuman": "760.88 GB",
+        "totalDurationHuman": "1927 hrs 57 mins"
     },
     "artists": [
         {
@@ -4222,10 +4222,10 @@
         {
             "artistName": "J. Cole",
             "ratingKey": 106318,
-            "totalAlbums": 9,
-            "totalTracks": 137,
-            "totalSizeHuman": "3.28 GB",
-            "yearRange": "2009-2024",
+            "totalAlbums": 11,
+            "totalTracks": 176,
+            "totalSizeHuman": "4.69 GB",
+            "yearRange": "2007-2024",
             "albums": [
                 {
                     "ratingKey": 106410,
@@ -4252,6 +4252,18 @@
                     ]
                 },
                 {
+                    "ratingKey": 130132,
+                    "title": "2014 Forest Hills Drive",
+                    "year": 2024,
+                    "tracks": 21,
+                    "albumSizeHuman": "1.07 GB",
+                    "totalAlbumSizeBytes": 1068872917,
+                    "albumDurationHuman": "1 hrs 34 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
                     "ratingKey": 106388,
                     "title": "Born Sinner",
                     "year": 2013,
@@ -4270,6 +4282,18 @@
                     "tracks": 16,
                     "albumSizeHuman": "373.50 MB",
                     "totalAlbumSizeBytes": 373500627,
+                    "albumDurationHuman": "57 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 130113,
+                    "title": "The Come Up Mixtape Vol. 1",
+                    "year": 2007,
+                    "tracks": 18,
+                    "albumSizeHuman": "342.16 MB",
+                    "totalAlbumSizeBytes": 342157018,
                     "albumDurationHuman": "57 mins",
                     "albumContainers": [
                         "flac"
@@ -5608,9 +5632,9 @@
                     "totalAlbumSizeBytes": 158484194,
                     "albumDurationHuman": "56 mins",
                     "albumContainers": [
-                        "mp3",
+                        "wav",
                         "mp4",
-                        "wav"
+                        "mp3"
                     ]
                 },
                 {
@@ -11640,10 +11664,10 @@
         {
             "artistName": "Key Glock",
             "ratingKey": 88628,
-            "totalAlbums": 8,
-            "totalTracks": 148,
-            "totalSizeHuman": "2.74 GB",
-            "yearRange": "2017-2023",
+            "totalAlbums": 9,
+            "totalTracks": 169,
+            "totalSizeHuman": "3.43 GB",
+            "yearRange": "2017-2025",
             "albums": [
                 {
                     "ratingKey": 88629,
@@ -11677,6 +11701,18 @@
                     "albumSizeHuman": "247.43 MB",
                     "totalAlbumSizeBytes": 247433291,
                     "albumDurationHuman": "37 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 130091,
+                    "title": "Glockaveli: The Don",
+                    "year": 2025,
+                    "tracks": 21,
+                    "albumSizeHuman": "689.15 MB",
+                    "totalAlbumSizeBytes": 689153575,
+                    "albumDurationHuman": "53 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -14434,8 +14470,8 @@
                     "totalAlbumSizeBytes": 130194206,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp3",
-                        "mp4"
+                        "mp4",
+                        "mp3"
                     ]
                 },
                 {
@@ -17625,8 +17661,8 @@
                     "totalAlbumSizeBytes": 333545346,
                     "albumDurationHuman": "1 hrs 0 mins",
                     "albumContainers": [
-                        "mp3",
-                        "flac"
+                        "flac",
+                        "mp3"
                     ]
                 },
                 {
@@ -24184,8 +24220,8 @@
                     "totalAlbumSizeBytes": 112314157,
                     "albumDurationHuman": "21 mins",
                     "albumContainers": [
-                        "mp3",
-                        "wav"
+                        "wav",
+                        "mp3"
                     ]
                 }
             ]
@@ -24241,7 +24277,7 @@
             "ratingKey": 89440,
             "totalAlbums": 24,
             "totalTracks": 377,
-            "totalSizeHuman": "7.10 GB",
+            "totalSizeHuman": "7.13 GB",
             "yearRange": "2003-2025",
             "albums": [
                 {
@@ -24295,7 +24331,7 @@
                 {
                     "ratingKey": 126683,
                     "title": "Cruel Winter",
-                    "year": 2023,
+                    "year": 2015,
                     "tracks": 13,
                     "albumSizeHuman": "126.69 MB",
                     "totalAlbumSizeBytes": 126687166,
@@ -24309,8 +24345,8 @@
                     "title": "Donda",
                     "year": 2021,
                     "tracks": 32,
-                    "albumSizeHuman": "763.00 MB",
-                    "totalAlbumSizeBytes": 763001907,
+                    "albumSizeHuman": "794.64 MB",
+                    "totalAlbumSizeBytes": 794642861,
                     "albumDurationHuman": "2 hrs 11 mins",
                     "albumContainers": [
                         "flac"
@@ -24319,7 +24355,7 @@
                 {
                     "ratingKey": 130000,
                     "title": "DONDA 2",
-                    "year": 2022,
+                    "year": 2025,
                     "tracks": 20,
                     "albumSizeHuman": "646.40 MB",
                     "totalAlbumSizeBytes": 646397346,
@@ -24409,8 +24445,8 @@
                     "totalAlbumSizeBytes": 164407384,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp3",
-                        "mp4"
+                        "mp4",
+                        "mp3"
                     ]
                 },
                 {
@@ -24452,7 +24488,7 @@
                 {
                     "ratingKey": 126790,
                     "title": "TURBOGRAFX 16: INDIGO SOUND",
-                    "year": 2020,
+                    "year": 2016,
                     "tracks": 16,
                     "albumSizeHuman": "108.69 MB",
                     "totalAlbumSizeBytes": 108687420,
