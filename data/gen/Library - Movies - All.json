@@ -14015,7 +14015,7 @@
                 "audioChannels": 6,
                 "audioCodec": "aac",
                 "audioProfile": "lc",
-                "bitrate": 5078,
+                "bitrate": 5089,
                 "container": "mkv",
                 "duration": 5386217,
                 "hdr": false,
@@ -14030,7 +14030,7 @@
                     {
                         "audioProfile": "lc",
                         "container": "mkv",
-                        "deepAnalysisVersion": null,
+                        "deepAnalysisVersion": 6,
                         "duration": 5386217,
                         "file": "E:\\Plex\\Movies\\Flipped (2010)\\Flipped (2010).mkv",
                         "hasPreviewThumbnails": false,
