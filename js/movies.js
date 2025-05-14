@@ -353,12 +353,19 @@ function initializeInfoIcons() {
 
 initializeInfoIcons();
 
-function initializeRecommendationFeature() {
+function initializeRecommendationFeature(attempts = 0, maxAttempts = 50) {
     const fab = document.getElementById('recommend-fab');
     const overseerrContainer = document.getElementById('overseerr-container');
     const closeBtn = document.getElementById('close-overseerr');
-    if (!fab || !overseerrContainer || !closeBtn) {
-        console.error('Required elements for Overseerr iframe not found.');
+    const iframe = overseerrContainer?.querySelector('iframe');
+
+    if (!fab || !overseerrContainer || !closeBtn || !iframe) {
+        if (attempts < maxAttempts) {
+            console.log(`Retrying initialization, attempt ${attempts + 1} of ${maxAttempts}`);
+            setTimeout(() => initializeRecommendationFeature(attempts + 1, maxAttempts), 100);
+        } else {
+            console.error('Required elements for Overseerr iframe not found after max attempts.');
+        }
         return;
     }
 
@@ -366,17 +373,31 @@ function initializeRecommendationFeature() {
         overseerrContainer.style.display = 'block';
         fab.style.display = 'none';
         document.body.style.overflow = 'hidden';
+        // Add loading state
+        overseerrContainer.style.background = '#121212 url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 50 50\'%3E%3Ccircle cx=\'25\' cy=\'25\' r=\'20\' fill=\'none\' stroke=\'%239c9bb9\' stroke-width=\'5\' stroke-dasharray=\'31.415, 31.415\'%3E%3CanimateTransform attributeName=\'transform\' type=\'rotate\' from=\'0 25 25\' to=\'360 25 25\' dur=\'1s\' repeatCount=\'indefinite\'/%3E%3C/circle%3E%3C/svg%3E") center center no-repeat';
     });
 
     closeBtn.addEventListener('click', () => {
         overseerrContainer.style.display = 'none';
         fab.style.display = 'flex';
         document.body.style.overflow = 'auto';
+        // Reset iframe to login page on close
+        iframe.src = 'https://overseerr.pkcollection.net';
+    });
+
+    // Remove loading state when iframe content is loaded
+    iframe.addEventListener('load', () => {
+        overseerrContainer.style.background = '#121212';
     });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded fired');
+    initializeRecommendationFeature();
+});
+
+document.addEventListener('pageContentLoaded', () => {
+    console.log('pageContentLoaded fired');
     initializeRecommendationFeature();
 });
 
