@@ -649,7 +649,7 @@ function initializeRecommendationFeature() {
     }
 
     fab.addEventListener('click', () => {
-        window.location.href = 'https://overseerr.pkcollection.net';
+        window.open('https://overseerr.pkcollection.net', '_blank');
     });
 }
 
@@ -658,6 +658,11 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeRecommendationFeature();
     initializeInfoIcons();
     initializeScroll();
+});
+
+document.addEventListener('pageContentLoaded', () => {
+    console.log('pageContentLoaded fired');
+    initializeRecommendationFeature();
 });
 
 setTimeout(() => {
