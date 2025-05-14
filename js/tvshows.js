@@ -649,7 +649,7 @@ function initializeRecommendationFeature() {
     }
 
     fab.addEventListener('click', () => {
-        window.location.href = 'https://pkcollection.net/overseerr';
+        window.location.href = 'https://overseerr.pkcollection.net';
     });
 }
 
