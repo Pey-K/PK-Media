@@ -8,16 +8,10 @@ function initializeRecommendations() {
 
     const db = window.db;
     const messaging = window.messaging;
-    const moviesList = document.getElementById('movies-list');
-    const tvshowsList = document.getElementById('tvshows-list');
     const musicList = document.getElementById('music-list');
 
-    if (!moviesList || !tvshowsList || !musicList) {
-        console.error('One or more category list elements not found:', {
-            moviesList: !!moviesList,
-            tvshowsList: !!tvshowsList,
-            musicList: !!musicList
-        });
+    if (!musicList) {
+        console.error('Music list element not found:', { musicList: !!musicList });
         return;
     }
 
@@ -34,14 +28,10 @@ function initializeRecommendations() {
         .orderBy('timestamp', 'desc')
         .onSnapshot(snapshot => {
             console.log('Firestore snapshot received:', snapshot.size, 'documents');
-            moviesList.innerHTML = '';
-            tvshowsList.innerHTML = '';
             musicList.innerHTML = '';
 
             if (snapshot.empty) {
                 console.log('No recommendations found in Firestore.');
-                moviesList.innerHTML = '<p>No recommendations yet.</p>';
-                tvshowsList.innerHTML = '<p>No recommendations yet.</p>';
                 musicList.innerHTML = '<p>No recommendations yet.</p>';
                 return;
             }
@@ -50,30 +40,19 @@ function initializeRecommendations() {
                 const data = doc.data();
                 console.log('Recommendation data:', data);
 
-                const requestEntry = document.createElement('div');
-                requestEntry.classList.add('request-entry');
+                if (data.category === 'Music') {
+                    const requestEntry = document.createElement('div');
+                    requestEntry.classList.add('request-entry');
 
-                let details = '';
-                let targetList;
+                    const details = `<p><strong>${wrapText(data.artist, 20)}</strong></p>` +
+                                  (data.album ? `<p>Album: <strong>${wrapText(data.album, 20)}</strong></p>` : '');
 
-                if (data.category === 'Movies') {
-                    details = `<p><strong>${wrapText(data.title, 20)}</strong></p>`;
-                    targetList = moviesList;
-                } else if (data.category === 'TV Shows') {
-                    details = `<p><strong>${wrapText(data.show, 20)}</strong></p>` +
-                             (data.season ? `<p>Season: <strong>${wrapText(data.season, 20)}</strong></p>` : '');
-                    targetList = tvshowsList;
-                } else if (data.category === 'Music') {
-                    details = `<p><strong>${wrapText(data.artist, 20)}</strong></p>` +
-                             (data.album ? `<p>Album: <strong>${wrapText(data.album, 20)}</strong></p>` : '');
-                    targetList = musicList;
+                    requestEntry.innerHTML = `
+                        ${details}
+                        <p class="timestamp">${new Date(data.timestamp).toLocaleString()}</p>
+                    `;
+                    musicList.appendChild(requestEntry);
                 }
-
-                requestEntry.innerHTML = `
-                    ${details}
-                    <p class="timestamp">${new Date(data.timestamp).toLocaleString()}</p>
-                `;
-                targetList.appendChild(requestEntry);
             });
         }, error => {
             console.error('Error fetching recommendations:', error);
@@ -87,7 +66,6 @@ function initializeRecommendations() {
             })
             .then(token => {
                 console.log('FCM Token:', token);
-                
             })
             .catch(err => {
                 console.error('Unable to get permission to notify:', err);

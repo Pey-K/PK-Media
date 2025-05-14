@@ -61,7 +61,7 @@ function populateMoviesContent(data, searchQuery = '', attempts = 0, maxAttempts
                         <p>${movie.durationHuman}</p>
                         <p>${movie.videoResolution}</p>
                         <p>Codec: ${movie.videoCodec}</p>
-                        <p>Audio: ${movie.audioCodec}</p>
+                        <p>Audio: ${audioCodec}</p>
                         <p>File Type: ${movie.container}</p>
                         <p>(${movie.sizeHuman})</p>
                     </div>
@@ -235,8 +235,8 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("refDataLoaded", (event) => {
     const data = event.detail.metadata;
 
-    const totalMovies = document.querySelector("#movies-total");
-    const totalSize = document.querySelector("#movies-size");
+    const totalMovies = document.getElementById("movies-total");
+    const totalSize = document.getElementById("movies-size");
     if (totalMovies && totalSize) {
         totalMovies.textContent = `${data.totalMovies} Movies`;
         totalSize.textContent = `(${data.totalSizeHuman})`;
@@ -354,56 +354,14 @@ function initializeInfoIcons() {
 initializeInfoIcons();
 
 function initializeRecommendationFeature() {
-    console.log('initializeRecommendationFeature called');
-
     const fab = document.getElementById('recommend-fab');
     if (!fab) {
         console.error('FAB element with id "recommend-fab" not found in the HTML.');
         return;
     }
 
-    const modal = document.createElement('div');
-    modal.id = 'recommend-modal';
-    modal.classList.add('recommend-modal');
-    modal.innerHTML = `
-        <div class="recommend-modal-content">
-            <h3>Recommend a Movie</h3>
-            <div class="recommend-form">
-                <input type="text" id="recommend-title" class="recommend-search-box" placeholder="Enter movie title...">
-                <button id="recommend-submit">Submit</button>
-            </div>
-        </div>
-    `;
-    document.body.appendChild(modal);
-
     fab.addEventListener('click', () => {
-        console.log('FAB clicked');
-        modal.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
-    });
-
-    modal.addEventListener('click', (event) => {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-            document.getElementById('recommend-title').value = '';
-        }
-    });
-
-    document.getElementById('recommend-submit').addEventListener('click', () => {
-        const title = document.getElementById('recommend-title').value.trim();
-        if (title) {
-            storeRecommendation({
-                category: 'Movies',
-                title: title,
-                timestamp: new Date().toISOString()
-            });
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-            document.getElementById('recommend-title').value = '';
-        } else {
-            alert('Please enter a movie title.');
-        }
+        window.location.href = 'https://overseerr.pkcollection.net';
     });
 }
 

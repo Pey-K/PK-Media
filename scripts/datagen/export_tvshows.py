@@ -5,23 +5,15 @@ import zipfile
 import os
 import shutil
 import json
-from collections import defaultdict
 import ffmpeg
 
 TAUTULLI_URL = os.getenv("TAUTULLI_URL")
 API_KEY = os.getenv("API_KEY")
-SECTION_IDS = {
-    1: "Movies",
-    2: "TV Shows",
-    5: "Music"
-}
+SECTION_ID = 2
+LIBRARY_NAME = "TV Shows"
 OUTPUT_DIR = "../../data/gen"
 REF_DIR = "../../data"
-IMAGE_FOLDERS = {
-    1: "../../assets/images/movie_image", 
-    2: "../../assets/images/tv_image",
-    5: "../../assets/images/music_image"
-} 
+IMAGE_FOLDER = "../../assets/images/tv_image"
 FILE_FORMAT = "json"
 METADATA_LEVEL = 1
 MEDIA_INFO_LEVEL = 2
@@ -50,172 +42,9 @@ def format_codec(codec):
         return None
     return codec.upper()
 
-def human_readable_duration(total_milliseconds):
-    total_seconds = total_milliseconds // 1000
-    minutes, seconds = divmod(total_seconds, 60)
-    hours, minutes = divmod(minutes, 60)
-    if hours > 0:
-        return f"{hours} hrs {minutes} mins"
-    elif minutes >= 10:
-        return f"{minutes} mins"
-    elif minutes > 0:
-        return f"{minutes} mins {seconds} secs"
-    else:
-        return f"{seconds} secs"
-
-def split_collaborative_artists(artist_name):
-    return [name.strip() for name in artist_name.split(';')]
-
 def aggregate_unique(values):
     filtered_values = [v for v in values if v is not None]
     return ", ".join(sorted(set(filtered_values)))
-
-def process_movie_data(input_path, output_path):
-    with open(input_path, "r", encoding="utf-8") as file:
-        movies = json.load(file)
-    
-    total_movies = 0
-    total_size_bytes = 0
-    simplified_movies = []
-
-    for movie in movies:
-        try:
-            total_movies += 1
-            media = movie["media"][0]
-            part = media["parts"][0]
-            size_bytes = part.get("size", 0)
-            total_size_bytes += size_bytes
-            
-            simplified_movies.append({
-                "ratingKey": movie["ratingKey"],
-                "title": movie["title"],
-                "year": movie.get("year"),
-                "contentRating": movie.get("contentRating"),
-                "durationHuman": movie.get("durationHuman"),
-                "audioCodec": format_codec(media.get("audioCodec")),
-                "container": part.get("container"),
-                "videoCodec": format_codec(media.get("videoCodec")),
-                "videoResolution": format_resolution(media.get("videoResolution")),
-                "sizeHuman": part.get("sizeHuman"),
-            })
-        except (KeyError, IndexError) as e:
-            print(f"Skipping movie due to missing data: {movie.get('title', 'Unknown')} - Error: {e}")
-    
-    metadata = {
-        "totalMovies": total_movies,
-        "totalSizeHuman": human_readable_size(total_size_bytes)
-    }
-
-    output_data = {"metadata": metadata, "movies": simplified_movies}
-    
-    with open(output_path, "w", encoding="utf-8") as file:
-        json.dump(output_data, file, indent=4)
-    
-    print(f"Cleaned up Movie data and saved to {output_path}")
-
-def process_music_data(input_path, output_path):
-    with open(input_path, "r", encoding="utf-8") as file:
-        music_data = json.load(file)
-
-    artists_data = defaultdict(lambda: {"albums": [], "totalSizeBytes": 0, "totalTracks": 0, "totalAlbums": 0, "years": []})
-    total_artists = 0
-    total_albums = 0
-    total_tracks = 0
-    total_size_bytes = 0
-    total_duration = 0
-
-    for artist in music_data:
-        artist_name = artist["title"]
-        artist_rating_key = artist.get("ratingKey")
-        total_artists += 1
-
-        if ";" in artist_name:
-            collaborators = split_collaborative_artists(artist_name)
-            for album in artist.get("albums", []):
-                album_data, album_size_bytes, album_duration = process_album(album)
-                for collaborator in collaborators:
-                    matching_artist = next((a for a in music_data if a["title"] == collaborator), None)
-                    if matching_artist and matching_artist.get("ratingKey"):
-                        artists_data[collaborator]["albums"].append(album_data)
-                        artists_data[collaborator]["totalSizeBytes"] += album_size_bytes
-                        artists_data[collaborator]["totalTracks"] += album_data["tracks"]
-                        artists_data[collaborator]["totalAlbums"] += 1
-                        artists_data[collaborator]["years"].append(album.get("year", None))
-                        total_duration += album_duration
-                total_albums += 1
-                total_tracks += album_data["tracks"]
-                total_size_bytes += album_size_bytes
-        else:
-            for album in artist.get("albums", []):
-                album_data, album_size_bytes, album_duration = process_album(album)
-                artists_data[artist_name]["albums"].append(album_data)
-                artists_data[artist_name]["totalSizeBytes"] += album_size_bytes
-                artists_data[artist_name]["totalTracks"] += album_data["tracks"]
-                artists_data[artist_name]["totalAlbums"] += 1
-                artists_data[artist_name]["years"].append(album.get("year", None))
-                total_duration += album_duration
-                total_albums += 1
-                total_tracks += album_data["tracks"]
-                total_size_bytes += album_size_bytes
-
-    output_artists = []
-    for artist_name, data in artists_data.items():
-        valid_years = [year for year in data["years"] if year]
-        year_range = f"{min(valid_years)}-{max(valid_years)}" if valid_years else None
-        output_artists.append({
-            "artistName": artist_name,
-            "ratingKey": next((a["ratingKey"] for a in music_data if a["title"] == artist_name), None),
-            "totalAlbums": data["totalAlbums"],
-            "totalTracks": data["totalTracks"],
-            "totalSizeHuman": human_readable_size(data["totalSizeBytes"]),
-            "yearRange": year_range,
-            "albums": data["albums"]
-        })
-
-    metadata = {
-        "totalArtists": len(output_artists),
-        "totalAlbums": total_albums,
-        "totalTracks": total_tracks,
-        "totalSizeHuman": human_readable_size(total_size_bytes),
-        "totalDurationHuman": human_readable_duration(total_duration)
-    }
-
-    output_data = {"metadata": metadata, "artists": output_artists}
-
-    with open(output_path, "w", encoding="utf-8") as file:
-        json.dump(output_data, file, indent=4)
-
-    print(f"Cleaned up Music data and saved to {output_path}")
-
-def process_album(album):
-    album_data = {
-        "ratingKey": album["ratingKey"],
-        "title": album["title"],
-        "year": album.get("year"),
-        "tracks": len(album.get("tracks", [])),
-        "albumSizeHuman": None,
-        "totalAlbumSizeBytes": 0,
-        "albumDurationHuman": None,
-        "albumContainers": []
-    }
-
-    album_size_bytes = 0
-    total_duration = 0
-    containers = set()
-
-    for track in album.get("tracks", []):
-        for media in track.get("media", []):
-            containers.add(media.get("container"))
-            total_duration += media.get("duration", 0)
-            for part in media.get("parts", []):
-                album_size_bytes += part.get("size", 0)
-
-    album_data["albumSizeHuman"] = human_readable_size(album_size_bytes)
-    album_data["totalAlbumSizeBytes"] = album_size_bytes
-    album_data["albumDurationHuman"] = human_readable_duration(total_duration)
-    album_data["albumContainers"] = list(containers)
-
-    return album_data, album_size_bytes, total_duration
 
 def process_tvshow_data(input_path, output_path):
     with open(input_path, "r", encoding="utf-8") as file:
@@ -293,7 +122,7 @@ def process_tvshow_data(input_path, output_path):
                 seasons.append(season_data)
 
             valid_show_years = [year for year in show_years if year is not None]
-            show_year_range = f"{min(valid_show_years)}-{max(valid_show_years)}" if valid_show_years else None
+            show_year_range = f"{min(valid_years)}-{max(valid_years)}" if valid_show_years else None
 
             show_data = {
                 "ratingKey": show["ratingKey"],
@@ -343,7 +172,7 @@ def export_metadata(section_id):
         "thumb_level": THUMB_LEVEL,
         "individual_files": "False"
     }
-    response = requests.get(endpoint, params=params, timeout=20)
+    response = requests.get(endpoint, params=params, timeout=10)
     result = response.json()
     if result["response"]["result"] == "success":
         export_id = result["response"]["data"]["export_id"]
@@ -360,7 +189,7 @@ def check_export_status(export_id):
         "apikey": API_KEY,
         "cmd": "get_exports_table"
     }
-    response = requests.get(endpoint, params=params, timeout=30)
+    response = requests.get(endpoint, params=params, timeout=10)
     result = response.json()
     if result["response"]["result"] == "success":
         exports = result["response"]["data"]["data"]
@@ -378,7 +207,7 @@ def download_export(export_id):
         "cmd": "download_export",
         "export_id": export_id
     }
-    response = requests.get(endpoint, params=params, timeout=30)
+    response = requests.get(endpoint, params=params, timeout=10)
     if response.status_code == 200:
         content_disposition = response.headers.get("Content-Disposition")
         if content_disposition:
@@ -412,9 +241,7 @@ def convert_jpg_to_webp(source_path, temp_webp_path):
 def process_export_zip(zip_path, section_id, library_name):
     extract_folder = f"export_section_{section_id}"
     os.makedirs(extract_folder, exist_ok=True)
-    image_folder = IMAGE_FOLDERS.get(section_id, f"images_{library_name.lower().replace(' ', '_')}")
-
-    os.makedirs(image_folder, exist_ok=True)
+    os.makedirs(IMAGE_FOLDER, exist_ok=True)
 
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
         zip_ref.extractall(extract_folder)
@@ -433,12 +260,7 @@ def process_export_zip(zip_path, section_id, library_name):
         if json_file:
             break
 
-    if library_name == "Movies":
-        process_movie_data(new_json_path, os.path.join(REF_DIR, "movies_ref.json"))
-    elif library_name == "Music":
-        process_music_data(new_json_path, os.path.join(REF_DIR, "music_ref.json"))
-    elif library_name == "TV Shows":
-        process_tvshow_data(new_json_path, os.path.join(REF_DIR, "tvshows_ref.json"))
+    process_tvshow_data(new_json_path, os.path.join(REF_DIR, "tvshows_ref.json"))
 
     for root, _, files in os.walk(extract_folder):
         for file in files:
@@ -450,7 +272,7 @@ def process_export_zip(zip_path, section_id, library_name):
                     temp_webp_filename = f"{rating_key}.thumb.webp"
                     temp_webp_path = os.path.join(root, temp_webp_filename)
                     if convert_jpg_to_webp(source_path, temp_webp_path):
-                        dest_path = os.path.join(image_folder, temp_webp_filename)
+                        dest_path = os.path.join(IMAGE_FOLDER, temp_webp_filename)
                         shutil.move(temp_webp_path, dest_path)
                         print(f"Moved WebP image to {dest_path}")
                     else:
@@ -468,26 +290,29 @@ def process_export_zip(zip_path, section_id, library_name):
     print(f"Removed zip file {zip_path}")
 
 def main():
-    """Main function to automate export, download, and process for multiple libraries."""
-    for section_id, library_name in SECTION_IDS.items():
-        print(f"\nStarting export for section {section_id} ({library_name})")
-        export_id = export_metadata(section_id)
-        if export_id:
-            print(f"Waiting for export {export_id} to complete...")
-            while True:
-                complete, progress = check_export_status(export_id)
-                if complete is None:
-                    print("Error checking status. Aborting this export.")
-                    break
-                elif complete == 1:
-                    print("Export complete.")
-                    zip_path = download_export(export_id)
-                    if zip_path:
-                        process_export_zip(zip_path, section_id, library_name)
-                    break
-                else:
-                    print(f"Export in progress: {progress}%")
-                    time.sleep(30)
+    """Main function to automate export, download, and process for TV Shows library."""
+    print(f"\nStarting export for section {SECTION_ID} ({LIBRARY_NAME})")
+    export_id = export_metadata(SECTION_ID)
+    if export_id:
+        print(f"Waiting for export {export_id} to complete...")
+        while True:
+            complete, progress = check_export_status(export_id)
+            if complete is None:
+                print("Error checking status. Aborting this export.")
+                break
+            elif complete == 1:
+                print("Export complete.")
+                zip_path = download_export(export_id)
+                if zip_path:
+                    process_export_zip(zip_path, SECTION_ID, LIBRARY_NAME)
+                    # Git operations
+                    os.system('git add ../../data/*.json ../../assets/images/tv_image/*.webp')
+                    os.system('git commit -m "TV Shows library update" --allow-empty')
+                    os.system('git push')
+                break
+            else:
+                print(f"Export in progress: {progress}%")
+                time.sleep(30)
 
 if __name__ == "__main__":
     main()
