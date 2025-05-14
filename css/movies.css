@@ -443,17 +443,14 @@
     outline-offset: -1px;
 }
 
-
 .filter-btn:hover, .sort-order-btn:hover {
     opacity: 0.9;
 }
-
 
 .filter-btn.active {
     background-color: #9c9bb9 !important;
     color: #fff !important;
 }
-
 
 .sort-order-btn {
     background-image: url('../assets/icons/sort-icon.webp');
@@ -466,7 +463,6 @@
     outline: 1px solid #9c9bb9;
     outline-offset: -1px;
 }
-
 
 .sort-order-btn:hover {
     outline: 1px solid #9c9bb9;
@@ -481,4 +477,27 @@
     .buttons-container {
         margin-top: 8px;
     }
+}
+
+/* Iframe Styles */
+#overseerr-container {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: #121212;
+}
+
+#overseerr-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#close-overseerr:hover {
+    background-color: #9c9bb9;
 }

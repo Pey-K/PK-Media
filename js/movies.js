@@ -355,13 +355,23 @@ initializeInfoIcons();
 
 function initializeRecommendationFeature() {
     const fab = document.getElementById('recommend-fab');
-    if (!fab) {
-        console.error('FAB element with id "recommend-fab" not found in the HTML.');
+    const overseerrContainer = document.getElementById('overseerr-container');
+    const closeBtn = document.getElementById('close-overseerr');
+    if (!fab || !overseerrContainer || !closeBtn) {
+        console.error('Required elements for Overseerr iframe not found.');
         return;
     }
 
     fab.addEventListener('click', () => {
-        window.location.href = 'https://overseerr.pkcollection.net';
+        overseerrContainer.style.display = 'block';
+        fab.style.display = 'none';
+        document.body.style.overflow = 'hidden';
+    });
+
+    closeBtn.addEventListener('click', () => {
+        overseerrContainer.style.display = 'none';
+        fab.style.display = 'flex';
+        document.body.style.overflow = 'auto';
     });
 }
 
