@@ -642,69 +642,14 @@ function initializeInfoIcons() {
 initializeInfoIcons();
 
 function initializeRecommendationFeature() {
-    console.log('initializeRecommendationFeature called');
-
     const fab = document.getElementById('recommend-fab');
     if (!fab) {
         console.error('FAB element with id "recommend-fab" not found in the HTML.');
         return;
     }
 
-    const modal = document.createElement('div');
-    modal.id = 'recommend-modal';
-    modal.classList.add('recommend-modal');
-    modal.innerHTML = `
-        <div class="recommend-modal-content">
-            <h3>Recommend a Show</h3>
-            <div class="recommend-form">
-                <input type="text" id="recommend-show" class="recommend-search-box" placeholder="Enter show title...">
-                <input type="text" id="recommend-season" class="recommend-search-box" placeholder="Enter season #... (optional)" style="display: none;">
-                <button id="recommend-submit">Submit</button>
-            </div>
-        </div>
-    `;
-    document.body.appendChild(modal);
-
-    const showInput = document.getElementById('recommend-show');
-    const seasonInput = document.getElementById('recommend-season');
-    showInput.addEventListener('input', () => {
-        seasonInput.style.display = showInput.value.trim() ? 'block' : 'none';
-    });
-
     fab.addEventListener('click', () => {
-        console.log('FAB clicked');
-        modal.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
-    });
-
-    modal.addEventListener('click', (event) => {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-            showInput.value = '';
-            seasonInput.value = '';
-            seasonInput.style.display = 'none';
-        }
-    });
-
-    document.getElementById('recommend-submit').addEventListener('click', () => {
-        const show = showInput.value.trim();
-        const season = seasonInput.value.trim();
-        if (show) {
-            storeRecommendation({
-                category: 'TV Shows',
-                show: show,
-                season: season || null,
-                timestamp: new Date().toISOString()
-            });
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-            showInput.value = '';
-            seasonInput.value = '';
-            seasonInput.style.display = 'none';
-        } else {
-            alert('Please enter a show title.');
-        }
+        window.location.href = 'https://overseerr.pkcollection.net';
     });
 }
 

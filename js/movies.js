@@ -61,7 +61,7 @@ function populateMoviesContent(data, searchQuery = '', attempts = 0, maxAttempts
                         <p>${movie.durationHuman}</p>
                         <p>${movie.videoResolution}</p>
                         <p>Codec: ${movie.videoCodec}</p>
-                        <p>Audio: ${audioCodec}</p>
+                        <p>Audio: ${movie.audioCodec}</p>
                         <p>File Type: ${movie.container}</p>
                         <p>(${movie.sizeHuman})</p>
                     </div>
