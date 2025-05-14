@@ -1,7 +1,7 @@
 {
-    "name": "PK+ Collection",
+    "name": "PK+",
     "short_name": "PK+",
-    "start_url": "/index.html",
+    "start_url": "/pkcollection.net",
     "display": "standalone",
     "background_color": "#121212",
     "theme_color": "#121212",
