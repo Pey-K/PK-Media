@@ -1,9 +1,9 @@
 {
     "metadata": {
         "totalShow": 180,
-        "totalSeasonCount": 989,
-        "TotalEpisode": 18303,
-        "totalSizeHuman": "10.28 TB"
+        "totalSeasonCount": 990,
+        "TotalEpisode": 18311,
+        "totalSizeHuman": "10.29 TB"
     },
     "shows": [
         {
@@ -13301,14 +13301,14 @@
             "title": "The White Lotus",
             "avgEpisodeDuration": "1 hr 1 min",
             "contentRating": "TV-MA",
-            "seasonCount": 2,
-            "showTotalEpisode": 13,
-            "showSizeHuman": "30.72 GB",
+            "seasonCount": 3,
+            "showTotalEpisode": 21,
+            "showSizeHuman": "42.09 GB",
             "avgVideoResolutions": "1080p",
             "avgAudioCodecs": "EAC3",
             "avgVideoCodecs": "HEVC",
             "avgContainers": "mkv",
-            "showYearRange": "2021-2022",
+            "showYearRange": "2021-2025",
             "seasons": [
                 {
                     "seasonRatingKey": 127143,
@@ -13331,6 +13331,17 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2022-2022"
+                },
+                {
+                    "seasonRatingKey": 130350,
+                    "seasonNumber": 3,
+                    "seasonTotalEpisode": 8,
+                    "seasonSizeHuman": "11.37 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2025-2025"
                 }
             ]
         },
