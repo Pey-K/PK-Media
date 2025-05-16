@@ -2885,6 +2885,68 @@
         ]
     },
     {
+        "addedAt": "2025-05-15T21:31:57",
+        "audienceRating": 4.8,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG",
+        "duration": 5681718,
+        "durationHuman": "1 hr 35 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776837a091de001f2e859b",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Are We There Yet! (2005)\\Are We There Yet! (2005).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2005-01-21",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 130348,
+        "studio": "Revolution Studios",
+        "summary": "The fledgling romance between Nick, a playboy bachelor, and Suzanne, a divorced mother of two, is threatened by a particularly harrowing New Years Eve. When Suzanne's work keeps her in Vancouver for the holiday, Nick offers to bring her kids to the city from Portland, Oregon. The kids, who have never liked any of the men their mom dates, are determined to turn the trip into a nightmare for Nick.",
+        "tagline": "24 hours. 350 miles. His girlfriend's kids. What could possibly go wrong?",
+        "thumbFile": "Movie - Are We There Yet_ [130348].images\\Are We There Yet_ [130348].thumb.jpg",
+        "title": "Are We There Yet?",
+        "titleSort": "Are We There Yet?",
+        "type": "movie",
+        "userRating": null,
+        "year": 2005,
+        "media": [
+            {
+                "aspectRatio": 1.85,
+                "audioChannels": 6,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 7860,
+                "container": "mkv",
+                "duration": 5681718,
+                "hdr": false,
+                "height": 1040,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5681718,
+                        "file": "E:\\Plex\\Movies\\Are We There Yet! (2005)\\Are We There Yet! (2005).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 5582382410,
+                        "sizeHuman": "5.20 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2024-09-25T05:53:36",
         "audienceRating": 6.3,
         "audienceRatingImage": "imdb://image.rating",
@@ -3877,6 +3939,68 @@
         ]
     },
     {
+        "addedAt": "2025-05-15T21:17:54",
+        "audienceRating": 6.8,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG",
+        "duration": 6007008,
+        "durationHuman": "1 hr 40 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5e16334ecd0850003b75c854",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\The Bad Guys (2022)\\The Bad Guys (2022).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2022-03-16",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 130329,
+        "studio": "DreamWorks Animation",
+        "summary": "After a lifetime of legendary heists, notorious criminals Mr. Wolf, Mr. Snake, Mr. Piranha, Mr. Shark, and Ms. Tarantula are finally caught. To avoid a prison sentence, the animal outlaws must pull off their most challenging con yet: becoming model citizens. Under the tutelage of their mentor, Professor Marmalade, the dubious gang sets out to fool the world that they're turning good. But could any of them be considering turning good for real?",
+        "tagline": "Good is no fun at all.",
+        "thumbFile": "Movie - The Bad Guys [130329].images\\The Bad Guys [130329].thumb.jpg",
+        "title": "The Bad Guys",
+        "titleSort": "Bad Guys",
+        "type": "movie",
+        "userRating": null,
+        "year": 2022,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 8,
+                "audioCodec": "truehd",
+                "audioProfile": null,
+                "bitrate": 9082,
+                "container": "mkv",
+                "duration": 6007008,
+                "hdr": false,
+                "height": 804,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6007008,
+                        "file": "E:\\Plex\\Movies\\The Bad Guys (2022)\\The Bad Guys (2022).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 6819397273,
+                        "sizeHuman": "6.35 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2024-10-04T04:37:20",
         "audienceRating": 6.2,
         "audienceRatingImage": "imdb://image.rating",
@@ -4125,6 +4249,68 @@
         ]
     },
     {
+        "addedAt": "2025-05-15T21:01:42",
+        "audienceRating": 5.9,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 6703136,
+        "durationHuman": "1 hr 52 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d9f3c9db0262f001f6f2b4d",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Barbershop - The Next Cut (2016)\\Barbershop - The Next Cut (2016).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2016-04-15",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 130323,
+        "studio": "New Line Cinema",
+        "summary": "As their surrounding community has taken a turn for the worse, the crew at Calvin's Barbershop come together to bring some much needed change to their neighborhood.",
+        "tagline": "Everybody's back for a fresh cut.",
+        "thumbFile": "Movie - Barbershop_ The Next Cut [130323].images\\Barbershop_ The Next Cut [130323].thumb.jpg",
+        "title": "Barbershop: The Next Cut",
+        "titleSort": "Barbershop: The Next Cut",
+        "type": "movie",
+        "userRating": null,
+        "year": 2016,
+        "media": [
+            {
+                "aspectRatio": 1.78,
+                "audioChannels": 6,
+                "audioCodec": "ac3",
+                "audioProfile": null,
+                "bitrate": 5631,
+                "container": "mkv",
+                "duration": 6703136,
+                "hdr": false,
+                "height": 1080,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6703136,
+                        "file": "E:\\Plex\\Movies\\Barbershop - The Next Cut (2016)\\Barbershop - The Next Cut (2016).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4718196096,
+                        "sizeHuman": "4.39 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2025-05-14T21:45:18",
         "audienceRating": 6.8,
         "audienceRatingImage": "imdb://image.rating",
@@ -4304,6 +4490,68 @@
                         "optimizedForStreaming": null,
                         "size": 5423535420,
                         "sizeHuman": "5.05 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-05-15T20:52:14",
+        "audienceRating": 8.2,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 8402944,
+        "durationHuman": "2 hrs 20 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d776cc1ad5437001f7c8420",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Batman Begins (2005)\\Batman Begins (2005).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2005-06-15",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 130316,
+        "studio": "Warner Bros. Pictures",
+        "summary": "After witnessing his parents' death, billionaire Bruce Wayne learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city.",
+        "tagline": "Evil fears the knight.",
+        "thumbFile": "Movie - Batman Begins [130316].images\\Batman Begins [130316].thumb.jpg",
+        "title": "Batman Begins",
+        "titleSort": "Batman Begins",
+        "type": "movie",
+        "userRating": null,
+        "year": 2005,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "ac3",
+                "audioProfile": null,
+                "bitrate": 4967,
+                "container": "mkv",
+                "duration": 8402944,
+                "hdr": false,
+                "height": 800,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8402944,
+                        "file": "E:\\Plex\\Movies\\Batman Begins (2005)\\Batman Begins (2005).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 5217068115,
+                        "sizeHuman": "4.86 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -7963,6 +8211,68 @@
                         "size": 2786092939,
                         "sizeHuman": "2.59 GB",
                         "videoProfile": "main"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-05-15T20:33:24",
+        "audienceRating": 6.7,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG",
+        "duration": 6923552,
+        "durationHuman": "1 hr 55 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7768243c3c2a001fbca85a",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Charlie and the Chocolate Factory (2005)\\Charlie and the Chocolate Factory (2005).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2005-07-13",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 130308,
+        "studio": "Warner Bros. Pictures",
+        "summary": "When Willy Wonka decides to let five children into his chocolate factory, he decides to release five golden tickets in five separate chocolate bars, causing complete mayhem. The tickets start to be found, with the fifth going to a very special boy, called Charlie Bucket. With his Grandpa, Charlie joins the rest of the children to experience the most amazing factory ever. But not everything goes to plan within the factory.",
+        "tagline": "Prepare for a taste of adventure.",
+        "thumbFile": "Movie - Charlie and the Chocolate Factory [130308].images\\Charlie and the Chocolate Factory [130308].thumb.jpg",
+        "title": "Charlie and the Chocolate Factory",
+        "titleSort": "Charlie and the Chocolate Factory",
+        "type": "movie",
+        "userRating": null,
+        "year": 2005,
+        "media": [
+            {
+                "aspectRatio": 1.78,
+                "audioChannels": 6,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 8204,
+                "container": "mkv",
+                "duration": 6923552,
+                "hdr": false,
+                "height": 1080,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 6923552,
+                        "file": "E:\\Plex\\Movies\\Charlie and the Chocolate Factory (2005)\\Charlie and the Chocolate Factory (2005).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 7100439986,
+                        "sizeHuman": "6.61 GB",
+                        "videoProfile": "main 10"
                     }
                 ]
             }
@@ -18633,6 +18943,68 @@
         ]
     },
     {
+        "addedAt": "2025-05-15T20:51:52",
+        "audienceRating": 7.2,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 8526752,
+        "durationHuman": "2 hrs 22 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7768a647dd6e001f6bce61",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\The Great Gatsby (2013)\\The Great Gatsby (2013).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2013-05-09",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 130311,
+        "studio": "Warner Bros. Pictures",
+        "summary": "An adaptation of F. Scott Fitzgerald's Long Island-set novel, where Midwesterner Nick Carraway is lured into the lavish world of his neighbor, Jay Gatsby. Soon enough, however, Carraway sees through the cracks of Gatsby's nouveau riche existence, where obsession, madness, and tragedy await.",
+        "tagline": "Dream dangerously.",
+        "thumbFile": "Movie - The Great Gatsby [130311].images\\The Great Gatsby [130311].thumb.jpg",
+        "title": "The Great Gatsby",
+        "titleSort": "Great Gatsby",
+        "type": "movie",
+        "userRating": null,
+        "year": 2013,
+        "media": [
+            {
+                "aspectRatio": 2.35,
+                "audioChannels": 6,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 5006,
+                "container": "mkv",
+                "duration": 8526752,
+                "hdr": false,
+                "height": 800,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 8526752,
+                        "file": "E:\\Plex\\Movies\\The Great Gatsby (2013)\\The Great Gatsby (2013).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 5335614685,
+                        "sizeHuman": "4.97 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2024-12-01T22:14:17",
         "audienceRating": 8.6,
         "audienceRatingImage": "imdb://image.rating",
@@ -28863,6 +29235,68 @@
         ]
     },
     {
+        "addedAt": "2025-05-15T21:21:32",
+        "audienceRating": 6.0,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG-13",
+        "duration": 7202612,
+        "durationHuman": "2 hrs",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7769aafb0d55001f52c98d",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Justice League (2017)\\Justice League (2017).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2017-11-15",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 130335,
+        "studio": "RatPac Entertainment",
+        "summary": "Fuelled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne and Diana Prince assemble a team of metahumans consisting of Barry Allen, Arthur Curry and Victor Stone to face the catastrophic threat of Steppenwolf and the Parademons who are on the hunt for three Mother Boxes on Earth.",
+        "tagline": "You can't save the world alone.",
+        "thumbFile": "Movie - Justice League [130335].images\\Justice League [130335].thumb.jpg",
+        "title": "Justice League",
+        "titleSort": "Justice League",
+        "type": "movie",
+        "userRating": null,
+        "year": 2017,
+        "media": [
+            {
+                "aspectRatio": 1.78,
+                "audioChannels": 6,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 9218,
+                "container": "mkv",
+                "duration": 7202612,
+                "hdr": false,
+                "height": 1080,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 7202612,
+                        "file": "E:\\Plex\\Movies\\Justice League (2017)\\Justice League (2017).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 8299342963,
+                        "sizeHuman": "7.73 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "addedAt": "2024-10-01T12:32:17",
         "audienceRating": 7.3,
         "audienceRatingImage": "imdb://image.rating",
@@ -36048,6 +36482,68 @@
                         "optimizedForStreaming": null,
                         "size": 3307683864,
                         "sizeHuman": "3.08 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-05-15T21:02:15",
+        "audienceRating": 6.1,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "R",
+        "duration": 5886965,
+        "durationHuman": "1 hr 38 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d77683554c0f0001f3036ae",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Next Friday (2000)\\Next Friday (2000).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2000-01-12",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 130326,
+        "studio": "New Line Cinema",
+        "summary": "Debo has escaped from prison and is looking to get revenge on Craig. So Craig's dad takes him to Rancho Cucamonga to hide out with his Uncle Elroy and cousin Day-Day, who moved to the suburbs after winning the lottery. But once he gets there, Craig and Day-Day have a set of suburban misadventures that make his South Central experiences look tame.",
+        "tagline": "The suburbs make the hood look good.",
+        "thumbFile": "Movie - Next Friday [130326].images\\Next Friday [130326].thumb.jpg",
+        "title": "Next Friday",
+        "titleSort": "Next Friday",
+        "type": "movie",
+        "userRating": null,
+        "year": 2000,
+        "media": [
+            {
+                "aspectRatio": 1.78,
+                "audioChannels": 6,
+                "audioCodec": "eac3",
+                "audioProfile": null,
+                "bitrate": 6719,
+                "container": "mkv",
+                "duration": 5886965,
+                "hdr": false,
+                "height": 1080,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": null,
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5886965,
+                        "file": "E:\\Plex\\Movies\\Next Friday (2000)\\Next Friday (2000).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 4943975617,
+                        "sizeHuman": "4.60 GB",
                         "videoProfile": "main 10"
                     }
                 ]
@@ -55082,6 +55578,68 @@
                         "optimizedForStreaming": null,
                         "size": 4037458254,
                         "sizeHuman": "3.76 GB",
+                        "videoProfile": "main 10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "addedAt": "2025-05-15T21:31:20",
+        "audienceRating": 6.4,
+        "audienceRatingImage": "imdb://image.rating",
+        "contentRating": "PG",
+        "duration": 5740734,
+        "durationHuman": "1 hr 36 mins",
+        "editionTitle": null,
+        "guid": "plex://movie/5d7768bd33f255001e85e561",
+        "hasCreditsMarker": true,
+        "locations": [
+            "E:\\Plex\\Movies\\Turbo (2013)\\Turbo (2013).mkv"
+        ],
+        "originalTitle": null,
+        "originallyAvailableAt": "2013-07-10",
+        "rating": null,
+        "ratingImage": null,
+        "ratingKey": 130344,
+        "studio": "DreamWorks Animation",
+        "summary": "After a freak accident infuses him with the power of super-speed, Turbo kicks into overdrive and embarks on an extraordinary journey to achieve the seemingly impossible: competing in the world's fastest race, the Indianapolis 500. With the help of his tricked-out streetwise snail crew, this ultimate underdog puts his heart and shell on the line to prove that no dream is too big, and no dreamer too small.",
+        "tagline": "He's fast. They're furious.",
+        "thumbFile": "Movie - Turbo [130344].images\\Turbo [130344].thumb.jpg",
+        "title": "Turbo",
+        "titleSort": "Turbo",
+        "type": "movie",
+        "userRating": null,
+        "year": 2013,
+        "media": [
+            {
+                "aspectRatio": 1.78,
+                "audioChannels": 8,
+                "audioCodec": "dca-ma",
+                "audioProfile": "ma",
+                "bitrate": 8451,
+                "container": "mkv",
+                "duration": 5740734,
+                "hdr": false,
+                "height": 1080,
+                "isOptimizedVersion": false,
+                "videoCodec": "hevc",
+                "videoFrameRate": "24p",
+                "videoProfile": "main 10",
+                "videoResolution": "1080",
+                "width": 1920,
+                "parts": [
+                    {
+                        "audioProfile": "ma",
+                        "container": "mkv",
+                        "deepAnalysisVersion": null,
+                        "duration": 5740734,
+                        "file": "E:\\Plex\\Movies\\Turbo (2013)\\Turbo (2013).mkv",
+                        "hasPreviewThumbnails": false,
+                        "indexes": null,
+                        "optimizedForStreaming": null,
+                        "size": 6064714820,
+                        "sizeHuman": "5.65 GB",
                         "videoProfile": "main 10"
                     }
                 ]

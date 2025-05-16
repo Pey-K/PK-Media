@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 958,
-        "totalSizeHuman": "3.80 TB"
+        "totalMovies": 967,
+        "totalSizeHuman": "3.85 TB"
     },
     "movies": [
         {
@@ -557,6 +557,18 @@
             "sizeHuman": "1.61 GB"
         },
         {
+            "ratingKey": 130348,
+            "title": "Are We There Yet?",
+            "year": 2005,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 35 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.20 GB"
+        },
+        {
             "ratingKey": 413,
             "title": "As Above, So Below",
             "year": 2014,
@@ -749,6 +761,18 @@
             "sizeHuman": "4.99 GB"
         },
         {
+            "ratingKey": 130329,
+            "title": "The Bad Guys",
+            "year": 2022,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 40 mins",
+            "audioCodec": "TRUEHD",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.35 GB"
+        },
+        {
             "ratingKey": 569,
             "title": "Bad Moms",
             "year": 2016,
@@ -797,6 +821,18 @@
             "sizeHuman": "1.22 GB"
         },
         {
+            "ratingKey": 130323,
+            "title": "Barbershop: The Next Cut",
+            "year": 2016,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 52 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.39 GB"
+        },
+        {
             "ratingKey": 130263,
             "title": "Barbie",
             "year": 2023,
@@ -831,6 +867,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "5.05 GB"
+        },
+        {
+            "ratingKey": 130316,
+            "title": "Batman Begins",
+            "year": 2005,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 20 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.86 GB"
         },
         {
             "ratingKey": 616,
@@ -1539,6 +1587,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.59 GB"
+        },
+        {
+            "ratingKey": 130308,
+            "title": "Charlie and the Chocolate Factory",
+            "year": 2005,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 55 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.61 GB"
         },
         {
             "ratingKey": 1072,
@@ -3605,6 +3665,18 @@
             "sizeHuman": "4.19 GB"
         },
         {
+            "ratingKey": 130311,
+            "title": "The Great Gatsby",
+            "year": 2013,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 22 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.97 GB"
+        },
+        {
             "ratingKey": 3538,
             "title": "The Green Mile",
             "year": 1999,
@@ -5585,6 +5657,18 @@
             "sizeHuman": "5.17 GB"
         },
         {
+            "ratingKey": 130335,
+            "title": "Justice League",
+            "year": 2017,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "7.73 GB"
+        },
+        {
             "ratingKey": 3640,
             "title": "The Karate Kid",
             "year": 1984,
@@ -6975,6 +7059,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.08 GB"
+        },
+        {
+            "ratingKey": 130326,
+            "title": "Next Friday",
+            "year": 2000,
+            "contentRating": "R",
+            "durationHuman": "1 hr 38 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.60 GB"
         },
         {
             "ratingKey": 3749,
@@ -10659,6 +10755,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.76 GB"
+        },
+        {
+            "ratingKey": 130344,
+            "title": "Turbo",
+            "year": 2013,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 36 mins",
+            "audioCodec": "DCA-MA",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.65 GB"
         },
         {
             "ratingKey": 128220,
