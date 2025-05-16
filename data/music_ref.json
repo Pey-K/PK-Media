@@ -4253,7 +4253,7 @@
                 },
                 {
                     "ratingKey": 130132,
-                    "title": "2014 Forest Hills Drive",
+                    "title": "2014 Forest Hills Drive [10 Year Anniversary Edition]",
                     "year": 2024,
                     "tracks": 21,
                     "albumSizeHuman": "1.07 GB",
@@ -5632,8 +5632,8 @@
                     "totalAlbumSizeBytes": 158484194,
                     "albumDurationHuman": "56 mins",
                     "albumContainers": [
-                        "mp3",
                         "mp4",
+                        "mp3",
                         "wav"
                     ]
                 },
@@ -14470,8 +14470,8 @@
                     "totalAlbumSizeBytes": 130194206,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp3",
-                        "mp4"
+                        "mp4",
+                        "mp3"
                     ]
                 },
                 {
@@ -17661,8 +17661,8 @@
                     "totalAlbumSizeBytes": 333545346,
                     "albumDurationHuman": "1 hrs 0 mins",
                     "albumContainers": [
-                        "mp3",
-                        "flac"
+                        "flac",
+                        "mp3"
                     ]
                 },
                 {
@@ -24445,8 +24445,8 @@
                     "totalAlbumSizeBytes": 164407384,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp3",
-                        "mp4"
+                        "mp4",
+                        "mp3"
                     ]
                 },
                 {

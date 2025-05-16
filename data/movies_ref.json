@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 939,
-        "totalSizeHuman": "3.68 TB"
+        "totalMovies": 958,
+        "totalSizeHuman": "3.80 TB"
     },
     "movies": [
         {
@@ -773,6 +773,18 @@
             "sizeHuman": "1.76 GB"
         },
         {
+            "ratingKey": 130305,
+            "title": "The Ballad of Buster Scruggs",
+            "year": 2018,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 13 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "2.97 GB"
+        },
+        {
             "ratingKey": 576,
             "title": "Bambi",
             "year": 1942,
@@ -783,6 +795,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.22 GB"
+        },
+        {
+            "ratingKey": 130263,
+            "title": "Barbie",
+            "year": 2023,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 54 mins",
+            "audioCodec": "TRUEHD",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.52 GB"
         },
         {
             "ratingKey": 589,
@@ -915,6 +939,54 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.29 GB"
+        },
+        {
+            "ratingKey": 130286,
+            "title": "Beverly Hills Cop",
+            "year": 1984,
+            "contentRating": "R",
+            "durationHuman": "1 hr 45 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.31 GB"
+        },
+        {
+            "ratingKey": 130283,
+            "title": "Beverly Hills Cop II",
+            "year": 1987,
+            "contentRating": "R",
+            "durationHuman": "1 hr 43 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.01 GB"
+        },
+        {
+            "ratingKey": 130281,
+            "title": "Beverly Hills Cop III",
+            "year": 1994,
+            "contentRating": "R",
+            "durationHuman": "1 hr 44 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.18 GB"
+        },
+        {
+            "ratingKey": 130301,
+            "title": "Beverly Hills Cop: Axel F",
+            "year": 2024,
+            "contentRating": "R",
+            "durationHuman": "1 hr 58 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.07 GB"
         },
         {
             "ratingKey": 3414,
@@ -1323,6 +1395,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.47 GB"
+        },
+        {
+            "ratingKey": 130255,
+            "title": "Captain America: Brave New World",
+            "year": 2025,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 59 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.96 GB"
         },
         {
             "ratingKey": 868,
@@ -1937,6 +2021,18 @@
             "sizeHuman": "3.60 GB"
         },
         {
+            "ratingKey": 130278,
+            "title": "Deadpool & Wolverine",
+            "year": 2024,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 8 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.82 GB"
+        },
+        {
             "ratingKey": 1344,
             "title": "Deadpool 2",
             "year": 2018,
@@ -2403,6 +2499,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.61 GB"
+        },
+        {
+            "ratingKey": 130181,
+            "title": "Elemental",
+            "year": 2023,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 41 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "8.15 GB"
         },
         {
             "ratingKey": 1702,
@@ -3387,6 +3495,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.58 GB"
+        },
+        {
+            "ratingKey": 130269,
+            "title": "The Good Dinosaur",
+            "year": 2015,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 34 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.28 GB"
         },
         {
             "ratingKey": 2013,
@@ -4877,6 +4997,18 @@
             "sizeHuman": "5.27 GB"
         },
         {
+            "ratingKey": 130273,
+            "title": "Insurgent",
+            "year": 2015,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 59 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "9.29 GB"
+        },
+        {
             "ratingKey": 2303,
             "title": "Interstellar",
             "year": 2014,
@@ -5717,6 +5849,18 @@
             "sizeHuman": "1.69 GB"
         },
         {
+            "ratingKey": 130298,
+            "title": "Last Action Hero",
+            "year": 1993,
+            "contentRating": "PG-13",
+            "durationHuman": "2 hrs 11 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "10.11 GB"
+        },
+        {
             "ratingKey": 3662,
             "title": "The Lego Batman Movie",
             "year": 2017,
@@ -6411,6 +6555,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.10 GB"
+        },
+        {
+            "ratingKey": 130177,
+            "title": "A Minecraft Movie",
+            "year": 2025,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 41 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.78 GB"
         },
         {
             "ratingKey": 2645,
@@ -7191,6 +7347,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.70 GB"
+        },
+        {
+            "ratingKey": 130191,
+            "title": "Paul Blart: Mall Cop",
+            "year": 2009,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 31 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.12 GB"
         },
         {
             "ratingKey": 3773,
@@ -9353,6 +9521,18 @@
             "sizeHuman": "5.54 GB"
         },
         {
+            "ratingKey": 130291,
+            "title": "Spaceballs",
+            "year": 1987,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 36 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.28 GB"
+        },
+        {
             "ratingKey": 3168,
             "title": "Spenser Confidential",
             "year": 2020,
@@ -9867,6 +10047,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.85 GB"
+        },
+        {
+            "ratingKey": 130193,
+            "title": "Super 8",
+            "year": 2011,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 52 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.79 GB"
         },
         {
             "ratingKey": 3885,
@@ -10445,6 +10637,18 @@
             "sizeHuman": "4.48 GB"
         },
         {
+            "ratingKey": 130294,
+            "title": "Tropic Thunder",
+            "year": 2008,
+            "contentRating": "R",
+            "durationHuman": "2 hrs 1 min",
+            "audioCodec": "TRUEHD",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "9.71 GB"
+        },
+        {
             "ratingKey": 3901,
             "title": "The Truman Show",
             "year": 1998,
@@ -10685,6 +10889,18 @@
             "sizeHuman": "4.76 GB"
         },
         {
+            "ratingKey": 130296,
+            "title": "Vivarium",
+            "year": 2019,
+            "contentRating": "R",
+            "durationHuman": "1 hr 39 mins",
+            "audioCodec": "DCA-MA",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.48 GB"
+        },
+        {
             "ratingKey": 83386,
             "title": "Volunteers",
             "year": 1985,
@@ -10923,6 +11139,18 @@
             "videoCodec": "H264",
             "videoResolution": "1080p",
             "sizeHuman": "5.00 GB"
+        },
+        {
+            "ratingKey": 130184,
+            "title": "The Wild Robot",
+            "year": 2024,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 42 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "H264",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.81 GB"
         },
         {
             "ratingKey": 120453,

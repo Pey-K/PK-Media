@@ -1,8 +1,8 @@
 {
     "metadata": {
-        "totalShow": 181,
-        "totalSeasonCount": 990,
-        "TotalEpisode": 18291,
+        "totalShow": 180,
+        "totalSeasonCount": 989,
+        "TotalEpisode": 18303,
         "totalSizeHuman": "10.28 TB"
     },
     "shows": [
@@ -2120,7 +2120,7 @@
             "title": "Chilling Adventures of Sabrina",
             "avgEpisodeDuration": "1 hr",
             "contentRating": "TV-14",
-            "seasonCount": 4,
+            "seasonCount": 2,
             "showTotalEpisode": 36,
             "showSizeHuman": "21.69 GB",
             "avgVideoResolutions": "1080p",
@@ -2132,46 +2132,24 @@
                 {
                     "seasonRatingKey": 5032,
                     "seasonNumber": 1,
-                    "seasonTotalEpisode": 11,
-                    "seasonSizeHuman": "6.96 GB",
+                    "seasonTotalEpisode": 20,
+                    "seasonSizeHuman": "11.94 GB",
                     "avgSeasonVideoResolution": "1080p",
                     "avgSeasonAudioCodec": "AAC",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
-                    "yearRange": "2018-2018"
+                    "yearRange": "2018-2019"
                 },
                 {
-                    "seasonRatingKey": 5044,
+                    "seasonRatingKey": 130206,
                     "seasonNumber": 2,
-                    "seasonTotalEpisode": 9,
-                    "seasonSizeHuman": "4.98 GB",
+                    "seasonTotalEpisode": 16,
+                    "seasonSizeHuman": "9.75 GB",
                     "avgSeasonVideoResolution": "1080p",
                     "avgSeasonAudioCodec": "AAC",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2020-2020"
-                },
-                {
-                    "seasonRatingKey": 5054,
-                    "seasonNumber": 3,
-                    "seasonTotalEpisode": 8,
-                    "seasonSizeHuman": "5.00 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": null
-                },
-                {
-                    "seasonRatingKey": 5063,
-                    "seasonNumber": 4,
-                    "seasonTotalEpisode": 8,
-                    "seasonSizeHuman": "4.75 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mkv",
-                    "yearRange": null
                 }
             ]
         },
@@ -3687,14 +3665,14 @@
             "title": "Family Guy",
             "avgEpisodeDuration": "22 mins",
             "contentRating": "TV-14",
-            "seasonCount": 22,
-            "showTotalEpisode": 408,
-            "showSizeHuman": "32.96 GB",
+            "seasonCount": 23,
+            "showTotalEpisode": 420,
+            "showSizeHuman": "35.62 GB",
             "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "AAC",
+            "avgAudioCodecs": "AAC, EAC3",
             "avgVideoCodecs": "HEVC",
-            "avgContainers": "mp4",
-            "showYearRange": "1999-2023",
+            "avgContainers": "mkv, mp4",
+            "showYearRange": "1999-2025",
             "seasons": [
                 {
                     "seasonRatingKey": 5703,
@@ -3937,6 +3915,17 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mp4",
                     "yearRange": "2023-2023"
+                },
+                {
+                    "seasonRatingKey": 130233,
+                    "seasonNumber": 23,
+                    "seasonTotalEpisode": 12,
+                    "seasonSizeHuman": "2.66 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2025-2025"
                 }
             ]
         },
@@ -4979,44 +4968,17 @@
             ]
         },
         {
-            "ratingKey": 10749,
-            "title": "The Haunting",
-            "avgEpisodeDuration": "55 mins",
-            "contentRating": "TV-MA",
-            "seasonCount": 1,
-            "showTotalEpisode": 9,
-            "showSizeHuman": "8.10 GB",
-            "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "AAC",
-            "avgVideoCodecs": "HEVC",
-            "avgContainers": "mp4",
-            "showYearRange": "2020-2020",
-            "seasons": [
-                {
-                    "seasonRatingKey": 10750,
-                    "seasonNumber": 1,
-                    "seasonTotalEpisode": 9,
-                    "seasonSizeHuman": "8.10 GB",
-                    "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "AAC",
-                    "avgSeasonVideoCodec": "HEVC",
-                    "avgSeasonContainer": "mp4",
-                    "yearRange": "2020-2020"
-                }
-            ]
-        },
-        {
             "ratingKey": 10760,
             "title": "The Haunting of Hill House",
             "avgEpisodeDuration": "1 hr",
             "contentRating": "TV-MA",
-            "seasonCount": 1,
-            "showTotalEpisode": 10,
-            "showSizeHuman": "13.92 GB",
+            "seasonCount": 2,
+            "showTotalEpisode": 19,
+            "showSizeHuman": "22.02 GB",
             "avgVideoResolutions": "1080p",
             "avgAudioCodecs": "AAC",
             "avgVideoCodecs": "HEVC",
-            "avgContainers": "mkv",
+            "avgContainers": "mkv, mp4",
             "showYearRange": "2018-2018",
             "seasons": [
                 {
@@ -5028,6 +4990,17 @@
                     "avgSeasonAudioCodec": "AAC",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
+                    "yearRange": "2018-2018"
+                },
+                {
+                    "seasonRatingKey": 130223,
+                    "seasonNumber": 2,
+                    "seasonTotalEpisode": 9,
+                    "seasonSizeHuman": "8.10 GB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AAC",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mp4",
                     "yearRange": "2018-2018"
                 }
             ]
