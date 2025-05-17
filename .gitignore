@@ -1,5 +1,6 @@
 .env
 __pycache__/
+data/gen/
 *.pyc
 export_section_*/
 *.zip
