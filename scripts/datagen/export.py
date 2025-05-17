@@ -343,7 +343,7 @@ def export_metadata(section_id):
         "thumb_level": THUMB_LEVEL,
         "individual_files": "False"
     }
-    response = requests.get(endpoint, params=params, timeout=10)
+    response = requests.get(endpoint, params=params, timeout=30)
     result = response.json()
     if result["response"]["result"] == "success":
         export_id = result["response"]["data"]["export_id"]
@@ -360,7 +360,7 @@ def check_export_status(export_id):
         "apikey": API_KEY,
         "cmd": "get_exports_table"
     }
-    response = requests.get(endpoint, params=params, timeout=10)
+    response = requests.get(endpoint, params=params, timeout=40)
     result = response.json()
     if result["response"]["result"] == "success":
         exports = result["response"]["data"]["data"]
@@ -378,7 +378,7 @@ def download_export(export_id):
         "cmd": "download_export",
         "export_id": export_id
     }
-    response = requests.get(endpoint, params=params, timeout=10)
+    response = requests.get(endpoint, params=params, timeout=40)
     if response.status_code == 200:
         content_disposition = response.headers.get("Content-Disposition")
         if content_disposition:

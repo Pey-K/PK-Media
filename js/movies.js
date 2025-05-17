@@ -355,9 +355,8 @@ initializeInfoIcons();
 
 function initializeRecommendationFeature() {
     const fab = document.getElementById('recommend-fab');
-
     if (!fab) {
-        console.error('FAB element for Overseerr feature not found.');
+        console.error('FAB element with id "recommend-fab" not found in the HTML.');
         return;
     }
 
@@ -369,6 +368,8 @@ function initializeRecommendationFeature() {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOMContentLoaded fired');
     initializeRecommendationFeature();
+    initializeInfoIcons();
+    initializeScroll();
 });
 
 document.addEventListener('pageContentLoaded', () => {
@@ -380,5 +381,7 @@ setTimeout(() => {
     if (document.readyState === 'complete' || document.readyState === 'interactive') {
         console.log('Fallback: Running initializeRecommendationFeature');
         initializeRecommendationFeature();
+        initializeInfoIcons();
+        initializeScroll();
     }
 }, 1000);
