@@ -1,10 +1,10 @@
 {
     "metadata": {
         "totalArtists": 252,
-        "totalAlbums": 1960,
-        "totalTracks": 32363,
-        "totalSizeHuman": "760.89 GB",
-        "totalDurationHuman": "1927 hrs 57 mins"
+        "totalAlbums": 1961,
+        "totalTracks": 32377,
+        "totalSizeHuman": "761.41 GB",
+        "totalDurationHuman": "1928 hrs 36 mins"
     },
     "artists": [
         {
@@ -5632,9 +5632,9 @@
                     "totalAlbumSizeBytes": 158484194,
                     "albumDurationHuman": "56 mins",
                     "albumContainers": [
+                        "mp3",
                         "mp4",
-                        "wav",
-                        "mp3"
+                        "wav"
                     ]
                 },
                 {
@@ -14470,8 +14470,8 @@
                     "totalAlbumSizeBytes": 130194206,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp4",
-                        "mp3"
+                        "mp3",
+                        "mp4"
                     ]
                 },
                 {
@@ -22236,10 +22236,10 @@
         {
             "artistName": "Tee Grizzley",
             "ratingKey": 92092,
-            "totalAlbums": 12,
-            "totalTracks": 194,
-            "totalSizeHuman": "3.71 GB",
-            "yearRange": "2017-2024",
+            "totalAlbums": 13,
+            "totalTracks": 208,
+            "totalSizeHuman": "4.24 GB",
+            "yearRange": "2017-2025",
             "albums": [
                 {
                     "ratingKey": 92254,
@@ -22297,6 +22297,18 @@
                     "albumSizeHuman": "205.25 MB",
                     "totalAlbumSizeBytes": 205250230,
                     "albumDurationHuman": "29 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 130361,
+                    "title": "Forever My Moment",
+                    "year": 2025,
+                    "tracks": 14,
+                    "albumSizeHuman": "529.37 MB",
+                    "totalAlbumSizeBytes": 529371719,
+                    "albumDurationHuman": "38 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -24220,8 +24232,8 @@
                     "totalAlbumSizeBytes": 112314157,
                     "albumDurationHuman": "21 mins",
                     "albumContainers": [
-                        "wav",
-                        "mp3"
+                        "mp3",
+                        "wav"
                     ]
                 }
             ]
@@ -24445,8 +24457,8 @@
                     "totalAlbumSizeBytes": 164407384,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp4",
-                        "mp3"
+                        "mp3",
+                        "mp4"
                     ]
                 },
                 {
