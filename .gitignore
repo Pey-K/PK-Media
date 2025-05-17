@@ -3,4 +3,3 @@ __pycache__/
 *.pyc
 export_section_*/
 *.zip
-data/gen
