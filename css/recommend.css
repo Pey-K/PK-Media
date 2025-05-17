@@ -25,7 +25,7 @@ h1 {
 }
 .category-column h2 {
     margin: 0 0 15px;
-    color: #9c9bb9;
+    color: #d4a04f;
     text-align: center;
 }
 .category-list {
@@ -36,7 +36,7 @@ h1 {
 .request-entry {
     margin-bottom: 15px;
     padding-bottom: 25px;
-    border-bottom: 1px solid #9c9bb9;
+    border-bottom: 1px solid #d4a04f;
     overflow-wrap: break-word;
 }
 .request-entry:last-child {
@@ -76,7 +76,7 @@ h1 {
         margin-bottom: 0;
         padding: 10px;
         border-bottom: none;
-        border: 1px solid #9c9bb9;
+        border: 1px solid #d4a04f;
         background-color: #2a2a2a;
         border-radius: 4px;
         display: block;
@@ -85,13 +85,13 @@ h1 {
         word-break: break-all;
     }
     .request-entry:last-child {
-        border: 1px solid #9c9bb9;
+        border: 1px solid #d4a04f;
     }
     .category-list::-webkit-scrollbar {
         height: 8px;
     }
     .category-list::-webkit-scrollbar-thumb {
-        background-color: #9c9bb9;
+        background-color: #d4a04f;
         border-radius: 4px;
     }
     .category-list::-webkit-scrollbar-track {
@@ -110,7 +110,7 @@ h1 {
 .home-button {
     padding: 15px 25px;
     font-size: 25px;
-    border: 1px solid #9c9bb9;
+    border: 1px solid #d4a04f;
     border-radius: 24px;
     background-color: #212121;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -121,7 +121,7 @@ h1 {
 }
 
 .home-button:hover {
-    background-color: #9c9bb9;
+    background-color: #d4a04f;
 }
 
 .flipped-arrow {

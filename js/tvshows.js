@@ -188,7 +188,7 @@ function initializeFilterAndSort() {
         btn.style.justifyContent = 'center';
         btn.style.border = 'none';
         btn.style.cursor = 'pointer';
-        btn.style.backgroundColor = filter.value === currentFilter ? '#9c9bb9' : '#1a1a1a';
+        btn.style.backgroundColor = filter.value === currentFilter ? '#d4a04f' : '#1a1a1a';
         btn.style.color = filter.value === currentFilter ? '#fff' : '#ccc';
         btn.style.fontSize = '18px';
         btn.style.transition = 'background-color 0.3s, color 0.3s';
@@ -206,7 +206,7 @@ function initializeFilterAndSort() {
     sortOrderBtn.className = 'sort-order-btn';
     sortOrderBtn.style.width = '36px';
     sortOrderBtn.style.height = '36px';
-    sortOrderBtn.style.backgroundColor = '#9c9bb9';
+    sortOrderBtn.style.backgroundColor = '#d4a04f';
     sortOrderBtn.style.border = 'none';
     sortOrderBtn.style.borderRadius = '4px';
     sortOrderBtn.style.cursor = 'pointer';
@@ -241,7 +241,7 @@ function initializeFilterAndSort() {
                 btn.style.backgroundColor = '#1a1a1a';
                 btn.style.color = '#ccc';
             });
-            button.style.backgroundColor = '#9c9bb9';
+            button.style.backgroundColor = '#d4a04f';
             button.style.color = '#fff';
             isAscending = true;
             updateSortButtonIcon(sortOrderBtn);

@@ -124,7 +124,7 @@
 }
 
 .index-card.hover-enabled {
-    box-shadow: 0 0 6px 3px #9c9bb9;
+    box-shadow: 0 0 6px 3px #d4a04f;
     transition: opacity 0.3s ease-in-out;
     transform: scale(1.05);
 }
@@ -249,7 +249,7 @@
 .home-button {
     padding: 15px 25px;
     font-size: 25px;
-    border: 1px solid #9c9bb9;
+    border: 1px solid #d4a04f;
     border-radius: 24px;
     background-color: #212121;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -260,7 +260,7 @@
 }
 
 .home-button:hover {
-    background-color: #9c9bb9;
+    background-color: #d4a04f;
 }
 
 .flipped-arrow {
@@ -279,7 +279,7 @@
     max-width: 500px;
     padding: 10px;
     font-size: 1em;
-    border: 2px solid #9c9bb9;
+    border: 2px solid #d4a04f;
     background-color: #1a1a1a;
     color: #fff;
     border-radius: 14px;
@@ -288,9 +288,9 @@
 }
 
 #movie-search:focus {
-    border-color: #9c9bb9;
+    border-color: #d4a04f;
     outline: none;
-    box-shadow: 0 0 2px 2px #9c9bb9;
+    box-shadow: 0 0 2px 2px #d4a04f;
 }
 
 #scroll-to-top {
@@ -305,7 +305,7 @@
     font-size: 20px;
     background-color: #212121;
     color: #fff;
-    border: 1px solid #9c9bb9;
+    border: 1px solid #d4a04f;
     border-radius: 24px;
     cursor: pointer;
     z-index: 200;
@@ -314,7 +314,7 @@
 }
 
 #scroll-to-top:hover {
-    background-color: #9c9bb9;
+    background-color: #d4a04f;
 }
 
 #scroll-to-top.visible {
@@ -331,7 +331,7 @@
     padding-top: 21px;
     background-color: #212121;
     color: #fff;
-    border: 2px solid #9c9bb9;
+    border: 2px solid #d4a04f;
     border-radius: 50%;
     font-size: 24px;
     display: flex;
@@ -344,7 +344,7 @@
 }
 
 #recommend-fab:hover {
-    background-color: #9c9bb9;
+    background-color: #d4a04f;
 }
 
 .search-row {
@@ -370,7 +370,7 @@
 }
 
 .filter-btn {
-    outline: 1px solid #9c9bb9;
+    outline: 1px solid #d4a04f;
     outline-offset: -1px;
 }
 
@@ -379,7 +379,7 @@
 }
 
 .filter-btn.active {
-    background-color: #9c9bb9 !important;
+    background-color: #d4a04f !important;
     color: #fff !important;
 }
 
@@ -388,15 +388,15 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #9c9bb9;
+    background-color: #d4a04f;
     border: none;
     border-radius: 4px;
-    outline: 1px solid #9c9bb9;
+    outline: 1px solid #d4a04f;
     outline-offset: -1px;
 }
 
 .sort-order-btn:hover {
-    outline: 1px solid #9c9bb9;
+    outline: 1px solid #d4a04f;
     opacity: 0.7;
 }
 
