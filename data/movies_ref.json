@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 967,
-        "totalSizeHuman": "3.85 TB"
+        "totalMovies": 971,
+        "totalSizeHuman": "3.88 TB"
     },
     "movies": [
         {
@@ -2115,6 +2115,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.44 GB"
+        },
+        {
+            "ratingKey": 130381,
+            "title": "Death of a Unicorn",
+            "year": 2025,
+            "contentRating": "R",
+            "durationHuman": "1 hr 48 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.09 GB"
         },
         {
             "ratingKey": 1345,
@@ -7395,6 +7407,42 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "1.47 GB"
+        },
+        {
+            "ratingKey": 130382,
+            "title": "Paddington",
+            "year": 2014,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 35 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.96 GB"
+        },
+        {
+            "ratingKey": 130386,
+            "title": "Paddington 2",
+            "year": 2017,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 43 mins",
+            "audioCodec": "TRUEHD",
+            "container": "mkv",
+            "videoCodec": "H264",
+            "videoResolution": "1080p",
+            "sizeHuman": "12.80 GB"
+        },
+        {
+            "ratingKey": 130376,
+            "title": "Paddington in Peru",
+            "year": 2024,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 46 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.83 GB"
         },
         {
             "ratingKey": 2761,
