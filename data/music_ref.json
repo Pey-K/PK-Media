@@ -1,10 +1,10 @@
 {
     "metadata": {
         "totalArtists": 252,
-        "totalAlbums": 1961,
-        "totalTracks": 32377,
-        "totalSizeHuman": "761.41 GB",
-        "totalDurationHuman": "1928 hrs 36 mins"
+        "totalAlbums": 1962,
+        "totalTracks": 32387,
+        "totalSizeHuman": "761.49 GB",
+        "totalDurationHuman": "1929 hrs 5 mins"
     },
     "artists": [
         {
@@ -4222,9 +4222,9 @@
         {
             "artistName": "J. Cole",
             "ratingKey": 106318,
-            "totalAlbums": 11,
-            "totalTracks": 176,
-            "totalSizeHuman": "4.69 GB",
+            "totalAlbums": 12,
+            "totalTracks": 186,
+            "totalSizeHuman": "4.76 GB",
             "yearRange": "2007-2024",
             "albums": [
                 {
@@ -4345,6 +4345,18 @@
                     "albumDurationHuman": "39 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 130411,
+                    "title": "Out the Sky",
+                    "year": 2011,
+                    "tracks": 10,
+                    "albumSizeHuman": "72.28 MB",
+                    "totalAlbumSizeBytes": 72275537,
+                    "albumDurationHuman": "29 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -5632,8 +5644,8 @@
                     "totalAlbumSizeBytes": 158484194,
                     "albumDurationHuman": "56 mins",
                     "albumContainers": [
-                        "wav",
                         "mp4",
+                        "wav",
                         "mp3"
                     ]
                 },
