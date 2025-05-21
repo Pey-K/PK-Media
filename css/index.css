@@ -115,15 +115,15 @@
 }
 
 .scrolling-background.movies {
-    background: url('../assets/images/banners/movies_index.png') no-repeat center center/cover;
+    background: url('../assets/images/banners/movies_index.webp') no-repeat center center/cover;
 }
 
 .scrolling-background.tvshows {
-    background: url('../assets/images/banners/shows_index.png') no-repeat center center/cover;
+    background: url('../assets/images/banners/shows_index.webp') no-repeat center center/cover;
 }
 
 .scrolling-background.music {
-    background: url('../assets/images/banners/music_index.png') no-repeat center center/cover;
+    background: url('../assets/images/banners/music_index.webp') no-repeat center center/cover;
 }
 
 @keyframes scroll-bg {
