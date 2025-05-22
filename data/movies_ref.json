@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 971,
-        "totalSizeHuman": "3.88 TB"
+        "totalMovies": 975,
+        "totalSizeHuman": "3.91 TB"
     },
     "movies": [
         {
@@ -2595,6 +2595,30 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.25 GB"
+        },
+        {
+            "ratingKey": 130430,
+            "title": "Ella Enchanted",
+            "year": 2004,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 36 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "3.71 GB"
+        },
+        {
+            "ratingKey": 130432,
+            "title": "Enchanted",
+            "year": 2007,
+            "contentRating": "PG",
+            "durationHuman": "1 hr 47 mins",
+            "audioCodec": "TRUEHD",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "8.70 GB"
         },
         {
             "ratingKey": 1717,
@@ -6005,6 +6029,18 @@
             "sizeHuman": "5.74 GB"
         },
         {
+            "ratingKey": 130425,
+            "title": "Life of a King",
+            "year": 2013,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 41 mins",
+            "audioCodec": "AC3",
+            "container": "mkv",
+            "videoCodec": "H264",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.39 GB"
+        },
+        {
             "ratingKey": 121132,
             "title": "Life of Pi",
             "year": 2012,
@@ -9207,6 +9243,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.35 GB"
+        },
+        {
+            "ratingKey": 130428,
+            "title": "Shallow Hal",
+            "year": 2001,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 54 mins",
+            "audioCodec": "DCA-MA",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "9.39 GB"
         },
         {
             "ratingKey": 3086,
