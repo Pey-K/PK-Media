@@ -5644,9 +5644,9 @@
                     "totalAlbumSizeBytes": 158484194,
                     "albumDurationHuman": "56 mins",
                     "albumContainers": [
-                        "mp4",
                         "mp3",
-                        "wav"
+                        "wav",
+                        "mp4"
                     ]
                 },
                 {
@@ -14482,8 +14482,8 @@
                     "totalAlbumSizeBytes": 130194206,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp4",
-                        "mp3"
+                        "mp3",
+                        "mp4"
                     ]
                 },
                 {
@@ -17673,8 +17673,8 @@
                     "totalAlbumSizeBytes": 333545346,
                     "albumDurationHuman": "1 hrs 0 mins",
                     "albumContainers": [
-                        "flac",
-                        "mp3"
+                        "mp3",
+                        "flac"
                     ]
                 },
                 {
@@ -24469,8 +24469,8 @@
                     "totalAlbumSizeBytes": 164407384,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp4",
-                        "mp3"
+                        "mp3",
+                        "mp4"
                     ]
                 },
                 {
