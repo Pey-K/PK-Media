@@ -1,10 +1,10 @@
 {
     "metadata": {
         "totalArtists": 252,
-        "totalAlbums": 1962,
-        "totalTracks": 32387,
-        "totalSizeHuman": "761.49 GB",
-        "totalDurationHuman": "1929 hrs 5 mins"
+        "totalAlbums": 1963,
+        "totalTracks": 32390,
+        "totalSizeHuman": "761.84 GB",
+        "totalDurationHuman": "1929 hrs 12 mins"
     },
     "artists": [
         {
@@ -24299,9 +24299,9 @@
         {
             "artistName": "Kanye West",
             "ratingKey": 89440,
-            "totalAlbums": 24,
-            "totalTracks": 377,
-            "totalSizeHuman": "7.13 GB",
+            "totalAlbums": 25,
+            "totalTracks": 380,
+            "totalSizeHuman": "7.48 GB",
             "yearRange": "2003-2025",
             "albums": [
                 {
@@ -24362,6 +24362,18 @@
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
                         "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 130484,
+                    "title": "CUCK",
+                    "year": 2025,
+                    "tracks": 3,
+                    "albumSizeHuman": "87.70 MB",
+                    "totalAlbumSizeBytes": 87697844,
+                    "albumDurationHuman": "6 mins 46 secs",
+                    "albumContainers": [
+                        "flac"
                     ]
                 },
                 {
@@ -24510,15 +24522,15 @@
                     ]
                 },
                 {
-                    "ratingKey": 126790,
+                    "ratingKey": 130467,
                     "title": "TURBOGRAFX 16: INDIGO SOUND",
-                    "year": 2016,
+                    "year": 2020,
                     "tracks": 16,
-                    "albumSizeHuman": "108.69 MB",
-                    "totalAlbumSizeBytes": 108687420,
+                    "albumSizeHuman": "368.83 MB",
+                    "totalAlbumSizeBytes": 368827434,
                     "albumDurationHuman": "59 mins",
                     "albumContainers": [
-                        "mp3"
+                        "flac"
                     ]
                 },
                 {

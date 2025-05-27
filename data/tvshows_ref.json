@@ -1,8 +1,8 @@
 {
     "metadata": {
         "totalShow": 172,
-        "totalSeasonCount": 926,
-        "TotalEpisode": 17140,
+        "totalSeasonCount": 927,
+        "TotalEpisode": 17149,
         "totalSizeHuman": "9.52 TB"
     },
     "shows": [
@@ -892,10 +892,10 @@
             "avgEpisodeDuration": "40 mins",
             "contentRating": "TV-14",
             "seasonCount": 2,
-            "showTotalEpisode": 16,
-            "showSizeHuman": "21.44 GB",
+            "showTotalEpisode": 24,
+            "showSizeHuman": "25.74 GB",
             "avgVideoResolutions": "1080p",
-            "avgAudioCodecs": "EAC3",
+            "avgAudioCodecs": "AC3, EAC3",
             "avgVideoCodecs": "HEVC",
             "avgContainers": "mkv",
             "showYearRange": "2022-2025",
@@ -914,10 +914,10 @@
                 {
                     "seasonRatingKey": 130453,
                     "seasonNumber": 2,
-                    "seasonTotalEpisode": 4,
-                    "seasonSizeHuman": "4.15 GB",
+                    "seasonTotalEpisode": 12,
+                    "seasonSizeHuman": "8.45 GB",
                     "avgSeasonVideoResolution": "1080p",
-                    "avgSeasonAudioCodec": "EAC3",
+                    "avgSeasonAudioCodec": "AC3, EAC3",
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2025-2025"
@@ -8144,14 +8144,14 @@
             "title": "Rick and Morty",
             "avgEpisodeDuration": "22 mins",
             "contentRating": "TV-14",
-            "seasonCount": 7,
-            "showTotalEpisode": 71,
-            "showSizeHuman": "28.33 GB",
+            "seasonCount": 8,
+            "showTotalEpisode": 72,
+            "showSizeHuman": "28.77 GB",
             "avgVideoResolutions": "1080p",
             "avgAudioCodecs": "AAC, AC3",
             "avgVideoCodecs": "HEVC",
             "avgContainers": "mkv, mp4",
-            "showYearRange": "2013-2023",
+            "showYearRange": "2013-2025",
             "seasons": [
                 {
                     "seasonRatingKey": 8078,
@@ -8229,6 +8229,17 @@
                     "avgSeasonVideoCodec": "HEVC",
                     "avgSeasonContainer": "mkv",
                     "yearRange": "2023-2023"
+                },
+                {
+                    "seasonRatingKey": 130496,
+                    "seasonNumber": 8,
+                    "seasonTotalEpisode": 1,
+                    "seasonSizeHuman": "437.95 MB",
+                    "avgSeasonVideoResolution": "1080p",
+                    "avgSeasonAudioCodec": "AC3",
+                    "avgSeasonVideoCodec": "HEVC",
+                    "avgSeasonContainer": "mkv",
+                    "yearRange": "2025-2025"
                 }
             ]
         },
