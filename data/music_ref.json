@@ -1,10 +1,10 @@
 {
     "metadata": {
         "totalArtists": 252,
-        "totalAlbums": 1963,
-        "totalTracks": 32358,
-        "totalSizeHuman": "761.60 GB",
-        "totalDurationHuman": "1927 hrs 30 mins"
+        "totalAlbums": 1968,
+        "totalTracks": 32488,
+        "totalSizeHuman": "762.71 GB",
+        "totalDurationHuman": "1933 hrs 28 mins"
     },
     "artists": [
         {
@@ -5585,8 +5585,8 @@
                     "albumDurationHuman": "52 mins",
                     "albumContainers": [
                         "wav",
-                        "mp4",
-                        "mp3"
+                        "mp3",
+                        "mp4"
                     ]
                 },
                 {
@@ -14410,8 +14410,8 @@
                     "totalAlbumSizeBytes": 130194206,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp4",
-                        "mp3"
+                        "mp3",
+                        "mp4"
                     ]
                 },
                 {
@@ -24299,10 +24299,10 @@
         {
             "artistName": "Kanye West",
             "ratingKey": 34484,
-            "totalAlbums": 25,
-            "totalTracks": 377,
-            "totalSizeHuman": "7.90 GB",
-            "yearRange": "2003-2025",
+            "totalAlbums": 30,
+            "totalTracks": 507,
+            "totalSizeHuman": "9.00 GB",
+            "yearRange": "2002-2025",
             "albums": [
                 {
                     "ratingKey": 34877,
@@ -24392,12 +24392,60 @@
                     "ratingKey": 34798,
                     "title": "DONDA 2",
                     "year": 2025,
-                    "tracks": 20,
-                    "albumSizeHuman": "646.40 MB",
-                    "totalAlbumSizeBytes": 646397346,
-                    "albumDurationHuman": "55 mins",
+                    "tracks": 21,
+                    "albumSizeHuman": "698.58 MB",
+                    "totalAlbumSizeBytes": 698577682,
+                    "albumDurationHuman": "58 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 56546,
+                    "title": "Freshmen Adjustment",
+                    "year": 2004,
+                    "tracks": 19,
+                    "albumSizeHuman": "87.91 MB",
+                    "totalAlbumSizeBytes": 87905256,
+                    "albumDurationHuman": "1 hrs 1 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 56506,
+                    "title": "Freshmen Adjustment 2",
+                    "year": 2006,
+                    "tracks": 18,
+                    "albumSizeHuman": "75.30 MB",
+                    "totalAlbumSizeBytes": 75298666,
+                    "albumDurationHuman": "47 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 56525,
+                    "title": "Freshmen Adjustment 3",
+                    "year": 2007,
+                    "tracks": 20,
+                    "albumSizeHuman": "130.04 MB",
+                    "totalAlbumSizeBytes": 130041684,
+                    "albumDurationHuman": "1 hrs 13 mins",
+                    "albumContainers": [
+                        "mp3"
+                    ]
+                },
+                {
+                    "ratingKey": 56566,
+                    "title": "Get Well Soon...",
+                    "year": 2002,
+                    "tracks": 36,
+                    "albumSizeHuman": "132.35 MB",
+                    "totalAlbumSizeBytes": 132350800,
+                    "albumDurationHuman": "1 hrs 18 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -24422,6 +24470,18 @@
                     "albumDurationHuman": "54 mins",
                     "albumContainers": [
                         "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 56603,
+                    "title": "I'm Good",
+                    "year": 2003,
+                    "tracks": 31,
+                    "albumSizeHuman": "203.22 MB",
+                    "totalAlbumSizeBytes": 203220945,
+                    "albumDurationHuman": "1 hrs 19 mins",
+                    "albumContainers": [
+                        "mp3"
                     ]
                 },
                 {
@@ -24548,10 +24608,10 @@
                     "ratingKey": 34659,
                     "title": "VULTURES 2",
                     "year": 2024,
-                    "tracks": 16,
-                    "albumSizeHuman": "311.17 MB",
-                    "totalAlbumSizeBytes": 311168408,
-                    "albumDurationHuman": "50 mins",
+                    "tracks": 21,
+                    "albumSizeHuman": "732.51 MB",
+                    "totalAlbumSizeBytes": 732505370,
+                    "albumDurationHuman": "1 hrs 4 mins",
                     "albumContainers": [
                         "flac"
                     ]
