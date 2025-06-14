@@ -1,10 +1,10 @@
 {
     "metadata": {
         "totalArtists": 252,
-        "totalAlbums": 1968,
-        "totalTracks": 32488,
-        "totalSizeHuman": "762.71 GB",
-        "totalDurationHuman": "1933 hrs 28 mins"
+        "totalAlbums": 1967,
+        "totalTracks": 32483,
+        "totalSizeHuman": "763.07 GB",
+        "totalDurationHuman": "1933 hrs 23 mins"
     },
     "artists": [
         {
@@ -5584,9 +5584,9 @@
                     "totalAlbumSizeBytes": 118546656,
                     "albumDurationHuman": "52 mins",
                     "albumContainers": [
+                        "wav",
                         "mp4",
-                        "mp3",
-                        "wav"
+                        "mp3"
                     ]
                 },
                 {
@@ -12298,7 +12298,7 @@
                 {
                     "ratingKey": 33542,
                     "title": "Man on the Moon II: The Legend of Mr. Rager",
-                    "year": null,
+                    "year": 2010,
                     "tracks": 17,
                     "albumSizeHuman": "402.82 MB",
                     "totalAlbumSizeBytes": 402824579,
@@ -12310,7 +12310,7 @@
                 {
                     "ratingKey": 33560,
                     "title": "Man on the Moon III: The Chosen",
-                    "year": null,
+                    "year": 2020,
                     "tracks": 18,
                     "albumSizeHuman": "363.60 MB",
                     "totalAlbumSizeBytes": 363600919,
@@ -12322,7 +12322,7 @@
                 {
                     "ratingKey": 33523,
                     "title": "Man on the Moon: The End of Day",
-                    "year": null,
+                    "year": 2009,
                     "tracks": 18,
                     "albumSizeHuman": "459.43 MB",
                     "totalAlbumSizeBytes": 459426296,
@@ -12358,7 +12358,7 @@
                 {
                     "ratingKey": 33476,
                     "title": "Speedin\u2019 Bullet 2 Heaven",
-                    "year": null,
+                    "year": 2015,
                     "tracks": 26,
                     "albumSizeHuman": "580.49 MB",
                     "totalAlbumSizeBytes": 580485130,
@@ -17567,8 +17567,8 @@
                     "totalAlbumSizeBytes": 333545346,
                     "albumDurationHuman": "1 hrs 0 mins",
                     "albumContainers": [
-                        "mp3",
-                        "flac"
+                        "flac",
+                        "mp3"
                     ]
                 },
                 {
@@ -24198,8 +24198,8 @@
                     "totalAlbumSizeBytes": 66292939,
                     "albumDurationHuman": "16 mins",
                     "albumContainers": [
-                        "mp3",
-                        "wav"
+                        "wav",
+                        "mp3"
                     ]
                 },
                 {
@@ -24299,9 +24299,9 @@
         {
             "artistName": "Kanye West",
             "ratingKey": 34484,
-            "totalAlbums": 30,
-            "totalTracks": 507,
-            "totalSizeHuman": "9.00 GB",
+            "totalAlbums": 29,
+            "totalTracks": 502,
+            "totalSizeHuman": "9.37 GB",
             "yearRange": "2002-2025",
             "albums": [
                 {
@@ -24355,7 +24355,7 @@
                 {
                     "ratingKey": 34626,
                     "title": "Cruel Winter",
-                    "year": 2015,
+                    "year": 2017,
                     "tracks": 13,
                     "albumSizeHuman": "126.69 MB",
                     "totalAlbumSizeBytes": 126687166,
@@ -24497,18 +24497,6 @@
                     ]
                 },
                 {
-                    "ratingKey": 34593,
-                    "title": "Jesus is King II",
-                    "year": 2023,
-                    "tracks": 12,
-                    "albumSizeHuman": "40.42 MB",
-                    "totalAlbumSizeBytes": 40423219,
-                    "albumDurationHuman": "41 mins",
-                    "albumContainers": [
-                        "mp3"
-                    ]
-                },
-                {
                     "ratingKey": 34749,
                     "title": "Late Registration",
                     "year": 2005,
@@ -24571,7 +24559,7 @@
                 {
                     "ratingKey": 34533,
                     "title": "Thank God for Drugs",
-                    "year": 2022,
+                    "year": 2013,
                     "tracks": 20,
                     "albumSizeHuman": "204.78 MB",
                     "totalAlbumSizeBytes": 204777247,
@@ -24621,8 +24609,8 @@
                     "title": "Yandhi",
                     "year": 2018,
                     "tracks": 24,
-                    "albumSizeHuman": "450.74 MB",
-                    "totalAlbumSizeBytes": 450742364,
+                    "albumSizeHuman": "451.22 MB",
+                    "totalAlbumSizeBytes": 451215492,
                     "albumDurationHuman": "1 hrs 19 mins",
                     "albumContainers": [
                         "flac"
@@ -24653,15 +24641,15 @@
                     ]
                 },
                 {
-                    "ratingKey": 34485,
+                    "ratingKey": 56677,
                     "title": "Yeezus II",
                     "year": 2014,
-                    "tracks": 10,
-                    "albumSizeHuman": "54.83 MB",
-                    "totalAlbumSizeBytes": 54827529,
-                    "albumDurationHuman": "37 mins",
+                    "tracks": 17,
+                    "albumSizeHuman": "460.63 MB",
+                    "totalAlbumSizeBytes": 460633836,
+                    "albumDurationHuman": "1 hrs 14 mins",
                     "albumContainers": [
-                        "mp3"
+                        "flac"
                     ]
                 }
             ]
