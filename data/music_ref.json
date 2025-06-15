@@ -1,10 +1,10 @@
 {
     "metadata": {
-        "totalArtists": 252,
-        "totalAlbums": 1967,
-        "totalTracks": 32483,
-        "totalSizeHuman": "763.07 GB",
-        "totalDurationHuman": "1933 hrs 23 mins"
+        "totalArtists": 251,
+        "totalAlbums": 1968,
+        "totalTracks": 32484,
+        "totalSizeHuman": "764.52 GB",
+        "totalDurationHuman": "1933 hrs 26 mins"
     },
     "artists": [
         {
@@ -5584,9 +5584,9 @@
                     "totalAlbumSizeBytes": 118546656,
                     "albumDurationHuman": "52 mins",
                     "albumContainers": [
-                        "wav",
+                        "mp3",
                         "mp4",
-                        "mp3"
+                        "wav"
                     ]
                 },
                 {
@@ -12370,28 +12370,6 @@
             ]
         },
         {
-            "artistName": "KIDS SEE GHOSTS",
-            "ratingKey": 33447,
-            "totalAlbums": 1,
-            "totalTracks": 7,
-            "totalSizeHuman": "158.19 MB",
-            "yearRange": "2018-2018",
-            "albums": [
-                {
-                    "ratingKey": 33448,
-                    "title": "KIDS SEE GHOSTS",
-                    "year": 2018,
-                    "tracks": 7,
-                    "albumSizeHuman": "158.19 MB",
-                    "totalAlbumSizeBytes": 158194889,
-                    "albumDurationHuman": "23 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                }
-            ]
-        },
-        {
             "artistName": "King Von",
             "ratingKey": 33355,
             "totalAlbums": 7,
@@ -14410,8 +14388,8 @@
                     "totalAlbumSizeBytes": 130194206,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp4",
-                        "mp3"
+                        "mp3",
+                        "mp4"
                     ]
                 },
                 {
@@ -17567,8 +17545,8 @@
                     "totalAlbumSizeBytes": 333545346,
                     "albumDurationHuman": "1 hrs 0 mins",
                     "albumContainers": [
-                        "flac",
-                        "mp3"
+                        "mp3",
+                        "flac"
                     ]
                 },
                 {
@@ -24198,8 +24176,8 @@
                     "totalAlbumSizeBytes": 66292939,
                     "albumDurationHuman": "16 mins",
                     "albumContainers": [
-                        "wav",
-                        "mp3"
+                        "mp3",
+                        "wav"
                     ]
                 },
                 {
@@ -24299,9 +24277,9 @@
         {
             "artistName": "Kanye West",
             "ratingKey": 34484,
-            "totalAlbums": 29,
-            "totalTracks": 502,
-            "totalSizeHuman": "9.37 GB",
+            "totalAlbums": 31,
+            "totalTracks": 510,
+            "totalSizeHuman": "10.97 GB",
             "yearRange": "2002-2025",
             "albums": [
                 {
@@ -24377,12 +24355,12 @@
                     ]
                 },
                 {
-                    "ratingKey": 34819,
-                    "title": "Donda",
+                    "ratingKey": 56705,
+                    "title": "Donda (Deluxe)",
                     "year": 2021,
                     "tracks": 32,
-                    "albumSizeHuman": "794.64 MB",
-                    "totalAlbumSizeBytes": 794642861,
+                    "albumSizeHuman": "1.57 GB",
+                    "totalAlbumSizeBytes": 1572695215,
                     "albumDurationHuman": "2 hrs 11 mins",
                     "albumContainers": [
                         "flac"
@@ -24489,9 +24467,21 @@
                     "title": "Jesus Is King",
                     "year": 2019,
                     "tracks": 11,
-                    "albumSizeHuman": "179.34 MB",
-                    "totalAlbumSizeBytes": 179337941,
+                    "albumSizeHuman": "320.91 MB",
+                    "totalAlbumSizeBytes": 320912741,
                     "albumDurationHuman": "27 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 56695,
+                    "title": "KIDS SEE GHOSTS",
+                    "year": 2018,
+                    "tracks": 7,
+                    "albumSizeHuman": "282.31 MB",
+                    "totalAlbumSizeBytes": 282311029,
+                    "albumDurationHuman": "23 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -24516,6 +24506,18 @@
                     "albumSizeHuman": "439.68 MB",
                     "totalAlbumSizeBytes": 439681179,
                     "albumDurationHuman": "1 hrs 6 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
+                    "ratingKey": 56718,
+                    "title": "Lift Yourself",
+                    "year": 2018,
+                    "tracks": 1,
+                    "albumSizeHuman": "14.66 MB",
+                    "totalAlbumSizeBytes": 14657676,
+                    "albumDurationHuman": "2 mins 27 secs",
                     "albumContainers": [
                         "flac"
                     ]
@@ -24585,8 +24587,8 @@
                     "title": "VULTURES 1",
                     "year": 2023,
                     "tracks": 15,
-                    "albumSizeHuman": "362.52 MB",
-                    "totalAlbumSizeBytes": 362524517,
+                    "albumSizeHuman": "625.52 MB",
+                    "totalAlbumSizeBytes": 625523740,
                     "albumDurationHuman": "52 mins",
                     "albumContainers": [
                         "flac"
@@ -24621,8 +24623,8 @@
                     "title": "ye",
                     "year": 2018,
                     "tracks": 7,
-                    "albumSizeHuman": "144.60 MB",
-                    "totalAlbumSizeBytes": 144603479,
+                    "albumSizeHuman": "266.90 MB",
+                    "totalAlbumSizeBytes": 266897150,
                     "albumDurationHuman": "23 mins",
                     "albumContainers": [
                         "flac"
