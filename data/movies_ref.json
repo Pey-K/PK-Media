@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "totalMovies": 985,
-        "totalSizeHuman": "3.99 TB"
+        "totalMovies": 990,
+        "totalSizeHuman": "4.02 TB"
     },
     "movies": [
         {
@@ -1433,6 +1433,18 @@
             "sizeHuman": "4.73 GB"
         },
         {
+            "ratingKey": 56726,
+            "title": "Caddyshack",
+            "year": 1980,
+            "contentRating": "R",
+            "durationHuman": "1 hr 38 mins",
+            "audioCodec": "DCA-MA",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "8.27 GB"
+        },
+        {
             "ratingKey": 2407,
             "title": "The Call",
             "year": 2013,
@@ -2739,6 +2751,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "2.61 GB"
+        },
+        {
+            "ratingKey": 56729,
+            "title": "Fantastic Four",
+            "year": 2015,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 40 mins",
+            "audioCodec": "DCA-MA",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "6.08 GB"
         },
         {
             "ratingKey": 637,
@@ -6881,6 +6905,18 @@
             "sizeHuman": "3.38 GB"
         },
         {
+            "ratingKey": 56736,
+            "title": "Mortal Kombat: Annihilation",
+            "year": 1997,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 35 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "H264",
+            "videoResolution": "1080p",
+            "sizeHuman": "8.37 GB"
+        },
+        {
             "ratingKey": 1516,
             "title": "Mostly Ghostly",
             "year": 2007,
@@ -9257,6 +9293,18 @@
             "sizeHuman": "5.57 GB"
         },
         {
+            "ratingKey": 56734,
+            "title": "Scrooged",
+            "year": 1988,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 41 mins",
+            "audioCodec": "AAC",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "5.79 GB"
+        },
+        {
             "ratingKey": 2026,
             "title": "Se7en",
             "year": 1995,
@@ -11187,6 +11235,18 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "3.93 GB"
+        },
+        {
+            "ratingKey": 56721,
+            "title": "Venom: The Last Dance",
+            "year": 2024,
+            "contentRating": "PG-13",
+            "durationHuman": "1 hr 49 mins",
+            "audioCodec": "EAC3",
+            "container": "mkv",
+            "videoCodec": "HEVC",
+            "videoResolution": "1080p",
+            "sizeHuman": "4.63 GB"
         },
         {
             "ratingKey": 3092,
