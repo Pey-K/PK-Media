@@ -2,9 +2,9 @@
     "metadata": {
         "totalArtists": 251,
         "totalAlbums": 1968,
-        "totalTracks": 32484,
-        "totalSizeHuman": "764.52 GB",
-        "totalDurationHuman": "1933 hrs 26 mins"
+        "totalTracks": 32485,
+        "totalSizeHuman": "764.56 GB",
+        "totalDurationHuman": "1933 hrs 28 mins"
     },
     "artists": [
         {
@@ -5584,9 +5584,9 @@
                     "totalAlbumSizeBytes": 118546656,
                     "albumDurationHuman": "52 mins",
                     "albumContainers": [
+                        "mp3",
                         "mp4",
-                        "wav",
-                        "mp3"
+                        "wav"
                     ]
                 },
                 {
@@ -14388,8 +14388,8 @@
                     "totalAlbumSizeBytes": 130194206,
                     "albumDurationHuman": "1 hrs 8 mins",
                     "albumContainers": [
-                        "mp4",
-                        "mp3"
+                        "mp3",
+                        "mp4"
                     ]
                 },
                 {
@@ -17545,8 +17545,8 @@
                     "totalAlbumSizeBytes": 333545346,
                     "albumDurationHuman": "1 hrs 0 mins",
                     "albumContainers": [
-                        "mp3",
-                        "flac"
+                        "flac",
+                        "mp3"
                     ]
                 },
                 {
@@ -24176,8 +24176,8 @@
                     "totalAlbumSizeBytes": 66292939,
                     "albumDurationHuman": "16 mins",
                     "albumContainers": [
-                        "wav",
-                        "mp3"
+                        "mp3",
+                        "wav"
                     ]
                 },
                 {
@@ -24278,8 +24278,8 @@
             "artistName": "Kanye West",
             "ratingKey": 34484,
             "totalAlbums": 31,
-            "totalTracks": 510,
-            "totalSizeHuman": "10.97 GB",
+            "totalTracks": 511,
+            "totalSizeHuman": "11.01 GB",
             "yearRange": "2002-2025",
             "albums": [
                 {
@@ -24298,10 +24298,10 @@
                     "ratingKey": 34865,
                     "title": "BULLY",
                     "year": 2025,
-                    "tracks": 11,
-                    "albumSizeHuman": "323.31 MB",
-                    "totalAlbumSizeBytes": 323314681,
-                    "albumDurationHuman": "29 mins",
+                    "tracks": 12,
+                    "albumSizeHuman": "364.91 MB",
+                    "totalAlbumSizeBytes": 364910772,
+                    "albumDurationHuman": "31 mins",
                     "albumContainers": [
                         "flac"
                     ]
@@ -24475,6 +24475,18 @@
                     ]
                 },
                 {
+                    "ratingKey": 34651,
+                    "title": "Kanye West",
+                    "year": 2018,
+                    "tracks": 7,
+                    "albumSizeHuman": "266.90 MB",
+                    "totalAlbumSizeBytes": 266897150,
+                    "albumDurationHuman": "23 mins",
+                    "albumContainers": [
+                        "flac"
+                    ]
+                },
+                {
                     "ratingKey": 56695,
                     "title": "KIDS SEE GHOSTS",
                     "year": 2018,
@@ -24585,7 +24597,7 @@
                 {
                     "ratingKey": 34676,
                     "title": "VULTURES 1",
-                    "year": 2023,
+                    "year": 2024,
                     "tracks": 15,
                     "albumSizeHuman": "625.52 MB",
                     "totalAlbumSizeBytes": 625523740,
@@ -24614,18 +24626,6 @@
                     "albumSizeHuman": "451.22 MB",
                     "totalAlbumSizeBytes": 451215492,
                     "albumDurationHuman": "1 hrs 19 mins",
-                    "albumContainers": [
-                        "flac"
-                    ]
-                },
-                {
-                    "ratingKey": 34651,
-                    "title": "ye",
-                    "year": 2018,
-                    "tracks": 7,
-                    "albumSizeHuman": "266.90 MB",
-                    "totalAlbumSizeBytes": 266897150,
-                    "albumDurationHuman": "23 mins",
                     "albumContainers": [
                         "flac"
                     ]
