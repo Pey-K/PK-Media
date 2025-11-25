@@ -1,7 +1,5 @@
 # Cloudflare Pages redirects for clean URLs
 # Note: Cloudflare Pages supports _redirects file format
-
-# Clean URLs for pages (must come after static file rules)
 /movies/* /movies/:splat 200
 /tvshows/* /tvshows/:splat 200
 /music/* /music/:splat 200

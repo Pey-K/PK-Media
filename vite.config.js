@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
-import { copyFileSync, existsSync, cpSync, mkdirSync, unlinkSync, readFileSync, readdirSync, rmdirSync } from 'fs';
+import { copyFileSync, existsSync, cpSync, mkdirSync, unlinkSync, readFileSync } from 'fs';
 
 export default defineConfig({
   root: '.',
@@ -61,8 +61,7 @@ export default defineConfig({
       name: 'copy-static-assets',
       buildEnd() {
         // Copy static assets to dist folder after build
-        // Move data files to assets/data/ to avoid routing conflicts
-        const staticAssets = ['assets', 'css'];
+        const staticAssets = ['assets', 'css', 'data'];
         const staticFiles = ['favicon.ico', 'apple-bookmark.png', 'manifest.json'];
         
         staticAssets.forEach(asset => {
@@ -71,25 +70,12 @@ export default defineConfig({
           if (existsSync(src)) {
             try {
               cpSync(src, dest, { recursive: true, force: true });
-              console.log(`✓ Copied ${asset} to dist`);
+              console.log(`Copied ${asset} to dist`);
             } catch (err) {
-              console.error(`✗ Error copying ${asset}:`, err);
+              console.error(`Error copying ${asset}:`, err);
             }
           }
         });
-        
-        // Copy data files to assets/data/ instead of dist/data/
-        const dataSrc = resolve(__dirname, 'data');
-        const dataDest = resolve(__dirname, 'dist', 'assets', 'data');
-        if (existsSync(dataSrc)) {
-          try {
-            mkdirSync(dataDest, { recursive: true });
-            cpSync(dataSrc, dataDest, { recursive: true, force: true });
-            console.log(`✓ Copied data to dist/assets/data`);
-          } catch (err) {
-            console.error(`✗ Error copying data:`, err);
-          }
-        }
         
         staticFiles.forEach(file => {
           const src = resolve(__dirname, file);
@@ -97,9 +83,9 @@ export default defineConfig({
           if (existsSync(src)) {
             try {
               copyFileSync(src, dest);
-              console.log(`✓ Copied ${file} to dist`);
+              console.log(`Copied ${file} to dist`);
             } catch (err) {
-              console.error(`✗ Error copying ${file}:`, err);
+              console.error(`Error copying ${file}:`, err);
             }
           }
         });
@@ -112,27 +98,42 @@ export default defineConfig({
           if (existsSync(src)) {
             try {
               copyFileSync(src, dest);
-              console.log(`✓ Copied ${file} to dist`);
+              console.log(`Copied ${file} to dist`);
             } catch (err) {
-              console.error(`✗ Error copying ${file}:`, err);
+              console.error(`Error copying ${file}:`, err);
             }
           }
         });
         
-        // Verify data files were copied
-        const dataDir = resolve(__dirname, 'dist', 'data');
-        if (existsSync(dataDir)) {
-          const dataFiles = readdirSync(dataDir).filter(f => f.endsWith('.json'));
-          console.log(`✓ Data files in dist/data/: ${dataFiles.join(', ')}`);
-        } else {
-          console.warn('⚠ dist/data/ directory not found!');
-        }
+        // Restructure HTML files for clean URLs
+        const distDir = resolve(__dirname, 'dist');
+        const htmlFiles = ['movies.html', 'tvshows.html', 'music.html'];
+        
+        htmlFiles.forEach(file => {
+          const htmlPath = resolve(distDir, file);
+          if (existsSync(htmlPath)) {
+            try {
+              const dirName = file.replace('.html', '');
+              const dirPath = resolve(distDir, dirName);
+              const indexPath = resolve(dirPath, 'index.html');
+              
+              // Create directory
+              mkdirSync(dirPath, { recursive: true });
+              
+              // Move HTML file to directory/index.html
+              copyFileSync(htmlPath, indexPath);
+              
+              // Remove original file
+              unlinkSync(htmlPath);
+              
+              console.log(`Restructured ${file} -> ${dirName}/index.html`);
+            } catch (err) {
+              console.error(`Error restructuring ${file}:`, err);
+            }
+          }
+        });
       }
     }
   ]
 });
-
-
-
-
 
