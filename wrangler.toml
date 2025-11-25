@@ -1,12 +1,6 @@
 # Cloudflare Pages configuration
-# This file helps Cloudflare Pages understand the build setup
+# This file tells Cloudflare Pages where to find the built files
+# Build settings (command, root directory, etc.) are configured in the Cloudflare dashboard
 
 pages_build_output_dir = "dist"
-
-[build]
-command = "npm run build"
-cwd = "."
-
-[build.environment_variables]
-NODE_VERSION = "18"
 
