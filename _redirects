@@ -1,4 +1,6 @@
 # Cloudflare Pages redirects for clean URLs
+
+# Clean URLs for pages
 /movies/* /movies/:splat 200
 /tvshows/* /tvshows/:splat 200
 /music/* /music/:splat 200

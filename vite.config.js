@@ -104,10 +104,20 @@ export default defineConfig({
             }
           }
         });
+        
+        // Verify data files were copied
+        const dataDir = resolve(__dirname, 'dist', 'data');
+        if (existsSync(dataDir)) {
+          const dataFiles = readdirSync(dataDir).filter(f => f.endsWith('.json'));
+          console.log(`✓ Data files in dist/data/: ${dataFiles.join(', ')}`);
+        } else {
+          console.warn('⚠ dist/data/ directory not found!');
+        }
       }
     }
   ]
 });
+
 
 
 
