@@ -1,0 +1,6 @@
+# Netlify redirects for clean URLs
+/movies /movies.html 200
+/tvshows /tvshows.html 200
+/music /music.html 200
+
+

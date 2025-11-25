@@ -1,0 +1,12 @@
+# Apache .htaccess for clean URLs
+RewriteEngine On
+
+# Redirect clean URLs to .html files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^movies$ /movies.html [L]
+RewriteRule ^tvshows$ /tvshows.html [L]
+RewriteRule ^music$ /music.html [L]
+RewriteRule ^recommend$ /recommend.html [L]
+
+

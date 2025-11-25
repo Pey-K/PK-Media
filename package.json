@@ -1,0 +1,15 @@
+{
+  "name": "pk-collection",
+  "version": "1.0.0",
+  "description": "PK Collection - Plex Media Collection Viewer",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21"
+  }
+}
+

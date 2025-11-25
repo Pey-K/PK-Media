@@ -1,6 +1,21 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+
+# Environment files
 .env
-__pycache__/
-data/gen/
-*.pyc
-export_section_*/
-*.zip
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+.vite/

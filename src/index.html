@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-bookmark.png">
+    <title>PK+ Collection</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#121212">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="https://overseerr.pkcollection.net" target="_blank">
+                <img src="/assets/icons/PK.webp" alt="PK+" />
+            </a>
+        </div>
+    </header>    
+    <main id="main-content">
+        <div class="index-cards">
+            <div class="index-card-wrapper">
+                <a href="/movies" class="index-card movies-card">
+                    <div class="scrolling-background movies"></div>
+                    <div class="overlay">
+                        <div class="info-icon">
+                            <span>ⓘ</span>
+                        </div>
+                        <h3>Movies</h3>
+                        <div class="staggered">
+                            <div class="hidden stat-item">
+                                <span class="stat-number" id="movies-total">0</span>
+                                <span class="stat-label">Movies</span>
+                            </div>
+                            <div class="hidden stat-item stat-size">
+                                <span class="stat-number" id="movies-size">0 GB</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="index-card-wrapper">
+                <a href="/tvshows" class="index-card tvshows-card">
+                    <div class="scrolling-background tvshows"></div>
+                    <div class="overlay">
+                        <div class="info-icon">
+                            <span>ⓘ</span>
+                        </div>
+                        <h3>TV Shows</h3>
+                        <div class="staggered">
+                            <div class="hidden stat-item">
+                                <span class="stat-number" id="tvshows-total">0</span>
+                                <span class="stat-label">Shows</span>
+                            </div>
+                            <div class="hidden stat-item">
+                                <span class="stat-number" id="tvshows-seasons">0</span>
+                                <span class="stat-label">Seasons</span>
+                            </div>
+                            <div class="hidden stat-item">
+                                <span class="stat-number" id="tvshows-episodes">0</span>
+                                <span class="stat-label">Episodes</span>
+                            </div>
+                            <div class="hidden stat-item stat-size">
+                                <span class="stat-number" id="tvshows-size">0 GB</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="index-card-wrapper">
+                <a href="/music" class="index-card music-card">
+                    <div class="scrolling-background music"></div>
+                    <div class="overlay">
+                        <div class="info-icon">
+                            <span>ⓘ</span>
+                        </div>
+                        <h3>Music</h3>
+                        <div class="staggered">
+                            <div class="hidden stat-item">
+                                <span class="stat-number" id="music-artists">0</span>
+                                <span class="stat-label">Artists</span>
+                            </div>
+                            <div class="hidden stat-item">
+                                <span class="stat-number" id="music-albums">0</span>
+                                <span class="stat-label">Albums</span>
+                            </div>
+                            <div class="hidden stat-item">
+                                <span class="stat-number" id="music-tracks">0</span>
+                                <span class="stat-label">Tracks</span>
+                            </div>
+                            <div class="hidden stat-item stat-size">
+                                <span class="stat-number" id="music-size">0 GB</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="bottom-spacer"></div>                        
+    </main>
+    <script type="module" src="/src/js/index.js"></script>
+    <script type="module" src="/src/js/populate.js"></script>
+</body>
+</html>
+

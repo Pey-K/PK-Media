@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-bookmark.png">
+    <title>Movies - PK+ Collection</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#121212">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/movies.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="https://overseerr.pkcollection.net" target="_blank">
+                <img src="/assets/icons/PK.webp" alt="PK+" />
+            </a>
+        </div>
+    </header>
+    <main id="main-content">
+        <div class="button-container">
+            <a href="/" class="home-button">
+                <span class="flipped-arrow">➔</span>
+            </a>
+        </div>
+        <div class="index-card-wrapper">
+            <div class="index-card movies-card">
+                <div class="scrolling-background movies"></div>
+                <div class="overlay">
+                    <div class="info-icon">
+                        <span>ⓘ</span>
+                    </div>
+                    <h3>Movies</h3>
+                    <div class="staggered">
+                        <div class="hidden stat-item">
+                            <span class="stat-number" id="movies-total">0</span>
+                            <span class="stat-label">Movies</span>
+                        </div>
+                        <div class="hidden stat-item stat-size">
+                            <span class="stat-number" id="movies-size">0 GB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-container">
+            <div class="search-input-wrapper">
+                <input type="text" id="movie-search" placeholder="Search Movies...">
+            </div>
+        </div>
+        <div id="movies-content"></div>
+        <button id="scroll-to-top">^</button>
+    </main>
+    <script type="module" src="/src/js/movies.js"></script>
+    <script type="module" src="/src/js/populate.js"></script>
+</body>
+</html>
+

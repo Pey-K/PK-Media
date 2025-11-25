@@ -1,28 +1,90 @@
+:root {
+    --stagger-delay: 0.08s;
+    --title-move-up: -165%;
+    --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
 
 .index-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: calc(100vh - 100px);
+    justify-content: center;
+    height: calc(100vh - 100px - 1em);
     gap: 1em;
     box-sizing: border-box;
+    padding-bottom: 1em;
+}
+
+.bottom-spacer {
+    height: 1em;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.index-card-wrapper {
+    --theme-color: #d4a04f;
+    --s: 20px; /* corner size for the mask */
+    --animation-timing: 0.3s;
+    --pad: 2px; /* animated border padding - default state */
+    --border-radius: 8px;
+    
+    position: relative;
+    width: 75%;
+    height: 30%;
+    overflow: visible; /* Allow border to expand outside */
+    transition: transform 0.4s var(--ease-smooth);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .index-card {
     position: relative;
-    display: flex;
-    width: 75%;
-    height: 30%;
-    overflow: hidden;
-    border-radius: 24px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Properly mask the image */
+    border-radius: 8px;
     cursor: pointer;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.4s var(--ease-smooth), box-shadow 0.4s var(--ease-smooth);
+    text-decoration: none;
+    color: inherit;
+    will-change: transform;
 }
 
-.index-card.hover-enabled,
-.index-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+.index-card:hover:not(.hover-enabled) {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.index-card-wrapper:has(.index-card.hover-enabled) {
+    transform: scale(1.03);
+}
+
+/* If already hovering when hover-enabled is activated, don't restart the scale animation */
+.index-card-wrapper:hover:has(.index-card.hover-enabled) {
+    transition: transform 0s; /* Instant, no animation restart */
+}
+
+.index-card-wrapper:has(.index-card.hover-enabled):not(:hover) {
+    transform: scale(1.03);
+    transition: transform 0.4s var(--ease-smooth); /* Animate if not hovering */
+}
+
+.index-card.hover-enabled {
+    transform: none; /* Scale is handled by wrapper */
+    box-shadow: none; /* Remove box-shadow when using expanding border */
+}
+
+/* When hover-enabled is activated while hovering, prevent card transition restart */
+.index-card-wrapper:hover .index-card.hover-enabled {
+    transition: transform 0s, box-shadow 0s; /* Instant, no animation restart */
+}
+
+/* Ensure hover-enabled cards maintain scale when hovered */
+.index-card.hover-enabled:hover {
+    transform: none; /* Scale is handled by wrapper */
 }
 
 .scrolling-background {
@@ -34,6 +96,7 @@
     animation: scroll-bg 70s linear infinite;
     z-index: -2;
     filter: brightness(70%);
+    clip-path: inset(0 round var(--border-radius)); /* Mask the image to card bounds */
 }
 
 .overlay {
@@ -48,70 +111,151 @@
     align-items: center;
     text-align: center;
     color: #fff;
-    transition: background 0.3s ease;
+    transition: background 0.4s var(--ease-smooth);
+    pointer-events: none;
+    backdrop-filter: blur(0px);
+    z-index: 1; /* Above background, below border */
+    clip-path: inset(0 round var(--border-radius)); /* Mask the overlay to card bounds */
 }
 
-.overlay h3 {
-    font-size: 1.5em;
+/* Responsive rules only apply on index page */
+.index-cards .overlay h3 {
+    font-size: clamp(0.9em, 2vh, 1.5em);
     color: #fff;
     position: absolute;
     transform: translateY(0);
     text-align: center;
     width: 100%;
     margin: 0;
-    transition: transform 0.5s ease-in-out;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: transform 0.6s var(--ease-smooth);
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+
+.index-cards .staggered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(0.3em, 0.8vh, 0.5em);
+    margin-top: clamp(0.8em, 1.8vh, 1.2em);
+    position: relative;
+}
+
+/* More separation for TV Shows and Music to match Movies spacing */
+.index-cards .index-card.tvshows-card .staggered,
+.index-cards .index-card.music-card .staggered {
+    margin-top: clamp(1.2em, 2.5vh, 1.8em);
+}
+
+.index-cards .staggered::before {
+    content: '';
+    position: absolute;
+    top: calc(var(--separator-top, -0.75) * clamp(0.9em, 1.6vh, 1em));
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: var(--separator-width, 90px);
+    height: clamp(2px, 0.3vh, 2.5px);
+    background: linear-gradient(90deg, transparent, rgba(212, 160, 79, 0.8), transparent);
+    transition: transform 0.2s var(--ease-smooth), opacity 0.2s var(--ease-smooth), width 0.2s var(--ease-smooth);
+    opacity: 0;
+}
+
+/* Add equal spacing below the separator to match spacing above */
+/* Uses the same formula as separator top positioning for perfect match */
+.index-cards .staggered .stat-item:first-of-type {
+    margin-top: calc(var(--separator-spacing, 0.75) * clamp(0.9em, 1.6vh, 1em));
+}
+
+/* More gap between separator and stats for TV Shows and Music */
+/* This pushes the stats down without affecting separator position */
+.index-cards .index-card.tvshows-card .staggered .stat-item:first-of-type,
+.index-cards .index-card.music-card .staggered .stat-item:first-of-type {
+    margin-top: calc(var(--separator-spacing, 0.75) * clamp(0.9em, 1.6vh, 1em) + clamp(0.4em, 1vh, 0.6em));
+}
+
+.index-card:hover .staggered::before,
+.index-card.hover-enabled .staggered::before {
+    transform: translateX(-50%) scaleX(1);
+    opacity: 1;
+    transition: transform 0.4s var(--ease-smooth) 0.3s, opacity 0.4s var(--ease-smooth) 0.3s;
 }
 
 .staggered div.hidden {
     opacity: 0;
     visibility: hidden;
-    transform: translateY(35px);
+    transform: translateY(20px);
     transition: none;
 }
 
-.staggered div {
+.stat-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.4em;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(35px);
-    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0s linear 0.5s;
+    transform: translateY(20px);
+    transition: opacity 0.5s var(--ease-smooth), transform 0.5s var(--ease-smooth), visibility 0s linear 0.5s;
 }
 
-.staggered div.data-loaded {
+/* Responsive rules only apply on index page */
+.index-cards .stat-number {
+    font-size: clamp(1.1em, 2.1vh, 1.6em);
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.9), 0 0 20px rgba(212, 160, 79, 0.3);
+    letter-spacing: -0.5px;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+}
+
+.index-cards .stat-label {
+    font-size: clamp(0.5em, 1vh, 0.75em);
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.75);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 0.2em;
+}
+
+.stat-size {
+    margin-top: 0.2em;
+    padding-top: 0.4em;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.index-cards .stat-size .stat-number {
+    font-size: clamp(0.9em, 1.6vh, 1.2em);
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.staggered .stat-item.data-loaded {
     visibility: visible;
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.5s var(--ease-smooth), transform 0.5s var(--ease-smooth);
 }
 
-.index-card:hover .staggered div.data-loaded {
+.index-card:hover .staggered .stat-item.data-loaded,
+.index-card.hover-enabled .staggered .stat-item.data-loaded {
     opacity: 1;
     transform: translateY(0);
-    transition-delay: 0s;
-}
-
-.index-card:hover .staggered div.data-loaded:nth-child(1) {
-    transition-delay: 0.1s;
-}
-
-.index-card:hover .staggered div.data-loaded:nth-child(2) {
-    transition-delay: 0.2s;
-}
-
-.index-card:hover .staggered div.data-loaded:nth-child(3) {
-    transition-delay: 0.3s;
-}
-
-.index-card:hover .staggered div.data-loaded:nth-child(4) {
-    transition-delay: 0.4s;
+    /* Dynamically calculated delay based on child index set by JavaScript */
+    transition-delay: calc(var(--stagger-delay) * var(--stagger-index, 1));
 }
 
 
 
 .index-card:hover .overlay, .index-card.hover-enabled .overlay {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(2px);
 }
 
 .index-card:hover .overlay h3 {
-    transform: translateY(-165%);
+    transform: translateY(var(--title-move-up));
 }
 
 .scrolling-background.movies {
@@ -138,7 +282,8 @@
     }
 }
 
-body {
+/* Only apply overflow hidden on index page where .index-cards exists */
+body:has(.index-cards) {
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -155,6 +300,7 @@ body {
     cursor: pointer;
     z-index: 2;
     transition: opacity 0.3s ease, transform 0.5s ease-in-out;
+    pointer-events: auto;
 }
 
 .info-icon.hidden {
@@ -163,17 +309,46 @@ body {
 }
 
 .index-card.hover-enabled .overlay h3 {
-    transform: translateY(-165%);
-    transition: transform 0.5s ease-in-out;
+    transform: translateY(var(--title-move-up));
+    transition: transform 0.6s var(--ease-smooth);
 }
 
-.index-card.hover-enabled .staggered div {
+.index-card-wrapper::before {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    inset: calc(-1 * var(--pad));
+    padding: var(--pad);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--border-radius);
+    background: transparent content-box;
+    mask:
+        conic-gradient(#000 0 0) content-box,
+        conic-gradient(at var(--s) var(--s), #0000 75%, #000 0)
+        0 0 / calc(100% - var(--s)) calc(100% - var(--s));
+    -webkit-mask:
+        conic-gradient(#000 0 0) content-box,
+        conic-gradient(at var(--s) var(--s), #0000 75%, #000 0)
+        0 0 / calc(100% - var(--s)) calc(100% - var(--s));
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    backface-visibility: hidden;
+    pointer-events: none;
+    transition:
+        inset var(--animation-timing) ease,
+        padding var(--animation-timing) ease,
+        border-color var(--animation-timing) ease,
+        opacity var(--animation-timing) ease;
+    will-change: inset, padding;
+    z-index: 1000; /* Above everything including overlay */
+    opacity: 0;
+}
+
+.index-card-wrapper:has(.index-card.hover-enabled) {
+    --pad: 7px;
+}
+
+.index-card-wrapper:has(.index-card.hover-enabled)::before {
     opacity: 1;
-    transform: translateY(0);
-    transition: all 0.5s ease;
-}
-
-.index-card.hover-enabled {
-    box-shadow: 0 0 6px 3px #d4a04f;
-    transition: opacity 0.3s ease-in-out;
+    border-color: var(--theme-color);
 }
