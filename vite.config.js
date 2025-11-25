@@ -120,13 +120,25 @@ export default defineConfig({
         });
         
         // Verify data files were copied
-        const dataDir = resolve(__dirname, 'dist', 'data');
+        const dataDir = resolve(__dirname, 'dist', 'assets', 'data');
         if (existsSync(dataDir)) {
           const dataFiles = readdirSync(dataDir).filter(f => f.endsWith('.json'));
-          console.log(`✓ Data files in dist/data/: ${dataFiles.join(', ')}`);
+          console.log(`✓ Data files in dist/assets/data/: ${dataFiles.join(', ')}`);
         } else {
-          console.warn('⚠ dist/data/ directory not found!');
+          console.warn('⚠ dist/assets/data/ directory not found!');
         }
+        
+        // Verify image directories were copied
+        const imageDirs = ['movie_image', 'tv_image', 'music_image'];
+        imageDirs.forEach(dir => {
+          const imageDir = resolve(__dirname, 'dist', 'assets', 'images', dir);
+          if (existsSync(imageDir)) {
+            const imageFiles = readdirSync(imageDir).filter(f => f.endsWith('.webp'));
+            console.log(`✓ ${dir}: ${imageFiles.length} images copied`);
+          } else {
+            console.warn(`⚠ ${dir} directory not found in dist/assets/images/!`);
+          }
+        });
       }
     }
   ]
