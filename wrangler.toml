@@ -2,5 +2,6 @@
 # This file tells Cloudflare Pages where to find the built files
 # Build settings (command, root directory, etc.) are configured in the Cloudflare dashboard
 
+name = "pk-collection"
 pages_build_output_dir = "dist"
 

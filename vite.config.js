@@ -70,9 +70,9 @@ export default defineConfig({
           if (existsSync(src)) {
             try {
               cpSync(src, dest, { recursive: true, force: true });
-              console.log(`Copied ${asset} to dist`);
+              console.log(`✓ Copied ${asset} to dist`);
             } catch (err) {
-              console.error(`Error copying ${asset}:`, err);
+              console.error(`✗ Error copying ${asset}:`, err);
             }
           }
         });
@@ -83,9 +83,9 @@ export default defineConfig({
           if (existsSync(src)) {
             try {
               copyFileSync(src, dest);
-              console.log(`Copied ${file} to dist`);
+              console.log(`✓ Copied ${file} to dist`);
             } catch (err) {
-              console.error(`Error copying ${file}:`, err);
+              console.error(`✗ Error copying ${file}:`, err);
             }
           }
         });
@@ -98,70 +98,17 @@ export default defineConfig({
           if (existsSync(src)) {
             try {
               copyFileSync(src, dest);
-              console.log(`Copied ${file} to dist`);
+              console.log(`✓ Copied ${file} to dist`);
             } catch (err) {
-              console.error(`Error copying ${file}:`, err);
+              console.error(`✗ Error copying ${file}:`, err);
             }
           }
         });
-        
-        // Move HTML files from dist/src/ to dist/ and restructure for clean URLs
-        const distDir = resolve(__dirname, 'dist');
-        const srcDir = resolve(distDir, 'src');
-        
-        // Move index.html from dist/src/ to dist/
-        const srcIndexPath = resolve(srcDir, 'index.html');
-        const distIndexPath = resolve(distDir, 'index.html');
-        if (existsSync(srcIndexPath)) {
-          try {
-            copyFileSync(srcIndexPath, distIndexPath);
-            unlinkSync(srcIndexPath);
-            console.log(`Moved index.html from dist/src/ to dist/`);
-          } catch (err) {
-            console.error(`Error moving index.html:`, err);
-          }
-        }
-        
-        // Move and restructure other HTML files for clean URLs
-        const htmlFiles = ['movies.html', 'tvshows.html', 'music.html'];
-        htmlFiles.forEach(file => {
-          const srcHtmlPath = resolve(srcDir, file);
-          if (existsSync(srcHtmlPath)) {
-            try {
-              const dirName = file.replace('.html', '');
-              const dirPath = resolve(distDir, dirName);
-              const indexPath = resolve(dirPath, 'index.html');
-              
-              // Create directory
-              mkdirSync(dirPath, { recursive: true });
-              
-              // Move HTML file to directory/index.html
-              copyFileSync(srcHtmlPath, indexPath);
-              
-              // Remove original file
-              unlinkSync(srcHtmlPath);
-              
-              console.log(`Restructured ${file} -> ${dirName}/index.html`);
-            } catch (err) {
-              console.error(`Error restructuring ${file}:`, err);
-            }
-          }
-        });
-        
-        // Remove empty src directory if it exists
-        try {
-          if (existsSync(srcDir)) {
-            const remainingFiles = readdirSync(srcDir);
-            if (remainingFiles.length === 0) {
-              rmdirSync(srcDir);
-              console.log(`Removed empty dist/src/ directory`);
-            }
-          }
-        } catch (err) {
-          // Ignore errors removing directory
-        }
       }
     }
   ]
 });
+
+
+
 
