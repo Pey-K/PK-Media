@@ -2,7 +2,7 @@ import { initializeStaggeredAnimations } from './index.js';
 
 export async function populateTotals(type, selectors) {
     try {
-        const response = await fetch(`/data/${type}_ref.json`);
+        const response = await fetch(`/assets/data/${type}_ref.json`);
         if (!response.ok) throw new Error(`Failed to load ${type}_ref.json`);
         const data = await response.json();
 

@@ -8,7 +8,7 @@ let musicData = null;
 
 async function loadMusicData() {
     try {
-        const response = await fetch('/data/music_ref.json');
+        const response = await fetch('/assets/data/music_ref.json');
         if (!response.ok) throw new Error('Failed to load music data');
         musicData = await response.json();
         window.musicData = musicData;

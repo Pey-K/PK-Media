@@ -61,7 +61,8 @@ export default defineConfig({
       name: 'copy-static-assets',
       buildEnd() {
         // Copy static assets to dist folder after build
-        const staticAssets = ['assets', 'css', 'data'];
+        // Move data files to assets/data/ to avoid routing conflicts
+        const staticAssets = ['assets', 'css'];
         const staticFiles = ['favicon.ico', 'apple-bookmark.png', 'manifest.json'];
         
         staticAssets.forEach(asset => {
@@ -76,6 +77,19 @@ export default defineConfig({
             }
           }
         });
+        
+        // Copy data files to assets/data/ instead of dist/data/
+        const dataSrc = resolve(__dirname, 'data');
+        const dataDest = resolve(__dirname, 'dist', 'assets', 'data');
+        if (existsSync(dataSrc)) {
+          try {
+            mkdirSync(dataDest, { recursive: true });
+            cpSync(dataSrc, dataDest, { recursive: true, force: true });
+            console.log(`✓ Copied data to dist/assets/data`);
+          } catch (err) {
+            console.error(`✗ Error copying data:`, err);
+          }
+        }
         
         staticFiles.forEach(file => {
           const src = resolve(__dirname, file);

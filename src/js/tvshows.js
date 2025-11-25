@@ -21,7 +21,7 @@ function formatResolution(resolution) {
 
 async function loadTVShowsData() {
     try {
-        const response = await fetch('/data/tvshows_ref.json');
+        const response = await fetch('/assets/data/tvshows_ref.json');
         if (!response.ok) throw new Error('Failed to load TV shows data');
         tvshowsData = await response.json();
         window.tvshowsData = tvshowsData;

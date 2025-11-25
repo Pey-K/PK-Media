@@ -8,7 +8,7 @@ let moviesData = null;
 
 async function loadMoviesData() {
     try {
-        const response = await fetch('/data/movies_ref.json');
+        const response = await fetch('/assets/data/movies_ref.json');
         if (!response.ok) throw new Error('Failed to load movies data');
         moviesData = await response.json();
         window.moviesData = moviesData;
