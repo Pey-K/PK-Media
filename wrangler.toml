@@ -1,13 +1,11 @@
 # Cloudflare Pages configuration
-# Note: Cloudflare Pages settings should be configured in the dashboard:
-# - Build command: npm run build
-# - Build output directory: dist
-# - Root directory: / (if repo root is Plex.Final) or Plex.Final (if repo root is parent)
+# This file helps Cloudflare Pages understand the build setup
+
+pages_build_output_dir = "dist"
 
 [build]
 command = "npm run build"
 cwd = "."
-output_dir = "dist"
 
 [build.environment_variables]
 NODE_VERSION = "18"

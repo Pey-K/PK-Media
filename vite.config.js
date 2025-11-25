@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
-import { copyFileSync, existsSync, cpSync, mkdirSync, unlinkSync, readFileSync } from 'fs';
+import { copyFileSync, existsSync, cpSync, mkdirSync, unlinkSync, readFileSync, readdirSync, rmdirSync } from 'fs';
 
 export default defineConfig({
   root: '.',
@@ -105,13 +105,28 @@ export default defineConfig({
           }
         });
         
-        // Restructure HTML files for clean URLs
+        // Move HTML files from dist/src/ to dist/ and restructure for clean URLs
         const distDir = resolve(__dirname, 'dist');
-        const htmlFiles = ['movies.html', 'tvshows.html', 'music.html'];
+        const srcDir = resolve(distDir, 'src');
         
+        // Move index.html from dist/src/ to dist/
+        const srcIndexPath = resolve(srcDir, 'index.html');
+        const distIndexPath = resolve(distDir, 'index.html');
+        if (existsSync(srcIndexPath)) {
+          try {
+            copyFileSync(srcIndexPath, distIndexPath);
+            unlinkSync(srcIndexPath);
+            console.log(`Moved index.html from dist/src/ to dist/`);
+          } catch (err) {
+            console.error(`Error moving index.html:`, err);
+          }
+        }
+        
+        // Move and restructure other HTML files for clean URLs
+        const htmlFiles = ['movies.html', 'tvshows.html', 'music.html'];
         htmlFiles.forEach(file => {
-          const htmlPath = resolve(distDir, file);
-          if (existsSync(htmlPath)) {
+          const srcHtmlPath = resolve(srcDir, file);
+          if (existsSync(srcHtmlPath)) {
             try {
               const dirName = file.replace('.html', '');
               const dirPath = resolve(distDir, dirName);
@@ -121,10 +136,10 @@ export default defineConfig({
               mkdirSync(dirPath, { recursive: true });
               
               // Move HTML file to directory/index.html
-              copyFileSync(htmlPath, indexPath);
+              copyFileSync(srcHtmlPath, indexPath);
               
               // Remove original file
-              unlinkSync(htmlPath);
+              unlinkSync(srcHtmlPath);
               
               console.log(`Restructured ${file} -> ${dirName}/index.html`);
             } catch (err) {
@@ -132,6 +147,19 @@ export default defineConfig({
             }
           }
         });
+        
+        // Remove empty src directory if it exists
+        try {
+          if (existsSync(srcDir)) {
+            const remainingFiles = readdirSync(srcDir);
+            if (remainingFiles.length === 0) {
+              rmdirSync(srcDir);
+              console.log(`Removed empty dist/src/ directory`);
+            }
+          }
+        } catch (err) {
+          // Ignore errors removing directory
+        }
       }
     }
   ]
