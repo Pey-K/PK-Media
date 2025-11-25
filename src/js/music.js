@@ -159,11 +159,6 @@ function populateMusicContent(data, searchQuery = '', attempts = 0, maxAttempts 
                     
                     img.addEventListener('error', () => {
                         card.classList.remove('loading');
-                        // If image fails, hide it and add a gradient placeholder background
-                        img.style.display = 'none';
-                        card.style.backgroundImage = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
-                        card.style.backgroundSize = 'cover';
-                        card.style.backgroundPosition = 'center';
                     });
                     
                     const detailsHTML = `
@@ -473,11 +468,7 @@ function openAlbumView(artist) {
                     
                     img.addEventListener('error', () => {
                         albumCard.classList.remove('loading');
-                        // If image fails, hide it and add a gradient placeholder background
-                        img.style.display = 'none';
-                        albumCard.style.backgroundImage = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
-                        albumCard.style.backgroundSize = 'cover';
-                        albumCard.style.backgroundPosition = 'center';
+                        img.src = '/assets/images/placeholder.webp';
                     });
 
                     const albumYear = document.createElement('div');
@@ -571,11 +562,7 @@ function openAlbumView(artist) {
                     
                     img.addEventListener('error', () => {
                         albumCard.classList.remove('loading');
-                        // If image fails, hide it and add a gradient placeholder background
-                        img.style.display = 'none';
-                        albumCard.style.backgroundImage = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
-                        albumCard.style.backgroundSize = 'cover';
-                        albumCard.style.backgroundPosition = 'center';
+                        img.src = '/assets/images/placeholder.webp';
                     });
 
                     const albumYear = document.createElement('div');

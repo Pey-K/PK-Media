@@ -192,11 +192,6 @@ function populateTVShowsContent(data, searchQuery = '', attempts = 0, maxAttempt
                     
                     img.addEventListener('error', () => {
                         card.classList.remove('loading');
-                        // If image fails, hide it and add a gradient placeholder background
-                        img.style.display = 'none';
-                        card.style.backgroundImage = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
-                        card.style.backgroundSize = 'cover';
-                        card.style.backgroundPosition = 'center';
                     });
                     
                     const detailsHTML = `
@@ -525,11 +520,7 @@ function openSeasonView(show) {
                     
                     img.addEventListener('error', () => {
                         seasonCard.classList.remove('loading');
-                        // If image fails, hide it and add a gradient placeholder background
-                        img.style.display = 'none';
-                        seasonCard.style.backgroundImage = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
-                        seasonCard.style.backgroundSize = 'cover';
-                        seasonCard.style.backgroundPosition = 'center';
+                        img.src = '/assets/images/placeholder.webp';
                     });
 
                     const seasonYear = document.createElement('div');
@@ -634,11 +625,7 @@ function openSeasonView(show) {
                     
                     img.addEventListener('error', () => {
                         seasonCard.classList.remove('loading');
-                        // If image fails, hide it and add a gradient placeholder background
-                        img.style.display = 'none';
-                        seasonCard.style.backgroundImage = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
-                        seasonCard.style.backgroundSize = 'cover';
-                        seasonCard.style.backgroundPosition = 'center';
+                        img.src = '/assets/images/placeholder.webp';
                     });
 
                     const seasonYear = document.createElement('div');
