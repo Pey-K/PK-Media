@@ -37,6 +37,11 @@
     transition: opacity 0.3s ease, transform 0.5s ease-in-out;
 }
 
+/* Make music page info-icon match movies/tvshows size (40px) */
+.index-card.music-card .info-icon {
+    font-size: 40px !important;
+}
+
 .info-icon.hidden {
     opacity: 0;
     pointer-events: none;
