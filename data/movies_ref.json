@@ -1,7 +1,7 @@
 {
     "metadata": {
         "totalMovies": 1027,
-        "totalSizeHuman": "4.70 TB"
+        "totalSizeHuman": "4.86 TB"
     },
     "movies": [
         {
@@ -274,11 +274,11 @@
             "year": 1951,
             "contentRating": "G",
             "durationHuman": "75 mins",
-            "audioCodec": "EAC3",
+            "audioCodec": "DCA-MA",
             "container": "mkv",
             "videoCodec": "H264",
             "videoResolution": "1080p",
-            "sizeHuman": "1.88 GB"
+            "sizeHuman": "15.96 GB"
         },
         {
             "ratingKey": 280,
@@ -1558,11 +1558,11 @@
             "year": 2017,
             "contentRating": "PG",
             "durationHuman": "89 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "DCA-MA",
             "container": "mkv",
-            "videoCodec": "HEVC",
+            "videoCodec": "H264",
             "videoResolution": "1080p",
-            "sizeHuman": "3.28 GB"
+            "sizeHuman": "11.13 GB"
         },
         {
             "ratingKey": 1245,
@@ -3392,7 +3392,7 @@
             "ratingKey": 2503,
             "title": "Friendship",
             "year": 2025,
-            "contentRating": null,
+            "contentRating": "R",
             "durationHuman": "101 mins",
             "audioCodec": "AC3",
             "container": "mkv",
@@ -5401,8 +5401,8 @@
             "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.49 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "15.92 GB"
         },
         {
             "ratingKey": 3818,
@@ -5410,11 +5410,11 @@
             "year": 2010,
             "contentRating": "PG-13",
             "durationHuman": "125 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "4.48 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "17.89 GB"
         },
         {
             "ratingKey": 3831,
@@ -5422,11 +5422,11 @@
             "year": 2013,
             "contentRating": "PG-13",
             "durationHuman": "131 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "TRUEHD",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "4.12 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "20.14 GB"
         },
         {
             "ratingKey": 3832,
@@ -6115,14 +6115,14 @@
         {
             "ratingKey": 4440,
             "title": "Kingsman: The Secret Service",
-            "year": 2014,
+            "year": 2015,
             "contentRating": "R",
             "durationHuman": "129 mins",
-            "audioCodec": "EAC3",
-            "container": "mkv",
+            "audioCodec": "AC3",
+            "container": "mp4",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.99 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "15.92 GB"
         },
         {
             "ratingKey": 58079,
@@ -6646,11 +6646,11 @@
             "year": 1989,
             "contentRating": "R",
             "durationHuman": "107 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "TRUEHD",
             "container": "mkv",
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
-            "sizeHuman": "3.00 GB"
+            "sizeHuman": "8.95 GB"
         },
         {
             "ratingKey": 4726,
@@ -6946,11 +6946,11 @@
             "year": 2002,
             "contentRating": "PG-13",
             "durationHuman": "88 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "3.75 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "14.38 GB"
         },
         {
             "ratingKey": 4934,
@@ -8530,11 +8530,11 @@
             "year": 1994,
             "contentRating": "R",
             "durationHuman": "154 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "4.30 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "21.83 GB"
         },
         {
             "ratingKey": 9400,
@@ -9226,11 +9226,11 @@
             "year": 1979,
             "contentRating": "PG",
             "durationHuman": "119 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "3.26 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "16.80 GB"
         },
         {
             "ratingKey": 6572,
@@ -9238,11 +9238,11 @@
             "year": 1982,
             "contentRating": "PG",
             "durationHuman": "100 mins",
-            "audioCodec": "AC3",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "2.63 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "14.04 GB"
         },
         {
             "ratingKey": 6586,
@@ -10625,6 +10625,18 @@
             "sizeHuman": "16.35 GB"
         },
         {
+            "ratingKey": 7328,
+            "title": "Star Wars: Episode VII - The Force Awakens",
+            "year": 2015,
+            "contentRating": "PG-13",
+            "durationHuman": "138 mins",
+            "audioCodec": "AC3",
+            "container": "mp4",
+            "videoCodec": "HEVC",
+            "videoResolution": "2160p",
+            "sizeHuman": "17.16 GB"
+        },
+        {
             "ratingKey": 7346,
             "title": "Star Wars: Episode VIII - The Last Jedi",
             "year": 2017,
@@ -10635,18 +10647,6 @@
             "videoCodec": "HEVC",
             "videoResolution": "1080p",
             "sizeHuman": "7.50 GB"
-        },
-        {
-            "ratingKey": 7328,
-            "title": "Star Wars: The Force Awakens",
-            "year": null,
-            "contentRating": null,
-            "durationHuman": "138 mins",
-            "audioCodec": "AC3",
-            "container": "mp4",
-            "videoCodec": "HEVC",
-            "videoResolution": "2160p",
-            "sizeHuman": "17.16 GB"
         },
         {
             "ratingKey": 7347,
@@ -11470,11 +11470,11 @@
             "year": 1998,
             "contentRating": "PG",
             "durationHuman": "103 mins",
-            "audioCodec": "AAC",
+            "audioCodec": "EAC3",
             "container": "mkv",
             "videoCodec": "HEVC",
-            "videoResolution": "1080p",
-            "sizeHuman": "4.04 GB"
+            "videoResolution": "2160p",
+            "sizeHuman": "19.44 GB"
         },
         {
             "ratingKey": 10144,
@@ -12322,11 +12322,11 @@
             "year": 2016,
             "contentRating": "PG",
             "durationHuman": "109 mins",
-            "audioCodec": "AAC",
-            "container": "mp4",
+            "audioCodec": "DCA",
+            "container": "mkv",
             "videoCodec": "H264",
             "videoResolution": "1080p",
-            "sizeHuman": "1.77 GB"
+            "sizeHuman": "10.78 GB"
         }
     ]
 }
